@@ -1,7 +1,7 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/CPANEL_USER/public_html/
+    - export DEPLOYPATH=$HOME/public_html/
     - /bin/mkdir -p $DEPLOYPATH/en $DEPLOYPATH/pl $DEPLOYPATH/assets
     - /bin/cp index.html $DEPLOYPATH
     - /bin/cp en/index.html $DEPLOYPATH/en/

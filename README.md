@@ -18,7 +18,7 @@ Strona firmowa Grupo ERVOY w trzech wersjach jezykowych: hiszpanskiej (glowna), 
 
 ## Wdrozenie na cPanel
 
-Repozytorium zawiera `.cpanel.yml`. Przed pierwszym uzyciem podmien `CPANEL_USER` na nazwe konta.
+Repozytorium zawiera `.cpanel.yml`; sciezka wdrozenia to `$HOME/public_html/`, wiec nic nie trzeba w nim podmieniac.
 
 1. cPanel → **Git Version Control** → Create → wskaz to repozytorium.
 2. Zakladka **Pull or Deploy** → **Update from Remote** → **Deploy HEAD Commit**.
