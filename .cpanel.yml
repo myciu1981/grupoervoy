@@ -6,7 +6,7 @@ deployment:
     - /bin/cp index.html $DEPLOYPATH
     - /bin/cp en/index.html $DEPLOYPATH/en/
     - /bin/cp pl/index.html $DEPLOYPATH/pl/
-    - /bin/cp support.js ervoy-boot.js robots.txt sitemap.xml .htaccess $DEPLOYPATH
+    - /bin/cp support.js ervoy-boot.js robots.txt sitemap.xml .htaccess 404.html $DEPLOYPATH
     - /bin/cp favicon.svg favicon.ico favicon-32x32.png apple-touch-icon.png $DEPLOYPATH
     - /bin/cp -r assets/. $DEPLOYPATH/assets/
     - /bin/cp -r _ds $DEPLOYPATH

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Página no encontrada · Grupo ERVOY</title>
+<meta name="robots" content="noindex, follow">
+<meta name="color-scheme" content="only light">
+<meta name="theme-color" content="#0A263C">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="/favicon-32x32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;500;600&family=Red+Hat+Text:wght@400;500&display=swap">
+<style>
+  :root {
+    color-scheme: only light;
+    --navy: #0a263c;
+    --navy-deep: #061a2a;
+    --ink: #1f2933;
+    --ink-secondary: #3c4f60;
+    --meta: #5a6572;
+    --rule: #b8c0c7;
+    --white: #fff;
+    --focus-ring: #82283a;
+  }
+  * { box-sizing: border-box; }
+  html { background: var(--white); }
+  body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: "Red Hat Text", system-ui, -apple-system, Segoe UI, sans-serif;
+    color: var(--ink);
+    -webkit-font-smoothing: antialiased;
+  }
+  header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 20px max(24px, calc((100% - 1180px) / 2));
+    border-bottom: 1px solid var(--rule);
+  }
+  header img { width: 40px; height: 40px; display: block; border-radius: 8px; }
+  header span {
+    font-family: "Red Hat Display", system-ui, sans-serif;
+    font-weight: 600;
+    letter-spacing: 1.8px;
+    text-transform: uppercase;
+    font-size: 13px;
+    color: var(--navy);
+  }
+  main {
+    flex: 1;
+    padding: clamp(48px, 10vw, 112px) max(24px, calc((100% - 1180px) / 2));
+    max-width: 820px;
+  }
+  p.code {
+    margin: 0 0 16px;
+    font-family: "Red Hat Display", system-ui, sans-serif;
+    font-size: 13px;
+    line-height: 16px;
+    font-weight: 600;
+    letter-spacing: 1.8px;
+    text-transform: uppercase;
+    color: var(--meta);
+  }
+  h1 {
+    margin: 0 0 28px;
+    font-family: "Red Hat Display", system-ui, sans-serif;
+    font-weight: 500;
+    font-size: clamp(26px, 5vw, 40px);
+    line-height: 1.15;
+    color: var(--navy);
+  }
+  .lines { display: grid; gap: 14px; margin: 0 0 40px; max-width: 620px; }
+  .lines p { margin: 0; font-size: 16px; line-height: 1.55; color: var(--ink-secondary); }
+  .lines p b { font-weight: 500; color: var(--ink); }
+  nav { display: flex; flex-wrap: wrap; gap: 12px 16px; }
+  nav a {
+    display: inline-flex;
+    align-items: center;
+    min-height: 44px;
+    padding: 0 20px;
+    font-family: "Red Hat Display", system-ui, sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    text-decoration: none;
+    color: var(--white);
+    background: var(--navy);
+  }
+  nav a:hover { background: var(--navy-deep); }
+  footer {
+    padding: 28px max(24px, calc((100% - 1180px) / 2));
+    background: var(--navy);
+    color: var(--white);
+    font-size: 14px;
+    line-height: 21px;
+  }
+  footer a { color: var(--white); }
+  footer p { margin: 0; }
+  footer p + p { margin-top: 6px; color: #b8c0c7; font-size: 13px; }
+  a:focus-visible { outline: 2px solid var(--focus-ring); outline-offset: 2px; }
+  footer a:focus-visible, nav a:focus-visible { outline-color: #fff; }
+</style>
+</head>
+<body>
+<header>
+  <img src="/apple-touch-icon.png" width="40" height="40" alt="">
+  <span>Grupo ERVOY</span>
+</header>
+
+<main>
+  <p class="code">Error 404</p>
+  <h1 lang="es">Esta página no existe.</h1>
+  <div class="lines">
+    <p lang="es"><b>Español.</b> La dirección que abrió no está en este sitio. Puede volver al inicio o escribirnos.</p>
+    <p lang="en"><b>English.</b> The address you opened is not on this site. Go back to the homepage or write to us.</p>
+    <p lang="pl"><b>Polski.</b> Pod tym adresem nic nie ma. Wróć na stronę główną albo napisz do nas.</p>
+  </div>
+  <nav aria-label="Idioma / Language / Język">
+    <a href="/" hreflang="es">Inicio · Español</a>
+    <a href="/en/" hreflang="en">Home · English</a>
+    <a href="/pl/" hreflang="pl">Strona główna · Polski</a>
+  </nav>
+</main>
+
+<footer>
+  <p><a href="mailto:info@grupoervoy.com">info@grupoervoy.com</a> · <a href="https://wa.me/528125901796">WhatsApp +52 81 2590 1796</a></p>
+  <p>GRUPO ERVOY, S.A. de C.V. · Monterrey, Nuevo León, México</p>
+</footer>
+</body>
+</html>

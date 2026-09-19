@@ -1,8 +1,9 @@
-# grupoervoy.com - kanonizacja adresu
-# Jeden adres kanoniczny: https://grupoervoy.com (bez www).
+# grupoervoy.com
+# Kanonizacja adresu, pamiec podreczna, naglowki bezpieczenstwa, strona bledu.
 # Toggle "Force HTTPS Redirect" w cPanelu jest dostepny tylko dla domeny glownej
-# konta, a grupoervoy.com jest domena dodatkowa - stad regula tutaj.
+# konta, a grupoervoy.com jest domena dodatkowa - stad kanonizacja tutaj.
 
+# ---------------------------------------------------------------- kanonizacja
 <IfModule mod_rewrite.c>
   RewriteEngine On
 
@@ -13,4 +14,66 @@
   # www -> bez www
   RewriteCond %{HTTP_HOST} ^www\.grupoervoy\.com$ [NC]
   RewriteRule ^(.*)$ https://grupoervoy.com/$1 [R=301,L]
+</IfModule>
+
+# --------------------------------------------------------------- strona bledu
+ErrorDocument 404 /404.html
+
+# ---------------------------------------------------------------- roboty AI
+# Hosting nethero oddaje 403 crawlerom AI (GPTBot, ClaudeBot, PerplexityBot,
+# CCBot) - blokada nie pochodzi z tego pliku, tylko z konfiguracji wyzej.
+# robots.txt przepuszcza wszystkich, wiec probujemy odzyskac kontrole nad
+# autoryzacja dla tego katalogu. Jesli po wdrozeniu te crawlery nadal dostaja
+# 403, blokada siedzi w vhoscie i zdejmie ja tylko wsparcie nethero.
+<IfModule mod_authz_core.c>
+  Require all granted
+</IfModule>
+
+# ------------------------------------------------------------ pamiec podreczna
+<IfModule mod_expires.c>
+  ExpiresActive On
+  ExpiresDefault "access plus 1 hour"
+</IfModule>
+
+<IfModule mod_headers.c>
+  # HTML i pliki dla robotow: zawsze swieze, bo tresc zmienia sie bez zmiany nazwy
+  <FilesMatch "\.(html|xml|txt|json)$">
+    Header set Cache-Control "public, max-age=0, must-revalidate"
+  </FilesMatch>
+
+  # obrazy i ikony
+  <FilesMatch "\.(png|jpg|jpeg|gif|webp|avif|svg|ico)$">
+    Header set Cache-Control "public, max-age=2592000"
+  </FilesMatch>
+
+  # runtime pod stalymi adresami - krotki oddech na wypadek poprawki
+  <FilesMatch "^(support|ervoy-boot)\.js$">
+    Header set Cache-Control "public, max-age=86400"
+  </FilesMatch>
+
+  # system projektowy siedzi pod adresem z UUID, wiec nowy eksport = nowy adres
+  <If "%{REQUEST_URI} =~ m#^/_ds/#">
+    Header set Cache-Control "public, max-age=31536000, immutable"
+  </If>
+</IfModule>
+
+# ------------------------------------------------------ naglowki bezpieczenstwa
+<IfModule mod_headers.c>
+  # HSTS tylko po HTTPS; bez includeSubDomains, zeby nie zwiazac sobie rak
+  # przy ewentualnej poddomenie
+  Header always set Strict-Transport-Security "max-age=31536000" "expr=%{HTTPS} == 'on'"
+
+  Header always set Referrer-Policy "strict-origin-when-cross-origin"
+  Header always set Permissions-Policy "geolocation=(), camera=(), microphone=(), payment=(), usb=()"
+  Header always set X-Content-Type-Options "nosniff"
+  Header always set X-Frame-Options "SAMEORIGIN"
+
+  # X-XSS-Protection jest przestarzaly i w starych przegladarkach sam bywa
+  # wektorem ataku; hosting ustawia "1; mode=block", wiec go zerujemy
+  Header always set X-XSS-Protection "0"
+
+  # Strona renderuje sie Reactem z unpkg i uzywa stylow wpisanych w znaczniki,
+  # wiec 'unsafe-inline' i 'unsafe-eval' musza zostac. Polityka i tak zamyka
+  # liste zrodel, osadzanie w ramkach, <base> i cel formularzy.
+  Header always set Content-Security-Policy "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://unpkg.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com data:; img-src 'self' data:; connect-src 'self' https://unpkg.com; frame-ancestors 'self'; base-uri 'self'; form-action 'self'"
 </IfModule>
