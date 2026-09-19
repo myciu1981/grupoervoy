@@ -1,0 +1,270 @@
+{
+  "plugins": [
+    "react",
+    "import"
+  ],
+  "rules": {
+    "react/forbid-elements": [
+      "warn",
+      {
+        "forbid": [
+          {
+            "element": "button",
+            "message": "Use <Button> from the design system instead of <button>."
+          }
+        ]
+      }
+    ],
+    "no-restricted-imports": [
+      "warn",
+      {
+        "patterns": [
+          {
+            "group": [
+              "components/actions/Button/**",
+              "components/identity/AccentRule/**",
+              "components/identity/Endorsement/**",
+              "components/identity/Logo/**",
+              "components/identity/SectionLabel/**",
+              "components/navigation/Footer/**",
+              "components/navigation/SiteHeader/**",
+              "components/page/ContactBlock/**",
+              "components/page/Hero/**",
+              "components/page/KeyFigure/**"
+            ],
+            "message": "Import design-system components from 'index.js', not component internals."
+          }
+        ]
+      }
+    ],
+    "no-restricted-syntax": [
+      "warn",
+      {
+        "selector": "Literal[value=/#[0-9a-fA-F]{3,8}\\b/]",
+        "message": "Raw hex color — use a design-system color token via var()."
+      },
+      {
+        "selector": "Literal[value=/\\b\\d+px\\b/]",
+        "message": "Raw px value — use a design-system spacing token via var()."
+      },
+      {
+        "selector": "Literal[value=/font-family\\s*:\\s*(?!['\\\"]?(?:Red Hat Display|Red Hat Text))/i]",
+        "message": "Font not provided by the design system. Available: Red Hat Display, Red Hat Text."
+      },
+      {
+        "selector": "JSXOpeningElement[name.name='AccentRule'] > JSXAttribute > JSXIdentifier[name!=/^(?:width|align|className|key|ref|className|style|children)$/]",
+        "message": "<AccentRule> doesn't accept that prop. Declared props: width, align, className."
+      },
+      {
+        "selector": "JSXOpeningElement[name.name='AccentRule'] > JSXAttribute[name.name='align'] > Literal[value!=/^(?:left|full)$/]",
+        "message": "<AccentRule> align must be one of 'left' | 'full'."
+      },
+      {
+        "selector": "JSXOpeningElement[name.name='Button'] > JSXAttribute > JSXIdentifier[name!=/^(?:children|href|variant|onDark|type|onClick|className|key|ref|className|style|children)$/]",
+        "message": "<Button> doesn't accept that prop. Declared props: children, href, variant, onDark, type, onClick, className."
+      },
+      {
+        "selector": "JSXOpeningElement[name.name='Button'] > JSXAttribute[name.name='variant'] > Literal[value!=/^(?:primary|secondary)$/]",
+        "message": "<Button> variant must be one of 'primary' | 'secondary'."
+      },
+      {
+        "selector": "JSXOpeningElement[name.name='Button'] > JSXAttribute[name.name='type'] > Literal[value!=/^(?:button|submit|reset)$/]",
+        "message": "<Button> type must be one of 'button' | 'submit' | 'reset'."
+      },
+      {
+        "selector": "JSXOpeningElement[name.name='ContactBlock'] > JSXAttribute > JSXIdentifier[name!=/^(?:name|title|phones|email|website|address|onDark|className|key|ref|className|style|children)$/]",
+        "message": "<ContactBlock> doesn't accept that prop. Declared props: name, title, phones, email, website, address, onDark, className."
+      },
+      {
+        "selector": "JSXOpeningElement[name.name='Endorsement'] > JSXAttribute > JSXIdentifier[name!=/^(?:wording|tone|width|onDark|key|ref|className|style|children)$/]",
+        "message": "<Endorsement> doesn't accept that prop. Declared props: wording, tone, width, onDark."
+      },
+      {
+        "selector": "JSXOpeningElement[name.name='Endorsement'] > JSXAttribute[name.name='tone'] > Literal[value!=/^(?:primary|auto|ondark|white)$/]",
+        "message": "<Endorsement> tone must be one of 'primary' | 'auto' | 'ondark' | 'white'."
+      },
+      {
+        "selector": "JSXOpeningElement[name.name='Footer'] > JSXAttribute > JSXIdentifier[name!=/^(?:legal|columns|onDark|key|ref|className|style|children)$/]",
+        "message": "<Footer> doesn't accept that prop. Declared props: legal, columns, onDark."
+      },
+      {
+        "selector": "JSXOpeningElement[name.name='Hero'] > JSXAttribute > JSXIdentifier[name!=/^(?:label|headline|subheadline|action|secondaryAction|onDark|accentRule|key|ref|className|style|children)$/]",
+        "message": "<Hero> doesn't accept that prop. Declared props: label, headline, subheadline, action, secondaryAction, onDark, accentRule."
+      },
+      {
+        "selector": "JSXOpeningElement[name.name='KeyFigure'] > JSXAttribute > JSXIdentifier[name!=/^(?:figure|caption|accent|className|key|ref|className|style|children)$/]",
+        "message": "<KeyFigure> doesn't accept that prop. Declared props: figure, caption, accent, className."
+      },
+      {
+        "selector": "JSXOpeningElement[name.name='Logo'] > JSXAttribute > JSXIdentifier[name!=/^(?:variant|tone|width|clearSpace|className|key|ref|className|style|children)$/]",
+        "message": "<Logo> doesn't accept that prop. Declared props: variant, tone, width, clearSpace, className."
+      },
+      {
+        "selector": "JSXOpeningElement[name.name='Logo'] > JSXAttribute[name.name='variant'] > Literal[value!=/^(?:wordmark|icon)$/]",
+        "message": "<Logo> variant must be one of 'wordmark' | 'icon'."
+      },
+      {
+        "selector": "JSXOpeningElement[name.name='Logo'] > JSXAttribute[name.name='tone'] > Literal[value!=/^(?:primary|auto|ondark|white)$/]",
+        "message": "<Logo> tone must be one of 'primary' | 'auto' | 'ondark' | 'white'."
+      },
+      {
+        "selector": "JSXOpeningElement[name.name='SectionLabel'] > JSXAttribute > JSXIdentifier[name!=/^(?:children|accent|className|key|ref|className|style|children)$/]",
+        "message": "<SectionLabel> doesn't accept that prop. Declared props: children, accent, className."
+      },
+      {
+        "selector": "JSXOpeningElement[name.name='SiteHeader'] > JSXAttribute > JSXIdentifier[name!=/^(?:items|languages|activeLanguage|action|onDark|compact|homeHref|logoWidth|key|ref|className|style|children)$/]",
+        "message": "<SiteHeader> doesn't accept that prop. Declared props: items, languages, activeLanguage, action, onDark, compact, homeHref, logoWidth."
+      }
+    ]
+  },
+  "overrides": [
+    {
+      "files": [
+        "**/index.js"
+      ],
+      "rules": {
+        "no-restricted-imports": "off"
+      }
+    }
+  ],
+  "x-omelette": {
+    "components": {
+      "AccentRule": {
+        "replaces": []
+      },
+      "Button": {
+        "replaces": [
+          "button"
+        ]
+      },
+      "ContactBlock": {
+        "replaces": []
+      },
+      "Endorsement": {
+        "replaces": []
+      },
+      "Footer": {
+        "replaces": []
+      },
+      "Hero": {
+        "replaces": []
+      },
+      "KeyFigure": {
+        "replaces": []
+      },
+      "Logo": {
+        "replaces": []
+      },
+      "SectionLabel": {
+        "replaces": []
+      },
+      "SiteHeader": {
+        "replaces": []
+      }
+    },
+    "tokens": [
+      "--action",
+      "--action-ink",
+      "--border-accent",
+      "--border-hairline",
+      "--border-signature",
+      "--crimson-deep",
+      "--crimson-flat",
+      "--crimson-light",
+      "--ervoy-logo-ink",
+      "--focus-ring",
+      "--font-display",
+      "--font-text",
+      "--gradient-crimson",
+      "--gradient-crimson-v",
+      "--graphite",
+      "--grey-30",
+      "--grey-60",
+      "--heading",
+      "--ink",
+      "--ink-inverse",
+      "--ink-meta",
+      "--ink-secondary",
+      "--mist",
+      "--navy",
+      "--navy-deep",
+      "--radius-md",
+      "--radius-none",
+      "--radius-sm",
+      "--radius-tile",
+      "--rule",
+      "--rule-strong",
+      "--slate",
+      "--space-1",
+      "--space-10",
+      "--space-12",
+      "--space-16",
+      "--space-2",
+      "--space-20",
+      "--space-24",
+      "--space-3",
+      "--space-4",
+      "--space-5",
+      "--space-6",
+      "--space-8",
+      "--surface",
+      "--surface-inverse",
+      "--surface-sunken",
+      "--white"
+    ],
+    "tokenKinds": {
+      "--navy": "color",
+      "--navy-deep": "color",
+      "--crimson-deep": "color",
+      "--crimson-light": "color",
+      "--crimson-flat": "color",
+      "--slate": "color",
+      "--graphite": "color",
+      "--grey-60": "color",
+      "--grey-30": "color",
+      "--mist": "color",
+      "--white": "color",
+      "--surface": "color",
+      "--surface-sunken": "color",
+      "--surface-inverse": "color",
+      "--heading": "color",
+      "--ink": "color",
+      "--ink-secondary": "color",
+      "--ink-meta": "color",
+      "--ink-inverse": "color",
+      "--rule": "color",
+      "--rule-strong": "color",
+      "--action": "color",
+      "--action-ink": "color",
+      "--focus-ring": "color",
+      "--gradient-crimson": "other",
+      "--gradient-crimson-v": "other",
+      "--space-1": "spacing",
+      "--space-2": "spacing",
+      "--space-3": "spacing",
+      "--space-4": "spacing",
+      "--space-5": "spacing",
+      "--space-6": "spacing",
+      "--space-8": "spacing",
+      "--space-10": "spacing",
+      "--space-12": "spacing",
+      "--space-16": "spacing",
+      "--space-20": "spacing",
+      "--space-24": "spacing",
+      "--radius-none": "radius",
+      "--radius-sm": "radius",
+      "--radius-md": "radius",
+      "--radius-tile": "radius",
+      "--border-hairline": "spacing",
+      "--border-signature": "spacing",
+      "--border-accent": "spacing",
+      "--font-display": "font",
+      "--font-text": "font",
+      "--ervoy-logo-ink": "color"
+    },
+    "fontFamilies": [
+      "Red Hat Display",
+      "Red Hat Text"
+    ]
+  }
+}
