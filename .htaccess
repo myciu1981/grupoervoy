@@ -1,0 +1,16 @@
+# grupoervoy.com - kanonizacja adresu
+# Jeden adres kanoniczny: https://grupoervoy.com (bez www).
+# Toggle "Force HTTPS Redirect" w cPanelu jest dostepny tylko dla domeny glownej
+# konta, a grupoervoy.com jest domena dodatkowa - stad regula tutaj.
+
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+
+  # http -> https
+  RewriteCond %{HTTPS} !=on
+  RewriteRule ^(.*)$ https://grupoervoy.com/$1 [R=301,L]
+
+  # www -> bez www
+  RewriteCond %{HTTP_HOST} ^www\.grupoervoy\.com$ [NC]
+  RewriteRule ^(.*)$ https://grupoervoy.com/$1 [R=301,L]
+</IfModule>
