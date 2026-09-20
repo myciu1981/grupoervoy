@@ -12,4 +12,6 @@ deployment:
     - /bin/cp -r assets/. $DEPLOYPATH/assets/
     # stary raster z wrysowana trasa - zastapiony podkladem + SVG
     - /bin/rm -f $DEPLOYPATH/assets/world-map.png
+    # podklad ma odcisk tresci w nazwie - kasujemy poprzednie wersje
+    - /bin/sh -c 'ls $DEPLOYPATH/assets/world-map-base*.png 2>/dev/null | grep -v "world-map-base.9536a09c.png" | xargs -r rm -f'
     - /bin/cp -r _ds $DEPLOYPATH
