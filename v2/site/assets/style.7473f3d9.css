@@ -319,8 +319,10 @@ a.card:hover{border-color:var(--slate);color:var(--ink)}
 .path a{font-family:var(--display);font-weight:500;font-size:15px;text-decoration:none}
 .path a:hover{text-decoration:underline}
 @media (max-width:900px){.paths{grid-template-columns:1fr}}
-.brand-strip{display:flex;flex-wrap:wrap;gap:24px 72px;align-items:center;justify-content:center;margin-top:40px;padding-top:28px;border-top:1px solid var(--rule)}
-.brand-strip img{width:170px;height:auto;display:block}
+.fact .fact-brands{display:flex;align-items:center;gap:16px;margin-top:14px}
+.fact-brands a{display:block;line-height:0;opacity:.9;transition:opacity .15s}
+.fact-brands a:hover{opacity:1}
+.fact-brands img{height:40px;width:auto;display:block}
 .kb-cols{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:32px}
 .kb-col{padding-top:18px;border-top:3px solid var(--navy);display:flex;flex-direction:column;gap:10px}
 .kb-col .label{margin:0}

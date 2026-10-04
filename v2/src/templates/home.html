@@ -41,11 +41,7 @@
 <div><h2 id="facts-h">{{ t('home.fakty.h2') }}</h2></div>
 <div class="copy"><p class="lead">{{ t('home.fakty.tekst') }}</p><a class="link-more" style="margin-top:16px" href="{{ url('onas') }}">{{ t('home.fakty.link') }} →</a></div>
 </div>
-<div class="facts" style="margin:48px 0 0">{% for f in ui.facts %}<div class="fact"><strong>{{ f[0] }}</strong><span>{{ f[1] }}</span></div>{% endfor %}</div>
-<div class="brand-strip">
-<a href="https://{{ t('marki.smb.link') }}" rel="noopener"><img src="/assets/smb-mx.png" alt="Simple Made Blinds Mexico" width="340" height="111" loading="lazy"></a>
-<a href="https://{{ t('marki.polaca.link') }}" rel="noopener"><img src="/assets/polaca-foods.png" alt="Polaca Foods" width="400" height="100" loading="lazy"></a>
-</div>
+{% with facts_style="margin:48px 0 0" %}{% include "facts.html" %}{% endwith %}
 </div>
 </section>
 

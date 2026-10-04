@@ -1,7 +1,7 @@
 {% extends "page.html" %}
 {% block body %}
 <div class="section tight"><div class="wrap">
-<div class="facts">{% for f in ui.facts %}<div class="fact"><strong>{{ f[0] }}</strong><span>{{ f[1] }}</span></div>{% endfor %}</div>
+{% include "facts.html" %}
 <div class="about-grid">
 <div class="prose">
 <p>{{ t('onas.p2') }}</p>
