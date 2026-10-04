@@ -14,6 +14,9 @@
   # www -> bez www
   RewriteCond %{HTTP_HOST} ^www\.grupoervoy\.com$ [NC]
   RewriteRule ^(.*)$ https://grupoervoy.com/$1 [R=301,L]
+
+  # stara wersja polska siedziala pod /pl/ - od v2 polski jest domyslny pod /
+  RewriteRule ^pl(/.*)?$ https://grupoervoy.com/ [R=301,L]
 </IfModule>
 
 # --------------------------------------------------------------- strona bledu
@@ -46,15 +49,11 @@ ErrorDocument 404 /404.html
     Header set Cache-Control "public, max-age=2592000"
   </FilesMatch>
 
-  # runtime pod stalymi adresami - krotki oddech na wypadek poprawki
-  <FilesMatch "^(support|ervoy-boot)\.js$">
-    Header set Cache-Control "public, max-age=86400"
-  </FilesMatch>
-
-  # system projektowy siedzi pod adresem z UUID, wiec nowy eksport = nowy adres
-  <If "%{REQUEST_URI} =~ m#^/_ds/#">
+  # arkusz i skrypt maja odcisk tresci w nazwie (style.<hash>.css, site.<hash>.js),
+  # wiec kazda zmiana = nowy adres i mozna je trzymac rok
+  <FilesMatch "^(style|site)\.[0-9a-f]{8}\.(css|js)$">
     Header set Cache-Control "public, max-age=31536000, immutable"
-  </If>
+  </FilesMatch>
 </IfModule>
 
 # ------------------------------------------------------ naglowki bezpieczenstwa
@@ -72,8 +71,8 @@ ErrorDocument 404 /404.html
   # wektorem ataku; hosting ustawia "1; mode=block", wiec go zerujemy
   Header always set X-XSS-Protection "0"
 
-  # Strona renderuje sie Reactem z unpkg i uzywa stylow wpisanych w znaczniki,
-  # wiec 'unsafe-inline' i 'unsafe-eval' musza zostac. Polityka i tak zamyka
-  # liste zrodel, osadzanie w ramkach, <base> i cel formularzy.
-  Header always set Content-Security-Policy "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://unpkg.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com data:; img-src 'self' data:; connect-src 'self' https://unpkg.com; frame-ancestors 'self'; base-uri 'self'; form-action 'self'"
+  # Strona v2 to statyczny HTML: jedyny skrypt to /assets/site.<hash>.js, a bloki
+  # application/ld+json nie sa wykonywane, wiec skrypty tylko z 'self'. Style
+  # wpisane w strone (animacja hero, atrybuty style=) wymagaja 'unsafe-inline'.
+  Header always set Content-Security-Policy "default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data:; connect-src 'self'; object-src 'none'; frame-ancestors 'self'; base-uri 'self'; form-action 'self'"
 </IfModule>

@@ -106,10 +106,47 @@ def service_body(L, n):
     return '\n'.join(out)
 
 
-def fairs(L):
+PL_MONTHS = {'sty': 1, 'lut': 2, 'mar': 3, 'kwi': 4, 'maj': 5, 'cze': 6, 'lip': 7, 'sie': 8, 'wrz': 9,
+             'paź': 10, 'paz': 10, 'lis': 11, 'gru': 12}
+
+
+def fair_end(termin):
+    """Ostatni dzień targów z polskiego terminu, np. '13–15 paź 2026', 'kwiecień/maj 2027', 'co roku 2027'.
+    Gdy brak dnia - koniec miesiąca, gdy brak miesiąca - koniec roku."""
+    y = re.search(r'20\d\d', termin)
+    if not y:
+        return None
+    year = int(y.group(0))
+    head = termin[:y.start()].lower()
+    found = [(m.start(), PL_MONTHS[m.group(1)[:3]]) for m in re.finditer(r'([a-ząćęłńóśźż]{3,})', head)
+             if m.group(1)[:3] in PL_MONTHS]
+    if not found:
+        return date(year, 12, 31)
+    pos, month = found[-1]
+    days = re.findall(r'\d+', head[:pos])
+    if days:
+        return date(year, month, int(days[-1]))
+    nxt = date(year + (month == 12), month % 12 + 1, 1)
+    return date.fromordinal(nxt.toordinal() - 1)
+
+
+_PL_CONTENT = None
+
+
+def fairs(L, today=None):
+    """Wiersze kalendarza targów. Imprezy, które już się skończyły, są pomijane -
+    termin czytamy z wersji polskiej, bo numeracja targów jest wspólna dla języków."""
+    global _PL_CONTENT
+    if _PL_CONTENT is None:
+        _PL_CONTENT = json.loads((ROOT / 'content' / 'pl.json').read_text(encoding='utf-8'))
+    today = today or date.today()
     rows, cats = [], {}
-    n = 1
-    while f'zas.targi.{n}.nazwa' in L.d:
+    n = 0
+    while f'zas.targi.{n + 1}.nazwa' in L.d:
+        n += 1
+        end = fair_end(_PL_CONTENT.get(f'zas.targi.{n}.termin', ''))
+        if end and end < today:
+            continue
         g = lambda f: L.d.get(f'zas.targi.{n}.{f}', '')  # noqa: E731
         termin = g('termin')
         m = re.match(r'^(.*?)\s+(20\d\d.*)$', termin)
@@ -122,7 +159,6 @@ def fairs(L):
         rows.append(dict(name=g('nazwa'), url=url, host=re.sub(r'^https?://(www\.)?', '', url).rstrip('/'),
                          d1=d1, d2=d2, city=city, venue=venue, tags=tags, cat_keys=' '.join(slug(x) for x in tags),
                          desc=g('opis'), rec=g('polecamy').strip().lower() in ('tak', 'sí', 'si', 'yes')))
-        n += 1
     order = [r['city'] for r in rows]
     cities = sorted(set(order), key=lambda c: (-order.count(c), c))
     return rows, sorted([dict(key=k, label=v) for k, v in cats.items()], key=lambda c: slug(c['label'])), cities
