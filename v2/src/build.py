@@ -298,8 +298,8 @@ def build(langs):
         about = ''.join([f"<p>{html.escape(L.t('onas.p2'))}</p>", f"<h2>{html.escape(L.t('onas.h2.monterrey'))}</h2>",
                          f"<p>{html.escape(L.t('onas.monterrey.p1'))}</p>", f"<h2>{html.escape(L.t('onas.h2.zasady'))}</h2>",
                          f"<p>{html.escape(L.t('onas.zasady.p1'))}</p>", f"<p>{html.escape(L.t('onas.zasady.p2'))}</p>"])
-        render('onas', 'blocks.html', section='onas', label=L.t('onas.label'), h1=L.t('onas.h1'), leads=[L.t('onas.p1')],
-               crumbs=[], crumb_here='', updated=None, tabs=None, body=Markup(about), legal=None, legal_title='', disclaimer=None)
+        render('onas', 'about.html', section='onas', label=L.t('onas.label'), h1=L.t('onas.h1'), leads=[L.t('onas.p1')],
+               crumbs=[], crumb_here='', updated=None, tabs=None)
         people = []
         for p in ('kontakt.osoba1', 'kontakt.osoba2'):
             tel = L.t(p + '.telefon')

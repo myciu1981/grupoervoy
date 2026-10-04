@@ -1,0 +1,20 @@
+{% extends "page.html" %}
+{% block body %}
+<div class="section tight"><div class="wrap">
+<div class="facts">{% for f in ui.facts %}<div class="fact"><strong>{{ f[0] }}</strong><span>{{ f[1] }}</span></div>{% endfor %}</div>
+<div class="about-grid">
+<div class="prose">
+<p>{{ t('onas.p2') }}</p>
+<h2>{{ t('onas.h2.monterrey') }}</h2>
+<p>{{ t('onas.monterrey.p1') }}</p>
+</div>
+<aside class="approach on-dark" aria-labelledby="appr-h">
+<span class="accent" aria-hidden="true"></span>
+<h2 id="appr-h">{{ t('onas.h2.zasady') }}</h2>
+<p>{{ t('onas.zasady.p1') }}</p>
+<p>{{ t('onas.zasady.p2') }}</p>
+<a class="btn btn-p" href="{{ whatsapp }}" rel="noopener" style="margin-top:8px">{{ t('cta.glowne') }}</a>
+</aside>
+</div>
+</div></div>
+{% endblock %}
