@@ -97,3 +97,7 @@ UI = {
         'facts': [('Monterrey', 'Head office in Nuevo León'), ('Mexico and Poland', 'A team on both sides of the Atlantic'), ('3 languages', 'Spanish, English and Polish'), ('2 own brands', 'Simple Made Blinds Mexico and Polaca Foods')],
     },
 }
+
+# weryfikacja Bing Webmaster Tools (metatag + BingSiteAuth.xml) i klucz IndexNow (plik /<klucz>.txt)
+BING_VERIFY = '45E37E2A0C91967ED7B6F8D8DC9996F7'
+INDEXNOW_KEY = '77caba8e6fd178824cccadaba9186c12'

@@ -19,7 +19,7 @@ from markupsafe import Markup
 
 sys.path.insert(0, str(Path(__file__).parent))
 import hero  # noqa: E402
-from site_config import (ARTICLES, DEFAULT, HREFLANG, HTML_LANG, X_DEFAULT, LANGS, OG_LOCALE, PREFIX, RESOURCES, ROUTES,  # noqa: E402
+from site_config import (ARTICLES, BING_VERIFY, DEFAULT, INDEXNOW_KEY, HREFLANG, HTML_LANG, X_DEFAULT, LANGS, OG_LOCALE, PREFIX, RESOURCES, ROUTES,  # noqa: E402
                          SERVICES, SITE, UI, UPDATES, WHATSAPP)
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -290,7 +290,7 @@ def build(langs):
                 crumbs_ld = [dict(name=ui['home'], url=SITE + L.url('home'))] + [dict(name=c['label'], url=SITE + c['href']) for c in ctx.get('crumbs', [])] + [dict(name=ctx.get('h1', title), url=canonical)]
                 jsonld.append(json.dumps({'@context': 'https://schema.org', '@type': 'BreadcrumbList', 'itemListElement': [
                     {'@type': 'ListItem', 'position': i + 1, 'name': c['name'], 'item': c['url']} for i, c in enumerate(crumbs_ld)]}, ensure_ascii=False))
-            base = dict(t=L.t, url=L.url, ui=ui, html_lang=HTML_LANG[code], og_locale=OG_LOCALE[code], site=SITE,
+            base = dict(bing_verify=BING_VERIFY, t=L.t, url=L.url, ui=ui, html_lang=HTML_LANG[code], og_locale=OG_LOCALE[code], site=SITE,
                         og_locale_alt=[OG_LOCALE[c] for c in LANGS if c != code and c in built],
                         seo_title=title, seo_desc=desc, og_title=title, og_desc=desc, canonical=canonical, alternates=alternates,
                         og_type='website', noindex=False, nav=nav, section=section, lang_links=lang_links, whatsapp=whatsapp,
@@ -461,6 +461,8 @@ def build(langs):
         urls.append(f'<url><loc>{loc}</loc><lastmod>{lastmod[loc][1]}</lastmod>{alts}</url>')
     lm_path.write_text(json.dumps(dict(sorted(lastmod.items())), indent=0, ensure_ascii=False) + '\n', encoding='utf-8')
     (OUT / 'llms.txt').write_text(llms_txt(built), encoding='utf-8')
+    (OUT / 'BingSiteAuth.xml').write_text(f'<?xml version="1.0"?>\n<users>\n\t<user>{BING_VERIFY}</user>\n</users>\n', encoding='utf-8')
+    (OUT / f'{INDEXNOW_KEY}.txt').write_text(INDEXNOW_KEY, encoding='utf-8')
     (OUT / 'sitemap.xml').write_text('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" '
                                      'xmlns:xhtml="http://www.w3.org/1999/xhtml">\n' + '\n'.join(urls) + '\n</urlset>\n', encoding='utf-8')
     (OUT / 'robots.txt').write_text(f'User-agent: *\nAllow: /\n\nSitemap: {SITE}/sitemap.xml\n', encoding='utf-8')
