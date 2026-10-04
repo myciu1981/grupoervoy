@@ -22,6 +22,9 @@
 # --------------------------------------------------------------- strona bledu
 ErrorDocument 404 /404.html
 
+# HTML, llms.txt i robots.txt sa w UTF-8 - bez tego serwer wysyla text/html bez charset
+AddDefaultCharset UTF-8
+
 # ---------------------------------------------------------------- roboty AI
 # Hosting nethero oddaje 403 crawlerom AI (GPTBot, ClaudeBot, PerplexityBot,
 # CCBot) - blokada nie pochodzi z tego pliku, tylko z konfiguracji wyzej.
@@ -49,9 +52,9 @@ ErrorDocument 404 /404.html
     Header set Cache-Control "public, max-age=2592000"
   </FilesMatch>
 
-  # arkusz i skrypt maja odcisk tresci w nazwie (style.<hash>.css, site.<hash>.js),
+  # arkusz, skrypt i podklad mapy maja odcisk tresci w nazwie (style.<hash>.css, site.<hash>.js, map.<hash>.svg),
   # wiec kazda zmiana = nowy adres i mozna je trzymac rok
-  <FilesMatch "^(style|site)\.[0-9a-f]{8}\.(css|js)$">
+  <FilesMatch "^((style|site)\.[0-9a-f]{8}\.(css|js)|map\.[0-9a-f]{8}\.svg)$">
     Header set Cache-Control "public, max-age=31536000, immutable"
   </FilesMatch>
 </IfModule>

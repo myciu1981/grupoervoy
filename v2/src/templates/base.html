@@ -16,7 +16,8 @@
 <meta property="og:url" content="{{ canonical }}">
 <meta property="og:image" content="{{ site }}/assets/og-image.png">
 <meta property="og:locale" content="{{ og_locale }}">
-<meta name="twitter:card" content="summary_large_image">
+{% for loc in og_locale_alt|default([]) %}<meta property="og:locale:alternate" content="{{ loc }}">
+{% endfor %}<meta name="twitter:card" content="summary_large_image">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <link rel="icon" href="/favicon-32x32.png" sizes="32x32" type="image/png">
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">

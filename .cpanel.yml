@@ -8,5 +8,5 @@ deployment:
     # cPanel przy deployu tylko kopiuje, nigdy nie usuwa - sprzatamy reszte starej strony (eksport Claude Design)
     - /bin/rm -rf $DEPLOYPATH/_ds $DEPLOYPATH/pl
     - /bin/rm -f $DEPLOYPATH/support.js $DEPLOYPATH/ervoy-boot.js $DEPLOYPATH/assets/world-map.png $DEPLOYPATH/assets/world-map-base.9536a09c.png
-    # arkusz i skrypt maja odcisk tresci w nazwie - kasujemy wersje, ktorych nie ma w biezacym wydaniu
-    - /bin/sh -c 'for f in $DEPLOYPATH/assets/style.*.css $DEPLOYPATH/assets/site.*.js; do [ -e "$f" ] || continue; [ -e "v2/site/assets/$(basename "$f")" ] || rm -f "$f"; done'
+    # arkusz, skrypt i mapa maja odcisk tresci w nazwie - kasujemy wersje, ktorych nie ma w biezacym wydaniu
+    - /bin/sh -c 'for f in $DEPLOYPATH/assets/style.*.css $DEPLOYPATH/assets/site.*.js $DEPLOYPATH/assets/map.*.svg; do [ -e "$f" ] || continue; [ -e "v2/site/assets/$(basename "$f")" ] || rm -f "$f"; done'

@@ -5,6 +5,7 @@ SVG to 1440 × 740, ten sam co w zatwierdzonym prototypie A z kanwy.
 """
 import json
 import math
+import re
 from pathlib import Path
 
 lat_t = list(range(0, 91, 5))
@@ -136,12 +137,37 @@ def _geometry(geo_path):
     return _cache['g']
 
 
+def _rel(d):
+    """Ścieżka 'M x y x y ... Z' / 'M x y L x y' na względne 'l' w dziesiątych częściach piksela -
+    ten sam kształt co do 0,1 px, plik o ok. 40% mniejszy."""
+    out = []
+    for sub in re.findall(r'M[^M]+', d):
+        closed = sub.rstrip().endswith('Z')
+        nums = [round(float(v) * 10) for v in re.findall(r'-?\d+(?:\.\d+)?', sub)]
+        pts = list(zip(nums[0::2], nums[1::2]))
+        f = lambda v: (f'{v / 10:.1f}'.rstrip('0').rstrip('.') or '0')  # noqa: E731
+        seg = [f'M{f(pts[0][0])} {f(pts[0][1])}l']
+        seg.append(' '.join(f'{f(x - px)} {f(y - py)}' for (px, py), (x, y) in zip(pts, pts[1:])))
+        out.append(''.join(seg) + ('z' if closed else ''))
+    return ''.join(out)
+
+
+def map_svg(geo_path):
+    """Podkład mapy (siatka i lądy) jako osobny plik - wspólny dla wszystkich języków, cache'owany
+    przez przeglądarkę. Kolory jako atrybuty, bez <style>, żeby nie zależeć od CSP."""
+    land, eu, hi, grat = _geometry(geo_path)
+    return (f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}">'
+            f'<path fill="none" stroke="#b8c0c7" stroke-opacity=".075" d="{_rel(grat)}"/>'
+            f'<g stroke="#0a263c" stroke-width=".8" stroke-linejoin="round">'
+            f'<path fill="#11324d" d="{_rel(land)}"/><path fill="#173d5b" d="{_rel(eu)}"/></g>'
+            f'<path fill="#1b4868" stroke="#e9edf0" stroke-opacity=".28" stroke-linejoin="round" d="{_rel(hi)}"/></svg>')
+
+
 CYCLE, START = 15, 3.2
 
 
-def render(lang, geo_path):
+def render(lang, geo_path, map_href):
     N = NAMES[lang]
-    land, eu, hi, grat = _geometry(geo_path)
     i55 = MAIN.index((-55, 28.2))
     d_main, L_main = lane(MAIN)
     d_val, L_val = lane(VALW)
@@ -187,10 +213,7 @@ def render(lang, geo_path):
         label(ver[0] + 12, ver[1] + 18, N['ver'], dms(*VER)),
     ])
     svg = f'''<svg class="hero-map" viewBox="0 0 {W} {H}" preserveAspectRatio="xMidYMid slice" role="img" aria-label="{N['title']}">
-<path class="m-grat" d="{grat}"/>
-<path class="m-land" d="{land}"/>
-<path class="m-land m-eu" d="{eu}"/>
-<path class="m-land m-hi" d="{hi}"/>
+<image href="{map_href}" width="{W}" height="{H}"/>
 {draw('m-lane', d_ham, L_ham, ' d1')}{draw('m-lane', d_rot, L_rot, ' d2')}{draw('m-lane', d_alt, L_alt, ' d4')}
 {draw('m-lane m-mx', d_in, L_in, ' inl')}{draw('m-lane m-mx', d_gdl, L_gdl, ' inl')}{draw('m-lane m-mx', d_altin, L_altin, ' inl')}
 {draw('m-halo', d_val, L_val, ' v')}{draw('m-halo', d_main, L_main)}{draw('m-route', d_val, L_val, ' v')}{draw('m-route', d_main, L_main)}

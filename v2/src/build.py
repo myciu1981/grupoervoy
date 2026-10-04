@@ -19,10 +19,11 @@ from markupsafe import Markup
 
 sys.path.insert(0, str(Path(__file__).parent))
 import hero  # noqa: E402
-from site_config import (ARTICLES, DEFAULT, HTML_LANG, LANGS, OG_LOCALE, PREFIX, RESOURCES, ROUTES,  # noqa: E402
+from site_config import (ARTICLES, DEFAULT, HTML_LANG, X_DEFAULT, LANGS, OG_LOCALE, PREFIX, RESOURCES, ROUTES,  # noqa: E402
                          SERVICES, SITE, UI, UPDATES, WHATSAPP)
 
 ROOT = Path(__file__).resolve().parent.parent
+ORG_ID = SITE + '/#organization'
 SRC = ROOT / 'src'
 OUT = ROOT / 'site'
 REPO = ROOT.parent
@@ -132,19 +133,40 @@ def fair_end(termin):
 
 _PL_CONTENT = None
 
+PL_MONTHS_GEN = {'stycznia': 1, 'lutego': 2, 'marca': 3, 'kwietnia': 4, 'maja': 5, 'czerwca': 6, 'lipca': 7, 'sierpnia': 8,
+                 'września': 9, 'października': 10, 'listopada': 11, 'grudnia': 12}
+
+
+def pl_content():
+    global _PL_CONTENT
+    if _PL_CONTENT is None:
+        _PL_CONTENT = json.loads((ROOT / 'content' / 'pl.json').read_text(encoding='utf-8'))
+    return _PL_CONTENT
+
+
+def iso_updated(key):
+    """Data aktualizacji artykułu w ISO 8601, czytana z wersji polskiej (np. '4 października 2026')."""
+    m = re.match(r'(\d+)\s+(\w+)\s+(20\d\d)', pl_content().get(f'{key}.aktualizacja', ''))
+    if not m or m.group(2) not in PL_MONTHS_GEN:
+        return None
+    return date(int(m.group(3)), PL_MONTHS_GEN[m.group(2)], int(m.group(1))).isoformat()
+
+
+def page_title(title):
+    """Google ucina tytuły po ok. 60 znakach - przy długich tytułach pomijamy dopisek z nazwą firmy."""
+    suffix = ' | GRUPO ERVOY'
+    return title[:-len(suffix)] if len(title) > 65 and title.endswith(suffix) else title
+
 
 def fairs(L, today=None):
     """Wiersze kalendarza targów. Imprezy, które już się skończyły, są pomijane -
     termin czytamy z wersji polskiej, bo numeracja targów jest wspólna dla języków."""
-    global _PL_CONTENT
-    if _PL_CONTENT is None:
-        _PL_CONTENT = json.loads((ROOT / 'content' / 'pl.json').read_text(encoding='utf-8'))
     today = today or date.today()
     rows, cats = [], {}
     n = 0
     while f'zas.targi.{n + 1}.nazwa' in L.d:
         n += 1
-        end = fair_end(_PL_CONTENT.get(f'zas.targi.{n}.termin', ''))
+        end = fair_end(pl_content().get(f'zas.targi.{n}.termin', ''))
         if end and end < today:
             continue
         g = lambda f: L.d.get(f'zas.targi.{n}.{f}', '')  # noqa: E731
@@ -185,6 +207,38 @@ def glossary(L):
     return sorted(groups.items()), intro
 
 
+def llms_txt(built):
+    """Plik /llms.txt (llmstxt.org): zwięzły opis firmy i spis stron dla modeli językowych, w Markdownie."""
+    E = built.get('en') or next(iter(built.values()))
+    u = lambda L, k: SITE + L.url(k)  # noqa: E731
+    out = ['# GRUPO ERVOY', '',
+           '> GRUPO ERVOY, S.A. de C.V. is a Mexican company based in Monterrey, Nuevo León, that helps European '
+           'manufacturers prepare their products for sale in Mexico and enter the Mexican market: market research, '
+           'Mexican NOM standards and labelling, local representation, import and logistics, distributors and trade shows. '
+           'The team works in Spanish, English and Polish. The first consultation is free.', '',
+           f'- Address: Cambridge 103, 64349 Monterrey, N.L., Mexico',
+           f"- Email: {E.t('kontakt.firma.email')}",
+           f"- Contact: {u(E, 'kontakt')}",
+           f"- Own brands in Mexico: {E.t('marki.smb.nazwa')} (https://{E.t('marki.smb.link')}), "
+           f"{E.t('marki.polaca.nazwa')} (https://{E.t('marki.polaca.link')})",
+           '- Languages of this site: Polish (default, https://grupoervoy.com/), Spanish (https://grupoervoy.com/es/), '
+           'English (https://grupoervoy.com/en/)', '', '## Services', '']
+    out += [f"- [{E.t(f'home.uslugi.{i}.tytul')}]({u(E, k)}): {E.t(f'{k}.seo.opis')}" for i, k in enumerate(SERVICES, 1)]
+    out += ['', '## Knowledge base', '']
+    out += [f"- [{E.t(f'{k}.tytul')}]({u(E, k)}): {E.t(f'{k}.zapowiedz')}" for k in ARTICLES + UPDATES]
+    out += [f"- [{E.t(f'{k}.tytul')}]({u(E, k)}): {E.t(f'{k}.zapowiedz')}" for k in RESOURCES]
+    out += ['', '## Company', '',
+            f"- [{E.t('menu.o-nas')}]({u(E, 'onas')})", f"- [{E.t('menu.jak-pracujemy')}]({u(E, 'proces')})",
+            f"- [{E.t('menu.marki')}]({u(E, 'marki')})", '']
+    for code, title in (('es', 'Español'), ('pl', 'Polski')):
+        if code in built:
+            L = built[code]
+            out += [f'## {title}', '', f"- [{L.t('home.seo.tytul')}]({u(L, 'home')}): {L.t('home.seo.opis')}"]
+            out += [f"- [{L.t(f'home.uslugi.{i}.tytul')}]({u(L, k)})" for i, k in enumerate(SERVICES, 1)]
+            out += [f"- [{L.t('menu.baza-wiedzy')}]({u(L, 'wiedza')})", f"- [{L.t('menu.kontakt')}]({u(L, 'kontakt')})", '']
+    return '\n'.join(out)
+
+
 def build(langs):
     env = Environment(loader=FileSystemLoader(SRC / 'templates'), autoescape=True, undefined=StrictUndefined,
                       trim_blocks=True, lstrip_blocks=True)
@@ -206,6 +260,10 @@ def build(langs):
     for f in ['favicon.svg', 'favicon.ico', 'favicon-32x32.png', 'apple-touch-icon.png', 'google0df9b290c98199fd.html']:
         shutil.copy(REPO / f, OUT / f)
 
+    map_doc = hero.map_svg(SRC / 'data' / 'ne50.geojson').encode('utf-8')
+    map_href = f"/assets/map.{hashlib.sha256(map_doc).hexdigest()[:8]}.svg"
+    (OUT / map_href.lstrip('/')).write_bytes(map_doc)
+
     built = {code: Lang(code, json.loads((ROOT / 'content' / f'{code}.json').read_text(encoding='utf-8'))) for code in langs}
     pages_for_sitemap = []
 
@@ -216,15 +274,16 @@ def build(langs):
         whatsapp = f"https://wa.me/{wa_num}?text={quote(L.t('cta.whatsapp.wiadomosc'))}"
         nav = [('uslugi', L.t('menu.uslugi')), ('proces', L.t('menu.jak-pracujemy')), ('wiedza', L.t('menu.baza-wiedzy')),
                ('marki', L.t('menu.marki')), ('onas', L.t('menu.o-nas')), ('kontakt', L.t('menu.kontakt'))]
-        hero_svg = hero.render(code, SRC / 'data' / 'ne50.geojson')
+        hero_svg = hero.render(code, SRC / 'data' / 'ne50.geojson', map_href)
 
         def render(key, template, section=None, seo=None, **ctx):
             path = ROUTES[key][code]
             title, desc = seo or (L.t(f'{key}.seo.tytul'), L.t(f'{key}.seo.opis'))
+            title = page_title(title)
             canonical = SITE + L.url(key)
             alternates = [dict(hreflang=HTML_LANG[c] if c != 'es' else 'es', href=SITE + L.url(key, c)) for c in LANGS if c in built]
-            if DEFAULT in built:
-                alternates.append(dict(hreflang='x-default', href=SITE + L.url(key, DEFAULT)))
+            if X_DEFAULT in built:
+                alternates.append(dict(hreflang='x-default', href=SITE + L.url(key, X_DEFAULT)))
             lang_links = [dict(code=c, name=ui['lang_names'][c], flag=FLAGS[c], href=L.url(key, c), current=c == code) for c in LANGS]
             jsonld = ctx.pop('jsonld', [])
             if key != 'home':
@@ -232,6 +291,7 @@ def build(langs):
                 jsonld.append(json.dumps({'@context': 'https://schema.org', '@type': 'BreadcrumbList', 'itemListElement': [
                     {'@type': 'ListItem', 'position': i + 1, 'name': c['name'], 'item': c['url']} for i, c in enumerate(crumbs_ld)]}, ensure_ascii=False))
             base = dict(t=L.t, url=L.url, ui=ui, html_lang=HTML_LANG[code], og_locale=OG_LOCALE[code], site=SITE,
+                        og_locale_alt=[OG_LOCALE[c] for c in LANGS if c != code and c in built],
                         seo_title=title, seo_desc=desc, og_title=title, og_desc=desc, canonical=canonical, alternates=alternates,
                         og_type='website', noindex=False, nav=nav, section=section, lang_links=lang_links, whatsapp=whatsapp,
                         css_hash=css_hash, js_hash=js_hash, services=SERVICES, icon_wa=Markup(ICON_WA), jsonld=[Markup(j) for j in jsonld],
@@ -247,8 +307,14 @@ def build(langs):
         tabs = lambda cur: [dict(label=L.t(f'wiedza.dzial.{i}.nazwa'), href=L.url(k), count=n, current=k == cur)  # noqa: E731
                             for i, (k, n) in enumerate([('wiedza', len(ARTICLES)), ('wiedza.akt', len(UPDATES)), ('wiedza.zas', len(RESOURCES))], 1)]
 
-        org = {'@context': 'https://schema.org', '@type': 'Organization', 'name': 'GRUPO ERVOY, S.A. de C.V.', 'url': SITE,
-               'logo': SITE + '/assets/GRUPO-ERVOY_Wordmark_Primary.svg', 'email': L.t('kontakt.firma.email'),
+        org = {'@context': 'https://schema.org', '@type': 'Organization', '@id': ORG_ID, 'name': 'GRUPO ERVOY',
+               'legalName': 'GRUPO ERVOY, S.A. de C.V.', 'alternateName': ['Grupo Ervoy', 'ERVOY'], 'url': SITE + L.url('home'),
+               'description': L.t('home.seo.opis'), 'logo': SITE + '/apple-touch-icon.png', 'image': SITE + '/assets/og-image.png',
+               'email': L.t('kontakt.firma.email'), 'telephone': '+' + digits(L.t('kontakt.osoba2.telefon')),
+               'areaServed': [{'@type': 'Country', 'name': 'Mexico'}, {'@type': 'Place', 'name': 'European Union'}],
+               'knowsLanguage': ['es', 'pl', 'en'],
+               'brand': [{'@type': 'Brand', 'name': L.t('marki.smb.nazwa'), 'url': 'https://' + L.t('marki.smb.link')},
+                         {'@type': 'Brand', 'name': L.t('marki.polaca.nazwa'), 'url': 'https://' + L.t('marki.polaca.link')}],
                'address': {'@type': 'PostalAddress', 'streetAddress': 'Cambridge 103', 'postalCode': '64349', 'addressLocality': 'Monterrey',
                            'addressRegion': 'Nuevo León', 'addressCountry': 'MX'},
                'contactPoint': [{'@type': 'ContactPoint', 'contactType': 'sales', 'name': L.t(p + '.imie'), 'telephone': '+' + digits(L.t(p + '.telefon')),
@@ -258,8 +324,11 @@ def build(langs):
         frows, _, _ = fairs(L)
         render('home', 'home.html', seo=(L.t('home.seo.tytul'), L.t('home.seo.opis')), dark_header=True,
                paths=[['u1'], ['u2', 'u4', 'u3'], ['u5', 'u6']], next_fairs=frows[:3],
-               hero_svg=Markup(hero_svg), hero_css=Markup(hero.CSS), panel_css=Markup(hero.panel_css(hero.PANEL_TIMES)),
-               teaser=ARTICLES[:3], jsonld=[json.dumps(org, ensure_ascii=False)])
+               hero_svg=Markup(hero_svg), map_href=map_href, hero_css=Markup(hero.CSS), panel_css=Markup(hero.panel_css(hero.PANEL_TIMES)),
+               teaser=ARTICLES[:3], jsonld=[json.dumps(org, ensure_ascii=False), json.dumps(
+                   {'@context': 'https://schema.org', '@type': 'WebSite', '@id': SITE + L.url('home') + '#website', 'url': SITE + L.url('home'),
+                    'name': 'GRUPO ERVOY', 'alternateName': ['Grupo Ervoy', 'ERVOY'], 'inLanguage': HTML_LANG[code],
+                    'publisher': {'@id': ORG_ID}}, ensure_ascii=False)])
 
         # usługi
         render('uslugi', 'cards.html', section='uslugi', label=L.t('uslugi.label'), h1=L.t('uslugi.h1'),
@@ -269,7 +338,11 @@ def build(langs):
         for i, k in enumerate(SERVICES, 1):
             render(k, 'blocks.html', section='uslugi', label=L.t(f'{k}.label'), h1=L.t(f'{k}.h1'), leads=[L.t(f'{k}.lead')],
                    crumbs=[dict(label=L.t('menu.uslugi'), href=L.url('uslugi'))], crumb_here=L.t(f'home.uslugi.{i}.tytul'),
-                   updated=None, tabs=None, body=Markup(service_body(L, i)), legal=None, legal_title='', disclaimer=None)
+                   updated=None, tabs=None, body=Markup(service_body(L, i)), legal=None, legal_title='', disclaimer=None,
+                   jsonld=[json.dumps({'@context': 'https://schema.org', '@type': 'Service', 'name': L.t(f'home.uslugi.{i}.tytul'),
+                                       'description': L.t(f'{k}.seo.opis'), 'url': SITE + L.url(k), 'inLanguage': HTML_LANG[code],
+                                       'provider': {'@id': ORG_ID}, 'areaServed': {'@type': 'Country', 'name': 'Mexico'}},
+                                      ensure_ascii=False)])
 
         # jak pracujemy
         extra = f"<h2>{html.escape(L.t('proces.h2.partnerzy'))}</h2><p>{html.escape(L.t('proces.partnerzy.p1'))}</p><p>{html.escape(L.t('proces.partnerzy.p2'))}</p>"
@@ -304,9 +377,15 @@ def build(langs):
         for group, dz in ((ARTICLES, 1), (UPDATES, 2)):
             for k in group:
                 title = L.t(f'{k}.tytul')
-                art_ld = json.dumps({'@context': 'https://schema.org', '@type': 'Article', 'headline': title, 'description': L.t(f'{k}.zapowiedz'),
-                                     'inLanguage': HTML_LANG[code], 'publisher': {'@type': 'Organization', 'name': 'GRUPO ERVOY'},
-                                     'mainEntityOfPage': SITE + L.url(k)}, ensure_ascii=False)
+                art = {'@context': 'https://schema.org', '@type': 'Article', 'headline': title, 'description': L.t(f'{k}.zapowiedz'),
+                       'inLanguage': HTML_LANG[code], 'image': SITE + '/assets/og-image.png',
+                       'author': {'@type': 'Organization', '@id': ORG_ID, 'name': 'GRUPO ERVOY', 'url': SITE + L.url('onas')},
+                       'publisher': {'@type': 'Organization', '@id': ORG_ID, 'name': 'GRUPO ERVOY',
+                                     'logo': {'@type': 'ImageObject', 'url': SITE + '/apple-touch-icon.png'}},
+                       'mainEntityOfPage': SITE + L.url(k)}
+                if iso_updated(k):
+                    art['datePublished'] = art['dateModified'] = iso_updated(k)
+                art_ld = json.dumps(art, ensure_ascii=False)
                 render(k, 'blocks.html', section='wiedza', seo=(f'{title} | GRUPO ERVOY', L.t(f'{k}.zapowiedz')),
                        label=L.t(f'wiedza.dzial.{dz}.nazwa'), h1=title, leads=[L.t(f'{k}.zapowiedz')],
                        crumbs=kb_crumb + ([dict(label=L.t('wiedza.dzial.2.nazwa'), href=L.url('wiedza.akt'))] if dz == 2 else []),
@@ -361,15 +440,27 @@ def build(langs):
         if L.missing:
             print(f'[{code}] BRAK PÓL:', ', '.join(sorted(L.missing)))
 
-    # sitemap i robots
+    # sitemap i robots. lastmod zmienia się tylko, gdy zmieni się treść strony (odcisk w content/lastmod.json) -
+    # Google ignoruje lastmod, jeśli przy każdym wydaniu wszystkie strony mają dzisiejszą datę.
     today = date.today().isoformat()
+    lm_path = ROOT / 'content' / 'lastmod.json'
+    lastmod = json.loads(lm_path.read_text(encoding='utf-8')) if lm_path.exists() else {}
     urls = []
     for key, code in pages_for_sitemap:
         if key == 'polityka':
             continue
         L = built[code]
+        loc = SITE + L.url(key)
+        page = (OUT / PREFIX[code] / ROUTES[key][code] / 'index.html').read_text(encoding='utf-8')
+        page = re.sub(r'(style|site|map)\.[0-9a-f]{8}\.', '', page)
+        digest = hashlib.sha256(page.encode('utf-8')).hexdigest()[:16]
+        if lastmod.get(loc, [None])[0] != digest:
+            lastmod[loc] = [digest, today]
         alts = ''.join(f'<xhtml:link rel="alternate" hreflang="{"es" if c == "es" else HTML_LANG[c]}" href="{SITE + L.url(key, c)}"/>' for c in LANGS if c in built)
-        urls.append(f'<url><loc>{SITE + L.url(key)}</loc><lastmod>{today}</lastmod>{alts}</url>')
+        alts += f'<xhtml:link rel="alternate" hreflang="x-default" href="{SITE + L.url(key, X_DEFAULT)}"/>'
+        urls.append(f'<url><loc>{loc}</loc><lastmod>{lastmod[loc][1]}</lastmod>{alts}</url>')
+    lm_path.write_text(json.dumps(dict(sorted(lastmod.items())), indent=0, ensure_ascii=False) + '\n', encoding='utf-8')
+    (OUT / 'llms.txt').write_text(llms_txt(built), encoding='utf-8')
     (OUT / 'sitemap.xml').write_text('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" '
                                      'xmlns:xhtml="http://www.w3.org/1999/xhtml">\n' + '\n'.join(urls) + '\n</urlset>\n', encoding='utf-8')
     (OUT / 'robots.txt').write_text(f'User-agent: *\nAllow: /\n\nSitemap: {SITE}/sitemap.xml\n', encoding='utf-8')

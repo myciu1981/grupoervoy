@@ -3,6 +3,7 @@
 SITE = 'https://grupoervoy.com'
 LANGS = ['pl', 'es', 'en']
 DEFAULT = 'pl'            # polski pod adresem głównym, pozostałe języki w podkatalogach
+X_DEFAULT = 'en'          # hreflang x-default: angielski dla użytkowników spoza PL/ES/EN (np. producenci z Niemiec czy Włoch)
 PREFIX = {'pl': '', 'es': 'es/', 'en': 'en/'}
 HTML_LANG = {'pl': 'pl', 'es': 'es-MX', 'en': 'en'}
 OG_LOCALE = {'pl': 'pl_PL', 'es': 'es_MX', 'en': 'en_US'}

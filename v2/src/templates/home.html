@@ -1,5 +1,6 @@
 {% extends "base.html" %}
-{% block head %}<style>{{ hero_css|safe }}{{ panel_css|safe }}</style>{% endblock %}
+{% block head %}<link rel="preload" as="image" href="{{ map_href }}" type="image/svg+xml">
+<style>{{ hero_css|safe }}{{ panel_css|safe }}</style>{% endblock %}
 {% block main %}
 <section class="hero on-dark" aria-labelledby="hero-h">
 <div class="hero-stage">
