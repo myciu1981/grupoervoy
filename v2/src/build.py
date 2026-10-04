@@ -420,10 +420,12 @@ def build(langs):
         people = []
         for p in ('kontakt.osoba1', 'kontakt.osoba2'):
             tel = L.t(p + '.telefon')
-            people.append(dict(name=L.t(p + '.imie'), langs=L.t(p + '.jezyki'), tel=tel, tel_raw='+' + digits(tel), email=L.t(p + '.email'),
+            people.append(dict(name=L.t(p + '.imie'), role=L.t(p + '.stanowisko'), langs=L.t(p + '.jezyki'), tel=tel, tel_raw='+' + digits(tel), email=L.t(p + '.email'),
                                wa=f"https://wa.me/{digits(tel)}?text={quote(L.t('cta.whatsapp.wiadomosc'))}"))
         render('kontakt', 'contact.html', section='kontakt', label=L.t('kontakt.label'), h1=L.t('kontakt.h1'), leads=[L.t('kontakt.lead')],
-               crumbs=[], crumb_here='', updated=None, tabs=None, people=people, jsonld=[json.dumps(org, ensure_ascii=False)])
+               crumbs=[], crumb_here='', updated=None, tabs=None, people=people,
+               jsonld=[json.dumps(dict(org, employee=[{'@type': 'Person', 'name': x['name'], 'jobTitle': x['role'], 'email': x['email'],
+                                                       'telephone': x['tel_raw']} for x in people]), ensure_ascii=False)])
         render('polityka', 'blocks.html', seo=(f"{ui['privacy_h1']} | GRUPO ERVOY", ui['privacy_h1']), label=None, h1=ui['privacy_h1'], leads=[],
                crumbs=[], crumb_here='', updated=None, tabs=None, body=Markup(f"<p>{html.escape(ui['privacy_pending'])}</p>"),
                legal=None, legal_title='', disclaimer=None, noindex=True)

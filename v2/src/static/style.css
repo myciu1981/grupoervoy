@@ -256,6 +256,7 @@ a.card:hover{border-color:var(--slate);color:var(--ink)}
 @media (max-width:700px){.people{grid-template-columns:1fr}}
 .person{padding:28px;border:1px solid var(--rule);border-radius:4px}
 .person h3{font-size:22px}
+.person .role{font-family:var(--display);font-weight:500;font-size:15px;color:var(--crimson-flat);margin:4px 0 0}
 .person .langs-spoken{font-size:15px;color:var(--meta);margin:4px 0 16px}
 .person a{display:flex;align-items:center;gap:10px;min-height:36px;text-decoration:none;font-size:16px}
 .person svg{width:18px;height:18px;color:var(--slate);flex:none}
