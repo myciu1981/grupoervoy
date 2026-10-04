@@ -219,7 +219,9 @@ def build(langs):
                                  'email': L.t(p + '.email')} for p in ('kontakt.osoba1', 'kontakt.osoba2')]}
 
         # strona główna
+        frows, _, _ = fairs(L)
         render('home', 'home.html', seo=(L.t('home.seo.tytul'), L.t('home.seo.opis')), dark_header=True,
+               paths=[['u1'], ['u2', 'u4', 'u3'], ['u5', 'u6']], next_fairs=frows[:3],
                hero_svg=Markup(hero_svg), hero_css=Markup(hero.CSS), panel_css=Markup(hero.panel_css(hero.PANEL_TIMES)),
                teaser=ARTICLES[:3], jsonld=[json.dumps(org, ensure_ascii=False)])
 

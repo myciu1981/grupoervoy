@@ -21,47 +21,44 @@
 </div>
 </section>
 
-<section class="section" aria-labelledby="intro-h">
-<div class="wrap split">
-<div><p class="label">{{ t('home.intro.label') }}</p><h2 id="intro-h">{{ t('home.intro.h2') }}</h2></div>
-<div class="copy"><p class="lead">{{ t('home.intro.p1') }}</p><p>{{ t('home.intro.p2') }}</p></div>
-</div>
-</section>
-
-<section class="section sunken" aria-labelledby="svc-h">
+<section class="section" aria-labelledby="start-h">
 <div class="wrap">
-<div class="section-head"><p class="label">{{ t('home.uslugi.label') }}</p><h2 id="svc-h">{{ t('home.uslugi.h2') }}</h2><p class="lead">{{ t('home.uslugi.lead') }}</p></div>
-<div class="grid grid-3">
-{% for key in services %}<a class="card" href="{{ url(key) }}"><span class="num">0{{ loop.index }}</span><h3>{{ t('home.uslugi.' ~ loop.index ~ '.tytul') }}</h3><p>{{ t('home.uslugi.' ~ loop.index ~ '.tekst') }}</p></a>
-{% endfor %}</div>
-<a class="link-more" href="{{ url('uslugi') }}">{{ t('home.uslugi.link') }} →</a>
+<div class="section-head"><p class="label">{{ t('home.start.label') }}</p><h2 id="start-h">{{ t('home.start.h2') }}</h2><p class="lead">{{ t('home.start.lead') }}</p></div>
+<div class="paths">
+{% for p in paths %}<div class="path">
+<span class="num">0{{ loop.index }}</span>
+<h3>{{ t('home.start.' ~ loop.index ~ '.tytul') }}</h3>
+<p>{{ t('home.start.' ~ loop.index ~ '.tekst') }}</p>
+<ul>{% for key in p %}<li><a href="{{ url(key) }}">{{ t('home.uslugi.' ~ (services.index(key) + 1) ~ '.tytul') }} →</a></li>{% endfor %}</ul>
+</div>{% endfor %}
+</div>
 </div>
 </section>
 
-<section class="section" aria-labelledby="proc-h">
+<section class="section sunken" aria-labelledby="facts-h">
 <div class="wrap">
-<div class="section-head"><p class="label">{{ t('home.proces.label') }}</p><h2 id="proc-h">{{ t('home.proces.h2') }}</h2></div>
-<ol class="steps">{% for i in range(1, 5) %}<li><h3>{{ t('home.proces.' ~ i ~ '.tytul') }}</h3><p>{{ t('home.proces.' ~ i ~ '.tekst') }}</p></li>{% endfor %}</ol>
-<a class="link-more" href="{{ url('proces') }}">{{ t('home.proces.link') }} →</a>
+<div class="split">
+<div><h2 id="facts-h">{{ t('home.fakty.h2') }}</h2></div>
+<div class="copy"><p class="lead">{{ t('home.fakty.tekst') }}</p><a class="link-more" style="margin-top:16px" href="{{ url('onas') }}">{{ t('home.fakty.link') }} →</a></div>
 </div>
-</section>
-
-<section class="section sunken" aria-labelledby="brands-h">
-<div class="wrap split">
-<div><p class="label">{{ t('home.marki.label') }}</p><h2 id="brands-h">{{ t('home.marki.h2') }}</h2><p class="lead" style="margin-top:16px">{{ t('home.marki.lead') }}</p></div>
-<div class="brand-logos">
-<a class="brand-logo" href="https://{{ t('marki.smb.link') }}" rel="noopener"><img src="/assets/smb-mx.png" alt="Simple Made Blinds Mexico" width="340" height="111" loading="lazy"><p>{{ t('home.marki.smb') }}</p></a>
-<a class="brand-logo" href="https://{{ t('marki.polaca.link') }}" rel="noopener"><img src="/assets/polaca-foods.png" alt="Polaca Foods" width="400" height="100" loading="lazy"><p>{{ t('home.marki.polaca') }}</p></a>
+<div class="facts" style="margin:48px 0 0">{% for f in ui.facts %}<div class="fact"><strong>{{ f[0] }}</strong><span>{{ f[1] }}</span></div>{% endfor %}</div>
+<div class="brand-strip">
+<a href="https://{{ t('marki.smb.link') }}" rel="noopener"><img src="/assets/smb-mx.png" alt="Simple Made Blinds Mexico" width="340" height="111" loading="lazy"></a>
+<a href="https://{{ t('marki.polaca.link') }}" rel="noopener"><img src="/assets/polaca-foods.png" alt="Polaca Foods" width="400" height="100" loading="lazy"></a>
 </div>
 </div>
 </section>
 
 <section class="section" aria-labelledby="kb-h">
 <div class="wrap">
-<div class="section-head"><p class="label">{{ t('home.wiedza.label') }}</p><h2 id="kb-h">{{ t('home.wiedza.h2') }}</h2><p class="lead">{{ t('home.wiedza.lead') }}</p></div>
-<div class="grid grid-3">
-{% for key in teaser %}<a class="card" href="{{ url(key) }}"><h3>{{ t(key ~ '.tytul') }}</h3><p>{{ t(key ~ '.zapowiedz') }}</p><span class="more">{{ ui.more }} →</span></a>
-{% endfor %}</div>
+<div class="section-head"><p class="label">{{ t('home.wiedza.label') }}</p><h2 id="kb-h">{{ t('home.wiedza.h2') }}</h2></div>
+<div class="kb-cols">
+<div class="kb-col"><p class="label">{{ t('home.wiedza.kol1') }}</p><a href="{{ url('art.1') }}"><h3>{{ t('art.1.tytul') }}</h3></a><p>{{ t('art.1.zapowiedz') }}</p><a class="more" href="{{ url('art.1') }}">{{ ui.more }} →</a></div>
+<div class="kb-col"><p class="label">{{ t('home.wiedza.kol2') }}</p><a href="{{ url('akt.1') }}"><h3>{{ t('akt.1.tytul') }}</h3></a><p>{{ t('akt.1.zapowiedz') }}</p><a class="more" href="{{ url('akt.1') }}">{{ ui.more }} →</a></div>
+<div class="kb-col"><p class="label">{{ t('home.wiedza.kol3') }}</p>
+<ul class="next-fairs">{% for f in next_fairs %}<li><span class="d">{{ f.d1 }} {{ f.d2 }}</span><a href="{{ f.url }}" target="_blank" rel="noopener">{{ f.name }}</a><span class="w">{{ f.city }}</span></li>{% endfor %}</ul>
+<a class="more" href="{{ url('zas.targi') }}">{{ t('home.wiedza.targi.link') }} →</a></div>
+</div>
 <a class="link-more" href="{{ url('wiedza') }}">{{ t('home.wiedza.link') }} →</a>
 </div>
 </section>

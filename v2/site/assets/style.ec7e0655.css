@@ -306,3 +306,33 @@ a.card:hover{border-color:var(--slate);color:var(--ink)}
 .person::before{content:"";position:absolute;left:-1px;right:-1px;top:0;height:3px;background:var(--gradient-crimson);border-radius:4px 4px 0 0}
 .person svg{color:var(--crimson-flat)}
 .company{background:var(--mist);padding:28px;border-radius:4px}
+
+/* strona główna: ścieżki, marki, baza wiedzy */
+.paths{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px}
+.path{display:flex;flex-direction:column;gap:12px;padding:28px;border:1px solid var(--rule);border-radius:4px;position:relative}
+.path::before{content:"";position:absolute;left:-1px;right:-1px;top:-1px;height:3px;background:var(--gradient-crimson);border-radius:4px 4px 0 0}
+.path .num{font-family:var(--display);font-weight:500;font-size:30px;line-height:1;color:var(--crimson-flat)}
+.path h3{font-size:21px}
+.path p{color:var(--ink-2);font-size:16px}
+.path ul{list-style:none;margin:auto 0 0;padding:14px 0 0;border-top:1px solid var(--rule)}
+.path li{margin:0 0 6px}
+.path a{font-family:var(--display);font-weight:500;font-size:15px;text-decoration:none}
+.path a:hover{text-decoration:underline}
+@media (max-width:900px){.paths{grid-template-columns:1fr}}
+.brand-strip{display:flex;flex-wrap:wrap;gap:24px 56px;align-items:center;margin-top:40px;padding-top:28px;border-top:1px solid var(--rule)}
+.brand-strip img{width:170px;height:auto;display:block}
+.kb-cols{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:32px}
+.kb-col{padding-top:18px;border-top:3px solid var(--navy);display:flex;flex-direction:column;gap:10px}
+.kb-col .label{margin:0}
+.kb-col h3{font-size:20px}
+.kb-col>a{text-decoration:none}
+.kb-col>a:hover h3{text-decoration:underline}
+.kb-col p{color:var(--ink-2);font-size:16px}
+.kb-col .more{margin-top:auto;font-family:var(--display);font-weight:500;font-size:15px}
+.next-fairs{list-style:none;margin:0;padding:0}
+.next-fairs li{display:grid;gap:2px;padding:10px 0;border-bottom:1px solid var(--rule)}
+.next-fairs .d{font-family:var(--display);font-weight:500;font-size:14px;color:var(--crimson-flat);font-variant-numeric:tabular-nums}
+.next-fairs a{font-family:var(--display);font-weight:500;font-size:16px;text-decoration:none}
+.next-fairs a:hover{text-decoration:underline}
+.next-fairs .w{font-size:13px;color:var(--meta)}
+@media (max-width:900px){.kb-cols{grid-template-columns:1fr}}
