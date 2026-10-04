@@ -165,7 +165,7 @@ def build(langs):
     shutil.copy(js, OUT / 'assets' / f'site.{js_hash}.js')
     for f in (SRC / 'static').glob('*.svg'):
         shutil.copy(f, OUT / 'assets' / f.name)
-    for f in ['smb-mx-icon.svg', 'polaca-foods-sygnet.png', 'og-image.png']:
+    for f in ['smb-mx.png', 'polaca-foods.png', 'smb-mx-icon.svg', 'polaca-foods-sygnet.png', 'og-image.png']:
         shutil.copy(REPO / 'assets' / f, OUT / 'assets' / f)
     for f in ['favicon.svg', 'favicon.ico', 'favicon-32x32.png', 'apple-touch-icon.png', 'google0df9b290c98199fd.html']:
         shutil.copy(REPO / f, OUT / f)
