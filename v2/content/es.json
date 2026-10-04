@@ -1,0 +1,822 @@
+{
+ "menu.uslugi": "Servicios",
+ "menu.jak-pracujemy": "Cómo trabajamos",
+ "menu.baza-wiedzy": "Conocimiento",
+ "menu.marki": "Nuestras marcas",
+ "menu.o-nas": "Nosotros",
+ "menu.kontakt": "Contacto",
+ "menu.cta": "Agendar asesoría",
+ "cta.glowne": "Agende una asesoría gratuita",
+ "cta.pomocnicze": "Vea cómo podemos ayudarle",
+ "cta.whatsapp.numer": "528125901796",
+ "cta.whatsapp.wiadomosc": "Hola, les escribo desde grupoervoy.com. Me gustaría agendar una asesoría gratuita sobre la venta de nuestros productos en México.",
+ "pasek.h2": "Empecemos por hablar de su producto",
+ "pasek.tekst": "La primera asesoría es gratuita. Usted nos cuenta qué fabrica y cómo se imagina la venta en México, y nosotros le decimos qué hay que preparar y en qué podemos ayudarle. Hacemos una propuesta solo cuando entendemos bien su producto.",
+ "pasek.przycisk": "Agende una asesoría gratuita",
+ "stopka.opis": "GRUPO ERVOY acompaña a fabricantes europeos en la adaptación de sus productos al mercado mexicano y en las siguientes etapas de su crecimiento comercial en México.\nNuestra sede está en Monterrey.",
+ "stopka.prawne": "GRUPO ERVOY, S.A. de C.V. · Monterrey, Nuevo León, México",
+ "stopka.polityka": "Aviso de privacidad",
+ "stopka.og.tytul": "GRUPO ERVOY: el mercado mexicano para empresas europeas",
+ "stopka.og.opis": "Estudio de mercado, normas NOM, etiquetado, importación y representación local en México. Sede en Monterrey, equipo en México y Polonia.",
+ "stopka.alt.logo": "GRUPO ERVOY",
+ "home.seo.tytul": "Vender en México con productos europeos | GRUPO ERVOY",
+ "home.seo.opis": "Ayudamos a fabricantes europeos a preparar sus productos para el mercado mexicano: estudio de mercado, NOM, etiquetado, importación y distribuidores.",
+ "home.hero.label": "Empresas europeas. Oportunidades en México.",
+ "home.hero.h1": "Ayudamos a que los productos europeos\nencuentren su lugar en México.",
+ "home.hero.sub": "Preparamos los productos de empresas europeas para venderse en México y les ayudamos a crecer en este mercado. Acompañamos a los fabricantes desde el análisis del producto y los requisitos formales, pasando por la importación y el arranque de ventas, hasta el desarrollo del negocio local.",
+ "home.hero.przycisk1": "Agende una asesoría gratuita",
+ "home.hero.przycisk2": "Ver servicios",
+ "home.hero.mapa.alt": "Mapa de las rutas marítimas de Gdynia y Valencia a Veracruz y de las conexiones terrestres a Ciudad de México y Monterrey",
+ "home.panel.label": "Ruta del producto",
+ "home.panel.tytul": "Europa – Veracruz – Monterrey",
+ "home.panel.krok1": "Clasificación arancelaria",
+ "home.panel.krok2": "Normas, etiqueta y documentos",
+ "home.panel.krok3": "Transporte marítimo",
+ "home.panel.krok4": "Despacho aduanero en Veracruz",
+ "home.panel.krok5": "Distribución en México",
+ "home.intro.label": "Grupo ERVOY",
+ "home.intro.h2": "Su socio de negocios en México",
+ "home.intro.p1": "Vender en México requiere algo más que un buen producto. Hay que entender la regulación local, preparar bien el producto para la importación y la venta y, sobre todo, tener aquí a alguien que conozca el mercado y sepa traducir la forma de trabajar europea a la realidad mexicana.",
+ "home.intro.p2": "Grupo ERVOY es una empresa mexicana con sede en Monterrey y un equipo en México y en Polonia. Ayudamos a fabricantes europeos a prepararse para vender en México y después los acompañamos en la operación diaria y el crecimiento. Podemos actuar como su socio local y representar a su empresa en México, así que empezar no tiene por qué significar abrir de inmediato una empresa propia.",
+ "home.uslugi.label": "Servicios",
+ "home.uslugi.h2": "¿En qué podemos ayudarle?",
+ "home.uslugi.lead": "Ajustamos nuestro apoyo al producto y a lo que su empresa necesita. Podemos encargarnos de un tema concreto o acompañar todo el proceso, desde el estudio de mercado y la preparación del producto hasta el arranque de ventas y la consolidación en México.",
+ "home.uslugi.1.tytul": "Estudio de mercado y estrategia",
+ "home.uslugi.1.tekst": "Analizamos el mercado, la competencia, los precios y los clientes potenciales para definir dónde y cómo tiene su producto más posibilidades en México.",
+ "home.uslugi.2.tytul": "Preparación del producto para México",
+ "home.uslugi.2.tekst": "Revisamos los requisitos del producto, identificamos las NOM aplicables y le acompañamos en la certificación y en el etiquetado en español.",
+ "home.uslugi.3.tytul": "Su socio local en México",
+ "home.uslugi.3.tekst": "Podemos representar a su empresa en México mediante un contrato, para que tenga presencia local sin tener que abrir una empresa propia desde el inicio.",
+ "home.uslugi.4.tytul": "Importación y logística",
+ "home.uslugi.4.tekst": "Le ayudamos a definir el esquema de importación, elegir a los socios adecuados y coordinar el transporte, el despacho aduanero y los primeros embarques.",
+ "home.uslugi.5.tytul": "Distribuidores y desarrollo comercial",
+ "home.uslugi.5.tekst": "Buscamos y verificamos distribuidores y socios comerciales, organizamos los primeros contactos y acompañamos las negociaciones que llevan a la venta.",
+ "home.uslugi.6.tytul": "Ferias y promoción",
+ "home.uslugi.6.tekst": "Apoyamos su participación en ferias y eventos del sector en México, desde el espacio y el stand hasta los materiales y la comunicación pensados para el cliente mexicano.",
+ "home.uslugi.link": "Más sobre nuestros servicios",
+ "home.proces.label": "Cómo trabajamos",
+ "home.proces.h2": "Primero conocemos el producto, luego proponemos una solución",
+ "home.proces.1.tytul": "Asesoría gratuita",
+ "home.proces.1.tekst": "Hablamos de su producto, de los planes de su empresa y de lo que espera del mercado mexicano.",
+ "home.proces.2.tytul": "Análisis del producto",
+ "home.proces.2.tekst": "Revisamos la documentación técnica y los requisitos de normas, clasificación arancelaria, importación y etiquetado.",
+ "home.proces.3.tytul": "Alcance y cotización",
+ "home.proces.3.tekst": "Le explicamos qué hay que hacer, en qué orden y en qué partes podemos apoyarle. Con eso preparamos una propuesta concreta y una cotización.",
+ "home.proces.4.tytul": "Preparación y crecimiento comercial",
+ "home.proces.4.tekst": "Preparamos el producto y la documentación, coordinamos la importación y los primeros embarques y apoyamos el desarrollo de ventas y la relación con socios locales.",
+ "home.proces.link": "Ver el proceso completo",
+ "home.marki.label": "Nuestras marcas",
+ "home.marki.h2": "También desarrollamos marcas propias en México",
+ "home.marki.lead": "No solo asesoramos: nosotros mismos pasamos por la preparación de productos, la importación, la certificación y la venta en México. Lo que aprendemos con nuestras marcas lo aplicamos en el trabajo con nuestros clientes.",
+ "home.marki.smb": "Simple Made Blinds Mexico. Sistemas de protección solar y persianas a la medida para clientes residenciales, arquitectos y proyectos en México.",
+ "home.marki.polaca": "Polaca Foods. Alimentos de Europa Central para tiendas, distribuidores y el sector restaurantero en México.",
+ "home.wiedza.label": "Conocimiento",
+ "home.wiedza.h2": "Lo que conviene saber antes de entrar a México",
+ "home.wiedza.lead": "Escribimos sobre lo que más nos preguntan los fabricantes: regulación, aranceles, etiquetado y formas de operar en el mercado.",
+ "home.wiedza.link": "Ir a la sección de conocimiento",
+ "home.kontakt.h2": "Hablemos de su producto",
+ "home.kontakt.tekst": "Cuéntenos sobre su producto y sus planes para México. Revisaremos juntos las posibilidades, lo que hace falta y los siguientes pasos. La primera asesoría es gratuita.",
+ "uslugi.seo.tytul": "Servicios para fabricantes europeos en México | GRUPO ERVOY",
+ "uslugi.seo.opis": "Estudio de mercado, NOM, etiquetado, representación, importación, distribuidores y ferias en México. Ajustamos el alcance a cada producto y empresa.",
+ "uslugi.label": "Servicios",
+ "uslugi.h1": "¿En qué podemos ayudarle?",
+ "uslugi.lead": "Cada producto y cada empresa necesita algo distinto en México. Unos quieren comprobar el potencial del mercado, otros preparar el producto para la venta y otros encontrar a sus primeros socios comerciales. Por eso empezamos con una conversación, conocemos el producto y solo entonces proponemos un alcance concreto.",
+ "uslugi.lead2": "Podemos encargarnos de un solo tema o combinar varios servicios en un proceso completo, desde el estudio de mercado y la preparación del producto hasta los primeros embarques, los socios comerciales y el crecimiento de las ventas.",
+ "u1.seo.tytul": "Estudio del mercado mexicano para empresas europeas | ERVOY",
+ "u1.seo.opis": "Analizamos competencia, precios, canales de venta y requisitos regulatorios para su producto en México, y cerramos con una recomendación concreta.",
+ "u1.label": "Servicios",
+ "u1.h1": "Estudio de mercado y estrategia",
+ "u1.lead": "Antes de empezar a vender en México conviene saber para quién es su producto, contra quién va a competir, cómo están los precios y qué condiciones hay que cumplir para llegar al mercado.",
+ "u1.h2.co": "Qué revisamos",
+ "u1.co.p1": "Hacemos el estudio aquí, en México. Analizamos la competencia, visitamos tiendas y mayoristas y revisamos precios, empaques y la forma en que se presentan productos similares. Cuando es posible, también hablamos con distribuidores y compradores para entender mejor lo que necesita el mercado.",
+ "u1.co.lista.intro": "El reporte puede incluir:",
+ "u1.co.lista.1": "productos, marcas y precios de la competencia",
+ "u1.co.lista.2": "los canales de venta más adecuados y cómo funciona cada uno",
+ "u1.co.lista.3": "requisitos regulatorios, entre ellos NOM, clasificación arancelaria, aranceles y posibles permisos",
+ "u1.co.lista.4": "una estimación de los costos de preparación del producto y de arranque de ventas",
+ "u1.co.lista.5": "posibles distribuidores y socios comerciales",
+ "u1.h2.wynik": "Qué recibe",
+ "u1.wynik.p1": "El reporte termina con una recomendación concreta: si conviene vender su producto en México y de qué manera, por dónde empezar y qué hacer primero. Si el mercado todavía no ofrece las condiciones adecuadas, también se lo diremos.",
+ "u1.wynik.p2": "Puede usar el reporte independientemente de que siga trabajando o no con GRUPO ERVOY.",
+ "u2.seo.tytul": "NOM, clasificación arancelaria y etiquetado en México | ERVOY",
+ "u2.seo.opis": "Revisamos los requisitos de su producto: clasificación arancelaria, NOM y certificación. Preparamos el etiquetado conforme a la regulación mexicana.",
+ "u2.label": "Servicios",
+ "u2.h1": "Preparación del producto para venderse en México",
+ "u2.lead": "Antes de que el producto llegue al punto de venta hay que revisar qué requisitos aplican en México y preparar todo lo necesario para introducirlo legalmente al mercado.",
+ "u2.h2.klasyfikacja": "Clasificación arancelaria",
+ "u2.klasyfikacja.p1": "La fracción arancelaria influye, entre otras cosas, en los aranceles, los requisitos regulatorios y los posibles permisos. Hacemos una clasificación preliminar de los productos y la validamos con el agente aduanal. En productos más complejos también ayudamos a preparar la documentación para solicitar un criterio oficial.",
+ "u2.h2.nom": "Normas Oficiales Mexicanas y certificación",
+ "u2.nom.p1": "Definimos qué requisitos y normas aplican al producto y revisamos si puede comercializarse tal como está. Si hace falta certificar, le ayudamos a elegir el organismo adecuado, preparar la documentación, organizar las pruebas y coordinar el proceso hasta el final.",
+ "u2.nom.p2": "Según el tipo de producto y el modelo de negocio, la certificación puede requerir la participación de una entidad registrada en México. Revisamos las opciones desde el principio, porque esto define cómo se importará y venderá después.",
+ "u2.h2.etykieta": "Etiquetado en español",
+ "u2.etykieta.p1": "Revisamos qué información debe llevar el empaque o la etiqueta y preparamos la versión en español conforme a los requisitos mexicanos. Si hace falta, también coordinamos la constancia de cumplimiento con la unidad correspondiente.",
+ "u2.h2.kto": "Quién hace qué",
+ "u2.kto.p1": "Una parte del trabajo la hacemos nosotros. Para lo que requiere una acreditación o una patente trabajamos con agentes aduanales, laboratorios y organismos de certificación e inspección acreditados. Coordinamos todo el proceso para que usted no tenga que gestionar a varios proveedores por separado.",
+ "u2.h2.wynik": "Qué recibe",
+ "u2.wynik.p1": "Al final recibe un expediente ordenado con los documentos y la información necesaria para importar y vender el producto en México.",
+ "u3.seo.tytul": "Representación de empresas europeas en México | GRUPO ERVOY",
+ "u3.seo.opis": "Representación local para empresas europeas en México. Opere en el mercado sin abrir de inmediato una empresa propia, mediante un contrato con GRUPO ERVOY.",
+ "u3.label": "Servicios",
+ "u3.h1": "Su socio local en México",
+ "u3.lead": "No todas las empresas necesitan una sociedad propia en México desde el primer día. En muchos casos es más sencillo empezar con un socio local que pueda actuar en el país y apoyar el crecimiento de la empresa.",
+ "u3.h2.jak": "Cómo funciona",
+ "u3.jak.p1": "Con base en un contrato podemos representar a su empresa en el alcance que acordemos: ante socios comerciales, ante ciertas instituciones y ante las empresas que participan en la preparación y venta del producto. El alcance de la representación siempre se define caso por caso.",
+ "u3.jak.p2": "Así puede empezar a operar en México sin crear de inmediato su propia estructura y decidir el siguiente paso cuando el negocio empiece a crecer.",
+ "u3.h2.prawna": "Presencia local",
+ "u3.prawna.p1": "Dentro de lo que establezca el contrato, podemos apoyar a su empresa en trámites y temas operativos locales y coordinar el trabajo con las entidades correspondientes en México.",
+ "u3.h2.handlowa": "Apoyo comercial",
+ "u3.handlowa.p1": "También podemos representar a su empresa ante clientes, distribuidores y posibles socios: presentar la oferta, responder dudas, asistir a reuniones y apoyar las negociaciones.",
+ "u3.h2.spolka": "Si más adelante quiere su propia empresa",
+ "u3.spolka.p1": "Cuando el volumen del negocio justifique una estructura propia en México, podemos ayudarle a preparar ese paso y a transferir sin tropiezos las tareas que correspondan a su empresa.",
+ "u4.seo.tytul": "Importación a México y logística | GRUPO ERVOY",
+ "u4.seo.opis": "Le ayudamos a preparar la importación a México, elegir a los socios adecuados y coordinar los primeros embarques desde Europa.",
+ "u4.label": "Servicios",
+ "u4.h1": "Importación y logística",
+ "u4.lead": "El primer embarque a México exige buena organización y tener los documentos listos antes de que la mercancía salga. Le ayudamos a planear todo el proceso y a coordinar a los socios que participan.",
+ "u4.h2.importer": "Importador y agente aduanal",
+ "u4.importer.p1": "Le ayudamos a definir qué esquema de importación conviene a su empresa y a su producto, y a elegir al importador y al agente aduanal adecuados. Comparamos las opciones disponibles y le ayudamos a escoger la que corresponde al tamaño de su operación.",
+ "u4.h2.transport": "Transporte y despacho",
+ "u4.transport.p1": "Coordinamos los primeros embarques de Europa a México y cuidamos que la documentación comercial, de transporte, aduanera y del producto esté lista antes del envío. Trabajamos con los socios responsables del transporte y del despacho.",
+ "u4.h2.pochodzenie": "Origen de la mercancía y aranceles",
+ "u4.pochodzenie.p1": "Revisamos si puede aplicarse un trato arancelario preferencial derivado de los acuerdos comerciales y le ayudamos a preparar las pruebas de origen necesarias, para evitar costos y retrasos innecesarios.",
+ "u5.seo.tytul": "Distribuidores y desarrollo comercial en México | GRUPO ERVOY",
+ "u5.seo.opis": "Buscamos y verificamos distribuidores y socios comerciales en México, organizamos los primeros contactos y apoyamos el crecimiento de las ventas.",
+ "u5.label": "Servicios",
+ "u5.h1": "Distribuidores y desarrollo comercial",
+ "u5.lead": "Un buen socio comercial puede acelerar mucho las ventas. Por eso no nos limitamos a entregar una lista de empresas: le ayudamos a encontrar socios que realmente encajen con su producto y su modelo de negocio.",
+ "u5.h2.szukanie": "Cómo buscamos socios",
+ "u5.szukanie.p1": "Primero definimos qué socio necesita: qué cobertura debe tener, a qué clientes debe llegar y qué volumen de ventas o pedidos es adecuado para usted. Después identificamos empresas posibles y revisamos su perfil, su actividad y las marcas que ya manejan.",
+ "u5.h2.rozmowy": "Conversaciones y primeros pedidos",
+ "u5.rozmowy.p1": "Contactamos a las empresas seleccionadas, organizamos las primeras reuniones y podemos participar en ellas junto con usted. También ayudamos a definir las condiciones de colaboración y acompañamos el proceso hasta los primeros pedidos.",
+ "u5.h2.dalej": "Cuando las ventas arrancan",
+ "u5.dalej.p1": "Podemos seguir siendo su socio local en la siguiente etapa: atender a los distribuidores, ampliar la red de clientes y mantenerle informado sobre los cambios y las oportunidades del mercado.",
+ "u6.seo.tytul": "Ferias y promoción en México | GRUPO ERVOY",
+ "u6.seo.opis": "Ayudamos a empresas europeas a participar en ferias en México: elección del evento, stand, materiales en español y seguimiento después de la feria.",
+ "u6.label": "Servicios",
+ "u6.h1": "Ferias y promoción",
+ "u6.lead": "Las ferias del sector son una buena forma de conocer el mercado, a los clientes potenciales y a los socios comerciales. Le ayudamos a preparar la participación de su empresa para que la feria sea el inicio de conversaciones concretas y no solo unos días en un stand.",
+ "u6.h2.wybor": "Elección de la feria y espacio",
+ "u6.wybor.p1": "Le ayudamos a elegir los eventos adecuados para su sector y su cliente objetivo y a organizar la participación de su empresa.",
+ "u6.h2.stoisko": "Diseño y montaje del stand",
+ "u6.stoisko.p1": "Coordinamos el diseño y el montaje del stand en México, así como los aspectos técnicos de su presencia durante el evento.",
+ "u6.h2.materialy": "Materiales de marketing",
+ "u6.materialy.p1": "Preparamos o adaptamos materiales en español: presentaciones, catálogos, contenidos para la web y materiales para clientes. No se trata solo de traducir, sino de ajustar el mensaje al cliente mexicano.",
+ "u6.h2.potem": "Después de la feria",
+ "u6.potem.p1": "Lo más importante empieza cuando termina la feria. Podemos ayudarle a ordenar los contactos, dar seguimiento a los clientes potenciales y continuar las negociaciones.",
+ "proces.seo.tytul": "Cómo trabajamos | GRUPO ERVOY",
+ "proces.seo.opis": "De la asesoría gratuita al análisis del producto y la propuesta, y de ahí al primer embarque y al crecimiento de ventas en México. Así es trabajar con nosotros.",
+ "proces.label": "Cómo trabajamos",
+ "proces.h1": "Primero conocemos su producto y sus planes",
+ "proces.lead": "No ofrecemos paquetes cerrados. El trabajo depende del producto, del mercado objetivo y de lo que la empresa ya tiene preparado. Por eso siempre empezamos con una conversación y un análisis, y solo después presentamos una solución concreta, el alcance y la cotización.",
+ "proces.1.tytul": "Asesoría gratuita",
+ "proces.1.tekst": "Conocemos su empresa, sus productos y sus planes para México. Hablamos de las posibilidades y le decimos con franqueza en qué podemos ayudar. La asesoría es gratuita y sin compromiso.",
+ "proces.2.tytul": "Análisis del producto",
+ "proces.2.tekst": "Le pedimos fichas técnicas, composición, fotos del empaque y los certificados que tenga. Con eso analizamos los requisitos del producto, la clasificación arancelaria, las NOM y las reglas de etiquetado.",
+ "proces.3.tytul": "Propuesta y cotización",
+ "proces.3.tekst": "Presentamos los siguientes pasos, el alcance de nuestro trabajo, quién se encarga de qué y un calendario estimado. En la cotización separamos nuestros honorarios de los costos externos, como pruebas, certificación o tarifas de los organismos.",
+ "proces.4.tytul": "Preparación del producto",
+ "proces.4.tekst": "Llevamos la preparación del producto para el mercado mexicano: coordinamos la clasificación arancelaria, la certificación, el etiquetado y el trabajo con el agente aduanal, los laboratorios y los organismos de certificación. Le mantenemos informado en todo momento.",
+ "proces.5.tytul": "Primer embarque",
+ "proces.5.tekst": "Le ayudamos a elegir el esquema de importación y a los socios adecuados, a preparar la documentación y a organizar el transporte. Coordinamos el primer despacho aduanero y la entrega en el lugar que usted indique en México.",
+ "proces.6.tytul": "Ventas y crecimiento",
+ "proces.6.tekst": "Con el producto listo, podemos ayudarle a encontrar distribuidores y clientes, preparar su participación en ferias y acompañar el crecimiento de las ventas. Si lo necesita, también podemos actuar como socio local de su empresa en México.",
+ "proces.h2.partnerzy": "Con quién trabajamos",
+ "proces.partnerzy.p1": "Algunos trámites solo pueden hacerlos entidades autorizadas. El despacho aduanero lo realizan agentes aduanales con patente, y la certificación y las pruebas, organismos y laboratorios acreditados en México. Trabajamos con socios de confianza y los elegimos según el producto y el proyecto.",
+ "proces.partnerzy.p2": "Para usted esto significa un solo punto de contacto. Nosotros coordinamos el trabajo, reunimos la información, damos seguimiento a cada etapa y le mantenemos al tanto de cómo avanza el proyecto.",
+ "wiedza.seo.tytul": "Conocimiento sobre el mercado mexicano | GRUPO ERVOY",
+ "wiedza.seo.opis": "NOM, aranceles, importación, etiquetado y requisitos para vender en México. Información práctica para fabricantes europeos que quieren crecer en este mercado.",
+ "wiedza.label": "Conocimiento",
+ "wiedza.h1": "Lo que necesita saber para preparar su producto para México",
+ "wiedza.lead": "Aquí reunimos respuestas a las preguntas que más aparecen al preparar un producto para venderse en México. Escribimos sobre regulación, normas, importación, etiquetado y aspectos prácticos de la operación. En cada artículo indicamos la fecha de actualización y las fuentes en las que nos basamos.",
+ "wiedza.zastrzezenie": "Los artículos son informativos y no sustituyen el análisis de un producto concreto. Los requisitos pueden depender del tipo de producto, su clasificación y la forma de venta.",
+ "wiedza.dzial.1.nazwa": "Artículos",
+ "wiedza.dzial.1.opis": "Cómo funciona la entrada al mercado mexicano: normas, aranceles, importación y etiquetado.",
+ "wiedza.dzial.2.nazwa": "Novedades regulatorias",
+ "wiedza.dzial.2.opis": "Cambios en la regulación mexicana que afectan la importación y la venta.",
+ "wiedza.dzial.3.nazwa": "Recursos",
+ "wiedza.dzial.3.opis": "Calendario de ferias y glosario para consulta rápida.",
+ "wiedza.et.aktualizacja": "Actualizado:",
+ "wiedza.et.podstawa": [
+  {
+   "t": "p",
+   "h": "Fundamento legal"
+  }
+ ],
+ "wiedza.et.zrodla": "Fuentes",
+ "wiedza.et.czytaj": "Leer más",
+ "wiedza.et.powiazane": "Servicios relacionados",
+ "wiedza.et.wszystkie": "Todos los artículos",
+ "wiedza.et.cta.h2": "¿Tiene una pregunta sobre su producto?",
+ "wiedza.et.cta.tekst": "Los requisitos suelen depender del tipo de producto y de su clasificación. Cuéntenos sobre el suyo y revisaremos qué le aplica. La primera asesoría es gratuita.",
+ "faq.h2": "Preguntas frecuentes",
+ "faq.1.pytanie": "¿Qué es una NOM y cuándo aplica?",
+ "faq.1.odpowiedz": "Las Normas Oficiales Mexicanas son reglas técnicas obligatorias sobre, entre otras cosas, seguridad, especificaciones técnicas y etiquetado de productos. No todos los productos tienen los mismos requisitos: las normas que aplican dependen, entre otros factores, del tipo de producto y de su clasificación. Lo revisamos en la etapa de análisis.",
+ "faq.2.pytanie": "¿Necesito una empresa en México para vender aquí mis productos?",
+ "faq.2.odpowiedz": "No siempre. Según el producto y el modelo de venta, se puede empezar trabajando con un importador, un distribuidor u otro socio local. En ciertos casos también podemos dar apoyo local y representar a su empresa mediante un contrato. Una empresa propia conviene cuando el volumen del negocio justifica tener una estructura en México.",
+ "faq.3.pytanie": "¿Por qué es tan importante la fracción arancelaria?",
+ "faq.3.odpowiedz": "La clasificación arancelaria influye, entre otras cosas, en el arancel, los requisitos regulatorios y los documentos necesarios para importar. Por eso conviene definirla y validarla antes del primer embarque.",
+ "faq.4.pytanie": "¿Con qué productos trabajan?",
+ "faq.4.odpowiedz": "Trabajamos con productos de consumo e industriales fabricados en Europa. No nos limitamos a una sola industria. Analizamos cada proyecto por separado y desde la primera conversación le decimos con franqueza si realmente podemos ayudarle.",
+ "faq.5.pytanie": "¿Cuánto cuesta empezar a vender en México?",
+ "faq.5.odpowiedz": "Depende sobre todo del tipo de producto y de los requisitos que debe cumplir antes de venderse. Algunos productos necesitan principalmente un etiquetado correcto; otros, además, certificación, pruebas o permisos. Por eso preparamos la propuesta y la cotización después de analizar el producto. La primera asesoría es gratuita.",
+ "faq.6.pytanie": "¿Cuánto tarda preparar un producto para venderse en México?",
+ "faq.6.odpowiedz": "Depende del producto, de los documentos requeridos, de la certificación y de los tiempos de los organismos externos. Después del análisis le presentamos un calendario estimado y le señalamos qué puede influir en la fecha de inicio de ventas.",
+ "faq.7.pytanie": "¿Pueden ser ustedes el importador de mi mercancía?",
+ "faq.7.odpowiedz": "No actuamos como importador. Lo que sí hacemos es ayudarle a definir el esquema de importación adecuado, elegir al socio que puede cumplir esa función y coordinar con él la preparación del primer embarque.",
+ "faq.8.pytanie": "¿En qué idiomas podemos hablar?",
+ "faq.8.odpowiedz": "En español, inglés y polaco. Con un equipo en México y en Polonia podemos comunicarnos sin problema tanto con el fabricante en Europa como con los socios locales en México.",
+ "faq.9.pytanie": "¿Cómo empezamos?",
+ "faq.9.odpowiedz": "Agende una asesoría gratuita y escríbanos unas líneas sobre su producto y sus planes para México. En la conversación definimos lo que necesita, después le pedimos la documentación para el análisis y le preparamos una propuesta de siguientes pasos.",
+ "marki.seo.tytul": "Nuestras marcas en México | GRUPO ERVOY",
+ "marki.seo.opis": "Simple Made Blinds Mexico y Polaca Foods son marcas de GRUPO ERVOY. Lo que aprendemos con ellas lo aplicamos al trabajo con fabricantes europeos.",
+ "marki.label": "Nuestras marcas",
+ "marki.h1": "Desarrollamos nuestras propias marcas en México",
+ "marki.lead": "Además de trabajar con fabricantes europeos, desarrollamos marcas propias en México. Pasamos por las mismas etapas que hacemos para nuestros clientes: preparar el producto y cumplir los requisitos locales, importar, resolver la logística y construir las ventas. Nuestra experiencia no viene solo de la consultoría, sino sobre todo de la práctica.",
+ "marki.smb.nazwa": "Simple Made Blinds Mexico",
+ "marki.smb.tekst": "Sistemas de protección solar y persianas a la medida para casas, oficinas y desarrollos inmobiliarios en México. La marca combina soluciones europeas con fabricación e instalación locales.",
+ "marki.smb.link": "simplemadeblinds.mx",
+ "marki.polaca.nazwa": "Polaca Foods",
+ "marki.polaca.tekst": "Alimentos de Europa Central para tiendas, mayoristas y restaurantes en México. Polaca Foods desarrolla un canal de importación que permite traer a México productos de distintos fabricantes europeos.",
+ "marki.polaca.link": "polacafoods.lat",
+ "onas.seo.tytul": "Nosotros | GRUPO ERVOY",
+ "onas.seo.opis": "Empresa mexicana con sede en Monterrey y equipo en México y Polonia. Ayudamos a fabricantes europeos a preparar sus productos para venderse en México.",
+ "onas.label": "Nosotros",
+ "onas.h1": "Una empresa mexicana que une Europa con el mercado local",
+ "onas.p1": "GRUPO ERVOY es una empresa mexicana con sede en Monterrey, Nuevo León, y un equipo que trabaja en México y en Polonia. Por eso entendemos bien a las dos partes: al fabricante europeo, su forma de trabajar y lo que espera, y la realidad del mercado mexicano.",
+ "onas.p2": "Nuestra experiencia empezó con marcas propias. Con Simple Made Blinds Mexico y Polaca Foods pasamos nosotros mismos por la preparación de productos, los requisitos formales, la importación, la logística y la construcción de ventas. Hoy aplicamos esa experiencia para ayudar a otros fabricantes europeos a crecer en México.",
+ "onas.h2.monterrey": "Por qué Monterrey",
+ "onas.monterrey.p1": "Monterrey es uno de los principales centros industriales y de negocios de México. Desde el norte del país tenemos buen acceso al mercado regional, a Estados Unidos, a los principales centros de negocio y a la infraestructura de transporte. Es una base natural para crecer en el mercado mexicano.",
+ "onas.h2.zasady": "Nuestro enfoque",
+ "onas.zasady.p1": "Antes de proponer acciones concretas queremos entender el producto, el modelo de negocio y los planes de la empresa. Solo así podemos valorar qué necesita realmente y en qué podemos ayudarle. Si pensamos que México todavía no es el destino adecuado para su producto, se lo diremos directamente.",
+ "onas.zasady.p2": "No creemos en paquetes iguales para todas las empresas. Por eso empezamos con una conversación gratuita y preparamos una propuesta concreta después de conocer el producto y el apoyo que necesita.",
+ "kontakt.seo.tytul": "Contacto | GRUPO ERVOY",
+ "kontakt.seo.opis": "Agende una asesoría gratuita. Hablamos español, inglés y polaco. GRUPO ERVOY, Monterrey, México.",
+ "kontakt.label": "Contacto",
+ "kontakt.h1": "Hablemos de su producto",
+ "kontakt.lead": "Escríbanos unas líneas sobre lo que fabrica y cómo se imagina la venta en México. Le responderemos para agendar una asesoría gratuita en el horario que más le convenga.",
+ "kontakt.przycisk.whatsapp": "Escribir por WhatsApp",
+ "kontakt.przycisk.telefon": "Llamar",
+ "kontakt.przycisk.email": "Enviar correo",
+ "kontakt.osoba1.imie": "Bogusław Daniel",
+ "kontakt.osoba1.jezyki": "Habla polaco e inglés",
+ "kontakt.osoba1.telefon": "+48 721 134 813",
+ "kontakt.osoba1.email": "boguslaw.daniel@grupoervoy.com",
+ "kontakt.osoba2.imie": "Erick Escamilla",
+ "kontakt.osoba2.jezyki": "Habla español e inglés",
+ "kontakt.osoba2.telefon": "+52 81 2590 1796",
+ "kontakt.osoba2.email": "erick.escamilla@grupoervoy.com",
+ "kontakt.firma.email": "info@grupoervoy.com",
+ "kontakt.firma.telefon": "+52 81 2590 1796",
+ "kontakt.firma.adres": "Cambridge 103, 64349 Monterrey, N.L.",
+ "kontakt.firma.prawne": "GRUPO ERVOY, S.A. de C.V. · Monterrey, Nuevo León, México",
+ "404.seo.tytul": "Página no encontrada | GRUPO ERVOY",
+ "404.label": "Error 404",
+ "404.h1": "No encontramos esta página",
+ "404.tekst": "Es posible que la dirección haya cambiado o que la página se haya movido al renovar el sitio. Le sugerimos empezar por la página de inicio o por la lista de servicios.",
+ "404.przycisk1": "Ir al inicio",
+ "404.przycisk2": "Ver servicios",
+ "404.kontakt": "Si busca algo en particular, escríbanos por WhatsApp.",
+ "art.1.tytul": "Cómo empezar a vender su producto en México: primeros pasos",
+ "art.1.zapowiedz": "¿Por dónde empezar si planea vender en México? El orden de los pasos, las decisiones clave y los puntos donde los fabricantes suelen perder más tiempo.",
+ "art.1.aktualizacja": "4 de octubre de 2026",
+ "art.1.tresc": [
+  {
+   "t": "p",
+   "h": "Casi todas las conversaciones con fabricantes empiezan con la pregunta por los clientes: quién lo va a comprar y a qué precio. Es una buena pregunta, solo que llega un poco antes de tiempo. Antes de buscar compradores hay que saber si el producto puede entrar legalmente a México, cuánto costará ya despachado y quién lo va a importar. De esas respuestas depende el precio, y del precio todo lo demás."
+  },
+  {
+   "t": "p",
+   "h": "El primer paso es la fracción arancelaria. De ella dependen el arancel, las normas que el producto debe cumplir y si el importador necesita registros adicionales. La clasificación debe acordarse a los dos lados del océano antes de que la mercancía salga de la fábrica, porque la aduana europea y la mexicana pueden clasificar el mismo producto de forma distinta."
+  },
+  {
+   "t": "p",
+   "h": "El segundo paso son las normas. Algunos productos deben cumplir Normas Oficiales Mexicanas. A veces eso significa solo una etiqueta correcta en español; otras veces, un certificado emitido después de pruebas en México. La marca CE y los certificados europeos no sustituyen el procedimiento mexicano, aunque ayudan a preparar la documentación. Esta etapa suele ser la más larga y es la que marca el calendario de todo el proyecto."
+  },
+  {
+   "t": "p",
+   "h": "El tercer paso es el origen de la mercancía y el arancel. El acuerdo entre la Unión Europea y México permite importar muchos productos europeos sin arancel, pero solo con una prueba de origen correcta. También hay excepciones, así que calcule el arancel de su fracción antes de dar un precio a nadie."
+  },
+  {
+   "t": "p",
+   "h": "El cuarto paso es el importador. Una empresa sin registro fiscal en México no puede despachar su mercancía por sí misma. Alguien en México debe hacerlo a su nombre: un distribuidor, una comercializadora o su propia empresa. De esa decisión depende quién responde por la mercancía en la aduana y a nombre de quién se emiten los documentos."
+  },
+  {
+   "t": "p",
+   "h": "Hasta ahí tiene sentido hablar de canales de venta. Conviene preguntar qué certificados de calidad piden a sus proveedores las cadenas comerciales o los grandes compradores de su sector. La falta de un solo documento puede cerrar un canal entero, por bueno que sea el producto."
+  },
+  {
+   "t": "p",
+   "h": "El tiempo se pierde sobre todo cuando los pasos se hacen en el orden equivocado. Ejemplos típicos: diseñar la etiqueta antes de revisar los requisitos de la norma, cambiar la fracción de un lado sin avisar al otro, o enviar muestras para pruebas en una versión que no se puede vender en México. Cada uno de esos errores cuesta semanas y a veces meses."
+  },
+  {
+   "t": "p",
+   "h": "El transporte suele ser lo de menos. Un contenedor del norte de Europa a Veracruz o Altamira tarda más o menos entre tres y cinco semanas."
+  }
+ ],
+ "art.1.podstawa": [
+  {
+   "t": "ul",
+   "items": [
+    "Ley Aduanera, texto vigente desde el 1 de enero de 2026",
+    "Decisión n.º 2/2000 del Consejo Conjunto UE-México, anexo III (reglas de origen)",
+    "Ley de Infraestructura de la Calidad"
+   ]
+  }
+ ],
+ "art.2.tytul": "Normas NOM: cómo saber si aplican a su producto",
+ "art.2.zapowiedz": "Qué son las Normas Oficiales Mexicanas, cuándo aplican y cómo saber qué requisitos corresponden a un producto concreto.",
+ "art.2.aktualizacja": "4 de octubre de 2026",
+ "art.2.tresc": [
+  {
+   "t": "p",
+   "h": "Con cada producto nuevo la primera pregunta es la misma: ¿le aplica alguna NOM? Las Normas Oficiales Mexicanas son reglas técnicas obligatorias que emiten las secretarías de Estado, cada una en su ámbito. Regulan la seguridad de los productos, sus especificaciones técnicas o la información que debe llevar la etiqueta y el instructivo. Junto a ellas existen las normas NMX, que son voluntarias. Cuando en México se habla de una norma que hay que cumplir, casi siempre se trata de una NOM."
+  },
+  {
+   "t": "p",
+   "h": "El punto de partida para saber qué normas aplican es la fracción arancelaria. La Secretaría de Economía publica el Anexo 2.4.1 de sus reglas de comercio exterior: una lista de fracciones en las que la aduana revisa el cumplimiento de una norma concreta en el despacho. Si su fracción aparece en esa lista, la mercancía no pasa sin comprobar el cumplimiento."
+  },
+  {
+   "t": "p",
+   "h": "Que la fracción no esté en la lista no significa que la norma no aplique. Muchas normas se refieren a productos que se comercializan en México, no solo a los que se importan. En ese caso la vigilancia llega después, en el mercado, y la hace, entre otros, la PROFECO. Las propias normas tienen además sus campos de aplicación y excepciones, así que la lista del anexo siempre debe leerse junto con el texto de la norma."
+  },
+  {
+   "t": "p",
+   "h": "En la práctica, cumplir se ve muy distinto según el producto. En unos basta una etiqueta correcta en español. En otros, una unidad de verificación emite un documento por modelo, cuyo número se declara en el pedimento. Y en otros hace falta un certificado de un organismo de certificación acreditado, emitido después de pruebas en un laboratorio en México. Los certificados y reportes de pruebas europeos ayudan a preparar el expediente, pero no sustituyen el procedimiento mexicano."
+  },
+  {
+   "t": "p",
+   "h": "Desde el 1 de enero de 2026 un error en este punto sale mucho más caro. Si al importar no se acredita el cumplimiento requerido de una norma, la multa puede ir del 250 al 300 % del valor comercial de la mercancía. Por eso definimos las normas aplicables al principio, junto con la fracción arancelaria."
+  }
+ ],
+ "art.2.podstawa": [
+  {
+   "t": "ul",
+   "items": [
+    "Ley de Infraestructura de la Calidad, arts. 154 a 156",
+    "Anexo 2.4.1 del Acuerdo por el que la Secretaría de Economía emite reglas y criterios de carácter general en materia de comercio exterior",
+    "Ley Aduanera, art. 178, fracc. IV, vigente desde el 1 de enero de 2026 (DOF 19/11/2025)"
+   ]
+  }
+ ],
+ "art.3.tytul": "La fracción arancelaria: por qué importa tanto",
+ "art.3.zapowiedz": "La fracción arancelaria influye en el arancel, los requisitos regulatorios y los documentos de importación. Cómo se define y cuándo conviene pedir un criterio oficial.",
+ "art.3.aktualizacja": "4 de octubre de 2026",
+ "art.3.tresc": [
+  {
+   "t": "p",
+   "h": "Una fracción distinta puede decidir si la mercancía entra a México sin arancel o paga la tasa completa. La fracción arancelaria es el código con el que la mercancía aparece en la tarifa. México usa códigos de diez dígitos: ocho corresponden a la fracción y los dos últimos al NICO, una subdivisión con fines estadísticos. Los primeros seis dígitos vienen del Sistema Armonizado internacional y son comunes a México y a la Unión Europea. A partir de ahí los sistemas se separan."
+  },
+  {
+   "t": "p",
+   "h": "De una sola fracción dependen varias cosas: el arancel, las normas que se revisan en el despacho, un posible padrón sectorial del importador y, en algunas mercancías, un precio estimado. Declarar un valor inferior a ese precio manda automáticamente la operación a revisión."
+  },
+  {
+   "t": "p",
+   "h": "A veces solo una revisión cuidadosa de los materiales del producto cambia su clasificación. Con la nueva fracción puede dejar de aplicar una norma, desaparecer el padrón sectorial y cambiar la regla de origen. Un número arrastra la mitad de los requisitos."
+  },
+  {
+   "t": "p",
+   "h": "También pasa que dos aduanas tienen razón y no coinciden. El Sistema Armonizado es vinculante en inglés y francés, y cada país usa su propia traducción. Si en la traducción se pierde una palabra, la aduana europea y la mexicana pueden asignar, cada una conforme a su ley, la misma mercancía a partidas diferentes. Normalmente se descubre al emitir la prueba de origen, con la mercancía ya en camino. Por eso acordamos la fracción por escrito antes del envío con el fabricante, su agencia aduanal en Europa, el importador y el agente aduanal en México."
+  },
+  {
+   "t": "p",
+   "h": "Si la clasificación genera dudas, antes de importar se puede presentar una consulta de clasificación arancelaria a la autoridad. El fundamento es el artículo 47 de la Ley Aduanera. Pueden presentarla importadores, exportadores y agentes aduanales. El trámite es gratuito y la autoridad tiene tres meses para responder. Mientras tanto se puede despachar la mercancía pagando el arancel más alto de las fracciones en discusión. La resolución vincula a la autoridad frente a quien consultó y es una prueba sólida de debida diligencia."
+  }
+ ],
+ "art.3.podstawa": [
+  {
+   "t": "ul",
+   "items": [
+    "Ley Aduanera, art. 47",
+    "Código Fiscal de la Federación, arts. 34 y 37",
+    "Ley de los Impuestos Generales de Importación y de Exportación (LIGIE)"
+   ]
+  }
+ ],
+ "art.4.tytul": "El importador en México: quién puede serlo",
+ "art.4.zapowiedz": "Quién puede ser importador, qué papel tiene en el proceso y qué opciones existen si su empresa todavía no tiene estructura propia en México.",
+ "art.4.aktualizacja": "4 de octubre de 2026",
+ "art.4.tresc": [
+  {
+   "t": "p",
+   "h": "En el pedimento, como importador solo puede aparecer, por regla general, una persona con RFC mexicano inscrita en el Padrón de Importadores del SAT. Una empresa europea sin registro en México no puede, por lo tanto, despachar su propia mercancía, aunque pague el flete y venda directamente a un cliente mexicano."
+  },
+  {
+   "t": "p",
+   "h": "Algunas fracciones exigen además el padrón de sectores específicos. Ese registro lo tiene el importador, no el fabricante, y no se puede pedir prestado para un solo embarque. Conviene revisarlo antes de empezar a hablar con un posible importador."
+  },
+  {
+   "t": "p",
+   "h": "En la práctica, el importador puede ser:"
+  },
+  {
+   "t": "ul",
+   "items": [
+    "un distribuidor que le compra la mercancía y la importa a su nombre,",
+    "una comercializadora, que importa la mercancía a su nombre y la revende,",
+    "su propia empresa en México, una vez registrada ante el SAT."
+   ]
+  },
+  {
+   "t": "p",
+   "h": "Las comercializadoras suelen cobrar un porcentaje del valor de la factura, a veces con una cuota fija por embarque. En embarques pequeños esa cuota fija puede pesar más que el porcentaje, así que compare la estructura completa de costos y no solo la tasa."
+  },
+  {
+   "t": "p",
+   "h": "El importador responde ante la aduana por lo que declara. Paga aranceles e impuestos y asume las consecuencias de errores en la fracción, los documentos o la etiqueta. Desde 2026, importar sin acreditar el cumplimiento requerido de una norma puede costar una multa del 250 al 300 % del valor de la mercancía, así que un buen importador hará muchas preguntas sobre los documentos. Es buena señal."
+  },
+  {
+   "t": "p",
+   "h": "Al elegir, revise si el importador puede pagar en euros, pida su constancia de situación fiscal vigente y deje por escrito a nombre de quién se emitirán los certificados y documentos de cumplimiento. Si un día cambia de socio, de eso depende el costo del cambio."
+  },
+  {
+   "t": "p",
+   "h": "Si todavía no tiene empresa en México, alguien tiene que representarle aquí y cuidar que el importador, el agente aduanal y los organismos de certificación trabajen con los mismos plazos. No tiene que ser el importador; muchas veces es mejor que esos papeles estén separados."
+  }
+ ],
+ "art.4.podstawa": [
+  {
+   "t": "ul",
+   "items": [
+    "Ley Aduanera, arts. 59 y 178, vigentes desde el 1 de enero de 2026",
+    "Reglas Generales de Comercio Exterior 2026, padrón de importadores y padrones sectoriales"
+   ]
+  }
+ ],
+ "art.5.tytul": "Origen de la mercancía y aranceles en el comercio UE-México",
+ "art.5.zapowiedz": "Cómo acreditar el origen preferente del producto, qué documentos pueden necesitarse y por qué conviene tenerlos antes del envío.",
+ "art.5.aktualizacja": "4 de octubre de 2026",
+ "art.5.tresc": [
+  {
+   "t": "p",
+   "h": "El mismo producto europeo puede entrar a México sin arancel o pagar varias decenas por ciento. Muchas veces la diferencia la hace un solo documento. Desde el año 2000 el comercio entre la Unión Europea y México se rige por un tratado de libre comercio, el TLCUEM. Gracias a él muchas mercancías europeas entran sin arancel o con una tasa reducida, pero solo si las acompaña una prueba de origen. Sin ella se aplica la tasa general, que desde inicios de 2026 es alta para muchos productos y puede llegar a varias decenas por ciento."
+  },
+  {
+   "t": "p",
+   "h": "Las reglas de origen prevén tres tipos de prueba:"
+  },
+  {
+   "t": "ul",
+   "items": [
+    "la declaración en factura, para envíos de hasta 6000 euros,",
+    "el certificado EUR.1, emitido por la aduana del país exportador, para cualquier valor,",
+    "la declaración en factura de un exportador autorizado, para cualquier valor."
+   ]
+  },
+  {
+   "t": "p",
+   "h": "El umbral de 6000 euros solo define el tipo de documento. No genera ninguna obligación de pagar aranceles."
+  },
+  {
+   "t": "p",
+   "h": "El EUR.1 lo emite la aduana del país exportador; en Polonia, por ejemplo, es gratuito y suele estar listo en uno o dos días. Al agente aduanal en México tiene que llegarle el original: una copia escaneada no sirve. Más práctico es el estatus de exportador autorizado, que se obtiene una sola vez y permite imprimir una leyenda fija en cada factura. No es un número REX. El sistema REX no se aplica al comercio con México y una factura con una declaración en ese formato no da derecho a la preferencia."
+  },
+  {
+   "t": "p",
+   "h": "Que la etiqueta diga «Made in Germany» o «Made in Poland» no significa todavía que la mercancía sea originaria en el sentido del tratado. Cuenta de dónde vienen los materiales y si tuvieron en la UE una transformación suficiente. El tratado tiene una regla para cada partida y algunos productos no la cumplen aunque se fabriquen en Europa. Si el exportador no es el fabricante, necesita declaraciones de origen de sus proveedores."
+  },
+  {
+   "t": "p",
+   "h": "No todas las mercancías europeas están hoy libres de arancel. Algunas fracciones pagan la tasa completa o solo una reducida. Las calculadoras de aranceles en internet no siempre lo reflejan, por eso revisamos la tasa en el texto legal y con el agente aduanal."
+  },
+  {
+   "t": "p",
+   "h": "En mayo de 2026 la Unión Europea y México firmaron dos nuevos instrumentos: el Acuerdo Global Modernizado y el Acuerdo Comercial Interino. Para las empresas importa más el segundo, porque cubre el comercio y puede entrar en vigor antes, sin esperar la ratificación de todos los Estados de la UE. Del lado europeo el proceso terminó en julio de 2026."
+  },
+  {
+   "t": "p",
+   "h": "México todavía no ha completado su parte. Según la información de finales de septiembre de 2026, los documentos aún no se habían enviado formalmente al Senado. El acuerdo interino entrará en vigor el primer día del segundo mes después de que ambas partes se notifiquen el fin de sus procedimientos, así que por ahora no hay fecha cierta. Mientras tanto aplican las reglas descritas arriba."
+  }
+ ],
+ "art.5.podstawa": [
+  {
+   "t": "ul",
+   "items": [
+    "Decisión n.º 2/2000 del Consejo Conjunto UE-México, anexo III",
+    "Acuerdo del 31/08/2022 (DOF), aranceles para mercancías originarias de la UE",
+    "Acuerdo Comercial Interino UE-México, Diario Oficial de la UE del 31/07/2026"
+   ]
+  }
+ ],
+ "art.6.tytul": "Etiquetado de alimentos en México y los sellos de la NOM-051",
+ "art.6.zapowiedz": "Cómo funcionan los sellos negros de advertencia, qué significan para el diseño de la etiqueta y cuándo conviene una constancia de conformidad.",
+ "art.6.aktualizacja": "4 de octubre de 2026",
+ "art.6.tresc": [
+  {
+   "t": "p",
+   "h": "Quien ha entrado a un supermercado en México conoce los octágonos negros en los empaques: EXCESO AZÚCARES, EXCESO CALORÍAS, EXCESO SODIO. Son los sellos de advertencia que exige la NOM-051, la norma que regula toda la etiqueta de alimentos y bebidas que se venden en México."
+  },
+  {
+   "t": "p",
+   "h": "Un sello aparece cuando el producto rebasa los límites de calorías, azúcares, grasas saturadas, grasas trans o sodio. Se calculan por cada 100 gramos o 100 mililitros, no por porción, así que reducir la porción no cambia nada. Muchos productos que en Europa se consideran normales reciben en México dos o tres sellos."
+  },
+  {
+   "t": "p",
+   "h": "El sello no es solo un símbolo en el empaque. En productos con sellos no se permiten personajes ni elementos dirigidos a niños, y están prohibidas las declaraciones de salud y parte de las declaraciones nutrimentales. Desde marzo de 2025 esos productos no pueden venderse en escuelas. Son decisiones que afectan el diseño del empaque y a veces el concepto de toda la marca."
+  },
+  {
+   "t": "p",
+   "h": "La etiqueta en sí también es distinta de la europea, aunque a primera vista se parezca. México presenta los alérgenos de otra forma, describe los azúcares de otra manera y pide parte de la información en otro lugar o formato. Una etiqueta traducida palabra por palabra de la versión europea normalmente no cumple."
+  },
+  {
+   "t": "p",
+   "h": "Por eso el orden importa: primero revisamos qué sellos tendrá el producto y qué no se podrá mostrar en el empaque, y solo después se hace el diseño gráfico. Desde 2026 importar sin acreditar el cumplimiento requerido de una norma puede costar una multa del 250 al 300 % del valor de la mercancía, así que corregir la etiqueta en la aduana sale muy caro."
+  },
+  {
+   "t": "h3",
+   "h": "¿Necesita una constancia de conformidad?"
+  },
+  {
+   "t": "p",
+   "h": "La constancia de conformidad es un documento en el que una unidad acreditada confirma que la etiqueta cumple con la norma. En etiquetas de alimentos es voluntaria: la NOM-051 establece que la evaluación de la conformidad no es certificable, y la Secretaría de Economía confirmó en 2020 que la mercancía etiquetada antes del envío puede importarse sin ella."
+  },
+  {
+   "t": "p",
+   "h": "Aun así, en los primeros embarques suele valer la pena, porque su costo es pequeño frente a una posible multa. También puede solicitarla el fabricante o un comercializador, así que no hace falta tener importador todavía. La unidad revisa la etiqueta de forma visual: si contiene toda la información requerida y en la forma correcta. No analiza el producto en laboratorio, de modo que la responsabilidad por los valores de la etiqueta sigue siendo de quien los preparó."
+  },
+  {
+   "t": "p",
+   "h": "En algunas otras normas el documento de cumplimiento no es voluntario. Se emite por modelo y su número debe declararse en el pedimento."
+  }
+ ],
+ "art.6.podstawa": [
+  {
+   "t": "ul",
+   "items": [
+    "NOM-051-SCFI/SSA1-2010, con su modificación del 27/03/2020",
+    "Lineamientos para la alimentación en escuelas (DOF 30/09/2024), vigentes desde el 29/03/2025",
+    "Acuerdo del 10/07/2020 (DOF) y oficio de la Secretaría de Economía 414.2020.2469 del 02/10/2020",
+    "Ley Aduanera, art. 178, fracc. IV, vigente desde el 1 de enero de 2026"
+   ]
+  }
+ ],
+ "art.7.tytul": "Quién puede ser titular de un certificado NOM",
+ "art.7.zapowiedz": "Qué opciones tiene un fabricante extranjero y por qué la elección del titular del certificado influye en la importación y la venta.",
+ "art.7.aktualizacja": "4 de octubre de 2026",
+ "art.7.tresc": [
+  {
+   "t": "p",
+   "h": "En México se escucha con frecuencia que un certificado NOM solo puede estar a nombre de una empresa mexicana, así que el fabricante extranjero tiene que tramitarlo a nombre de su importador. No siempre es así. Algunas normas permiten que el titular sea un fabricante de otro país, siempre que tenga representación legal en México."
+  },
+  {
+   "t": "p",
+   "h": "Esto importa más de lo que parece al principio. Quien es titular del certificado decide quién puede vender legalmente el producto con él. El certificado puede ampliarse a una empresa designada, por ejemplo un distribuidor, pero no puede transferirse a otra. Si el certificado lo tiene su distribuidor y la relación termina, el certificado se queda con él y el nuevo socio empieza de cero. Si el certificado es suyo o de su representante en México, puede cambiar de distribuidor sin repetir todo el proceso."
+  },
+  {
+   "t": "p",
+   "h": "Ser titular también implica obligaciones. El titular responde ante las autoridades mexicanas por el cumplimiento del producto, paga el seguimiento y las renovaciones, y el certificado tiene una vigencia limitada, normalmente de uno a tres años. Durante ese tiempo el organismo de certificación puede tomar muestras para pruebas de seguimiento."
+  },
+  {
+   "t": "p",
+   "h": "Las reglas cambian según la norma. En algunos productos no existe certificado y en otros los documentos se emiten a nombre del importador. Por eso decidimos a nombre de quién estará el certificado antes de presentar la solicitud, junto con el esquema de importación."
+  }
+ ],
+ "art.7.podstawa": [
+  {
+   "t": "ul",
+   "items": [
+    "NOM-003-SCFI-2014, numerales 9.4.1, 9.5.3.5 y 9.5.5 (ejemplo de norma que admite un titular extranjero)",
+    "Ley de Infraestructura de la Calidad"
+   ]
+  }
+ ],
+ "akt.1.tytul": "Reforma aduanera 2026 en México: lo que cambió",
+ "akt.1.zapowiedz": "Los principales cambios de la legislación aduanera mexicana en 2026 y lo que significan para las empresas que importan a México.",
+ "akt.1.aktualizacja": "4 de octubre de 2026",
+ "akt.1.tresc": [
+  {
+   "t": "p",
+   "h": "El 19 de noviembre de 2025 se publicó en el Diario Oficial de la Federación el decreto que reforma la Ley Aduanera. Modifica, adiciona o deroga más de cien artículos, y la mayoría de los cambios rige desde el 1 de enero de 2026. Aquí reunimos los que realmente afectan a un fabricante europeo y a su importador."
+  },
+  {
+   "t": "p",
+   "h": "El cambio más importante está en las multas. Por importar sin acreditar el cumplimiento requerido de regulaciones no arancelarias, entre ellas las NOM, la multa iba hasta finales de 2025 del 70 al 100 % del valor comercial de la mercancía, y las normas de información comercial quedaban fuera. Desde el 1 de enero de 2026 va del 250 al 300 % y esa excepción ya no existe. Un error de etiquetado que antes se trataba con más flexibilidad hoy puede costar entre dos veces y media y tres veces el valor de la propia mercancía. También subieron las multas por datos incorrectos en la manifestación de valor y por presentar documentos fuera de plazo."
+  },
+  {
+   "t": "p",
+   "h": "La reforma amplió la responsabilidad de los agentes aduanales. El agente debe revisar a fondo los documentos y el cumplimiento, sin las excluyentes de responsabilidad que existían antes. En la práctica los agentes piden más documentos y hacen más preguntas. El primer despacho tarda más, pero el importador está mejor protegido."
+  },
+  {
+   "t": "p",
+   "h": "El importador debe llevar un control de inventarios automatizado y un expediente electrónico por operación, con facturas, contratos, documentos sobre el valor y comprobantes de pago. Los datos del pedimento solo pueden rectificarse antes de la activación del mecanismo de selección automatizado. A cambio, un nuevo artículo permite aplicar la preferencia arancelaria después del despacho, dentro de los plazos del tratado correspondiente."
+  },
+  {
+   "t": "p",
+   "h": "Aparte está el decreto del 29 de diciembre de 2025, que subió los aranceles de 1477 fracciones a niveles de entre 5 y 50 %. Aplica a países con los que México no tiene tratado comercial, sobre todo China. Las mercancías de la UE con prueba de origen conservan las tasas preferenciales, así que la diferencia entre un embarque con prueba de origen correcta y uno sin ella ahora es mucho mayor."
+  },
+  {
+   "t": "p",
+   "h": "La conclusión es sencilla: la fracción, la etiqueta y las pruebas de origen deben revisarse antes del envío, porque corregirlas en la aduana hoy cuesta mucho más que hace un año."
+  }
+ ],
+ "akt.1.podstawa": [
+  {
+   "t": "ul",
+   "items": [
+    "Decreto por el que se reforman, adicionan y derogan diversas disposiciones de la Ley Aduanera (DOF 19/11/2025)",
+    "Ley Aduanera, arts. 59, 89, 89 Bis, 178, 184-B y 185, vigentes desde el 1 de enero de 2026",
+    "Decreto del 29/12/2025 (DOF) que modifica la Tarifa de la LIGIE"
+   ]
+  }
+ ],
+ "zas.targi.tytul": "Ferias comerciales en México: calendario",
+ "zas.targi.zapowiedz": "Las ferias más relevantes para fabricantes europeos en Monterrey, Ciudad de México y Guadalajara, con fechas, sede y una breve descripción.",
+ "zas.targi.aktualizacja": "4 de octubre de 2026",
+ "zas.targi.wstep": "Las principales ferias comerciales de México se celebran en Monterrey, en la capital y en Guadalajara. Elegimos las que tienen sentido para fabricantes europeos. Damos fechas exactas cuando el organizador ya las anunció. El nombre de cada feria lleva a su sitio oficial.",
+ "zas.targi.1.nazwa": "Obra Blanca 2026",
+ "zas.targi.1.termin": "13–15 oct 2026",
+ "zas.targi.1.miejsce": "Ciudad de México · Expo Santa Fe",
+ "zas.targi.1.branza": "Construcción, Mueble y diseño",
+ "zas.targi.1.opis": "Arquitectos, interioristas, desarrolladores, fabricantes y distribuidores. Para empresas de construcción, acabados, ventanas, protección solar y diseño.",
+ "zas.targi.1.link": "https://obrablancaexpo.com",
+ "zas.targi.1.polecamy": "sí",
+ "zas.targi.2.nazwa": "Expo CIHAC 2026",
+ "zas.targi.2.termin": "14–16 oct 2026",
+ "zas.targi.2.miejsce": "Ciudad de México · Centro Citibanamex",
+ "zas.targi.2.branza": "Construcción",
+ "zas.targi.2.opis": "Según el organizador, la mayor feria de construcción, arquitectura y diseño de México. Para fabricantes de materiales, fachadas y acabados.",
+ "zas.targi.2.link": "https://www.expocihac.com",
+ "zas.targi.2.polecamy": "no",
+ "zas.targi.3.nazwa": "Cancún Travel Mart 2026",
+ "zas.targi.3.termin": "21–23 oct 2026",
+ "zas.targi.3.miejsce": "Cancún · Iberostar Selection Cancún",
+ "zas.targi.3.branza": "Retail y HoReCa",
+ "zas.targi.3.opis": "Encuentros con hoteles, operadores turísticos y compradores del sector hotelero y turístico.",
+ "zas.targi.3.link": "https://www.cancuntravelmart.com",
+ "zas.targi.3.polecamy": "no",
+ "zas.targi.4.nazwa": "Medical Expo CDMX 2026",
+ "zas.targi.4.termin": "27–29 oct 2026",
+ "zas.targi.4.miejsce": "Ciudad de México · World Trade Center",
+ "zas.targi.4.branza": "Salud",
+ "zas.targi.4.opis": "Para fabricantes de dispositivos, equipo y tecnología médica sujetos a requisitos regulatorios en México.",
+ "zas.targi.4.link": "https://medical-expo.com.mx",
+ "zas.targi.4.polecamy": "no",
+ "zas.targi.5.nazwa": "FUNDIEXPO 2026",
+ "zas.targi.5.termin": "28–30 oct 2026",
+ "zas.targi.5.miejsce": "Monterrey · Cintermex",
+ "zas.targi.5.branza": "Metalmecánica y fundición, Automotriz, Manufactura industrial",
+ "zas.targi.5.opis": "Feria de la fundición y la transformación de metales. Para proveedores de maquinaria, componentes, materiales y tecnología para fundiciones e industria.",
+ "zas.targi.5.link": "https://www.fundiexpo.mx",
+ "zas.targi.5.polecamy": "sí",
+ "zas.targi.6.nazwa": "Expo Eléctrica y Solar Norte 2026",
+ "zas.targi.6.termin": "11–12 nov 2026",
+ "zas.targi.6.miejsce": "Monterrey · Cintermex",
+ "zas.targi.6.branza": "HVAC y energía",
+ "zas.targi.6.opis": "Sector eléctrico y solar del norte de México. Para fabricantes de equipo eléctrico, HVAC y soluciones de eficiencia energética.",
+ "zas.targi.6.link": "https://expoelectrica.com.mx",
+ "zas.targi.6.polecamy": "no",
+ "zas.targi.7.nazwa": "North America Automotive B2B Meeting 2026",
+ "zas.targi.7.termin": "11–12 nov 2026",
+ "zas.targi.7.miejsce": "Aguascalientes · FICOTRECE",
+ "zas.targi.7.branza": "Automotriz, Manufactura industrial, Metalmecánica y fundición, Plásticos",
+ "zas.targi.7.opis": "Citas de negocios B2B entre compradores y proveedores de la cadena automotriz. Para empresas industriales europeas que buscan clientes en el sector.",
+ "zas.targi.7.link": "https://auto.capim.com.mx",
+ "zas.targi.7.polecamy": "sí",
+ "zas.targi.8.nazwa": "Expo Proveedores del Transporte y Logística 2027",
+ "zas.targi.8.termin": "27–29 ene 2027",
+ "zas.targi.8.miejsce": "Puebla · Centro Expositor Puebla",
+ "zas.targi.8.branza": "Logística, Automotriz",
+ "zas.targi.8.opis": "Transporte, logística e intralogística. Buen acceso a compradores y proveedores del centro y sureste de México.",
+ "zas.targi.8.link": "https://etyl.mx",
+ "zas.targi.8.polecamy": "no",
+ "zas.targi.9.nazwa": "Expo Carnes y Lácteos 2027",
+ "zas.targi.9.termin": "9–11 feb 2027",
+ "zas.targi.9.miejsce": "Monterrey · Cintermex",
+ "zas.targi.9.branza": "Alimentos y bebidas, Tecnología industrial",
+ "zas.targi.9.opis": "Industria cárnica y láctea. Para fabricantes de maquinaria, refrigeración, empaque, ingredientes y tecnología para procesamiento de alimentos.",
+ "zas.targi.9.link": "https://expocarnes.com",
+ "zas.targi.9.polecamy": "no",
+ "zas.targi.10.nazwa": "Expo Mueble Internacional, Edición Invierno 2027",
+ "zas.targi.10.termin": "17–20 feb 2027 · por confirmar",
+ "zas.targi.10.miejsce": "Guadalajara · Expo Guadalajara",
+ "zas.targi.10.branza": "Mueble y diseño",
+ "zas.targi.10.opis": "Una de las ferias de mueble más importantes de América Latina. Para proveedores de muebles, componentes, materiales y productos premium.",
+ "zas.targi.10.link": "https://expomuebleinternacional.com.mx",
+ "zas.targi.10.polecamy": "sí",
+ "zas.targi.11.nazwa": "Expo Manufactura 2027",
+ "zas.targi.11.termin": "23–25 feb 2027",
+ "zas.targi.11.miejsce": "Monterrey · Cintermex",
+ "zas.targi.11.branza": "Manufactura industrial, Automotriz, Tecnología industrial",
+ "zas.targi.11.opis": "Manufactura y automatización. Acceso a plantas productivas, compradores industriales y proveedores de tecnología del norte de México.",
+ "zas.targi.11.link": "https://expomanufactura.com.mx",
+ "zas.targi.11.polecamy": "sí",
+ "zas.targi.12.nazwa": "Expo ANTAD & Alimentaria México",
+ "zas.targi.12.termin": "abril/mayo 2027 · fecha por anunciar",
+ "zas.targi.12.miejsce": "Guadalajara · Expo Guadalajara",
+ "zas.targi.12.branza": "Alimentos y bebidas, Retail y HoReCa",
+ "zas.targi.12.opis": "Retail, HoReCa y alimentos. Llegan compradores de cadenas comerciales y distribuidores de todo el país.",
+ "zas.targi.12.link": "https://expoantad.com.mx",
+ "zas.targi.12.polecamy": "no",
+ "zas.targi.13.nazwa": "FABTECH México 2027",
+ "zas.targi.13.termin": "4–6 may 2027",
+ "zas.targi.13.miejsce": "Monterrey · Cintermex",
+ "zas.targi.13.branza": "Metalmecánica y fundición, Manufactura industrial",
+ "zas.targi.13.opis": "Transformación y formado de metales: corte, doblez, estampado, soldadura y acabados.",
+ "zas.targi.13.link": "https://mexico.fabtechexpo.com",
+ "zas.targi.13.polecamy": "no",
+ "zas.targi.14.nazwa": "Expo Eléctrica Internacional",
+ "zas.targi.14.termin": "mayo 2027 · fecha por anunciar",
+ "zas.targi.14.miejsce": "Ciudad de México · Centro Citibanamex",
+ "zas.targi.14.branza": "HVAC y energía",
+ "zas.targi.14.opis": "Instalaciones eléctricas, iluminación, automatización y energía solar.",
+ "zas.targi.14.link": "https://expoelectrica.com.mx",
+ "zas.targi.14.polecamy": "no",
+ "zas.targi.15.nazwa": "Expo Proveedores del Restaurante 2027",
+ "zas.targi.15.termin": "25–27 may 2027",
+ "zas.targi.15.miejsce": "Monterrey · Cintermex",
+ "zas.targi.15.branza": "Retail y HoReCa, Alimentos y bebidas",
+ "zas.targi.15.opis": "Proveedores para restaurantes, hoteles y servicios de alimentos del norte de México: alimentos, equipo, tecnología y servicios.",
+ "zas.targi.15.link": "https://www.paraelrestaurante.com",
+ "zas.targi.15.polecamy": "no",
+ "zas.targi.16.nazwa": "EXPO PACK Guadalajara 2027",
+ "zas.targi.16.termin": "8–10 jun 2027",
+ "zas.targi.16.miejsce": "Guadalajara · Expo Guadalajara",
+ "zas.targi.16.branza": "Tecnología industrial, Alimentos y bebidas",
+ "zas.targi.16.opis": "Envase, empaque y procesos de envasado. Para fabricantes de empaques, maquinaria de envasado y soluciones para líneas de producción. Se celebra cada dos años.",
+ "zas.targi.16.link": "https://expopackguadalajara.com.mx",
+ "zas.targi.16.polecamy": "no",
+ "zas.targi.17.nazwa": "Expo Constructo",
+ "zas.targi.17.termin": "anual 2027 · fecha por anunciar",
+ "zas.targi.17.miejsce": "Monterrey · Cintermex",
+ "zas.targi.17.branza": "Construcción",
+ "zas.targi.17.opis": "Construcción en el norte de México: materiales, arquitectura, maquinaria, herramienta y acabados.",
+ "zas.targi.17.link": "https://constructo.com.mx",
+ "zas.targi.17.polecamy": "no",
+ "zas.targi.18.nazwa": "Confitexpo",
+ "zas.targi.18.termin": "agosto 2027 · fecha por anunciar",
+ "zas.targi.18.miejsce": "Guadalajara · Expo Guadalajara",
+ "zas.targi.18.branza": "Alimentos y bebidas",
+ "zas.targi.18.opis": "Dulces, chocolate, botanas, panificación, materias primas y empaques para el sector.",
+ "zas.targi.18.link": "https://www.confitexpo.com",
+ "zas.targi.18.polecamy": "no",
+ "zas.targi.19.nazwa": "Abastur",
+ "zas.targi.19.termin": "agosto 2027 · fecha por anunciar",
+ "zas.targi.19.miejsce": "Ciudad de México · Centro Citibanamex",
+ "zas.targi.19.branza": "Retail y HoReCa, Alimentos y bebidas",
+ "zas.targi.19.opis": "Hoteles, restaurantes, cafeterías y banquetes. Para proveedores de alimentos, bebidas y equipo que quieren vender al canal HoReCa.",
+ "zas.targi.19.link": "https://www.abastur.com",
+ "zas.targi.19.polecamy": "no",
+ "zas.targi.20.nazwa": "Expo Nacional Ferretera",
+ "zas.targi.20.termin": "septiembre 2027 · fecha por anunciar",
+ "zas.targi.20.miejsce": "Guadalajara · Expo Guadalajara",
+ "zas.targi.20.branza": "Construcción, HVAC y energía",
+ "zas.targi.20.opis": "Ferretería, herramienta, construcción y electricidad. Según el organizador, más de mil expositores. Para empresas que buscan distribuidores.",
+ "zas.targi.20.link": "https://www.expoferretera.com.mx",
+ "zas.targi.20.polecamy": "no",
+ "zas.targi.przygotowanie": "No todas las ferias sirven para todos los productos. Antes de reservar un stand conviene definir qué compradores busca y qué eventos realmente los reúnen. También hay que revisar si la mercancía que quiere exhibir puede entrar legalmente a México.",
+ "zas.slownik.tytul": "Glosario de comercio e importación en México",
+ "zas.slownik.zapowiedz": "Los términos que más se usan en importación, aduanas, certificación y comercio en México, explicados de forma breve.",
+ "zas.slownik.aktualizacja": "4 de octubre de 2026",
+ "zas.slownik.tresc": [
+  {
+   "t": "p",
+   "h": "Aquí reunimos las siglas y los términos que aparecen en cualquier conversación sobre importar a México. Los explicamos de forma breve, pensando sobre todo en fabricantes europeos que se encuentran con ellos por primera vez."
+  },
+  {
+   "t": "ul",
+   "items": [
+    "<strong>Agente aduanal</strong> – persona autorizada con patente para despachar mercancías ante la aduana en nombre del importador.",
+    "<strong>Anexo 2.4.1</strong> – anexo de las reglas de comercio exterior de la Secretaría de Economía con las fracciones en las que el cumplimiento de una NOM se revisa en el despacho.",
+    "<strong>CFDI</strong> – factura electrónica mexicana. Sin poder emitirla, una empresa no puede vender legalmente en México.",
+    "<strong>COFEPRIS</strong> – Comisión Federal para la Protección contra Riesgos Sanitarios, de la Secretaría de Salud. Vigila, entre otros, alimentos, medicamentos y cosméticos.",
+    "<strong>Comercializadora</strong> – empresa que importa mercancía a su nombre por encargo de otra y la revende.",
+    "<strong>Constancia de conformidad</strong> – documento de una unidad de inspección o verificación que confirma que la etiqueta cumple con la norma.",
+    "<strong>Contraseña oficial NOM</strong> – marca oficial que indica el cumplimiento de una norma y se coloca en los productos certificados.",
+    "<strong>DOF</strong> (Diario Oficial de la Federación) – medio oficial donde se publican leyes, reglamentos y normas.",
+    "<strong>DTA</strong> – derecho de trámite aduanero, cobrado por procesar el pedimento.",
+    "<strong>EMA</strong> – Entidad Mexicana de Acreditación. Acredita laboratorios y organismos de certificación, inspección y verificación.",
+    "<strong>EUR.1</strong> – certificado de circulación que acredita el origen europeo de la mercancía, emitido por la aduana del país exportador.",
+    "<strong>Fracción arancelaria</strong> – código de ocho dígitos con el que se clasifica la mercancía en la tarifa mexicana.",
+    "<strong>IEPS</strong> – Impuesto Especial sobre Producción y Servicios, que grava ciertos grupos de productos.",
+    "<strong>IGI</strong> – impuesto general de importación, es decir, el arancel. La tasa depende de la fracción y del origen de la mercancía.",
+    "<strong>IVA</strong> – impuesto al valor agregado. La tasa general es de 16 %.",
+    "<strong>LIGIE</strong> – Ley de los Impuestos Generales de Importación y de Exportación, que contiene la tarifa arancelaria mexicana.",
+    "<strong>NICO</strong> – número de identificación comercial de dos dígitos. Junto con la fracción forma el código de diez dígitos del pedimento.",
+    "<strong>NMX</strong> – norma mexicana de aplicación voluntaria, a diferencia de la NOM.",
+    "<strong>NOM</strong> (Norma Oficial Mexicana) – regla técnica obligatoria sobre seguridad, especificaciones o etiquetado.",
+    "<strong>OCP</strong> (Organismo de Certificación de Producto) – organismo acreditado que emite certificados NOM.",
+    "<strong>Padrón de Importadores</strong> – registro de importadores del SAT. Por regla general, sin inscripción no se puede importar, aunque existen excepciones.",
+    "<strong>Padrón de Sectores Específicos</strong> – registro adicional exigido para importar ciertos grupos de mercancías.",
+    "<strong>Pedimento</strong> – declaración aduanera de importación o exportación.",
+    "<strong>Precio estimado</strong> – precio de referencia fijado para ciertas mercancías. Declarar un valor menor activa la revisión del valor en aduana.",
+    "<strong>PROFECO</strong> – Procuraduría Federal del Consumidor. Vigila, entre otras cosas, que los productos en el mercado cumplan las normas.",
+    "<strong>RFC</strong> – Registro Federal de Contribuyentes, la clave fiscal mexicana.",
+    "<strong>SAT</strong> – Servicio de Administración Tributaria, autoridad fiscal y aduanera.",
+    "<strong>SENASICA</strong> – Servicio Nacional de Sanidad, Inocuidad y Calidad Agroalimentaria, de la Secretaría de Agricultura.",
+    "<strong>TLCUEM</strong> – Tratado de Libre Comercio entre la Unión Europea y México, vigente desde el año 2000.",
+    "<strong>UMA</strong> – Unidad de Medida y Actualización, base para calcular multas y cuotas. En 2026 equivale a 117.31 pesos.",
+    "<strong>Unidad de inspección / Unidad de verificación</strong> – entidad acreditada que evalúa la conformidad, por ejemplo de etiquetas, y emite documentos como la constancia o el dictamen.",
+    "<strong>VUCEM</strong> – Ventanilla Única de Comercio Exterior, el sistema electrónico para presentar los documentos del despacho."
+   ]
+  }
+ ],
+ "zas.slownik.podstawa": [
+  {
+   "t": "ul",
+   "items": [
+    "Ley Aduanera; LIGIE; Ley de Infraestructura de la Calidad; Ley del IEPS; Ley del IVA",
+    "Decisión n.º 2/2000 del Consejo Conjunto UE-México, anexo III"
+   ]
+  }
+ ]
+}

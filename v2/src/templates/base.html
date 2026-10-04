@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="{{ html_lang }}">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="only light">
+<title>{{ seo_title }}</title>
+<meta name="description" content="{{ seo_desc }}">
+{% if noindex %}<meta name="robots" content="noindex">{% else %}<link rel="canonical" href="{{ canonical }}">
+{% for alt in alternates %}<link rel="alternate" hreflang="{{ alt.hreflang }}" href="{{ alt.href }}">
+{% endfor %}{% endif %}
+<meta property="og:type" content="{{ og_type }}">
+<meta property="og:site_name" content="GRUPO ERVOY">
+<meta property="og:title" content="{{ og_title }}">
+<meta property="og:description" content="{{ og_desc }}">
+<meta property="og:url" content="{{ canonical }}">
+<meta property="og:image" content="{{ site }}/assets/og-image.png">
+<meta property="og:locale" content="{{ og_locale }}">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="/favicon-32x32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;500;600&family=Red+Hat+Text:wght@400;500&display=swap">
+<link rel="stylesheet" href="/assets/style.{{ css_hash }}.css">
+{% block head %}{% endblock %}
+{% for ld in jsonld %}<script type="application/ld+json">{{ ld }}</script>
+{% endfor %}
+</head>
+<body>
+<a class="skip" href="#tresc">{{ ui.skip }}</a>
+<header class="site-head{% if dark_header %} dark on-dark{% endif %}" id="top">
+<div class="wrap">
+<a class="logo" href="{{ url('home') }}" aria-label="GRUPO ERVOY, {{ ui.home }}"><img src="/assets/{% if dark_header %}GRUPO-ERVOY_Wordmark_OnDark.svg{% else %}GRUPO-ERVOY_Wordmark_Primary.svg{% endif %}" alt="{{ t('stopka.alt.logo') }}" width="180" height="55"></a>
+<nav class="nav" aria-label="{{ ui.nav }}" id="nav"><ul>
+{% for key, label in nav %}<li><a href="{{ url(key) }}"{% if section == key %} aria-current="page"{% endif %}>{{ label }}</a></li>
+{% endfor %}</ul></nav>
+<div class="langs" aria-label="{{ ui.langs }}">
+{% for l in lang_links %}<a href="{{ l.href }}" hreflang="{{ l.code }}" lang="{{ l.code }}"{% if l.current %} aria-current="true"{% endif %} title="{{ l.name }}">{{ l.flag|safe }}<span>{{ l.code|upper }}</span></a>{% endfor %}
+</div>
+<button class="menu-btn" type="button" aria-expanded="false" aria-controls="nav" aria-label="{{ ui.menu }}"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6h18M3 12h18M3 18h18" fill="none" stroke="currentColor" stroke-width="1.8"/></svg></button>
+<div class="head-cta"><a class="btn btn-p" href="{{ whatsapp }}" rel="noopener">{{ t('menu.cta') }}</a></div>
+</div>
+</header>
+<main id="tresc">
+{% block main %}{% endblock %}
+</main>
+{% if not no_band %}
+<section class="cta-band on-dark" aria-labelledby="band-h">
+<div class="wrap">
+<h2 id="band-h">{{ band_h2 or t('pasek.h2') }}</h2>
+<p>{{ band_text or t('pasek.tekst') }}</p>
+<a class="btn btn-p" href="{{ whatsapp }}" rel="noopener">{{ icon_wa|safe }}{{ t('pasek.przycisk') }}</a>
+</div>
+</section>
+{% endif %}
+<footer class="site-foot on-dark">
+<div class="wrap">
+<div class="foot-grid">
+<div>
+<img src="/assets/GRUPO-ERVOY_Wordmark_OnDark.svg" alt="{{ t('stopka.alt.logo') }}" width="170" height="52" loading="lazy">
+<p>{{ t('stopka.opis')|nl }}</p>
+</div>
+<div>
+<h2>{{ ui.foot_services }}</h2>
+<ul>{% for key in services %}<li><a href="{{ url(key) }}">{{ t('home.uslugi.' ~ loop.index ~ '.tytul') }}</a></li>{% endfor %}</ul>
+</div>
+<div>
+<h2>{{ ui.foot_company }}</h2>
+<ul>
+<li><a href="{{ url('proces') }}">{{ t('menu.jak-pracujemy') }}</a></li>
+<li><a href="{{ url('wiedza') }}">{{ t('menu.baza-wiedzy') }}</a></li>
+<li><a href="{{ url('marki') }}">{{ t('menu.marki') }}</a></li>
+<li><a href="{{ url('onas') }}">{{ t('menu.o-nas') }}</a></li>
+<li><a href="{{ url('kontakt') }}">{{ t('menu.kontakt') }}</a></li>
+<li><a href="mailto:{{ t('kontakt.firma.email') }}">{{ t('kontakt.firma.email') }}</a></li>
+</ul>
+</div>
+</div>
+<div class="foot-legal">
+<span>{{ t('stopka.prawne') }}</span>
+<a href="{{ url('polityka') }}">{{ t('stopka.polityka') }}</a>
+</div>
+</div>
+</footer>
+<script src="/assets/site.{{ js_hash }}.js" defer></script>
+</body>
+</html>

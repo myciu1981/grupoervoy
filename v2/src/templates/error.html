@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+{% block main %}
+<div class="err"><div class="wrap">
+<p class="label">{{ t('404.label') }}</p>
+<h1>{{ t('404.h1') }}</h1>
+<p class="lead" style="margin-top:20px">{{ t('404.tekst') }}</p>
+<div class="acts"><a class="btn btn-p" href="{{ url('home') }}">{{ t('404.przycisk1') }}</a><a class="btn btn-s" href="{{ url('uslugi') }}">{{ t('404.przycisk2') }}</a></div>
+<p style="margin-top:28px"><a href="{{ whatsapp }}" rel="noopener">{{ t('404.kontakt') }}</a></p>
+</div></div>
+{% endblock %}

@@ -1,0 +1,19 @@
+{% extends "page.html" %}
+{% block body %}
+<div class="section tight"><div class="wrap">
+<div class="people">
+{% for p in people %}<div class="person">
+<h3>{{ p.name }}</h3>
+<p class="langs-spoken">{{ p.langs }}</p>
+<a href="{{ p.wa }}" rel="noopener">{{ icon_wa|safe }}{{ ui.whatsapp }}</a>
+<a href="tel:{{ p.tel_raw }}"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.6 3h3l1.5 4-2 1.3a11 11 0 0 0 6.6 6.6l1.3-2 4 1.5v3A2.6 2.6 0 0 1 18.4 20 15.4 15.4 0 0 1 4 5.6 2.6 2.6 0 0 1 6.6 3z" fill="none" stroke="currentColor" stroke-width="1.6"/></svg>{{ p.tel }}</a>
+<a href="mailto:{{ p.email }}"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="1" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="m3.5 6 8.5 7 8.5-7" fill="none" stroke="currentColor" stroke-width="1.6"/></svg>{{ p.email }}</a>
+</div>{% endfor %}
+</div>
+<div class="company">
+<p><strong>{{ t('kontakt.firma.prawne') }}</strong></p>
+<p>{{ ui.address }}: {{ t('kontakt.firma.adres') }}</p>
+<p><a href="mailto:{{ t('kontakt.firma.email') }}">{{ t('kontakt.firma.email') }}</a> · <a href="tel:+{{ t('kontakt.firma.telefon')|digits }}">{{ t('kontakt.firma.telefon') }}</a></p>
+</div>
+</div></div>
+{% endblock %}

@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block main %}
+<div class="page-head{% if tabs %} has-tabs{% endif %}"><div class="wrap">
+{% if crumbs %}<p class="crumbs">{% for c in crumbs %}<a href="{{ c.href }}">{{ c.label }}</a><span aria-hidden="true">/</span>{% endfor %}{{ crumb_here }}</p>{% endif %}
+{% if label %}<p class="label">{{ label }}</p>{% endif %}
+<h1>{{ h1 }}</h1>
+{% if updated %}<p class="meta-line">{{ ui.updated }} {{ updated }}</p>{% endif %}
+{% for l in leads %}<p class="lead">{{ l }}</p>{% endfor %}
+{% if tabs %}<nav class="tabs" aria-label="{{ ui.tabs }}">{% for tb in tabs %}<a href="{{ tb.href }}"{% if tb.current %} aria-current="page"{% endif %}>{{ tb.label }}<span>{{ tb.count }}</span></a>{% endfor %}</nav>{% endif %}
+</div></div>
+{% block body %}{% endblock %}
+{% endblock %}

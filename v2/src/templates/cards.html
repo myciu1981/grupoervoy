@@ -1,0 +1,21 @@
+{% extends "page.html" %}
+{% block body %}
+<div class="section tight"><div class="wrap">
+{% if steps %}
+<ol class="steps six">{% for s in steps %}<li><h3>{{ s.title }}</h3><p>{{ s.text }}</p></li>{% endfor %}</ol>
+{% endif %}
+{% if cards %}
+<div class="grid grid-3">{% for c in cards %}<a class="card" href="{{ c.href }}">{% if c.num %}<span class="num">{{ c.num }}</span>{% endif %}<h3>{{ c.title }}</h3><p>{{ c.text }}</p><span class="more">{{ ui.more }} →</span></a>{% endfor %}</div>
+{% endif %}
+{% if kb_items %}
+<div class="kb-list">{% for c in kb_items %}<a class="kb-item" href="{{ c.href }}"><span class="num">{{ c.num }}</span><div><h3>{{ c.title }}</h3><p>{{ c.text }}</p>{% if c.updated %}<p class="meta-line">{{ ui.updated }} {{ c.updated }}</p>{% endif %}</div></a>{% endfor %}</div>
+{% endif %}
+{% if extra %}<div class="prose" style="margin-top:56px">{{ extra|safe }}</div>{% endif %}
+{% if faq %}
+<section class="faq" style="margin-top:72px" aria-labelledby="faq-h"><h2 id="faq-h" style="margin-bottom:24px">{{ faq_title }}</h2>
+{% for q in faq %}<details><summary>{{ q.q }}</summary><div class="ans">{{ q.a }}</div></details>{% endfor %}
+</section>
+{% endif %}
+{% if disclaimer %}<p class="disclaimer">{{ disclaimer }}</p>{% endif %}
+</div></div>
+{% endblock %}

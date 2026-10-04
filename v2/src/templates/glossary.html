@@ -1,0 +1,16 @@
+{% extends "page.html" %}
+{% block body %}
+<div class="section tight" style="padding-top:8px"><div class="wrap gl">
+<div class="gl-tools">
+<div class="gl-search" data-gl-search hidden><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="m15.5 15.5 5 5" stroke="currentColor" stroke-width="1.8"/></svg><label for="gl-q" style="position:absolute;left:-9999px">{{ ui.gl_search }}</label><input id="gl-q" type="search" placeholder="{{ ui.gl_placeholder }}" autocomplete="off"></div>
+<nav class="az" aria-label="A–Z">{% for L in alphabet %}{% if L in letters %}<a href="#lit-{{ L }}">{{ L }}</a>{% else %}<span aria-hidden="true">{{ L }}</span>{% endif %}{% endfor %}</nav>
+</div>
+{% for L, items in groups %}<section data-gl-group aria-labelledby="lit-{{ L }}">
+<h2 class="gl-letter" id="lit-{{ L }}">{{ L }}</h2>
+<dl>{% for e in items %}<div class="gl-entry" id="{{ e.id }}" data-gl-text="{{ e.search }}"><dt>{{ e.term }}</dt><dd>{{ e.def }}</dd></div>{% endfor %}</dl>
+</section>
+{% endfor %}
+<p class="empty" data-gl-empty hidden>{{ ui.gl_empty }}</p>
+{% if legal %}<div class="legal-base prose"><h2>{{ legal_title }}</h2>{{ legal|safe }}</div>{% endif %}
+</div></div>
+{% endblock %}

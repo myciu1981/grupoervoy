@@ -1,0 +1,9 @@
+{% extends "page.html" %}
+{% block body %}
+<div class="section tight"><div class="wrap">
+{% for b in brands %}<article class="brand">
+<img src="/assets/{{ b.img }}" alt="{{ b.name }}" width="200" height="120" loading="lazy">
+<div><h2>{{ b.name }}</h2><p>{{ b.text }}</p><a class="link-more" style="margin-top:16px" href="https://{{ b.link }}" rel="noopener">{{ b.link }} →</a></div>
+</article>{% endfor %}
+</div></div>
+{% endblock %}

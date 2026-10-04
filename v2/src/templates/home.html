@@ -1,0 +1,68 @@
+{% extends "base.html" %}
+{% block head %}<style>{{ hero_css|safe }}{{ panel_css|safe }}</style>{% endblock %}
+{% block main %}
+<section class="hero on-dark" aria-labelledby="hero-h">
+<div class="hero-stage">
+<div class="hero-copy"><div class="wrap"><div class="inner">
+<p class="label">{{ t('home.hero.label') }}</p>
+<h1 id="hero-h">{{ t('home.hero.h1') }}</h1>
+<p class="sub">{{ t('home.hero.sub') }}</p>
+<div class="acts">
+<a class="btn btn-p" href="{{ whatsapp }}" rel="noopener">{{ t('home.hero.przycisk1') }}</a>
+<a class="btn btn-s" href="{{ url('uslugi') }}">{{ t('home.hero.przycisk2') }}</a>
+</div>
+</div></div></div>
+{{ hero_svg|safe }}
+<aside class="panel" aria-label="{{ t('home.panel.label') }}">
+<p class="label">{{ t('home.panel.label') }}</p>
+<h2>{{ t('home.panel.tytul') }}</h2>
+<ol>{% for i in range(1, 6) %}<li class="pr{{ i - 1 }}"><span class="sq"></span><span class="n">0{{ i }}</span><span>{{ t('home.panel.krok' ~ i) }}</span></li>{% endfor %}</ol>
+</aside>
+</div>
+</section>
+
+<section class="section" aria-labelledby="intro-h">
+<div class="wrap split">
+<div><p class="label">{{ t('home.intro.label') }}</p><h2 id="intro-h">{{ t('home.intro.h2') }}</h2></div>
+<div class="copy"><p class="lead">{{ t('home.intro.p1') }}</p><p>{{ t('home.intro.p2') }}</p></div>
+</div>
+</section>
+
+<section class="section sunken" aria-labelledby="svc-h">
+<div class="wrap">
+<div class="section-head"><p class="label">{{ t('home.uslugi.label') }}</p><h2 id="svc-h">{{ t('home.uslugi.h2') }}</h2><p class="lead">{{ t('home.uslugi.lead') }}</p></div>
+<div class="grid grid-3">
+{% for key in services %}<a class="card" href="{{ url(key) }}"><span class="num">0{{ loop.index }}</span><h3>{{ t('home.uslugi.' ~ loop.index ~ '.tytul') }}</h3><p>{{ t('home.uslugi.' ~ loop.index ~ '.tekst') }}</p></a>
+{% endfor %}</div>
+<a class="link-more" href="{{ url('uslugi') }}">{{ t('home.uslugi.link') }} →</a>
+</div>
+</section>
+
+<section class="section" aria-labelledby="proc-h">
+<div class="wrap">
+<div class="section-head"><p class="label">{{ t('home.proces.label') }}</p><h2 id="proc-h">{{ t('home.proces.h2') }}</h2></div>
+<ol class="steps">{% for i in range(1, 5) %}<li><h3>{{ t('home.proces.' ~ i ~ '.tytul') }}</h3><p>{{ t('home.proces.' ~ i ~ '.tekst') }}</p></li>{% endfor %}</ol>
+<a class="link-more" href="{{ url('proces') }}">{{ t('home.proces.link') }} →</a>
+</div>
+</section>
+
+<section class="section sunken" aria-labelledby="brands-h">
+<div class="wrap split">
+<div><p class="label">{{ t('home.marki.label') }}</p><h2 id="brands-h">{{ t('home.marki.h2') }}</h2><p class="lead" style="margin-top:16px">{{ t('home.marki.lead') }}</p></div>
+<div class="grid grid-2">
+<a class="card" href="https://{{ t('marki.smb.link') }}" rel="noopener"><img src="/assets/smb-mx.png" alt="Simple Made Blinds Mexico" width="200" height="120" loading="lazy" style="width:160px;height:auto"><p>{{ t('home.marki.smb') }}</p></a>
+<a class="card" href="https://{{ t('marki.polaca.link') }}" rel="noopener"><img src="/assets/polaca-foods.png" alt="Polaca Foods" width="200" height="120" loading="lazy" style="width:160px;height:auto"><p>{{ t('home.marki.polaca') }}</p></a>
+</div>
+</div>
+</section>
+
+<section class="section" aria-labelledby="kb-h">
+<div class="wrap">
+<div class="section-head"><p class="label">{{ t('home.wiedza.label') }}</p><h2 id="kb-h">{{ t('home.wiedza.h2') }}</h2><p class="lead">{{ t('home.wiedza.lead') }}</p></div>
+<div class="grid grid-3">
+{% for key in teaser %}<a class="card" href="{{ url(key) }}"><h3>{{ t(key ~ '.tytul') }}</h3><p>{{ t(key ~ '.zapowiedz') }}</p><span class="more">{{ ui.more }} →</span></a>
+{% endfor %}</div>
+<a class="link-more" href="{{ url('wiedza') }}">{{ t('home.wiedza.link') }} →</a>
+</div>
+</section>
+{% endblock %}

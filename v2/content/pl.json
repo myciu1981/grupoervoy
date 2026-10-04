@@ -1,0 +1,822 @@
+{
+ "menu.uslugi": "Usługi",
+ "menu.jak-pracujemy": "Jak pracujemy",
+ "menu.baza-wiedzy": "Baza wiedzy",
+ "menu.marki": "Nasze marki",
+ "menu.o-nas": "O nas",
+ "menu.kontakt": "Kontakt",
+ "menu.cta": "Umów konsultację",
+ "cta.glowne": "Umów darmową konsultację",
+ "cta.pomocnicze": "Zobacz, w czym pomagamy",
+ "cta.whatsapp.numer": "48721134813",
+ "cta.whatsapp.wiadomosc": "Dzień dobry, piszę ze strony grupoervoy.com. Chcę umówić bezpłatną konsultację w sprawie sprzedaży naszych produktów w Meksyku.",
+ "pasek.h2": "Zacznijmy od rozmowy o Twoim produkcie",
+ "pasek.tekst": "Pierwsza konsultacja jest bezpłatna. Opowiesz nam, co produkujesz i jak wyobrażasz sobie sprzedaż w Meksyku, a my powiemy, co trzeba przygotować i w czym możemy pomóc. Ofertę przygotowujemy dopiero wtedy, gdy dobrze zrozumiemy Twój produkt.",
+ "pasek.przycisk": "Umów darmową konsultację",
+ "stopka.opis": "GRUPO ERVOY wspiera europejskich producentów w dostosowaniu produktów do rynku meksykańskiego oraz zapewnia wsparcie na kolejnych etapach rozwoju ich sprzedaży i obecności w Meksyku.\nSiedziba spółki mieści się w Monterrey.",
+ "stopka.prawne": "GRUPO ERVOY, S.A. de C.V. · Monterrey, Nuevo León, México",
+ "stopka.polityka": "Polityka prywatności",
+ "stopka.og.tytul": "GRUPO ERVOY: rynek meksykański dla firm z Europy",
+ "stopka.og.opis": "Badanie rynku, normy NOM, etykiety, import i lokalna reprezentacja w Meksyku. Spółka z siedzibą w Monterrey, zespół w Meksyku i w Polsce.",
+ "stopka.alt.logo": "GRUPO ERVOY",
+ "home.seo.tytul": "Sprzedaż produktów w Meksyku dla firm z Europy | GRUPO ERVOY",
+ "home.seo.opis": "Pomagamy europejskim producentom przygotować produkty do sprzedaży w Meksyku: badanie rynku, normy meksykańskie NOM, etykiety, import, dystrybutorzy i lokalne wsparcie. Bezpłatna konsultacja.",
+ "home.hero.label": "Europejskie firmy. Meksykańskie możliwości.",
+ "home.hero.h1": "Pomagamy europejskim produktom\nznaleźć miejsce w Meksyku.",
+ "home.hero.sub": "Przygotowujemy produkty europejskich firm do sprzedaży w Meksyku i pomagamy rozwijać działalność na tym rynku. Wspieramy producentów od analizy produktu i wymagań formalnych, przez import i uruchomienie sprzedaży, po dalszy rozwój lokalnego biznesu.",
+ "home.hero.przycisk1": "Umów darmową konsultację",
+ "home.hero.przycisk2": "Zobacz usługi",
+ "home.hero.mapa.alt": "Mapa tras morskich z Gdyni i Walencji do portu Veracruz oraz połączeń lądowych do miasta Meksyk i Monterrey",
+ "home.panel.label": "Droga produktu",
+ "home.panel.tytul": "Europa – Veracruz – Monterrey",
+ "home.panel.krok1": "Klasyfikacja taryfowa (HS)",
+ "home.panel.krok2": "Normy, etykieta i dokumenty",
+ "home.panel.krok3": "Transport morski",
+ "home.panel.krok4": "Odprawa celna w Veracruz",
+ "home.panel.krok5": "Dystrybucja w Meksyku",
+ "home.intro.label": "Grupo ERVOY",
+ "home.intro.h2": "Twój partner biznesowy w Meksyku",
+ "home.intro.p1": "Sprzedaż produktu w Meksyku wymaga czegoś więcej niż samego produktu. Trzeba dobrze zrozumieć lokalne przepisy i wymagania, właściwie przygotować produkt do importu i sprzedaży, a przede wszystkim mieć na miejscu kogoś, kto zna rynek i potrafi przełożyć europejski sposób działania na lokalne realia.",
+ "home.intro.p2": "Grupo ERVOY to meksykańska spółka z siedzibą w Monterrey i zespołem działającym w Meksyku oraz w Polsce. Pomagamy europejskim producentom przygotować się do sprzedaży w Meksyku, a następnie wspieramy ich w codziennym funkcjonowaniu i rozwoju na tym rynku. Możemy działać jako lokalny partner i reprezentować firmę w Meksyku, dzięki czemu rozpoczęcie działalności nie musi oznaczać od razu zakładania własnej spółki.",
+ "home.uslugi.label": "Usługi",
+ "home.uslugi.h2": "W czym możemy Ci pomóc?",
+ "home.uslugi.lead": "Zakres naszego wsparcia dopasowujemy do produktu i potrzeb firmy. Możemy wesprzeć Cię w jednym konkretnym obszarze albo poprowadzić cały proces – od analizy rynku i przygotowania produktu po uruchomienie sprzedaży i rozwój obecności w Meksyku.",
+ "home.uslugi.1.tytul": "Badanie rynku i strategia",
+ "home.uslugi.1.tekst": "Analizujemy rynek, konkurencję, ceny i potencjalnych klientów, aby określić, gdzie i w jaki sposób Twój produkt ma największe szanse na sukces w Meksyku.",
+ "home.uslugi.2.tytul": "Przygotowanie produktu do sprzedaży w Meksyku",
+ "home.uslugi.2.tekst": "Sprawdzamy wymagania dotyczące produktu, identyfikujemy właściwe normy NOM i wspieramy proces certyfikacji oraz przygotowanie oznakowania i etykiety w języku hiszpańskim.",
+ "home.uslugi.3.tytul": "Twój lokalny partner w Meksyku",
+ "home.uslugi.3.tekst": "Możemy reprezentować Twoją firmę w Meksyku na podstawie uzgodnionej umowy, zapewniając lokalną obecność bez konieczności zakładania własnej spółki na początku działalności.",
+ "home.uslugi.4.tytul": "Import i logistyka",
+ "home.uslugi.4.tekst": "Pomagamy przygotować model importu, dobrać odpowiednich partnerów oraz koordynować transport, odprawę celną i pierwsze dostawy do Meksyku.",
+ "home.uslugi.5.tytul": "Dystrybutorzy i rozwój sprzedaży",
+ "home.uslugi.5.tekst": "Wyszukujemy i weryfikujemy potencjalnych dystrybutorów i partnerów handlowych, organizujemy pierwsze kontakty i wspieramy rozmowy prowadzące do sprzedaży.",
+ "home.uslugi.6.tytul": "Targi i promocja",
+ "home.uslugi.6.tekst": "Wspieramy udział firmy w targach i wydarzeniach branżowych w Meksyku – od organizacji obecności i stoiska po przygotowanie materiałów i komunikacji dopasowanych do lokalnego rynku.",
+ "home.uslugi.link": "Więcej o usługach",
+ "home.proces.label": "Jak pracujemy",
+ "home.proces.h2": "Najpierw poznajemy produkt, potem proponujemy rozwiązanie",
+ "home.proces.1.tytul": "Bezpłatna konsultacja",
+ "home.proces.1.tekst": "Rozmawiamy o produkcie, planach firmy i oczekiwaniach związanych z rynkiem meksykańskim.",
+ "home.proces.2.tytul": "Analiza produktu",
+ "home.proces.2.tekst": "Analizujemy dokumentację techniczną i sprawdzamy wymagania dotyczące norm, klasyfikacji taryfowej, importu i oznakowania produktu.",
+ "home.proces.3.tytul": "Zakres działań i wycena",
+ "home.proces.3.tekst": "Przedstawiamy, co należy zrobić, w jakiej kolejności i w jakim zakresie możemy Cię wesprzeć. Na tej podstawie przygotowujemy konkretną ofertę i wycenę.",
+ "home.proces.4.tytul": "Przygotowanie i rozwój sprzedaży",
+ "home.proces.4.tekst": "Pomagamy przygotować produkt i dokumentację, koordynujemy proces importu i pierwsze dostawy oraz wspieramy rozwój sprzedaży i relacji z lokalnymi partnerami.",
+ "home.proces.link": "Zobacz cały proces",
+ "home.marki.label": "Nasze marki",
+ "home.marki.h2": "Rozwijamy również własne marki na rynku meksykańskim",
+ "home.marki.lead": "Nie tylko doradzamy – sami przechodzimy przez proces przygotowania produktów, importu, certyfikacji i sprzedaży w Meksyku. Dzięki temu doświadczenia, które zdobywamy rozwijając własne marki, wykorzystujemy również we współpracy z naszymi klientami.",
+ "home.marki.smb": "Simple Made Blinds Mexico. Systemy osłonowe i rolety wykonywane na wymiar, rozwijane z myślą o meksykańskich klientach indywidualnych, architektach i inwestycjach.",
+ "home.marki.polaca": "Polaca Foods. Produkty spożywcze z Europy Środkowej, przygotowywane z myślą o meksykańskich sklepach, dystrybutorach i sektorze gastronomicznym.",
+ "home.wiedza.label": "Baza wiedzy",
+ "home.wiedza.h2": "Co warto wiedzieć przed wejściem do Meksyku",
+ "home.wiedza.lead": "Piszemy o tym, o co najczęściej pytają nas producenci: o prawo, cła, etykiety i formy działania na rynku.",
+ "home.wiedza.link": "Przejdź do bazy wiedzy",
+ "home.kontakt.h2": "Porozmawiajmy o Twoim produkcie",
+ "home.kontakt.tekst": "Opowiedz nam o swoim produkcie i planach związanych z rynkiem meksykańskim. Porozmawiamy o możliwościach, potrzebnych działaniach i kolejnych krokach. Pierwsza konsultacja jest bezpłatna.",
+ "uslugi.seo.tytul": "Usługi dla europejskich producentów w Meksyku | GRUPO ERVOY",
+ "uslugi.seo.opis": "Badanie rynku, normy NOM, etykiety, reprezentacja, import, dystrybutorzy i targi w Meksyku. Zakres współpracy dopasowujemy do produktu i potrzeb firmy.",
+ "uslugi.label": "Usługi",
+ "uslugi.h1": "W czym możemy pomóc?",
+ "uslugi.lead": "Każdy produkt i każda firma potrzebują w Meksyku czegoś innego. Jedni potrzebują sprawdzić potencjał rynku, inni przygotować produkt do sprzedaży, a jeszcze inni znaleźć pierwszych partnerów handlowych. Dlatego zaczynamy od rozmowy, poznajemy produkt i dopiero wtedy proponujemy konkretny zakres wsparcia.",
+ "uslugi.lead2": "Możemy zająć się jednym obszarem albo połączyć kilka usług w cały proces – od analizy rynku i przygotowania produktu po pierwsze dostawy, partnerów handlowych i dalszy rozwój sprzedaży.",
+ "u1.seo.tytul": "Badanie rynku meksykańskiego dla firm z Europy | GRUPO ERVOY",
+ "u1.seo.opis": "Analizujemy konkurencję, ceny, kanały sprzedaży i wymagania regulacyjne dla Twojego produktu w Meksyku. Kończymy rekomendacją dalszych działań.",
+ "u1.label": "Usługi",
+ "u1.h1": "Badanie rynku i strategia",
+ "u1.lead": "Zanim rozpoczniesz sprzedaż w Meksyku, warto wiedzieć, dla kogo jest Twój produkt, z kim będziesz konkurować, jakie są ceny i jakie warunki trzeba spełnić, żeby wprowadzić produkt na rynek.",
+ "u1.h2.co": "Co sprawdzamy",
+ "u1.co.p1": "Badanie prowadzimy lokalnie, w Meksyku. Analizujemy konkurencję, odwiedzamy sklepy i hurtownie, sprawdzamy ceny, opakowania i sposób prezentacji podobnych produktów. Tam, gdzie to możliwe, rozmawiamy również z dystrybutorami i kupcami, aby lepiej zrozumieć potrzeby rynku.",
+ "u1.co.lista.intro": "W raporcie mogą znaleźć się:",
+ "u1.co.lista.1": "konkurencyjne produkty, marki i ceny rynkowe",
+ "u1.co.lista.2": "najbardziej odpowiednie kanały sprzedaży i sposób działania w każdym z nich",
+ "u1.co.lista.3": "wymagania regulacyjne, w tym normy NOM, klasyfikacja taryfowa, cło i ewentualne pozwolenia",
+ "u1.co.lista.4": "szacunkowe koszty przygotowania produktu i rozpoczęcia sprzedaży",
+ "u1.co.lista.5": "potencjalni dystrybutorzy i partnerzy handlowi",
+ "u1.h2.wynik": "Co dostajesz",
+ "u1.wynik.p1": "Raport kończymy konkretną rekomendacją: czy i w jaki sposób rozwijać sprzedaż produktu w Meksyku, od czego zacząć i jakie działania warto podjąć w pierwszej kolejności. Jeżeli rynek nie daje jeszcze odpowiednich warunków, również to powiemy.",
+ "u1.wynik.p2": "Raport możesz wykorzystać niezależnie od dalszej współpracy z GRUPO ERVOY.",
+ "u2.seo.tytul": "Normy NOM, klasyfikacja i etykiety w Meksyku | GRUPO ERVOY",
+ "u2.seo.opis": "Sprawdzamy wymagania dla produktu: klasyfikację taryfową, normy NOM i certyfikację. Przygotowujemy etykietę zgodną z meksykańskimi przepisami.",
+ "u2.label": "Usługi",
+ "u2.h1": "Przygotowanie produktu do sprzedaży w Meksyku",
+ "u2.lead": "Zanim produkt trafi do sprzedaży, trzeba sprawdzić, jakie wymagania obowiązują w Meksyku i przygotować wszystkie elementy potrzebne do jego legalnego wprowadzenia na rynek.",
+ "u2.h2.klasyfikacja": "Klasyfikacja taryfowa",
+ "u2.klasyfikacja.p1": "Kod taryfowy wpływa między innymi na cło, wymagania regulacyjne i ewentualne pozwolenia. Przygotowujemy wstępną klasyfikację produktów, a następnie weryfikujemy ją z agentem celnym. W przypadku bardziej złożonych produktów pomagamy również przygotować dokumentację potrzebną do uzyskania oficjalnej interpretacji.",
+ "u2.h2.nom": "Normy meksykańskie NOM i certyfikacja",
+ "u2.nom.p1": "Ustalamy, które wymagania i normy dotyczą produktu oraz sprawdzamy, czy może on zostać wprowadzony na rynek w obecnej formie. Jeżeli potrzebna jest certyfikacja, pomagamy dobrać odpowiednią jednostkę, przygotować dokumentację, zorganizować badania i koordynować proces aż do jego zakończenia.",
+ "u2.nom.p2": "W zależności od rodzaju produktu i modelu działalności certyfikacja może wymagać udziału podmiotu zarejestrowanego w Meksyku. Omawiamy dostępne rozwiązania już na początku, ponieważ wpływa to na dalszy sposób importu i sprzedaży.",
+ "u2.h2.etykieta": "Etykieta i oznakowanie po hiszpańsku",
+ "u2.etykieta.p1": "Sprawdzamy, jakie informacje muszą znaleźć się na opakowaniu lub etykiecie oraz przygotowujemy ich hiszpańską wersję zgodną z wymaganiami meksykańskimi. W razie potrzeby koordynujemy również potwierdzenie zgodności z odpowiednią jednostką.",
+ "u2.h2.kto": "Kto za co odpowiada",
+ "u2.kto.p1": "Część prac wykonujemy sami, a w przypadku działań wymagających uprawnień współpracujemy z agentami celnymi, laboratoriami oraz akredytowanymi jednostkami certyfikującymi i inspekcyjnymi. Koordynujemy cały proces, dzięki czemu nie musisz samodzielnie zarządzać kilkoma wykonawcami.",
+ "u2.h2.wynik": "Co dostajesz",
+ "u2.wynik.p1": "Na zakończenie otrzymujesz uporządkowany komplet dokumentów i informacji potrzebnych do dalszego importu i sprzedaży produktu w Meksyku.",
+ "u3.seo.tytul": "Reprezentacja firmy w Meksyku | GRUPO ERVOY",
+ "u3.seo.opis": "Lokalna reprezentacja europejskiej firmy w Meksyku. Działaj na rynku bez zakładania od razu własnej spółki, na podstawie umowy z GRUPO ERVOY.",
+ "u3.label": "Usługi",
+ "u3.h1": "Twój lokalny partner w Meksyku",
+ "u3.lead": "Nie każda firma potrzebuje własnej spółki w Meksyku od pierwszego dnia. W wielu przypadkach łatwiej rozpocząć działalność z lokalnym partnerem, który może działać na miejscu i wspierać rozwój firmy.",
+ "u3.h2.jak": "Jak to działa",
+ "u3.jak.p1": "Na podstawie zawartej umowy możemy reprezentować Twoją firmę w uzgodnionym zakresie – w kontaktach z partnerami handlowymi, wybranymi instytucjami i podmiotami zaangażowanymi w przygotowanie oraz sprzedaż produktu. Zakres naszej reprezentacji zawsze określamy indywidualnie.",
+ "u3.jak.p2": "Dzięki temu możesz rozpocząć działalność w Meksyku bez konieczności tworzenia własnej struktury od razu i zdecydować o kolejnym kroku dopiero wtedy, gdy biznes zacznie się rozwijać.",
+ "u3.h2.prawna": "Lokalna obecność",
+ "u3.prawna.p1": "W zakresie określonym w umowie możemy wspierać Twoją firmę w lokalnych działaniach formalnych i organizacyjnych oraz koordynować współpracę z odpowiednimi podmiotami w Meksyku.",
+ "u3.h2.handlowa": "Wsparcie handlowe",
+ "u3.handlowa.p1": "Możemy również reprezentować firmę w kontaktach z klientami, dystrybutorami i potencjalnymi partnerami: przedstawiać ofertę, odpowiadać na pytania, uczestniczyć w spotkaniach i wspierać negocjacje.",
+ "u3.h2.spolka": "A jeśli później będziesz chcieć własnej spółki",
+ "u3.spolka.p1": "Kiedy skala działalności uzasadni stworzenie własnej struktury w Meksyku, możemy pomóc przygotować taki etap i płynnie przenieść wybrane zadania do Twojej firmy.",
+ "u4.seo.tytul": "Import do Meksyku i logistyka | GRUPO ERVOY",
+ "u4.seo.opis": "Pomagamy przygotować proces importu do Meksyku, dobrać odpowiednich partnerów i koordynować pierwsze dostawy z Europy.",
+ "u4.label": "Usługi",
+ "u4.h1": "Import i logistyka",
+ "u4.lead": "Pierwsza dostawa do Meksyku wymaga dobrej organizacji i przygotowania dokumentów jeszcze przed wysyłką. Pomagamy zaplanować cały proces i skoordynować zaangażowanych partnerów.",
+ "u4.h2.importer": "Importer i agent celny",
+ "u4.importer.p1": "Pomagamy określić, jaki model importu będzie odpowiedni dla Twojej firmy i produktu, oraz dobrać właściwego importera i agenta celnego. Porównujemy dostępne rozwiązania i pomagamy wybrać model dopasowany do skali działalności.",
+ "u4.h2.transport": "Transport i odprawa",
+ "u4.transport.p1": "Koordynujemy pierwsze dostawy z Europy do Meksyku oraz pilnujemy, aby dokumentacja handlowa, transportowa, celna i produktowa była przygotowana przed wysyłką. Współpracujemy z partnerami odpowiedzialnymi za transport i odprawę.",
+ "u4.h2.pochodzenie": "Pochodzenie towaru i cło",
+ "u4.pochodzenie.p1": "Sprawdzamy możliwości zastosowania preferencyjnego traktowania celnego wynikającego z umów handlowych i pomagamy przygotować wymagane dokumenty pochodzenia, tak aby uniknąć niepotrzebnych kosztów i opóźnień.",
+ "u5.seo.tytul": "Dystrybutorzy i rozwój sprzedaży w Meksyku | GRUPO ERVOY",
+ "u5.seo.opis": "Szukamy i weryfikujemy dystrybutorów oraz partnerów handlowych w Meksyku, organizujemy pierwsze kontakty i wspieramy rozwój sprzedaży.",
+ "u5.label": "Usługi",
+ "u5.h1": "Dystrybutorzy i rozwój sprzedaży",
+ "u5.lead": "Dobry partner handlowy może znacząco przyspieszyć rozwój sprzedaży. Dlatego nie ograniczamy się do stworzenia listy firm – pomagamy znaleźć partnerów odpowiednich dla konkretnego produktu i modelu biznesowego.",
+ "u5.h2.szukanie": "Jak szukamy partnerów",
+ "u5.szukanie.p1": "Najpierw określamy, jakiego partnera potrzebujesz: jaki powinien mieć zasięg, do jakich klientów docierać i jaki poziom sprzedaży lub zamówień jest dla Ciebie odpowiedni. Następnie identyfikujemy potencjalne firmy i weryfikujemy ich profil, działalność oraz dotychczasowe marki.",
+ "u5.h2.rozmowy": "Rozmowy i pierwsze zamówienia",
+ "u5.rozmowy.p1": "Kontaktujemy się z wybranymi firmami, organizujemy pierwsze spotkania i możemy uczestniczyć w rozmowach razem z Tobą. Pomagamy również w ustaleniu warunków współpracy i wspieramy proces prowadzący do pierwszych zamówień.",
+ "u5.h2.dalej": "Gdy sprzedaż ruszy",
+ "u5.dalej.p1": "Możemy zostać Twoim lokalnym partnerem również na dalszym etapie: wspierać dystrybutorów, rozwijać sieć odbiorców i dostarczać Ci informacji o zmianach oraz możliwościach na rynku.",
+ "u6.seo.tytul": "Targi i promocja firmy w Meksyku | GRUPO ERVOY",
+ "u6.seo.opis": "Pomagamy europejskim firmom przygotować udział w targach w Meksyku – od wyboru wydarzenia i stoiska po lokalne materiały marketingowe i działania po targach.",
+ "u6.label": "Usługi",
+ "u6.h1": "Targi i promocja",
+ "u6.lead": "Targi branżowe są dobrym sposobem na poznanie rynku, potencjalnych klientów i partnerów handlowych. Pomagamy przygotować obecność firmy tak, aby targi były początkiem konkretnych rozmów, a nie tylko kilkoma dniami na stoisku.",
+ "u6.h2.wybor": "Wybór targów i powierzchnia",
+ "u6.wybor.p1": "Pomagamy wybrać wydarzenia odpowiednie dla Twojej branży i grupy docelowej oraz zorganizować udział firmy na miejscu.",
+ "u6.h2.stoisko": "Projekt i budowa stoiska",
+ "u6.stoisko.p1": "Koordynujemy przygotowanie i budowę stoiska w Meksyku oraz kwestie techniczne związane z obecnością firmy podczas wydarzenia.",
+ "u6.h2.materialy": "Materiały marketingowe",
+ "u6.materialy.p1": "Przygotowujemy lub dostosowujemy materiały po hiszpańsku – prezentacje, katalogi, treści na stronę i materiały dla klientów. Nie chodzi tylko o tłumaczenie, ale o dopasowanie komunikacji do lokalnego odbiorcy.",
+ "u6.h2.potem": "Po targach",
+ "u6.potem.p1": "Najważniejsze zaczyna się po zakończeniu targów. Możemy pomóc uporządkować kontakty, skontaktować się z potencjalnymi klientami i prowadzić dalsze rozmowy handlowe.",
+ "proces.seo.tytul": "Jak pracujemy | GRUPO ERVOY",
+ "proces.seo.opis": "Od bezpłatnej konsultacji, przez analizę produktu i ofertę, po pierwszą dostawę i rozwój sprzedaży w Meksyku. Zobacz, jak wygląda współpraca.",
+ "proces.label": "Jak pracujemy",
+ "proces.h1": "Najpierw poznajemy Twój produkt i plany",
+ "proces.lead": "Nie oferujemy gotowych pakietów. Zakres pracy zależy od produktu, rynku docelowego i tego, co firma ma już przygotowane. Dlatego każdą współpracę zaczynamy od rozmowy i analizy, a dopiero potem przedstawiamy konkretne rozwiązanie, zakres działań i wycenę.",
+ "proces.1.tytul": "Bezpłatna konsultacja",
+ "proces.1.tekst": "Poznajemy Twoją firmę, produkty i plany związane z rynkiem meksykańskim. Rozmawiamy o możliwościach i otwarcie mówimy, w czym możemy pomóc. Konsultacja jest bezpłatna i do niczego nie zobowiązuje.",
+ "proces.2.tytul": "Analiza produktu",
+ "proces.2.tekst": "Prosimy o karty techniczne, skład, zdjęcia opakowań i dostępne certyfikaty. Na tej podstawie analizujemy wymagania dotyczące produktu, klasyfikację taryfową, normy NOM oraz zasady oznakowania.",
+ "proces.3.tytul": "Propozycja i wycena",
+ "proces.3.tekst": "Przedstawiamy kolejne kroki, zakres naszej pracy, odpowiedzialność poszczególnych stron i przewidywany harmonogram. W wycenie pokazujemy osobno koszt naszej pracy i koszty zewnętrzne, takie jak badania, certyfikacja czy opłaty jednostek.",
+ "proces.4.tytul": "Przygotowanie produktu",
+ "proces.4.tekst": "Prowadzimy przygotowanie produktu do rynku meksykańskiego: koordynujemy klasyfikację taryfową, certyfikację, przygotowanie etykiety oraz współpracę z agentem celnym, laboratoriami i jednostkami certyfikującymi. Na bieżąco informujemy Cię o postępie prac.",
+ "proces.5.tytul": "Pierwsza dostawa",
+ "proces.5.tekst": "Pomagamy dobrać model importu i odpowiednich partnerów, przygotować dokumentację oraz zorganizować transport. Koordynujemy działania związane z pierwszą odprawą i dostawą do miejsca wskazanego w Meksyku.",
+ "proces.6.tytul": "Sprzedaż i rozwój",
+ "proces.6.tekst": "Po przygotowaniu produktu możemy pomóc znaleźć dystrybutorów i klientów, przygotować udział w targach oraz wspierać dalszy rozwój sprzedaży. W razie potrzeby możemy również pełnić rolę lokalnego partnera Twojej firmy w Meksyku.",
+ "proces.h2.partnerzy": "Z kim współpracujemy",
+ "proces.partnerzy.p1": "Niektórych działań wymagają uprawnione podmioty. Odprawy celne prowadzą licencjonowani agenci celni, a certyfikację i badania realizują odpowiednie jednostki i laboratoria działające w Meksyku. Współpracujemy ze sprawdzonymi partnerami i dobieramy ich do rodzaju produktu oraz konkretnego projektu.",
+ "proces.partnerzy.p2": "Dla Ciebie oznacza to jeden punkt kontaktu. To my koordynujemy współpracę, zbieramy informacje, monitorujemy kolejne etapy i informujemy Cię o tym, co dzieje się z projektem.",
+ "wiedza.seo.tytul": "Baza wiedzy o rynku meksykańskim | GRUPO ERVOY",
+ "wiedza.seo.opis": "Normy NOM, cła, import, etykiety i wymagania dotyczące sprzedaży w Meksyku. Praktyczna wiedza dla europejskich producentów planujących rozwój na tym rynku.",
+ "wiedza.label": "Baza wiedzy",
+ "wiedza.h1": "Wiedza, która pomaga przygotować produkt do rynku meksykańskiego",
+ "wiedza.lead": "Zebraliśmy tutaj odpowiedzi na pytania, które najczęściej pojawiają się przy przygotowaniu produktu do sprzedaży w Meksyku. Piszemy o przepisach, normach, imporcie, oznakowaniu i praktycznych aspektach prowadzenia działalności. Przy każdym artykule podajemy datę aktualizacji i źródła, na których się opieramy.",
+ "wiedza.zastrzezenie": "Artykuły mają charakter informacyjny i nie zastępują indywidualnej analizy konkretnego produktu. Wymagania mogą zależeć od jego rodzaju, klasyfikacji i sposobu sprzedaży.",
+ "wiedza.dzial.1.nazwa": "Artykuły",
+ "wiedza.dzial.1.opis": "Jak działa wejście na rynek meksykański: normy, cła, import i etykiety.",
+ "wiedza.dzial.2.nazwa": "Aktualności prawne",
+ "wiedza.dzial.2.opis": "Zmiany w meksykańskich przepisach, które dotyczą importu i sprzedaży.",
+ "wiedza.dzial.3.nazwa": "Zasoby",
+ "wiedza.dzial.3.opis": "Kalendarz targów i słownik pojęć do szybkiego sprawdzenia.",
+ "wiedza.et.aktualizacja": "Aktualizacja:",
+ "wiedza.et.podstawa": [
+  {
+   "t": "p",
+   "h": "Podstawa prawna"
+  }
+ ],
+ "wiedza.et.zrodla": "Źródła",
+ "wiedza.et.czytaj": "Czytaj dalej",
+ "wiedza.et.powiazane": "Powiązane usługi",
+ "wiedza.et.wszystkie": "Wszystkie artykuły",
+ "wiedza.et.cta.h2": "Masz pytanie o swój produkt?",
+ "wiedza.et.cta.tekst": "Przepisy często zależą od rodzaju produktu i jego klasyfikacji. Opowiedz nam o swoim, a sprawdzimy, które wymagania go dotyczą. Pierwsza konsultacja jest bezpłatna.",
+ "art.1.tytul": "Jak rozpocząć sprzedaż produktu w Meksyku: pierwsze kroki",
+ "art.1.zapowiedz": "Od czego zacząć, jeśli planujesz sprzedaż w Meksyku? Pokazujemy kolejność działań, najważniejsze decyzje i miejsca, w których producenci najczęściej tracą czas.",
+ "art.2.tytul": "Normy NOM: jak sprawdzić, czy dotyczą Twojego produktu",
+ "art.2.zapowiedz": "Czym są Normas Oficiales Mexicanas, kiedy obowiązują i jak ustalić, które wymagania dotyczą konkretnego produktu.",
+ "art.3.tytul": "Kod taryfowy produktu: dlaczego jest tak ważny",
+ "art.3.zapowiedz": "Kod taryfowy wpływa między innymi na cło, wymagania regulacyjne i dokumentację importową. Wyjaśniamy, jak go ustalić i kiedy warto uzyskać oficjalną interpretację.",
+ "art.4.tytul": "Importer w Meksyku: kto może nim być",
+ "art.4.zapowiedz": "Kto może być importerem, jaką rolę pełni importer w całym procesie i jakie rozwiązania są dostępne, jeśli Twoja firma nie ma jeszcze własnej struktury w Meksyku.",
+ "art.5.tytul": "Pochodzenie towaru i cło w handlu UE–Meksyk",
+ "art.5.zapowiedz": "Jak potwierdzić preferencyjne pochodzenie produktu, jakie dokumenty mogą być potrzebne i dlaczego warto przygotować je jeszcze przed wysyłką.",
+ "art.6.tytul": "Etykieta żywności w Meksyku i ostrzeżenia NOM-051",
+ "art.6.zapowiedz": "Jak działają czarne symbole ostrzegawcze na opakowaniach, co oznaczają dla projektu etykiety i kiedy przydaje się constancia de conformidad.",
+ "art.7.tytul": "Kto może być posiadaczem certyfikatu NOM",
+ "art.7.zapowiedz": "Jakie możliwości ma producent spoza Meksyku i dlaczego wybór posiadacza certyfikatu ma znaczenie dla późniejszego importu i sprzedaży.",
+ "akt.1.tytul": "Zmiany w przepisach celnych w Meksyku w 2026 roku",
+ "akt.1.zapowiedz": "Najważniejsze zmiany w meksykańskich przepisach celnych z 2026 roku i to, co oznaczają dla firm importujących do Meksyku.",
+ "zas.targi.tytul": "Targi branżowe w Meksyku: kalendarz",
+ "zas.targi.zapowiedz": "Najważniejsze targi dla europejskich producentów w Monterrey, Ciudad de México i Guadalajarze, wraz z terminami, lokalizacją i krótką charakterystyką.",
+ "zas.slownik.tytul": "Słownik pojęć: handel i import w Meksyku",
+ "zas.slownik.zapowiedz": "Najczęściej używane meksykańskie pojęcia związane z importem, cłami, certyfikacją i handlem – wyjaśnione po polsku.",
+ "faq.h2": "Najczęstsze pytania",
+ "faq.1.pytanie": "Czym jest NOM i kiedy obowiązuje?",
+ "faq.1.odpowiedz": "Normas Oficiales Mexicanas to obowiązkowe meksykańskie normy techniczne dotyczące między innymi bezpieczeństwa, parametrów technicznych i oznakowania produktów. Nie każdy produkt podlega tym samym wymaganiom. To, które normy mają zastosowanie, zależy między innymi od rodzaju produktu i jego klasyfikacji. Sprawdzamy to na etapie analizy.",
+ "faq.2.pytanie": "Czy muszę założyć spółkę w Meksyku, żeby sprzedawać tam swoje produkty?",
+ "faq.2.odpowiedz": "Nie zawsze. W zależności od produktu i modelu sprzedaży można rozpocząć działalność we współpracy z importerem, dystrybutorem lub innym lokalnym partnerem. W określonych sytuacjach możemy również zapewnić lokalne wsparcie i reprezentację firmy na podstawie umowy. Własną spółkę warto rozważyć wtedy, gdy skala działalności uzasadnia stworzenie własnej struktury w Meksyku.",
+ "faq.3.pytanie": "Dlaczego kod taryfowy jest taki ważny?",
+ "faq.3.odpowiedz": "Klasyfikacja taryfowa wpływa między innymi na stawkę cła, wymagania regulacyjne i dokumentację potrzebną przy imporcie. Dlatego warto ustalić ją przed pierwszą wysyłką i zweryfikować ją odpowiednio wcześnie.",
+ "faq.4.pytanie": "Z jakimi produktami pracujecie?",
+ "faq.4.odpowiedz": "Pracujemy z produktami konsumenckimi i przemysłowymi produkowanymi w Europie. Nie ograniczamy się do jednej branży. Każdy projekt analizujemy indywidualnie, a już podczas pierwszej rozmowy mówimy otwarcie, czy możemy realnie pomóc.",
+ "faq.5.pytanie": "Ile kosztuje rozpoczęcie sprzedaży w Meksyku?",
+ "faq.5.odpowiedz": "To zależy przede wszystkim od rodzaju produktu i wymagań, które trzeba spełnić przed rozpoczęciem sprzedaży. Niektóre produkty wymagają przede wszystkim odpowiedniego oznakowania, inne dodatkowej certyfikacji, badań lub pozwoleń. Dlatego ofertę i wycenę przygotowujemy dopiero po analizie produktu, a pierwsza konsultacja jest bezpłatna.",
+ "faq.6.pytanie": "Ile trwa przygotowanie produktu do sprzedaży w Meksyku?",
+ "faq.6.odpowiedz": "Czas zależy od produktu, wymaganych dokumentów, certyfikacji i udziału zewnętrznych jednostek. Po analizie produktu przedstawiamy przewidywany harmonogram i wskazujemy elementy, które mogą mieć wpływ na termin rozpoczęcia sprzedaży.",
+ "faq.7.pytanie": "Czy możecie być importerem mojego towaru?",
+ "faq.7.odpowiedz": "Nie występujemy jako importer. Pomagamy natomiast określić odpowiedni model importu i wybrać partnera, który może pełnić tę funkcję, a następnie koordynujemy z nim przygotowanie pierwszej dostawy.",
+ "faq.8.pytanie": "W jakich językach możemy rozmawiać?",
+ "faq.8.odpowiedz": "Rozmawiamy po polsku, hiszpańsku i angielsku. Dzięki zespołowi działającemu w Polsce i Meksyku możemy swobodnie komunikować się zarówno z producentem w Europie, jak i z lokalnymi partnerami w Meksyku.",
+ "faq.9.pytanie": "Jak zacząć?",
+ "faq.9.odpowiedz": "Umów bezpłatną konsultację i napisz kilka zdań o swoim produkcie oraz planach związanych z Meksykiem. Podczas rozmowy ustalimy, czego potrzebujesz, a następnie poprosimy o dokumentację niezbędną do analizy i przygotujemy propozycję dalszych działań.",
+ "marki.seo.tytul": "Nasze marki w Meksyku | GRUPO ERVOY",
+ "marki.seo.opis": "Simple Made Blinds Mexico i Polaca Foods to marki GRUPO ERVOY. Doświadczenie z ich rozwoju wykorzystujemy w pracy dla europejskich producentów.",
+ "marki.label": "Nasze marki",
+ "marki.h1": "Sami rozwijamy marki na rynku meksykańskim",
+ "marki.lead": "Oprócz współpracy z europejskimi producentami rozwijamy w Meksyku własne marki. Sami przechodzimy przez te same etapy, które realizujemy dla naszych klientów – od przygotowania produktu i spełnienia lokalnych wymagań, przez import i logistykę, po budowanie sprzedaży. Dzięki temu nasze doświadczenie wynika nie tylko z doradztwa, ale przede wszystkim z praktyki.",
+ "marki.smb.nazwa": "Simple Made Blinds Mexico",
+ "marki.smb.tekst": "Systemy osłon okiennych i rolety wykonywane na wymiar dla meksykańskich domów, biur i inwestycji deweloperskich. Marka łączy europejskie rozwiązania z lokalną produkcją i montażem w Meksyku.",
+ "marki.smb.link": "simplemadeblinds.mx",
+ "marki.polaca.nazwa": "Polaca Foods",
+ "marki.polaca.tekst": "Produkty spożywcze z Europy Środkowej dla meksykańskich sklepów, hurtowni i sektora gastronomicznego. Polaca Foods rozwija kanał importowy, który umożliwia wprowadzanie do Meksyku produktów różnych europejskich producentów.",
+ "marki.polaca.link": "polacafoods.lat",
+ "onas.seo.tytul": "O nas | GRUPO ERVOY",
+ "onas.seo.opis": "Meksykańska spółka z Monterrey z zespołem w Meksyku i w Polsce. Pomagamy europejskim producentom przygotować produkty do sprzedaży w Meksyku.",
+ "onas.label": "O nas",
+ "onas.h1": "Meksykańska spółka, która łączy Europę z lokalnym rynkiem",
+ "onas.p1": "GRUPO ERVOY to meksykańska spółka z siedzibą w Monterrey, w stanie Nuevo León, z zespołem działającym w Meksyku i w Polsce. Dzięki temu dobrze rozumiemy obie strony współpracy – europejskiego producenta, jego sposób działania i oczekiwania oraz lokalne realia meksykańskiego rynku.",
+ "onas.p2": "Nasze doświadczenie zaczęło się od własnych marek. Przy Simple Made Blinds Mexico i Polaca Foods sami przechodziliśmy przez przygotowanie produktów, wymagania formalne, import, logistykę i budowanie sprzedaży. Dziś wykorzystujemy te doświadczenia, pomagając kolejnym europejskim producentom rozwijać ich działalność w Meksyku.",
+ "onas.h2.monterrey": "Dlaczego Monterrey",
+ "onas.monterrey.p1": "Monterrey jest jednym z najważniejszych ośrodków przemysłowych i biznesowych w Meksyku. Położenie w północnej części kraju daje nam dobry dostęp do rynku północnego, Stanów Zjednoczonych, głównych centrów biznesowych oraz infrastruktury transportowej. To naturalna baza do rozwijania działalności na rynku meksykańskim.",
+ "onas.h2.zasady": "Nasze podejście",
+ "onas.zasady.p1": "Zanim zaproponujemy konkretne działania, chcemy zrozumieć produkt, model biznesowy i plany firmy. Dopiero wtedy możemy ocenić, czego rzeczywiście potrzebujesz i w jakim zakresie możemy Ci pomóc. Jeżeli uznamy, że Meksyk nie jest jeszcze właściwym kierunkiem dla Twojego produktu, powiemy o tym wprost.",
+ "onas.zasady.p2": "Nie wierzymy w gotowe pakiety pasujące do każdej firmy. Dlatego zaczynamy od bezpłatnej rozmowy, a konkretną ofertę przygotowujemy dopiero po poznaniu produktu i zakresu potrzebnego wsparcia.",
+ "kontakt.seo.tytul": "Kontakt | GRUPO ERVOY",
+ "kontakt.seo.opis": "Umów bezpłatną konsultację. Rozmawiamy po polsku, hiszpańsku i angielsku. GRUPO ERVOY, Monterrey, Meksyk.",
+ "kontakt.label": "Kontakt",
+ "kontakt.h1": "Porozmawiajmy o Twoim produkcie",
+ "kontakt.lead": "Napisz kilka zdań o tym, co produkujesz i jak wyobrażasz sobie sprzedaż w Meksyku. Odpiszemy i umówimy bezpłatną konsultację w dogodnym dla Ciebie terminie.",
+ "kontakt.przycisk.whatsapp": "Napisz na WhatsApp",
+ "kontakt.przycisk.telefon": "Zadzwoń",
+ "kontakt.przycisk.email": "Napisz e-mail",
+ "kontakt.osoba1.imie": "Bogusław Daniel",
+ "kontakt.osoba1.jezyki": "Mówi po polsku i po angielsku",
+ "kontakt.osoba1.telefon": "+48 721 134 813",
+ "kontakt.osoba1.email": "boguslaw.daniel@grupoervoy.com",
+ "kontakt.osoba2.imie": "Erick Escamilla",
+ "kontakt.osoba2.jezyki": "Mówi po hiszpańsku i po angielsku",
+ "kontakt.osoba2.telefon": "+52 81 2590 1796",
+ "kontakt.osoba2.email": "erick.escamilla@grupoervoy.com",
+ "kontakt.firma.email": "info@grupoervoy.com",
+ "kontakt.firma.telefon": "+52 81 2590 1796",
+ "kontakt.firma.adres": "Cambridge 103, 64349 Monterrey, N.L.",
+ "kontakt.firma.prawne": "GRUPO ERVOY, S.A. de C.V. · Monterrey, Nuevo León, México",
+ "404.seo.tytul": "Nie znaleziono strony | GRUPO ERVOY",
+ "404.label": "Błąd 404",
+ "404.h1": "Nie znaleźliśmy tej strony",
+ "404.tekst": "Adres mógł się zmienić albo strona została przeniesiona przy przebudowie serwisu. Najlepiej zacząć od strony głównej albo od listy usług.",
+ "404.przycisk1": "Wróć na stronę główną",
+ "404.przycisk2": "Zobacz usługi",
+ "404.kontakt": "Jeśli szukasz czegoś konkretnego, napisz do nas na WhatsApp.",
+ "art.1.aktualizacja": "4 października 2026",
+ "art.1.tresc": [
+  {
+   "t": "p",
+   "h": "Większość rozmów z producentami zaczyna się od pytania o klientów: kto to kupi i za ile. To dobre pytanie, tylko zadane trochę za wcześnie. Zanim zaczniesz szukać odbiorców, musisz wiedzieć, czy Twój produkt może legalnie wjechać do Meksyku, ile będzie kosztował po odprawie i kto zgłosi go do odprawy. Od tych odpowiedzi zależy cena, a od ceny wszystko inne."
+  },
+  {
+   "t": "p",
+   "h": "Pierwszy krok to kod taryfowy. Wynika z niego stawka cła, normy, które produkt musi spełnić, i to, czy importer potrzebuje dodatkowych rejestracji. Kod trzeba ustalić po obu stronach oceanu, zanim towar wyjedzie z fabryki, bo polski i meksykański urząd celny potrafią zaklasyfikować ten sam produkt inaczej."
+  },
+  {
+   "t": "p",
+   "h": "Drugi krok to normy. Część produktów musi spełnić obowiązkowe meksykańskie normy NOM. Czasem oznacza to tylko odpowiednią hiszpańską etykietę, czasem certyfikat wydany po badaniach w Meksyku. Europejski znak CE i unijne certyfikaty nie zastępują meksykańskiej procedury, choć pomagają przygotować dokumentację. Ten etap zwykle trwa najdłużej i to on ustawia harmonogram całego projektu."
+  },
+  {
+   "t": "p",
+   "h": "Trzeci krok to pochodzenie towaru i cło. Umowa między Unią a Meksykiem pozwala sprowadzać wiele europejskich produktów bez cła, ale tylko z poprawnym dowodem pochodzenia. Są też wyjątki, więc policz cło dla swojego kodu, zanim podasz komukolwiek cenę."
+  },
+  {
+   "t": "p",
+   "h": "Czwarty krok to importer. Firma bez meksykańskiej rejestracji podatkowej nie może sama zgłosić towaru do odprawy. Robi to w swoim imieniu ktoś w Meksyku: dystrybutor, firma importująca na zlecenie albo Twoja własna spółka. Od tego wyboru zależy, kto odpowiada za towar na granicy i na kogo zostaną wystawione dokumenty."
+  },
+  {
+   "t": "p",
+   "h": "Dopiero teraz ma sens rozmowa o kanałach sprzedaży. Warto przy tym zapytać, jakich certyfikatów jakości wymagają od dostawców sieci handlowe albo duzi odbiorcy w Twojej branży. Brak jednego dokumentu potrafi zamknąć cały kanał niezależnie od jakości produktu."
+  },
+  {
+   "t": "p",
+   "h": "Najwięcej czasu traci się na robieniu kroków w złej kolejności. Typowe przykłady to projekt etykiety zlecony przed sprawdzeniem wymagań normy, kod taryfowy zmieniony po jednej stronie bez poinformowania drugiej albo próbki do badań wysłane w wersji, której w Meksyku nie da się sprzedać. Każda z tych pomyłek kosztuje tygodnie, czasem miesiące."
+  },
+  {
+   "t": "p",
+   "h": "Sam transport jest zwykle najmniejszym zmartwieniem. Kontener z Gdyni do Veracruz albo Altamiry płynie mniej więcej od trzech do pięciu tygodni."
+  }
+ ],
+ "art.1.podstawa": [
+  {
+   "t": "ul",
+   "items": [
+    "Ley Aduanera (meksykańska ustawa celna), w brzmieniu obowiązującym od 1 stycznia 2026",
+    "Decyzja nr 2/2000 Wspólnej Rady UE–Meksyk, załącznik III (reguły pochodzenia)",
+    "Ley de Infraestructura de la Calidad (ustawa o infrastrukturze jakości)"
+   ]
+  }
+ ],
+ "art.2.aktualizacja": "4 października 2026",
+ "art.2.tresc": [
+  {
+   "t": "p",
+   "h": "Przy każdym nowym produkcie pierwsze pytanie brzmi tak samo: czy obejmuje go jakaś NOM? NOM to skrót od Norma Oficial Mexicana. To obowiązkowe przepisy techniczne, które wydają meksykańskie ministerstwa, każde w swoim zakresie. Opisują bezpieczeństwo produktów, ich parametry techniczne albo to, co musi znaleźć się na etykiecie i w instrukcji. Obok nich istnieją normy NMX, które są dobrowolne. Kiedy ktoś w Meksyku mówi o normie, której trzeba przestrzegać, prawie zawsze chodzi o NOM."
+  },
+  {
+   "t": "p",
+   "h": "Punktem wyjścia do sprawdzenia, które normy dotyczą produktu, jest kod taryfowy. Ministerstwo Gospodarki publikuje załącznik 2.4.1 do swoich zasad handlu zagranicznego. To lista kodów, przy których urząd celny sprawdza zgodność z konkretną normą już przy odprawie. Jeśli Twój kod jest na tej liście, bez dowodu zgodności towar nie przejdzie przez granicę."
+  },
+  {
+   "t": "p",
+   "h": "Brak kodu na liście nie oznacza jednak, że norma nie obowiązuje. Wiele norm dotyczy produktów sprzedawanych w Meksyku, a nie tylko importowanych. Wtedy kontrola przychodzi później, na rynku, i prowadzi ją między innymi PROFECO, meksykański urząd ochrony konsumentów. Same normy mają też własne zakresy i wyjątki, więc listę z załącznika trzeba zawsze czytać razem z tekstem normy."
+  },
+  {
+   "t": "p",
+   "h": "To, jak wygląda zgodność w praktyce, bardzo się różni. Przy jednych produktach wystarczy prawidłowa hiszpańska etykieta. Przy innych jednostka weryfikująca wydaje dokument dla każdego modelu, a jego numer wpisuje się do zgłoszenia celnego. Przy jeszcze innych potrzebny jest certyfikat akredytowanej jednostki certyfikującej, wydany po badaniach w meksykańskim laboratorium. Europejskie certyfikaty i raporty z badań pomagają przygotować dokumentację, ale nie zastępują meksykańskiej procedury."
+  },
+  {
+   "t": "p",
+   "h": "Od 1 stycznia 2026 roku błąd w tej sprawie jest dużo droższy niż wcześniej. Jeśli przy imporcie nie da się wykazać wymaganej zgodności z normą, grzywna może wynieść od 250 do 300% wartości handlowej towaru. Dlatego listę norm dla produktu ustalamy na samym początku, razem z kodem taryfowym."
+  }
+ ],
+ "art.2.podstawa": [
+  {
+   "t": "ul",
+   "items": [
+    "Ley de Infraestructura de la Calidad, art. 154–156",
+    "Załącznik 2.4.1 do Acuerdo Ministerstwa Gospodarki w sprawie zasad handlu zagranicznego (Anexo 2.4.1)",
+    "Ley Aduanera, art. 178 frakcja IV, w brzmieniu od 1 stycznia 2026 (DOF 19.11.2025)"
+   ]
+  }
+ ],
+ "art.3.aktualizacja": "4 października 2026",
+ "art.3.tresc": [
+  {
+   "t": "p",
+   "h": "Inny kod taryfowy potrafi zdecydować o tym, czy towar wjedzie do Meksyku bez cła, czy zapłaci pełną stawkę. Kod taryfowy to numer, pod którym towar figuruje w taryfie celnej. Meksyk używa kodów dziesięciocyfrowych: osiem cyfr to fracción arancelaria, a dwie ostatnie to NICO, dodatkowy podział do celów statystycznych. Pierwsze sześć cyfr pochodzi z międzynarodowego Zharmonizowanego Systemu i jest wspólne dla Meksyku i Unii Europejskiej. Dalej systemy się rozchodzą."
+  },
+  {
+   "t": "p",
+   "h": "Z jednego kodu wynika kilka rzeczy naraz: stawka cła, normy sprawdzane przy odprawie, ewentualna rejestracja sektorowa importera, a przy niektórych towarach także cena referencyjna. Zadeklarowanie wartości niższej niż ta cena automatycznie kieruje zgłoszenie do weryfikacji."
+  },
+  {
+   "t": "p",
+   "h": "Zdarza się, że dopiero dokładne sprawdzenie, z czego produkt jest zrobiony, zmienia jego klasyfikację. Razem z kodem może wtedy przestać obowiązywać norma, zniknąć wymóg rejestracji sektorowej importera i zmienić się reguła pochodzenia. Jedna liczba pociąga za sobą połowę wymagań."
+  },
+  {
+   "t": "p",
+   "h": "Zdarza się też, że dwa urzędy mają rację i się nie zgadzają. Zharmonizowany System jest wiążący po angielsku i francusku, a każdy kraj stosuje własne tłumaczenie. Jeśli w przekładzie zniknie jedno słowo, polski i meksykański urząd mogą, każdy zgodnie ze swoim prawem, przypisać ten sam towar do różnych pozycji. Wychodzi to zwykle przy wystawianiu dokumentów pochodzenia, kiedy towar jest już w drodze. Dlatego kod uzgadniamy na piśmie przed wysyłką z producentem, polską agencją celną, importerem i agentem celnym w Meksyku."
+  },
+  {
+   "t": "p",
+   "h": "Jeśli klasyfikacja budzi wątpliwości, można przed importem zapytać meksykański urząd celny o wiążącą interpretację. Podstawą jest art. 47 Ley Aduanera. Wniosek mogą złożyć importerzy, eksporterzy i agenci celni. Procedura jest bezpłatna, a urząd ma na odpowiedź trzy miesiące. W tym czasie można odprawić towar, płacąc cło według najwyższej ze spornych stawek. Odpowiedź wiąże urząd wobec tego, kto pytał, i jest mocnym dowodem należytej staranności."
+  }
+ ],
+ "art.3.podstawa": [
+  {
+   "t": "ul",
+   "items": [
+    "Ley Aduanera, art. 47",
+    "Código Fiscal de la Federación (kodeks podatkowy), art. 34 i 37",
+    "Ley de los Impuestos Generales de Importación y de Exportación (LIGIE)"
+   ]
+  }
+ ],
+ "art.4.aktualizacja": "4 października 2026",
+ "art.4.tresc": [
+  {
+   "t": "p",
+   "h": "W meksykańskim zgłoszeniu celnym, które nazywa się pedimento, jako importer może co do zasady figurować tylko podmiot z meksykańskim numerem podatkowym RFC, wpisany do rejestru importerów prowadzonego przez urząd skarbowy SAT. Polska firma bez meksykańskiej rejestracji nie może więc sama zgłosić swojego towaru do odprawy, nawet jeśli płaci za transport i sprzedaje bezpośrednio meksykańskiemu klientowi."
+  },
+  {
+   "t": "p",
+   "h": "Niektóre kody taryfowe wymagają dodatkowo wpisu do rejestru sektorowego. Taki rejestr ma importer, a nie producent, i nie da się go pożyczyć na jedną dostawę. Warto sprawdzić to wcześniej, zanim zaczniesz rozmawiać z potencjalnym importerem."
+  },
+  {
+   "t": "p",
+   "h": "W praktyce importerem może być:"
+  },
+  {
+   "t": "ul",
+   "items": [
+    "dystrybutor, który kupuje od Ciebie towar i sprowadza go na siebie,",
+    "firma importująca na zlecenie, w Meksyku nazywana comercializadora, która importuje towar w swoim imieniu i odsprzedaje go dalej,",
+    "Twoja własna spółka w Meksyku, po rejestracji w SAT."
+   ]
+  },
+  {
+   "t": "p",
+   "h": "Firmy importujące na zlecenie liczą zwykle procent od wartości faktury, czasem z dodatkową stałą opłatą za każdą dostawę. Przy małych dostawach ta stała opłata potrafi przeważyć nad procentem, więc porównuj całą strukturę kosztów, a nie samą stawkę."
+  },
+  {
+   "t": "p",
+   "h": "Importer odpowiada przed urzędem celnym za to, co zgłasza. Płaci cło i podatki i ponosi skutki błędów w kodzie, dokumentach czy etykiecie. Od 2026 roku za import bez wykazania wymaganej zgodności z normą grozi grzywna od 250 do 300% wartości towaru, więc dobry importer będzie zadawał dużo pytań o dokumenty. To dobry znak."
+  },
+  {
+   "t": "p",
+   "h": "Przy wyborze sprawdź, czy importer może płacić w euro, poproś o aktualne zaświadczenie o jego sytuacji podatkowej i ustal na piśmie, na kogo zostaną wystawione certyfikaty i dokumenty zgodności. Przy zmianie partnera to one decydują o koszcie."
+  },
+  {
+   "t": "p",
+   "h": "Jeśli nie masz jeszcze spółki w Meksyku, ktoś musi Cię na miejscu reprezentować i pilnować, żeby importer, agent celny i jednostki certyfikujące pracowały na jeden termin. Nie musi to być importer, a często lepiej, żeby te role były rozdzielone."
+  }
+ ],
+ "art.4.podstawa": [
+  {
+   "t": "ul",
+   "items": [
+    "Ley Aduanera, art. 59 i 178, w brzmieniu od 1 stycznia 2026",
+    "Reglas Generales de Comercio Exterior 2026, rejestr importerów i rejestry sektorowe"
+   ]
+  }
+ ],
+ "art.5.aktualizacja": "4 października 2026",
+ "art.5.tresc": [
+  {
+   "t": "p",
+   "h": "Ten sam produkt z Polski może wjechać do Meksyku bez cła albo zapłacić kilkadziesiąt procent. Różnicę często robi jeden dokument. Od 2000 roku handel między Unią Europejską a Meksykiem opiera się na umowie o wolnym handlu, w Meksyku nazywanej TLCUEM. Dzięki niej wiele towarów z Unii wjeżdża do Meksyku bez cła albo z obniżoną stawką, ale tylko wtedy, gdy towarowi towarzyszy dowód pochodzenia. Bez niego obowiązuje stawka ogólna, która od początku 2026 roku jest dla wielu towarów wysoka i potrafi sięgać kilkudziesięciu procent."
+  },
+  {
+   "t": "p",
+   "h": "Reguły pochodzenia przewidują trzy rodzaje dowodu:"
+  },
+  {
+   "t": "ul",
+   "items": [
+    "deklarację pochodzenia na fakturze, przy przesyłkach o wartości do 6000 euro,",
+    "świadectwo EUR.1 wystawione przez urząd celny w kraju wywozu, przy dowolnej wartości,",
+    "deklarację na fakturze wystawioną przez upoważnionego eksportera, przy dowolnej wartości."
+   ]
+  },
+  {
+   "t": "p",
+   "h": "Próg 6000 euro decyduje tylko o rodzaju dokumentu. Nie powoduje żadnego obowiązku zapłaty cła."
+  },
+  {
+   "t": "p",
+   "h": "W Polsce świadectwo EUR.1 wystawia urząd celno-skarbowy, bezpłatnie i zwykle w ciągu jednego, dwóch dni. Do meksykańskiego agenta celnego musi dotrzeć oryginał, skan nie wystarczy. Wygodniejszy jest status upoważnionego eksportera, który uzyskuje się raz i potem drukuje stałą formułę na każdej fakturze. To nie jest numer REX. System REX w handlu z Meksykiem nie działa, a faktura z deklaracją w tym formacie nie da preferencji."
+  },
+  {
+   "t": "p",
+   "h": "„Made in Poland” na etykiecie nie oznacza jeszcze unijnego pochodzenia w rozumieniu umowy. Liczy się, skąd pochodzą materiały i czy przeszły w Unii wystarczającą obróbkę. Dla każdej pozycji taryfy umowa ma osobną regułę, a niektóre produkty mimo produkcji w Polsce jej nie spełniają. Jeśli eksporter nie jest producentem, potrzebuje od dostawców deklaracji o pochodzeniu materiałów."
+  },
+  {
+   "t": "p",
+   "h": "Nie wszystkie towary z Unii są dziś zwolnione z cła. Część kodów płaci pełną albo tylko obniżoną stawkę. Internetowe kalkulatory ceł nie zawsze to uwzględniają, dlatego stawkę sprawdzamy w tekście przepisów i u agenta celnego."
+  },
+  {
+   "t": "p",
+   "h": "W maju 2026 roku Unia i Meksyk podpisały dwie nowe umowy: zmodernizowaną umowę globalną i przejściową umowę handlową. Dla firm ważniejsza jest ta druga, bo to ona obejmuje handel i może zacząć obowiązywać wcześniej, bez czekania na ratyfikację we wszystkich państwach Unii. Po stronie unijnej procedura zakończyła się w lipcu 2026 roku."
+  },
+  {
+   "t": "p",
+   "h": "Meksyk swojej części jeszcze nie zakończył. Według informacji z końca września 2026 roku dokumenty nie trafiły jeszcze formalnie do meksykańskiego Senatu. Umowa przejściowa zacznie obowiązywać pierwszego dnia drugiego miesiąca po tym, jak obie strony powiadomią się o zakończeniu swoich procedur, więc na razie nie ma pewnej daty. Do tego czasu obowiązują zasady opisane wyżej."
+  }
+ ],
+ "art.5.podstawa": [
+  {
+   "t": "ul",
+   "items": [
+    "Decyzja nr 2/2000 Wspólnej Rady UE–Meksyk, załącznik III",
+    "Acuerdo z 31.08.2022 (DOF), stawki celne dla towarów pochodzących z UE",
+    "Przejściowa umowa handlowa UE–Meksyk, Dziennik Urzędowy UE z 31.07.2026"
+   ]
+  }
+ ],
+ "art.6.aktualizacja": "4 października 2026",
+ "art.6.tresc": [
+  {
+   "t": "p",
+   "h": "Kto był w meksykańskim supermarkecie, ten widział czarne ośmiokąty na opakowaniach: EXCESO AZÚCARES, EXCESO CALORÍAS, EXCESO SODIO. To ostrzeżenia wymagane przez normę NOM-051, która określa całą etykietę żywności i napojów sprzedawanych w Meksyku."
+  },
+  {
+   "t": "p",
+   "h": "Ostrzeżenie pojawia się, gdy produkt przekracza limity kaloryczności, cukrów, tłuszczów nasyconych, tłuszczów trans albo sodu. Liczy się je na 100 gramów lub 100 mililitrów, a nie na porcję, więc zmniejszenie porcji niczego nie zmienia. Wiele produktów, które w Europie uchodzą za zwyczajne, dostaje w Meksyku dwa albo trzy ostrzeżenia."
+  },
+  {
+   "t": "p",
+   "h": "Ostrzeżenie to nie tylko symbol na opakowaniu. Na produktach z ostrzeżeniem nie wolno umieszczać postaci i elementów skierowanych do dzieci, a oświadczenia zdrowotne i część oświadczeń żywieniowych są zakazane. Od marca 2025 roku takich produktów nie wolno sprzedawać w szkołach. To decyzje, które wpływają na projekt opakowania, a czasem na cały pomysł na markę."
+  },
+  {
+   "t": "p",
+   "h": "Sama etykieta też różni się od europejskiej, choć na pierwszy rzut oka wygląda podobnie. Meksyk inaczej podaje alergeny, inaczej opisuje cukry i wymaga części informacji w innym miejscu lub formie. Etykieta przetłumaczona jeden do jednego z wersji unijnej zwykle nie spełnia wymagań."
+  },
+  {
+   "t": "p",
+   "h": "Dlatego kolejność ma znaczenie: najpierw sprawdzamy, jakie ostrzeżenia dostanie produkt i czego nie będzie wolno pokazać na opakowaniu, a dopiero potem powstaje projekt graficzny. Od 2026 roku import bez wykazania wymaganej zgodności z normą może skończyć się grzywną od 250 do 300% wartości towaru, więc poprawianie etykiety na granicy jest bardzo kosztowne."
+  },
+  {
+   "t": "h3",
+   "h": "Czy potrzebujesz constancia de conformidad?"
+  },
+  {
+   "t": "p",
+   "h": "Constancia de conformidad to dokument, w którym akredytowana jednostka potwierdza, że etykieta spełnia wymagania normy. Przy etykietach żywności jest dobrowolna. NOM-051 mówi wprost, że ocena zgodności nie podlega certyfikacji, a Ministerstwo Gospodarki potwierdziło w 2020 roku, że towar z etykietą naniesioną przed wysyłką można przywieźć bez niej."
+  },
+  {
+   "t": "p",
+   "h": "Mimo to przy pierwszych dostawach często się opłaca, bo jej koszt jest niewielki w porównaniu z możliwą grzywną. Może o nią wystąpić także producent albo firma handlowa, więc nie trzeba mieć jeszcze importera. Jednostka sprawdza etykietę wzrokowo, czy są na niej wszystkie wymagane informacje we właściwej formie. Nie bada produktu w laboratorium, więc za wartości na etykiecie nadal odpowiada ten, kto je przygotował."
+  },
+  {
+   "t": "p",
+   "h": "Przy niektórych innych normach dokument zgodności nie jest dobrowolny. Wydaje się go dla każdego modelu, a jego numer trzeba wpisać do zgłoszenia celnego."
+  }
+ ],
+ "art.6.podstawa": [
+  {
+   "t": "ul",
+   "items": [
+    "NOM-051-SCFI/SSA1-2010 z modyfikacją z 27.03.2020",
+    "Wytyczne dotyczące żywności w szkołach (DOF 30.09.2024), obowiązujące od 29.03.2025",
+    "Acuerdo z 10.07.2020 (DOF) i pismo Ministerstwa Gospodarki 414.2020.2469 z 02.10.2020",
+    "Ley Aduanera, art. 178 frakcja IV, w brzmieniu od 1 stycznia 2026"
+   ]
+  }
+ ],
+ "art.7.aktualizacja": "4 października 2026",
+ "art.7.tresc": [
+  {
+   "t": "p",
+   "h": "W Meksyku często słyszy się, że certyfikat NOM może mieć tylko firma meksykańska, więc zagraniczny producent musi go zrobić na swojego importera. Nie zawsze tak jest. Przepisy części norm pozwalają, żeby posiadaczem certyfikatu był producent z innego kraju, pod warunkiem że ma w Meksyku przedstawiciela prawnego."
+  },
+  {
+   "t": "p",
+   "h": "Ma to większe znaczenie, niż się wydaje na początku. Ten, kto posiada certyfikat, decyduje, kto może pod nim legalnie sprzedawać produkt. Certyfikat można rozszerzyć na wskazaną firmę, na przykład dystrybutora, ale nie można go przenieść na inny podmiot. Jeśli certyfikat ma Twój dystrybutor, a współpraca się skończy, certyfikat zostaje u niego, a nowy partner zaczyna od początku. Jeśli certyfikat masz Ty albo Twój przedstawiciel w Meksyku, możesz zmieniać dystrybutorów bez powtarzania całej procedury."
+  },
+  {
+   "t": "p",
+   "h": "Posiadanie certyfikatu to także obowiązki. Posiadacz odpowiada przed meksykańskimi organami za zgodność produktu, płaci za nadzór i odnowienia, a certyfikat jest ważny przez określony czas, zwykle od roku do trzech lat. W tym czasie jednostka certyfikująca może pobierać próbki do badań kontrolnych."
+  },
+  {
+   "t": "p",
+   "h": "Zasady różnią się w zależności od normy. Przy części produktów certyfikatu w ogóle nie ma, przy innych dokumenty wydaje się na importera. Dlatego decyzję o tym, na kogo ma być certyfikat, podejmujemy przed złożeniem wniosku, razem z wyborem modelu importu."
+  }
+ ],
+ "art.7.podstawa": [
+  {
+   "t": "ul",
+   "items": [
+    "NOM-003-SCFI-2014, pkt 9.4.1, 9.5.3.5 i 9.5.5 (przykład normy dopuszczającej zagranicznego posiadacza certyfikatu)",
+    "Ley de Infraestructura de la Calidad"
+   ]
+  }
+ ],
+ "akt.1.aktualizacja": "4 października 2026",
+ "akt.1.tresc": [
+  {
+   "t": "p",
+   "h": "19 listopada 2025 roku w meksykańskim dzienniku urzędowym ukazał się dekret zmieniający ustawę celną, Ley Aduanera. Zmienia, dodaje albo uchyla ponad sto artykułów, a większość zmian obowiązuje od 1 stycznia 2026 roku. Poniżej te, które realnie dotyczą europejskiego producenta i jego importera."
+  },
+  {
+   "t": "p",
+   "h": "Najważniejsza zmiana dotyczy kar. Za import bez wykazania wymaganej zgodności z wymaganiami pozataryfowymi, w tym z normami NOM, grzywna wynosiła do końca 2025 roku od 70 do 100% wartości handlowej towaru, a normy dotyczące informacji handlowej były z niej wyłączone. Od 1 stycznia 2026 roku wynosi od 250 do 300% wartości, a wyłączenia już nie ma. Błąd na etykiecie, który wcześniej traktowano łagodniej, może dziś kosztować od dwóch i pół do trzech razy więcej niż sam towar. Wzrosły też grzywny za błędne dane w deklaracji wartości i za opóźnienia w przedstawieniu dokumentów."
+  },
+  {
+   "t": "p",
+   "h": "Reforma zwiększyła odpowiedzialność agentów celnych. Agent ma dokładnie sprawdzać dokumenty i zgodność z przepisami, bez wcześniejszych wyłączeń odpowiedzialności. W praktyce agenci proszą o więcej dokumentów i zadają więcej pytań. Pierwsza odprawa trwa przez to dłużej, ale importer jest lepiej chroniony."
+  },
+  {
+   "t": "p",
+   "h": "Importer musi prowadzić elektroniczną ewidencję zapasów i teczkę dokumentów do każdej operacji, z fakturami, umowami, dokumentami dotyczącymi wartości i potwierdzeniami płatności. Dane w zgłoszeniu celnym można poprawić tylko przed wyborem do kontroli. Nowy przepis pozwala za to zastosować preferencję celną także po odprawie, w terminach wynikających z umowy handlowej."
+  },
+  {
+   "t": "p",
+   "h": "Osobną zmianą jest dekret z 29 grudnia 2025 roku, który podniósł cła na 1477 kodów taryfowych do poziomu od 5 do 50%. Dotyczy krajów, z którymi Meksyk nie ma umowy handlowej, przede wszystkim Chin. Towary z Unii z dowodem pochodzenia korzystają nadal ze stawek preferencyjnych, więc różnica między dostawą z prawidłowym dokumentem pochodzenia a dostawą bez niego jest teraz dużo większa."
+  },
+  {
+   "t": "p",
+   "h": "Wniosek jest prosty: kod taryfowy, etykietę i dokumenty pochodzenia trzeba sprawdzić przed wysyłką, bo poprawianie ich na granicy kosztuje dziś znacznie więcej niż rok temu."
+  }
+ ],
+ "akt.1.podstawa": [
+  {
+   "t": "ul",
+   "items": [
+    "Decreto por el que se reforman, adicionan y derogan diversas disposiciones de la Ley Aduanera (DOF 19.11.2025)",
+    "Ley Aduanera, art. 59, 89, 89 Bis, 178, 184-B i 185, w brzmieniu od 1 stycznia 2026",
+    "Dekret z 29.12.2025 (DOF) zmieniający taryfę LIGIE"
+   ]
+  }
+ ],
+ "zas.targi.aktualizacja": "4 października 2026",
+ "zas.targi.wstep": "Najważniejsze targi branżowe w Meksyku odbywają się w Monterrey, w stolicy i w Guadalajarze. Wybraliśmy imprezy, które mają sens dla producentów z Europy. Dokładne daty podajemy tam, gdzie ogłosił je organizator. Nazwa targów prowadzi do ich oficjalnej strony.",
+ "zas.targi.1.nazwa": "Obra Blanca 2026",
+ "zas.targi.1.termin": "13–15 paź 2026",
+ "zas.targi.1.miejsce": "Ciudad de México · Expo Santa Fe",
+ "zas.targi.1.branza": "Budownictwo, Meble i design",
+ "zas.targi.1.opis": "Architekci, projektanci wnętrz, deweloperzy, producenci i dystrybutorzy. Dla firm z branży budowlanej, wykończeń, okien, osłon przeciwsłonecznych i designu.",
+ "zas.targi.1.link": "https://obrablancaexpo.com",
+ "zas.targi.1.polecamy": "tak",
+ "zas.targi.2.nazwa": "Expo CIHAC 2026",
+ "zas.targi.2.termin": "14–16 paź 2026",
+ "zas.targi.2.miejsce": "Ciudad de México · Centro Citibanamex",
+ "zas.targi.2.branza": "Budownictwo",
+ "zas.targi.2.opis": "Według organizatora największe w Meksyku targi budownictwa, architektury i projektowania. Dla producentów materiałów, systemów fasadowych i wykończeń.",
+ "zas.targi.2.link": "https://www.expocihac.com",
+ "zas.targi.2.polecamy": "nie",
+ "zas.targi.3.nazwa": "Cancún Travel Mart 2026",
+ "zas.targi.3.termin": "21–23 paź 2026",
+ "zas.targi.3.miejsce": "Cancún · Iberostar Selection Cancún",
+ "zas.targi.3.branza": "Handel i HoReCa",
+ "zas.targi.3.opis": "Spotkania z hotelami, touroperatorami i kupcami z branży hotelarskiej i turystycznej.",
+ "zas.targi.3.link": "https://www.cancuntravelmart.com",
+ "zas.targi.3.polecamy": "nie",
+ "zas.targi.4.nazwa": "Medical Expo CDMX 2026",
+ "zas.targi.4.termin": "27–29 paź 2026",
+ "zas.targi.4.miejsce": "Ciudad de México · World Trade Center",
+ "zas.targi.4.branza": "Zdrowie",
+ "zas.targi.4.opis": "Dla producentów wyrobów i sprzętu medycznego oraz technologii medycznych, które w Meksyku podlegają wymaganiom regulacyjnym.",
+ "zas.targi.4.link": "https://medical-expo.com.mx",
+ "zas.targi.4.polecamy": "nie",
+ "zas.targi.5.nazwa": "FUNDIEXPO 2026",
+ "zas.targi.5.termin": "28–30 paź 2026",
+ "zas.targi.5.miejsce": "Monterrey · Cintermex",
+ "zas.targi.5.branza": "Metal i odlewnictwo, Motoryzacja, Przemysł wytwórczy",
+ "zas.targi.5.opis": "Targi odlewnictwa i przetwórstwa metali. Dla dostawców maszyn, komponentów, materiałów i technologii dla odlewni i przemysłu.",
+ "zas.targi.5.link": "https://www.fundiexpo.mx",
+ "zas.targi.5.polecamy": "tak",
+ "zas.targi.6.nazwa": "Expo Eléctrica y Solar Norte 2026",
+ "zas.targi.6.termin": "11–12 lis 2026",
+ "zas.targi.6.miejsce": "Monterrey · Cintermex",
+ "zas.targi.6.branza": "HVAC i energia",
+ "zas.targi.6.opis": "Branża elektryczna i fotowoltaiczna północnego Meksyku. Dla producentów urządzeń elektrycznych, HVAC i rozwiązań energooszczędnych.",
+ "zas.targi.6.link": "https://expoelectrica.com.mx",
+ "zas.targi.6.polecamy": "nie",
+ "zas.targi.7.nazwa": "North America Automotive B2B Meeting 2026",
+ "zas.targi.7.termin": "11–12 lis 2026",
+ "zas.targi.7.miejsce": "Aguascalientes · FICOTRECE",
+ "zas.targi.7.branza": "Motoryzacja, Przemysł wytwórczy, Metal i odlewnictwo, Tworzywa sztuczne",
+ "zas.targi.7.opis": "Umówione spotkania B2B między kupcami a dostawcami łańcucha motoryzacyjnego. Dla europejskich firm przemysłowych szukających odbiorców w sektorze auto.",
+ "zas.targi.7.link": "https://auto.capim.com.mx",
+ "zas.targi.7.polecamy": "tak",
+ "zas.targi.8.nazwa": "Expo Proveedores del Transporte y Logística 2027",
+ "zas.targi.8.termin": "27–29 sty 2027",
+ "zas.targi.8.miejsce": "Puebla · Centro Expositor Puebla",
+ "zas.targi.8.branza": "Logistyka, Motoryzacja",
+ "zas.targi.8.opis": "Transport, logistyka i intralogistyka. Dobry dostęp do kupców i dostawców ze środkowego i południowo-wschodniego Meksyku.",
+ "zas.targi.8.link": "https://etyl.mx",
+ "zas.targi.8.polecamy": "nie",
+ "zas.targi.9.nazwa": "Expo Carnes y Lácteos 2027",
+ "zas.targi.9.termin": "9–11 lut 2027",
+ "zas.targi.9.miejsce": "Monterrey · Cintermex",
+ "zas.targi.9.branza": "Żywność i napoje, Technologie przemysłowe",
+ "zas.targi.9.opis": "Przemysł mięsny i mleczarski. Dla producentów maszyn, chłodnictwa, opakowań, składników i technologii przetwórstwa żywności.",
+ "zas.targi.9.link": "https://expocarnes.com",
+ "zas.targi.9.polecamy": "nie",
+ "zas.targi.10.nazwa": "Expo Mueble Internacional, edycja zimowa 2027",
+ "zas.targi.10.termin": "17–20 lut 2027 · do potwierdzenia",
+ "zas.targi.10.miejsce": "Guadalajara · Expo Guadalajara",
+ "zas.targi.10.branza": "Meble i design",
+ "zas.targi.10.opis": "Jedne z najważniejszych targów meblarskich w Ameryce Łacińskiej. Dla dostawców mebli, komponentów, materiałów i produktów premium.",
+ "zas.targi.10.link": "https://expomuebleinternacional.com.mx",
+ "zas.targi.10.polecamy": "tak",
+ "zas.targi.11.nazwa": "Expo Manufactura 2027",
+ "zas.targi.11.termin": "23–25 lut 2027",
+ "zas.targi.11.miejsce": "Monterrey · Cintermex",
+ "zas.targi.11.branza": "Przemysł wytwórczy, Motoryzacja, Technologie przemysłowe",
+ "zas.targi.11.opis": "Przemysł wytwórczy i automatyka. Dostęp do zakładów produkcyjnych, kupców przemysłowych i dostawców technologii z północy Meksyku.",
+ "zas.targi.11.link": "https://expomanufactura.com.mx",
+ "zas.targi.11.polecamy": "tak",
+ "zas.targi.12.nazwa": "Expo ANTAD & Alimentaria México",
+ "zas.targi.12.termin": "kwiecień/maj 2027 · termin do ogłoszenia",
+ "zas.targi.12.miejsce": "Guadalajara · Expo Guadalajara",
+ "zas.targi.12.branza": "Żywność i napoje, Handel i HoReCa",
+ "zas.targi.12.opis": "Handel detaliczny, HoReCa i żywność. Przyjeżdżają kupcy sieci handlowych i dystrybutorzy z całego kraju.",
+ "zas.targi.12.link": "https://expoantad.com.mx",
+ "zas.targi.12.polecamy": "nie",
+ "zas.targi.13.nazwa": "FABTECH México 2027",
+ "zas.targi.13.termin": "4–6 maja 2027",
+ "zas.targi.13.miejsce": "Monterrey · Cintermex",
+ "zas.targi.13.branza": "Metal i odlewnictwo, Przemysł wytwórczy",
+ "zas.targi.13.opis": "Obróbka i formowanie metali: cięcie, gięcie, tłoczenie, spawanie i wykańczanie powierzchni.",
+ "zas.targi.13.link": "https://mexico.fabtechexpo.com",
+ "zas.targi.13.polecamy": "nie",
+ "zas.targi.14.nazwa": "Expo Eléctrica Internacional",
+ "zas.targi.14.termin": "maj 2027 · termin do ogłoszenia",
+ "zas.targi.14.miejsce": "Ciudad de México · Centro Citibanamex",
+ "zas.targi.14.branza": "HVAC i energia",
+ "zas.targi.14.opis": "Instalacje elektryczne, oświetlenie, automatyka i energia słoneczna.",
+ "zas.targi.14.link": "https://expoelectrica.com.mx",
+ "zas.targi.14.polecamy": "nie",
+ "zas.targi.15.nazwa": "Expo Proveedores del Restaurante 2027",
+ "zas.targi.15.termin": "25–27 maja 2027",
+ "zas.targi.15.miejsce": "Monterrey · Cintermex",
+ "zas.targi.15.branza": "Handel i HoReCa, Żywność i napoje",
+ "zas.targi.15.opis": "Dostawcy dla restauracji, hoteli i gastronomii z północy Meksyku: żywność, wyposażenie, technologie i usługi.",
+ "zas.targi.15.link": "https://www.paraelrestaurante.com",
+ "zas.targi.15.polecamy": "nie",
+ "zas.targi.16.nazwa": "EXPO PACK Guadalajara 2027",
+ "zas.targi.16.termin": "8–10 cze 2027",
+ "zas.targi.16.miejsce": "Guadalajara · Expo Guadalajara",
+ "zas.targi.16.branza": "Technologie przemysłowe, Żywność i napoje",
+ "zas.targi.16.opis": "Opakowania i procesy pakowania. Dla producentów opakowań, maszyn pakujących i rozwiązań dla linii produkcyjnych. Odbywają się co dwa lata.",
+ "zas.targi.16.link": "https://expopackguadalajara.com.mx",
+ "zas.targi.16.polecamy": "nie",
+ "zas.targi.17.nazwa": "Expo Constructo",
+ "zas.targi.17.termin": "co roku 2027 · termin do ogłoszenia",
+ "zas.targi.17.miejsce": "Monterrey · Cintermex",
+ "zas.targi.17.branza": "Budownictwo",
+ "zas.targi.17.opis": "Budownictwo w północnym Meksyku: materiały, architektura, maszyny, narzędzia i wykończenia.",
+ "zas.targi.17.link": "https://constructo.com.mx",
+ "zas.targi.17.polecamy": "nie",
+ "zas.targi.18.nazwa": "Confitexpo",
+ "zas.targi.18.termin": "sierpień 2027 · termin do ogłoszenia",
+ "zas.targi.18.miejsce": "Guadalajara · Expo Guadalajara",
+ "zas.targi.18.branza": "Żywność i napoje",
+ "zas.targi.18.opis": "Słodycze, czekolada, przekąski, wyroby piekarnicze, surowce i opakowania dla tej branży.",
+ "zas.targi.18.link": "https://www.confitexpo.com",
+ "zas.targi.18.polecamy": "nie",
+ "zas.targi.19.nazwa": "Abastur",
+ "zas.targi.19.termin": "sierpień 2027 · termin do ogłoszenia",
+ "zas.targi.19.miejsce": "Ciudad de México · Centro Citibanamex",
+ "zas.targi.19.branza": "Handel i HoReCa, Żywność i napoje",
+ "zas.targi.19.opis": "Hotele, restauracje, kawiarnie i catering. Dla dostawców żywności, napojów i wyposażenia, którzy chcą sprzedawać do HoReCa.",
+ "zas.targi.19.link": "https://www.abastur.com",
+ "zas.targi.19.polecamy": "nie",
+ "zas.targi.20.nazwa": "Expo Nacional Ferretera",
+ "zas.targi.20.termin": "wrzesień 2027 · termin do ogłoszenia",
+ "zas.targi.20.miejsce": "Guadalajara · Expo Guadalajara",
+ "zas.targi.20.branza": "Budownictwo, HVAC i energia",
+ "zas.targi.20.opis": "Narzędzia, artykuły żelazne, budownictwo i elektryka. Według organizatora ponad tysiąc wystawców. Dla firm szukających dystrybutorów.",
+ "zas.targi.20.link": "https://www.expoferretera.com.mx",
+ "zas.targi.20.polecamy": "nie",
+ "zas.targi.przygotowanie": "Nie każde targi pasują do każdego produktu. Zanim zarezerwujesz stoisko, warto ustalić, jakich odbiorców szukasz i które imprezy rzeczywiście ich przyciągają. Trzeba też sprawdzić, czy towar, który chcesz pokazać, może legalnie wjechać do Meksyku.",
+ "zas.slownik.aktualizacja": "4 października 2026",
+ "zas.slownik.tresc": [
+  {
+   "t": "p",
+   "h": "Poniżej zebraliśmy skróty i pojęcia, które pojawiają się w każdej rozmowie o imporcie do Meksyku. Część z nich nie ma dokładnego odpowiednika w Polsce, więc zostawiamy oryginalne nazwy i krótko wyjaśniamy, o co w nich chodzi."
+  },
+  {
+   "t": "ul",
+   "items": [
+    "<strong>Agente aduanal</strong> – licencjonowany agent celny. Tylko on może przeprowadzić odprawę w imieniu importera. Działa na podstawie licencji (patente) wydanej przez meksykańskie władze.",
+    "<strong>Anexo 2.4.1</strong> – załącznik do zasad handlu zagranicznego Ministerstwa Gospodarki z listą kodów taryfowych, przy których zgodność z normą NOM sprawdza się już przy odprawie.",
+    "<strong>CFDI</strong> – meksykańska faktura elektroniczna. Bez możliwości jej wystawiania firma nie może legalnie sprzedawać w Meksyku.",
+    "<strong>COFEPRIS</strong> – federalny urząd ochrony przed zagrożeniami sanitarnymi, podlegający Ministerstwu Zdrowia. Nadzoruje między innymi żywność, leki i kosmetyki.",
+    "<strong>Comercializadora</strong> – firma, która importuje towar w swoim imieniu na zlecenie innej firmy i odsprzedaje go dalej.",
+    "<strong>Constancia de conformidad</strong> – dokument jednostki inspekcyjnej lub weryfikującej potwierdzający, że etykieta spełnia wymagania normy.",
+    "<strong>Contraseña oficial NOM</strong> – oficjalny znak potwierdzający zgodność z normą, umieszczany na certyfikowanych produktach.",
+    "<strong>DOF</strong> (Diario Oficial de la Federación) – meksykański dziennik urzędowy, w którym publikuje się ustawy, rozporządzenia i normy.",
+    "<strong>DTA</strong> – opłata za przetworzenie zgłoszenia celnego.",
+    "<strong>EMA</strong> – meksykański urząd akredytacji. Akredytuje laboratoria oraz jednostki certyfikujące, inspekcyjne i weryfikujące.",
+    "<strong>EUR.1</strong> – świadectwo przewozowe potwierdzające unijne pochodzenie towaru, wystawiane przez urząd celny w kraju wywozu.",
+    "<strong>Fracción arancelaria</strong> – ośmiocyfrowy kod taryfowy towaru w meksykańskiej taryfie.",
+    "<strong>IEPS</strong> – specjalny podatek od produkcji i usług, obejmujący wybrane grupy towarów.",
+    "<strong>IGI</strong> – ogólne cło importowe. Jego stawka zależy od kodu taryfowego i pochodzenia towaru.",
+    "<strong>IVA</strong> – meksykański podatek od wartości dodanej, odpowiednik VAT. Stawka podstawowa wynosi 16%.",
+    "<strong>LIGIE</strong> – ustawa o ogólnych cłach importowych i eksportowych, zawierająca meksykańską taryfę celną.",
+    "<strong>NICO</strong> – dwucyfrowe rozszerzenie kodu taryfowego. Razem z fracción daje dziesięciocyfrowy kod używany w zgłoszeniu celnym.",
+    "<strong>NMX</strong> – meksykańska norma dobrowolna, w odróżnieniu od obowiązkowej NOM.",
+    "<strong>NOM</strong> (Norma Oficial Mexicana) – obowiązkowa meksykańska norma techniczna dotycząca bezpieczeństwa, parametrów technicznych albo etykietowania.",
+    "<strong>OCP</strong> (Organismo de Certificación de Producto) – akredytowana jednostka certyfikująca produkty, która wydaje certyfikaty NOM.",
+    "<strong>Padrón de Importadores</strong> – rejestr importerów prowadzony przez SAT. Co do zasady bez wpisu nie można importować, choć przepisy przewidują wyjątki.",
+    "<strong>Padrón de Sectores Específicos</strong> – dodatkowy rejestr importerów wymagany dla niektórych grup towarów.",
+    "<strong>Pedimento</strong> – meksykańskie zgłoszenie celne.",
+    "<strong>Precio estimado</strong> – cena referencyjna ustalona dla niektórych towarów. Zadeklarowanie niższej wartości uruchamia weryfikację wartości celnej.",
+    "<strong>PROFECO</strong> – federalny urząd ochrony konsumentów. Kontroluje między innymi zgodność produktów z normami na rynku.",
+    "<strong>RFC</strong> – meksykański numer identyfikacji podatkowej.",
+    "<strong>SAT</strong> – meksykański urząd skarbowy, odpowiedzialny także za cła.",
+    "<strong>SENASICA</strong> – federalna służba zdrowia zwierząt i roślin oraz bezpieczeństwa żywności pochodzenia rolnego, podlegająca ministerstwu rolnictwa.",
+    "<strong>TLCUEM</strong> – umowa o wolnym handlu między Unią Europejską a Meksykiem, obowiązująca od 2000 roku.",
+    "<strong>UMA</strong> – jednostka, na podstawie której w Meksyku liczy się grzywny i opłaty. W 2026 roku wynosi 117,31 pesos.",
+    "<strong>Unidad de inspección / Unidad de verificación</strong> – akredytowana jednostka inspekcyjna lub weryfikująca, która sprawdza zgodność, na przykład etykiet, i wystawia dokumenty takie jak constancia albo dictamen.",
+    "<strong>VUCEM</strong> – meksykański elektroniczny system obsługi handlu zagranicznego, przez który składa się dokumenty do odprawy."
+   ]
+  }
+ ],
+ "zas.slownik.podstawa": [
+  {
+   "t": "ul",
+   "items": [
+    "Ley Aduanera; LIGIE; Ley de Infraestructura de la Calidad; Ley del IEPS; Ley del IVA",
+    "Decyzja nr 2/2000 Wspólnej Rady UE–Meksyk, załącznik III"
+   ]
+  }
+ ]
+}

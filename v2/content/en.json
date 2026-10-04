@@ -1,0 +1,822 @@
+{
+ "menu.uslugi": "Services",
+ "menu.jak-pracujemy": "How we work",
+ "menu.baza-wiedzy": "Knowledge",
+ "menu.marki": "Our brands",
+ "menu.o-nas": "About",
+ "menu.kontakt": "Contact",
+ "menu.cta": "Book a consultation",
+ "cta.glowne": "Book a free consultation",
+ "cta.pomocnicze": "See how we can help",
+ "cta.whatsapp.numer": "528125901796",
+ "cta.whatsapp.wiadomosc": "Hello, I'm writing from grupoervoy.com. I'd like to book a free consultation about selling our products in Mexico.",
+ "pasek.h2": "Let's start with a conversation about your product",
+ "pasek.tekst": "The first consultation is free. Tell us what you make and how you see your sales in Mexico, and we'll tell you what needs to be prepared and where we can help. We only put a proposal together once we understand your product.",
+ "pasek.przycisk": "Book a free consultation",
+ "stopka.opis": "GRUPO ERVOY helps European manufacturers adapt their products to the Mexican market and supports them as their sales and presence in Mexico grow.\nOur head office is in Monterrey.",
+ "stopka.prawne": "GRUPO ERVOY, S.A. de C.V. · Monterrey, Nuevo León, México",
+ "stopka.polityka": "Privacy notice",
+ "stopka.og.tytul": "GRUPO ERVOY: the Mexican market for European companies",
+ "stopka.og.opis": "Market research, NOM standards, labelling, import and local representation in Mexico. Based in Monterrey, with a team in Mexico and Poland.",
+ "stopka.alt.logo": "GRUPO ERVOY",
+ "home.seo.tytul": "Selling European products in Mexico | GRUPO ERVOY",
+ "home.seo.opis": "We help European manufacturers prepare their products for sale in Mexico: market research, NOM standards, labelling, import and distribution. Free consultation.",
+ "home.hero.label": "European companies. Mexican opportunities.",
+ "home.hero.h1": "We help European products\nfind their place in Mexico.",
+ "home.hero.sub": "We prepare European companies' products for sale in Mexico and help them grow in this market. We work with manufacturers from product analysis and regulatory requirements, through import and the start of sales, to building the local business.",
+ "home.hero.przycisk1": "Book a free consultation",
+ "home.hero.przycisk2": "See our services",
+ "home.hero.mapa.alt": "Map of sea routes from Gdynia and Valencia to Veracruz and overland links to Mexico City and Monterrey",
+ "home.panel.label": "Product route",
+ "home.panel.tytul": "Europe – Veracruz – Monterrey",
+ "home.panel.krok1": "Tariff classification (HS)",
+ "home.panel.krok2": "Standards, label and documents",
+ "home.panel.krok3": "Sea freight",
+ "home.panel.krok4": "Customs clearance in Veracruz",
+ "home.panel.krok5": "Distribution in Mexico",
+ "home.intro.label": "Grupo ERVOY",
+ "home.intro.h2": "Your business partner in Mexico",
+ "home.intro.p1": "Selling in Mexico takes more than a good product. You need to understand the local rules and requirements, prepare the product properly for import and sale, and above all have someone on the ground who knows the market and can translate the European way of working into local reality.",
+ "home.intro.p2": "Grupo ERVOY is a Mexican company based in Monterrey, with a team in Mexico and in Poland. We help European manufacturers get ready to sell in Mexico, then support them in day-to-day operations and growth. We can act as your local partner and represent your company in Mexico, so getting started doesn't have to mean setting up your own company straight away.",
+ "home.uslugi.label": "Services",
+ "home.uslugi.h2": "How can we help you?",
+ "home.uslugi.lead": "We shape our support around your product and your company's needs. We can help with one specific area or run the whole process, from market research and product preparation to launching sales and building your presence in Mexico.",
+ "home.uslugi.1.tytul": "Market research and strategy",
+ "home.uslugi.1.tekst": "We look at the market, competitors, prices and potential customers to work out where and how your product stands the best chance in Mexico.",
+ "home.uslugi.2.tytul": "Getting your product ready for Mexico",
+ "home.uslugi.2.tekst": "We check the product requirements, identify the NOM standards that apply and support you through certification and Spanish labelling.",
+ "home.uslugi.3.tytul": "Your local partner in Mexico",
+ "home.uslugi.3.tekst": "We can represent your company in Mexico under an agreed contract, giving you a local presence without having to set up your own company at the start.",
+ "home.uslugi.4.tytul": "Import and logistics",
+ "home.uslugi.4.tekst": "We help you set up the import model, choose the right partners and coordinate transport, customs clearance and the first shipments to Mexico.",
+ "home.uslugi.5.tytul": "Distributors and sales growth",
+ "home.uslugi.5.tekst": "We find and vet distributors and trading partners, arrange the first contacts and support the talks that lead to sales.",
+ "home.uslugi.6.tytul": "Trade shows and promotion",
+ "home.uslugi.6.tekst": "We support your participation in trade shows and industry events in Mexico, from space and stand to materials and messaging that work for Mexican buyers.",
+ "home.uslugi.link": "More about our services",
+ "home.proces.label": "How we work",
+ "home.proces.h2": "First we get to know the product, then we propose a solution",
+ "home.proces.1.tytul": "Free consultation",
+ "home.proces.1.tekst": "We talk about your product, your plans and what you expect from the Mexican market.",
+ "home.proces.2.tytul": "Product analysis",
+ "home.proces.2.tekst": "We go through the technical documentation and check the requirements for standards, tariff classification, import and labelling.",
+ "home.proces.3.tytul": "Scope and quote",
+ "home.proces.3.tekst": "We set out what needs to be done, in what order and where we can support you. On that basis we prepare a concrete proposal and quote.",
+ "home.proces.4.tytul": "Preparation and sales growth",
+ "home.proces.4.tekst": "We help prepare the product and paperwork, coordinate import and the first shipments, and support sales and relationships with local partners.",
+ "home.proces.link": "See the full process",
+ "home.marki.label": "Our brands",
+ "home.marki.h2": "We also build our own brands in Mexico",
+ "home.marki.lead": "We don't just advise: we go through product preparation, import, certification and sales in Mexico ourselves. What we learn building our own brands goes straight into our work with clients.",
+ "home.marki.smb": "Simple Made Blinds Mexico. Made-to-measure shading systems and blinds for homeowners, architects and projects in Mexico.",
+ "home.marki.polaca": "Polaca Foods. Central European food products for Mexican shops, distributors and the food service sector.",
+ "home.wiedza.label": "Knowledge",
+ "home.wiedza.h2": "What to know before entering Mexico",
+ "home.wiedza.lead": "We write about what manufacturers ask us most often: regulations, duties, labelling and ways of operating in the market.",
+ "home.wiedza.link": "Go to the knowledge section",
+ "home.kontakt.h2": "Let's talk about your product",
+ "home.kontakt.tekst": "Tell us about your product and your plans for Mexico. We'll talk through the options, what's needed and the next steps. The first consultation is free.",
+ "uslugi.seo.tytul": "Services for European manufacturers in Mexico | ERVOY",
+ "uslugi.seo.opis": "Market research, NOM standards, labelling, representation, import, distributors and trade shows in Mexico. We tailor the scope to each product.",
+ "uslugi.label": "Services",
+ "uslugi.h1": "How can we help?",
+ "uslugi.lead": "Every product and every company needs something different in Mexico. Some want to test the market's potential, others to get the product ready for sale, others to find their first trading partners. That's why we start with a conversation, get to know the product and only then propose a specific scope.",
+ "uslugi.lead2": "We can take on a single area or combine several services into a complete process, from market research and product preparation to the first shipments, trading partners and further sales growth.",
+ "u1.seo.tytul": "Mexico market research for European companies | ERVOY",
+ "u1.seo.opis": "We analyse competitors, prices, sales channels and regulatory requirements for your product in Mexico and finish with a clear recommendation.",
+ "u1.label": "Services",
+ "u1.h1": "Market research and strategy",
+ "u1.lead": "Before you start selling in Mexico, it helps to know who your product is for, who you'll be competing with, what prices look like and what you need to comply with to bring the product to market.",
+ "u1.h2.co": "What we look at",
+ "u1.co.p1": "We do the research here, in Mexico. We analyse competitors, visit shops and wholesalers, and look at prices, packaging and how similar products are presented. Where possible we also talk to distributors and buyers to understand what the market needs.",
+ "u1.co.lista.intro": "The report can cover:",
+ "u1.co.lista.1": "competing products, brands and market prices",
+ "u1.co.lista.2": "the most suitable sales channels and how each of them works",
+ "u1.co.lista.3": "regulatory requirements, including NOM standards, tariff classification, duties and any permits",
+ "u1.co.lista.4": "estimated costs of preparing the product and starting sales",
+ "u1.co.lista.5": "potential distributors and trading partners",
+ "u1.h2.wynik": "What you get",
+ "u1.wynik.p1": "The report ends with a clear recommendation: whether and how to develop sales of the product in Mexico, where to start and what to do first. If the market isn't ready yet, we'll tell you that too.",
+ "u1.wynik.p2": "You can use the report whether or not you continue working with GRUPO ERVOY.",
+ "u2.seo.tytul": "NOM standards, classification and labelling in Mexico | ERVOY",
+ "u2.seo.opis": "We check your product's requirements: tariff classification, NOM standards and certification. We prepare labelling that complies with Mexican rules.",
+ "u2.label": "Services",
+ "u2.h1": "Getting your product ready for sale in Mexico",
+ "u2.lead": "Before the product goes on sale, you need to check which requirements apply in Mexico and prepare everything needed to place it on the market legally.",
+ "u2.h2.klasyfikacja": "Tariff classification",
+ "u2.klasyfikacja.p1": "The tariff code affects, among other things, the duty rate, regulatory requirements and any permits. We prepare a preliminary classification and then verify it with a customs broker. For more complex products we also help prepare the documentation needed to obtain an official ruling.",
+ "u2.h2.nom": "Mexican NOM standards and certification",
+ "u2.nom.p1": "We establish which requirements and standards apply to the product and check whether it can be placed on the market as it is. If certification is needed, we help choose the right body, prepare the documentation, arrange testing and coordinate the process through to the end.",
+ "u2.nom.p2": "Depending on the product and the business model, certification may require a party registered in Mexico. We go through the options at the start, because they shape how the product will be imported and sold.",
+ "u2.h2.etykieta": "Spanish labelling",
+ "u2.etykieta.p1": "We check what information must appear on the packaging or label and prepare the Spanish version to meet Mexican requirements. Where needed, we also coordinate confirmation of compliance with the relevant inspection unit.",
+ "u2.h2.kto": "Who does what",
+ "u2.kto.p1": "Part of the work we do ourselves. Where accreditation or a licence is required, we work with customs brokers, laboratories and accredited certification and inspection bodies. We coordinate the whole process, so you don't have to manage several suppliers yourself.",
+ "u2.h2.wynik": "What you get",
+ "u2.wynik.p1": "At the end you receive an organised set of documents and information needed to import and sell the product in Mexico.",
+ "u3.seo.tytul": "Company representation in Mexico | GRUPO ERVOY",
+ "u3.seo.opis": "Local representation for European companies in Mexico. Operate in the market without setting up your own company straight away, under a contract with GRUPO ERVOY.",
+ "u3.label": "Services",
+ "u3.h1": "Your local partner in Mexico",
+ "u3.lead": "Not every company needs its own entity in Mexico from day one. In many cases it's easier to start with a local partner who can act on the ground and support the company's growth.",
+ "u3.h2.jak": "How it works",
+ "u3.jak.p1": "Under a contract, we can represent your company within an agreed scope: with trading partners, certain institutions and the parties involved in preparing and selling the product. The scope of representation is always defined case by case.",
+ "u3.jak.p2": "This lets you start operating in Mexico without building your own structure straight away, and decide on the next step once the business starts to grow.",
+ "u3.h2.prawna": "Local presence",
+ "u3.prawna.p1": "Within the scope set out in the contract, we can support your company with local formal and organisational matters and coordinate work with the relevant parties in Mexico.",
+ "u3.h2.handlowa": "Sales support",
+ "u3.handlowa.p1": "We can also represent your company with customers, distributors and potential partners: presenting your offer, answering questions, attending meetings and supporting negotiations.",
+ "u3.h2.spolka": "If you later want your own company",
+ "u3.spolka.p1": "When the scale of the business justifies your own structure in Mexico, we can help prepare that step and hand over selected tasks to your company smoothly.",
+ "u4.seo.tytul": "Import to Mexico and logistics | GRUPO ERVOY",
+ "u4.seo.opis": "We help you set up importing into Mexico, choose the right partners and coordinate the first shipments from Europe.",
+ "u4.label": "Services",
+ "u4.h1": "Import and logistics",
+ "u4.lead": "The first shipment to Mexico needs good organisation and the paperwork ready before the goods leave. We help plan the whole process and coordinate the partners involved.",
+ "u4.h2.importer": "Importer and customs broker",
+ "u4.importer.p1": "We help you decide which import model suits your company and product, and choose the right importer and customs broker. We compare the options available and help you pick the one that fits the scale of your business.",
+ "u4.h2.transport": "Transport and clearance",
+ "u4.transport.p1": "We coordinate the first shipments from Europe to Mexico and make sure the commercial, transport, customs and product documents are ready before dispatch. We work with the partners responsible for transport and clearance.",
+ "u4.h2.pochodzenie": "Origin of goods and duties",
+ "u4.pochodzenie.p1": "We check whether preferential tariff treatment under trade agreements applies and help prepare the required proof of origin, so you avoid unnecessary costs and delays.",
+ "u5.seo.tytul": "Distributors and sales growth in Mexico | GRUPO ERVOY",
+ "u5.seo.opis": "We find and vet distributors and trading partners in Mexico, arrange the first contacts and support your sales growth.",
+ "u5.label": "Services",
+ "u5.h1": "Distributors and sales growth",
+ "u5.lead": "A good trading partner can speed up sales considerably. That's why we don't just hand over a list of companies: we help you find partners that genuinely fit your product and business model.",
+ "u5.h2.szukanie": "How we find partners",
+ "u5.szukanie.p1": "First we define the partner you need: what reach they should have, which customers they should serve and what level of sales or orders makes sense for you. Then we identify potential companies and check their profile, activity and the brands they already carry.",
+ "u5.h2.rozmowy": "Talks and first orders",
+ "u5.rozmowy.p1": "We contact the selected companies, arrange the first meetings and can take part in them with you. We also help agree the terms of cooperation and support the process through to the first orders.",
+ "u5.h2.dalej": "Once sales are running",
+ "u5.dalej.p1": "We can stay on as your local partner at the next stage: supporting distributors, growing your customer network and keeping you informed about changes and opportunities in the market.",
+ "u6.seo.tytul": "Trade shows and promotion in Mexico | GRUPO ERVOY",
+ "u6.seo.opis": "We help European companies take part in trade shows in Mexico: choosing the event, the stand, Spanish-language materials and follow-up after the show.",
+ "u6.label": "Services",
+ "u6.h1": "Trade shows and promotion",
+ "u6.lead": "Industry trade shows are a good way to get to know the market, potential customers and trading partners. We help prepare your presence so the show becomes the start of real conversations, not just a few days on a stand.",
+ "u6.h2.wybor": "Choosing the show and the space",
+ "u6.wybor.p1": "We help you choose events that suit your industry and target customers, and organise your company's participation on site.",
+ "u6.h2.stoisko": "Stand design and build",
+ "u6.stoisko.p1": "We coordinate the design and build of your stand in Mexico and the technical side of your presence during the event.",
+ "u6.h2.materialy": "Marketing materials",
+ "u6.materialy.p1": "We prepare or adapt materials in Spanish: presentations, catalogues, website content and customer materials. It isn't only about translation, but about adjusting the message to Mexican buyers.",
+ "u6.h2.potem": "After the show",
+ "u6.potem.p1": "The most important part starts when the show ends. We can help organise the contacts, follow up with potential customers and carry the sales conversations forward.",
+ "proces.seo.tytul": "How we work | GRUPO ERVOY",
+ "proces.seo.opis": "From a free consultation, through product analysis and a proposal, to the first shipment and sales growth in Mexico. See what working with us looks like.",
+ "proces.label": "How we work",
+ "proces.h1": "First we get to know your product and your plans",
+ "proces.lead": "We don't sell ready-made packages. The work depends on the product, the target market and what the company already has in place. That's why every project starts with a conversation and an analysis, and only then do we present a concrete solution, scope and quote.",
+ "proces.1.tytul": "Free consultation",
+ "proces.1.tekst": "We get to know your company, products and plans for Mexico. We talk through the options and tell you openly where we can help. The consultation is free and without obligation.",
+ "proces.2.tytul": "Product analysis",
+ "proces.2.tekst": "We ask for technical data sheets, composition, packaging photos and any certificates you have. On that basis we analyse the product requirements, tariff classification, NOM standards and labelling rules.",
+ "proces.3.tytul": "Proposal and quote",
+ "proces.3.tekst": "We set out the next steps, the scope of our work, who is responsible for what and an expected timeline. Our fees and external costs, such as testing, certification or body fees, are shown separately in the quote.",
+ "proces.4.tytul": "Product preparation",
+ "proces.4.tekst": "We run the product's preparation for the Mexican market: we coordinate tariff classification, certification, labelling and the work with the customs broker, laboratories and certification bodies. We keep you updated throughout.",
+ "proces.5.tytul": "First shipment",
+ "proces.5.tekst": "We help you choose the import model and the right partners, prepare the paperwork and organise transport. We coordinate the first clearance and delivery to the location you specify in Mexico.",
+ "proces.6.tytul": "Sales and growth",
+ "proces.6.tekst": "Once the product is ready, we can help you find distributors and customers, prepare for trade shows and support further sales growth. If needed, we can also act as your company's local partner in Mexico.",
+ "proces.h2.partnerzy": "Who we work with",
+ "proces.partnerzy.p1": "Some steps can only be carried out by authorised parties. Customs clearance is handled by licensed customs brokers, while certification and testing are done by accredited bodies and laboratories in Mexico. We work with trusted partners and choose them according to the product and the project.",
+ "proces.partnerzy.p2": "For you, that means a single point of contact. We coordinate the work, gather the information, follow each stage and keep you up to date on how the project is going.",
+ "wiedza.seo.tytul": "Knowledge about the Mexican market | GRUPO ERVOY",
+ "wiedza.seo.opis": "NOM standards, duties, import, labelling and requirements for selling in Mexico. Practical knowledge for European manufacturers planning to grow in this market.",
+ "wiedza.label": "Knowledge",
+ "wiedza.h1": "Knowledge that helps you prepare your product for Mexico",
+ "wiedza.lead": "Here we've gathered answers to the questions that come up most often when preparing a product for sale in Mexico. We write about regulations, standards, import, labelling and the practical side of doing business. Each article shows when it was last updated and the sources it is based on.",
+ "wiedza.zastrzezenie": "The articles are for information only and do not replace an analysis of a specific product. Requirements can depend on the type of product, its classification and how it is sold.",
+ "wiedza.dzial.1.nazwa": "Articles",
+ "wiedza.dzial.1.opis": "How entering the Mexican market works: standards, duties, import and labelling.",
+ "wiedza.dzial.2.nazwa": "Regulatory updates",
+ "wiedza.dzial.2.opis": "Changes in Mexican regulations that affect importing and selling.",
+ "wiedza.dzial.3.nazwa": "Resources",
+ "wiedza.dzial.3.opis": "A trade show calendar and a glossary for quick reference.",
+ "wiedza.et.aktualizacja": "Updated:",
+ "wiedza.et.podstawa": [
+  {
+   "t": "p",
+   "h": "Legal basis"
+  }
+ ],
+ "wiedza.et.zrodla": "Sources",
+ "wiedza.et.czytaj": "Read more",
+ "wiedza.et.powiazane": "Related services",
+ "wiedza.et.wszystkie": "All articles",
+ "wiedza.et.cta.h2": "Have a question about your product?",
+ "wiedza.et.cta.tekst": "Requirements often depend on the type of product and its classification. Tell us about yours and we'll check what applies. The first consultation is free.",
+ "faq.h2": "Frequently asked questions",
+ "faq.1.pytanie": "What is a NOM and when does it apply?",
+ "faq.1.odpowiedz": "Normas Oficiales Mexicanas are mandatory Mexican technical regulations covering, among other things, product safety, technical specifications and labelling. Not every product is subject to the same requirements: which standards apply depends, among other things, on the type of product and its classification. We check this at the analysis stage.",
+ "faq.2.pytanie": "Do I need a company in Mexico to sell my products there?",
+ "faq.2.odpowiedz": "Not always. Depending on the product and the sales model, you can start by working with an importer, a distributor or another local partner. In some cases we can also provide local support and represent your company under a contract. Setting up your own company makes sense when the scale of the business justifies a structure in Mexico.",
+ "faq.3.pytanie": "Why does the tariff code matter so much?",
+ "faq.3.odpowiedz": "Tariff classification affects, among other things, the duty rate, regulatory requirements and the documents needed for import. That's why it's worth settling and verifying it before the first shipment.",
+ "faq.4.pytanie": "What kinds of products do you work with?",
+ "faq.4.odpowiedz": "We work with consumer and industrial products made in Europe. We don't limit ourselves to one industry. We look at every project individually, and in the first conversation we tell you honestly whether we can really help.",
+ "faq.5.pytanie": "How much does it cost to start selling in Mexico?",
+ "faq.5.odpowiedz": "It depends mainly on the type of product and the requirements it has to meet before going on sale. Some products mainly need correct labelling; others also need certification, testing or permits. That's why we prepare a proposal and quote only after analysing the product. The first consultation is free.",
+ "faq.6.pytanie": "How long does it take to prepare a product for sale in Mexico?",
+ "faq.6.odpowiedz": "It depends on the product, the documents required, certification and the external bodies involved. After the analysis we give you an expected timeline and point out what could affect the date sales can start.",
+ "faq.7.pytanie": "Can you act as the importer of my goods?",
+ "faq.7.odpowiedz": "We don't act as importer. What we do is help you define the right import model, choose a partner who can take on that role and coordinate the first shipment with them.",
+ "faq.8.pytanie": "Which languages can we speak?",
+ "faq.8.odpowiedz": "English, Spanish and Polish. With a team in Mexico and Poland, we can work easily with the manufacturer in Europe and with local partners in Mexico.",
+ "faq.9.pytanie": "How do we get started?",
+ "faq.9.odpowiedz": "Book a free consultation and write a few lines about your product and your plans for Mexico. In the conversation we'll agree what you need, then ask for the documents required for the analysis and prepare a proposal for the next steps.",
+ "marki.seo.tytul": "Our brands in Mexico | GRUPO ERVOY",
+ "marki.seo.opis": "Simple Made Blinds Mexico and Polaca Foods are GRUPO ERVOY brands. What we learn building them goes into our work with European manufacturers.",
+ "marki.label": "Our brands",
+ "marki.h1": "We build our own brands in Mexico",
+ "marki.lead": "Alongside our work with European manufacturers, we develop our own brands in Mexico. We go through the same stages we handle for clients: preparing the product and meeting local requirements, import and logistics, and building sales. Our experience comes not only from consulting but above all from practice.",
+ "marki.smb.nazwa": "Simple Made Blinds Mexico",
+ "marki.smb.tekst": "Made-to-measure shading systems and blinds for homes, offices and property developments in Mexico. The brand combines European solutions with local manufacturing and installation.",
+ "marki.smb.link": "simplemadeblinds.mx",
+ "marki.polaca.nazwa": "Polaca Foods",
+ "marki.polaca.tekst": "Central European food products for Mexican shops, wholesalers and the food service sector. Polaca Foods is building an import channel that brings products from different European manufacturers to Mexico.",
+ "marki.polaca.link": "polacafoods.lat",
+ "onas.seo.tytul": "About us | GRUPO ERVOY",
+ "onas.seo.opis": "A Mexican company based in Monterrey with a team in Mexico and Poland. We help European manufacturers prepare their products for sale in Mexico.",
+ "onas.label": "About",
+ "onas.h1": "A Mexican company connecting Europe with the local market",
+ "onas.p1": "GRUPO ERVOY is a Mexican company based in Monterrey, Nuevo León, with a team working in Mexico and Poland. That's why we understand both sides: the European manufacturer, with its way of working and its expectations, and the realities of the Mexican market.",
+ "onas.p2": "Our experience started with our own brands. With Simple Made Blinds Mexico and Polaca Foods we went through product preparation, regulatory requirements, import, logistics and building sales ourselves. Today we use that experience to help other European manufacturers grow in Mexico.",
+ "onas.h2.monterrey": "Why Monterrey",
+ "onas.monterrey.p1": "Monterrey is one of Mexico's main industrial and business centres. Being in the north of the country gives us good access to the northern market, the United States, the main business hubs and transport infrastructure. It's a natural base for growing in the Mexican market.",
+ "onas.h2.zasady": "Our approach",
+ "onas.zasady.p1": "Before proposing anything specific, we want to understand the product, the business model and the company's plans. Only then can we judge what you really need and where we can help. If we think Mexico isn't the right market for your product yet, we'll tell you straight.",
+ "onas.zasady.p2": "We don't believe in one-size-fits-all packages. That's why we start with a free conversation and prepare a specific proposal only after getting to know the product and the support it needs.",
+ "kontakt.seo.tytul": "Contact | GRUPO ERVOY",
+ "kontakt.seo.opis": "Book a free consultation. We speak English, Spanish and Polish. GRUPO ERVOY, Monterrey, Mexico.",
+ "kontakt.label": "Contact",
+ "kontakt.h1": "Let's talk about your product",
+ "kontakt.lead": "Write a few lines about what you make and how you see your sales in Mexico. We'll get back to you to set up a free consultation at a time that suits you.",
+ "kontakt.przycisk.whatsapp": "Message on WhatsApp",
+ "kontakt.przycisk.telefon": "Call",
+ "kontakt.przycisk.email": "Send an email",
+ "kontakt.osoba1.imie": "Bogusław Daniel",
+ "kontakt.osoba1.jezyki": "Speaks Polish and English",
+ "kontakt.osoba1.telefon": "+48 721 134 813",
+ "kontakt.osoba1.email": "boguslaw.daniel@grupoervoy.com",
+ "kontakt.osoba2.imie": "Erick Escamilla",
+ "kontakt.osoba2.jezyki": "Speaks Spanish and English",
+ "kontakt.osoba2.telefon": "+52 81 2590 1796",
+ "kontakt.osoba2.email": "erick.escamilla@grupoervoy.com",
+ "kontakt.firma.email": "info@grupoervoy.com",
+ "kontakt.firma.telefon": "+52 81 2590 1796",
+ "kontakt.firma.adres": "Cambridge 103, 64349 Monterrey, N.L., Mexico",
+ "kontakt.firma.prawne": "GRUPO ERVOY, S.A. de C.V. · Monterrey, Nuevo León, México",
+ "404.seo.tytul": "Page not found | GRUPO ERVOY",
+ "404.label": "Error 404",
+ "404.h1": "We couldn't find this page",
+ "404.tekst": "The address may have changed, or the page may have moved when we rebuilt the site. The home page or the list of services is a good place to start.",
+ "404.przycisk1": "Back to home",
+ "404.przycisk2": "See our services",
+ "404.kontakt": "If you're looking for something specific, message us on WhatsApp.",
+ "art.1.tytul": "How to start selling your product in Mexico: first steps",
+ "art.1.zapowiedz": "Where to start if you're planning to sell in Mexico: the order of steps, the key decisions and where manufacturers most often lose time.",
+ "art.1.aktualizacja": "4 October 2026",
+ "art.1.tresc": [
+  {
+   "t": "p",
+   "h": "Most conversations with manufacturers begin with the question of customers: who will buy this, and at what price. It's a good question, just asked a little too early. Before you look for buyers, you need to know whether your product can legally enter Mexico, what it will cost once cleared, and who will import it. Those answers set the price, and the price shapes everything else."
+  },
+  {
+   "t": "p",
+   "h": "The first step is the tariff code. It determines the duty rate, the standards the product must meet and whether the importer needs additional registrations. The code has to be agreed on both sides of the Atlantic before the goods leave the factory, because European and Mexican customs can classify the same product differently."
+  },
+  {
+   "t": "p",
+   "h": "The second step is standards. Some products must comply with Mexican NOM standards. Sometimes that just means a correct Spanish label; sometimes it means a certificate issued after testing in Mexico. The CE mark and EU certificates don't replace the Mexican procedure, although they help with the paperwork. This stage usually takes longest, and it sets the timeline for the whole project."
+  },
+  {
+   "t": "p",
+   "h": "The third step is origin and duties. The EU–Mexico agreement allows many European products into Mexico duty-free, but only with valid proof of origin. There are exceptions too, so work out the duty for your tariff code before you quote a price to anyone."
+  },
+  {
+   "t": "p",
+   "h": "The fourth step is the importer. A company without a Mexican tax registration can't clear its own goods through customs. Someone in Mexico has to do it in their own name: a distributor, an import service company or your own company. That choice decides who is responsible for the goods at the border and whose name goes on the documents."
+  },
+  {
+   "t": "p",
+   "h": "Only at this point does it make sense to talk about sales channels. It's worth asking what quality certificates retail chains or large buyers in your industry expect from suppliers. Missing a single document can close off an entire channel, however good the product is."
+  },
+  {
+   "t": "p",
+   "h": "Most time is lost by doing things in the wrong order. Typical examples: designing the label before checking the standard's requirements, changing the tariff code on one side without telling the other, or sending test samples in a version that can't be sold in Mexico. Each of these mistakes costs weeks, sometimes months."
+  },
+  {
+   "t": "p",
+   "h": "Shipping is usually the least of your worries. A container from northern Europe to Veracruz or Altamira takes roughly three to five weeks."
+  }
+ ],
+ "art.1.podstawa": [
+  {
+   "t": "ul",
+   "items": [
+    "Ley Aduanera (Mexican Customs Law), as in force from 1 January 2026",
+    "Decision No 2/2000 of the EU–Mexico Joint Council, Annex III (rules of origin)",
+    "Ley de Infraestructura de la Calidad (Quality Infrastructure Law)"
+   ]
+  }
+ ],
+ "art.2.tytul": "NOM standards: how to check whether they apply to your product",
+ "art.2.zapowiedz": "What Normas Oficiales Mexicanas are, when they apply and how to work out which requirements apply to a specific product.",
+ "art.2.aktualizacja": "4 October 2026",
+ "art.2.tresc": [
+  {
+   "t": "p",
+   "h": "With every new product, the first question is the same: is it covered by a NOM? NOM stands for Norma Oficial Mexicana. These are mandatory technical regulations issued by Mexican ministries, each within its own remit. They cover product safety, technical specifications or what must appear on the label and in the instructions. Alongside them are NMX standards, which are voluntary. When someone in Mexico talks about a standard you have to meet, they almost always mean a NOM."
+  },
+  {
+   "t": "p",
+   "h": "The starting point for finding out which standards apply is the tariff code. The Ministry of Economy publishes Annex 2.4.1 to its foreign trade rules: a list of tariff codes for which customs checks compliance with a specific standard at clearance. If your code is on the list, the goods won't get through without proof of compliance."
+  },
+  {
+   "t": "p",
+   "h": "If your code isn't on the list, that doesn't mean the standard doesn't apply. Many standards cover products sold in Mexico, not only imported ones. In that case enforcement comes later, in the market, carried out by PROFECO, the consumer protection agency, among others. Standards also have their own scope and exemptions, so the annex should always be read together with the text of the standard."
+  },
+  {
+   "t": "p",
+   "h": "What compliance looks like in practice varies a lot. For some products a correct Spanish label is enough. For others, a verification unit issues a document for each model, and its number is entered in the customs declaration. For others still, you need a certificate from an accredited certification body, issued after testing in a Mexican laboratory. European certificates and test reports help prepare the file, but they don't replace the Mexican procedure."
+  },
+  {
+   "t": "p",
+   "h": "Since 1 January 2026, getting this wrong has become much more expensive. If the required compliance with a standard can't be shown at import, the fine can be 250 to 300% of the commercial value of the goods. That's why we establish the applicable standards right at the start, together with the tariff code."
+  }
+ ],
+ "art.2.podstawa": [
+  {
+   "t": "ul",
+   "items": [
+    "Ley de Infraestructura de la Calidad, arts. 154–156",
+    "Annex 2.4.1 to the Ministry of Economy's general rules on foreign trade (Anexo 2.4.1)",
+    "Ley Aduanera, art. 178(IV), as in force from 1 January 2026 (DOF 19.11.2025)"
+   ]
+  }
+ ],
+ "art.3.tytul": "Your product's tariff code: why it matters so much",
+ "art.3.zapowiedz": "The tariff code affects duties, regulatory requirements and import paperwork. How it's determined and when it's worth getting an official ruling.",
+ "art.3.aktualizacja": "4 October 2026",
+ "art.3.tresc": [
+  {
+   "t": "p",
+   "h": "A different tariff code can decide whether goods enter Mexico duty-free or pay the full rate. The tariff code is the number under which goods appear in the customs tariff. Mexico uses ten-digit codes: eight digits form the fracción arancelaria and the last two are the NICO, a further subdivision for statistical purposes. The first six digits come from the international Harmonized System and are shared by Mexico and the EU. After that the systems diverge."
+  },
+  {
+   "t": "p",
+   "h": "One code determines several things at once: the duty rate, the standards checked at clearance, any sector-specific registration the importer needs and, for some goods, a reference price. Declaring a value below that price automatically sends the entry for review."
+  },
+  {
+   "t": "p",
+   "h": "Sometimes it's only a careful look at what the product is made of that changes its classification. With a new code, a standard may stop applying, the importer's sector registration may no longer be needed and the rule of origin may change. One number drags half the requirements along with it."
+  },
+  {
+   "t": "p",
+   "h": "It also happens that two customs authorities are both right and still disagree. The Harmonized System is binding in English and French, and each country uses its own translation. If a single word is lost in translation, European and Mexican customs can each, under their own law, put the same goods under different headings. This usually comes to light when the proof of origin is being issued and the goods are already on their way. That's why we agree the code in writing before shipment with the manufacturer, the European customs agent, the importer and the customs broker in Mexico."
+  },
+  {
+   "t": "p",
+   "h": "If the classification is in doubt, you can ask the Mexican customs authority for a binding ruling before importing. The legal basis is article 47 of the Ley Aduanera. Importers, exporters and customs brokers can apply. The procedure is free and the authority has three months to reply. In the meantime the goods can be cleared by paying the highest of the disputed duty rates. The ruling binds the authority with respect to the applicant and is strong evidence of due diligence."
+  }
+ ],
+ "art.3.podstawa": [
+  {
+   "t": "ul",
+   "items": [
+    "Ley Aduanera, art. 47",
+    "Código Fiscal de la Federación (Federal Tax Code), arts. 34 and 37",
+    "Ley de los Impuestos Generales de Importación y de Exportación (LIGIE)"
+   ]
+  }
+ ],
+ "art.4.tytul": "Importer of record in Mexico: who can do it",
+ "art.4.zapowiedz": "Who can be the importer, what role the importer plays in the process and what options you have if your company doesn't yet have its own structure in Mexico.",
+ "art.4.aktualizacja": "4 October 2026",
+ "art.4.tresc": [
+  {
+   "t": "p",
+   "h": "As a rule, only a party with a Mexican RFC tax number, registered in the SAT importers' register (Padrón de Importadores), can appear as importer on the Mexican customs declaration, the pedimento. A European company without a Mexican registration therefore can't clear its own goods, even if it pays the freight and sells directly to a Mexican customer."
+  },
+  {
+   "t": "p",
+   "h": "Some tariff codes also require registration in a sector-specific register. That registration belongs to the importer, not the manufacturer, and it can't be borrowed for a single shipment. It's worth checking this before you start talking to a potential importer."
+  },
+  {
+   "t": "p",
+   "h": "In practice, the importer can be:"
+  },
+  {
+   "t": "ul",
+   "items": [
+    "a distributor who buys the goods from you and imports them in their own name,",
+    "an import service company, known in Mexico as a comercializadora, which imports goods in its own name and resells them,",
+    "your own company in Mexico, once registered with the SAT."
+   ]
+  },
+  {
+   "t": "p",
+   "h": "Import service companies usually charge a percentage of the invoice value, sometimes plus a fixed fee per shipment. On small shipments that fixed fee can outweigh the percentage, so compare the whole cost structure, not just the rate."
+  },
+  {
+   "t": "p",
+   "h": "The importer is answerable to customs for what it declares. It pays duties and taxes and bears the consequences of errors in the code, the documents or the label. Since 2026, importing without showing the required compliance with a standard can lead to a fine of 250 to 300% of the goods' value, so a good importer will ask a lot of questions about the paperwork. That's a good sign."
+  },
+  {
+   "t": "p",
+   "h": "When choosing, check whether the importer can pay in euros, ask for its current tax status certificate (constancia de situación fiscal) and agree in writing whose name the certificates and compliance documents will be issued in. If you ever change partner, that's what decides the cost of the switch."
+  },
+  {
+   "t": "p",
+   "h": "If you don't yet have a company in Mexico, someone needs to represent you on the ground and make sure the importer, the customs broker and the certification bodies work to the same timeline. That doesn't have to be the importer; often it's better to keep those roles separate."
+  }
+ ],
+ "art.4.podstawa": [
+  {
+   "t": "ul",
+   "items": [
+    "Ley Aduanera, arts. 59 and 178, as in force from 1 January 2026",
+    "Reglas Generales de Comercio Exterior 2026, importers' register and sector-specific registers"
+   ]
+  }
+ ],
+ "art.5.tytul": "Origin of goods and duties in EU–Mexico trade",
+ "art.5.zapowiedz": "How to prove preferential origin, which documents you may need and why it pays to have them ready before shipment.",
+ "art.5.aktualizacja": "4 October 2026",
+ "art.5.tresc": [
+  {
+   "t": "p",
+   "h": "The same European product can enter Mexico duty-free or pay tens of percent. Often a single document makes the difference. Since 2000, trade between the EU and Mexico has been governed by a free trade agreement, known in Mexico as TLCUEM. Thanks to it, many EU goods enter Mexico duty-free or at a reduced rate, but only if they come with proof of origin. Without it the general rate applies, which since early 2026 has been high for many goods and can reach tens of percent."
+  },
+  {
+   "t": "p",
+   "h": "The rules of origin provide for three kinds of proof:"
+  },
+  {
+   "t": "ul",
+   "items": [
+    "an origin declaration on the invoice, for consignments up to EUR 6,000,",
+    "an EUR.1 movement certificate issued by the customs authority of the exporting country, for any value,",
+    "an invoice declaration by an approved exporter, for any value."
+   ]
+  },
+  {
+   "t": "p",
+   "h": "The EUR 6,000 threshold only determines the type of document. It doesn't create any obligation to pay duty."
+  },
+  {
+   "t": "p",
+   "h": "The EUR.1 is issued by the exporting country's customs; in Poland, for example, it is free and usually ready within a day or two. The customs broker in Mexico needs the original; a scan won't do. Approved exporter status is more convenient: you obtain it once and then print a fixed statement on every invoice. It isn't a REX number. The REX system doesn't apply to trade with Mexico, and an invoice with a declaration in that format won't secure the preference."
+  },
+  {
+   "t": "p",
+   "h": "\"Made in Germany\" or \"Made in Poland\" on a label doesn't yet mean the goods originate in the EU for the purposes of the agreement. What counts is where the materials come from and whether they underwent sufficient processing in the EU. The agreement has a separate rule for each heading, and some products don't meet it even though they're made in Europe. If the exporter isn't the manufacturer, it needs origin declarations from its suppliers."
+  },
+  {
+   "t": "p",
+   "h": "Not all EU goods are duty-free today. Some tariff codes pay the full rate or only a reduced one. Online duty calculators don't always reflect this, so we check the rate in the legal text and with the customs broker."
+  },
+  {
+   "t": "p",
+   "h": "In May 2026 the EU and Mexico signed two new agreements: the Modernised Global Agreement and the Interim Trade Agreement. The second matters more for businesses, because it covers trade and can enter into force earlier, without waiting for ratification by every EU member state. On the EU side, the procedure was completed in July 2026."
+  },
+  {
+   "t": "p",
+   "h": "Mexico hasn't completed its part yet. According to information from the end of September 2026, the documents had not yet been formally sent to the Mexican Senate. The interim agreement will enter into force on the first day of the second month after both sides notify each other that their procedures are complete, so there is no firm date yet. Until then, the rules described above apply."
+  }
+ ],
+ "art.5.podstawa": [
+  {
+   "t": "ul",
+   "items": [
+    "Decision No 2/2000 of the EU–Mexico Joint Council, Annex III",
+    "Acuerdo of 31.08.2022 (DOF), duty rates for goods originating in the EU",
+    "EU–Mexico Interim Trade Agreement, Official Journal of the EU of 31.07.2026"
+   ]
+  }
+ ],
+ "art.6.tytul": "Food labelling in Mexico and NOM-051 warning seals",
+ "art.6.zapowiedz": "How the black warning seals on packaging work, what they mean for label design and when a certificate of label compliance is worth having.",
+ "art.6.aktualizacja": "4 October 2026",
+ "art.6.tresc": [
+  {
+   "t": "p",
+   "h": "Anyone who has been to a Mexican supermarket has seen the black octagons on packaging: EXCESO AZÚCARES, EXCESO CALORÍAS, EXCESO SODIO. These are warning seals required by NOM-051, the standard that governs the whole label of food and drinks sold in Mexico."
+  },
+  {
+   "t": "p",
+   "h": "A seal appears when a product exceeds the limits for calories, sugars, saturated fat, trans fat or sodium. They're calculated per 100 grams or 100 millilitres, not per serving, so reducing the portion size changes nothing. Many products considered ordinary in Europe get two or three seals in Mexico."
+  },
+  {
+   "t": "p",
+   "h": "A seal is more than a symbol on the pack. Products carrying a seal can't feature characters or elements aimed at children, and health claims and some nutrition claims are banned. Since March 2025 such products can't be sold in schools. These are decisions that affect packaging design, and sometimes the whole brand concept."
+  },
+  {
+   "t": "p",
+   "h": "The label itself also differs from the European one, even if it looks similar at first glance. Mexico presents allergens differently, describes sugars differently and wants some information in a different place or format. A label translated word for word from the EU version usually won't comply."
+  },
+  {
+   "t": "p",
+   "h": "That's why order matters: first we check which seals the product will get and what can't be shown on the pack, and only then is the artwork designed. Since 2026, importing without showing the required compliance with a standard can lead to a fine of 250 to 300% of the goods' value, so fixing a label at the border is very expensive."
+  },
+  {
+   "t": "h3",
+   "h": "Do you need a constancia de conformidad?"
+  },
+  {
+   "t": "p",
+   "h": "A constancia de conformidad is a document in which an accredited unit confirms that a label meets the standard. For food labels it's voluntary: NOM-051 states that conformity assessment is not subject to certification, and the Ministry of Economy confirmed in 2020 that goods labelled before shipment can be imported without it."
+  },
+  {
+   "t": "p",
+   "h": "Even so, it's often worth having for the first shipments, because it costs little compared with a possible fine. The manufacturer or a trading company can also apply, so you don't need an importer yet. The unit checks the label visually, making sure all the required information is there in the right form. It doesn't test the product in a laboratory, so responsibility for the values on the label stays with whoever prepared them."
+  },
+  {
+   "t": "p",
+   "h": "Under some other standards, the compliance document isn't voluntary. It is issued per model and its number must be entered in the customs declaration."
+  }
+ ],
+ "art.6.podstawa": [
+  {
+   "t": "ul",
+   "items": [
+    "NOM-051-SCFI/SSA1-2010, as amended on 27.03.2020",
+    "Guidelines on food in schools (DOF 30.09.2024), in force since 29.03.2025",
+    "Acuerdo of 10.07.2020 (DOF) and Ministry of Economy letter 414.2020.2469 of 02.10.2020",
+    "Ley Aduanera, art. 178(IV), as in force from 1 January 2026"
+   ]
+  }
+ ],
+ "art.7.tytul": "Who can hold a NOM certificate",
+ "art.7.zapowiedz": "What options a manufacturer outside Mexico has and why the choice of certificate holder matters for importing and selling later.",
+ "art.7.aktualizacja": "4 October 2026",
+ "art.7.tresc": [
+  {
+   "t": "p",
+   "h": "You often hear in Mexico that only a Mexican company can hold a NOM certificate, so a foreign manufacturer has to get it in its importer's name. That isn't always true. Some standards allow the certificate holder to be a manufacturer from another country, provided it has legal representation in Mexico."
+  },
+  {
+   "t": "p",
+   "h": "This matters more than it first seems. Whoever holds the certificate decides who can legally sell the product under it. The certificate can be extended to a designated company, such as a distributor, but it can't be transferred to another party. If your distributor holds the certificate and the relationship ends, the certificate stays with them and your new partner starts from scratch. If you or your representative in Mexico hold it, you can change distributors without repeating the whole process."
+  },
+  {
+   "t": "p",
+   "h": "Holding a certificate also brings obligations. The holder is answerable to the Mexican authorities for the product's compliance, pays for surveillance and renewals, and the certificate is valid for a limited time, usually one to three years. During that time the certification body can take samples for follow-up testing."
+  },
+  {
+   "t": "p",
+   "h": "The rules differ from standard to standard. Some products have no certificate at all, while for others the documents are issued in the importer's name. That's why we decide whose name the certificate will be in before the application is filed, together with the import model."
+  }
+ ],
+ "art.7.podstawa": [
+  {
+   "t": "ul",
+   "items": [
+    "NOM-003-SCFI-2014, clauses 9.4.1, 9.5.3.5 and 9.5.5 (an example of a standard that allows a foreign certificate holder)",
+    "Ley de Infraestructura de la Calidad"
+   ]
+  }
+ ],
+ "akt.1.tytul": "Mexico's 2026 customs reform: what changed",
+ "akt.1.zapowiedz": "The main changes to Mexican customs law in 2026 and what they mean for companies importing into Mexico.",
+ "akt.1.aktualizacja": "4 October 2026",
+ "akt.1.tresc": [
+  {
+   "t": "p",
+   "h": "On 19 November 2025, Mexico's official gazette published a decree amending the Customs Law, the Ley Aduanera. It amends, adds or repeals more than a hundred articles, and most of the changes have applied since 1 January 2026. Here are the ones that really affect a European manufacturer and its importer."
+  },
+  {
+   "t": "p",
+   "h": "The biggest change concerns fines. For importing without showing the required compliance with non-tariff requirements, including NOM standards, the fine until the end of 2025 was 70 to 100% of the goods' commercial value, and commercial information standards were excluded. Since 1 January 2026 it has been 250 to 300%, and the exclusion is gone. A labelling error that used to be treated more leniently can now cost two and a half to three times the value of the goods themselves. Fines for incorrect data in the value declaration and for late submission of documents have also gone up."
+  },
+  {
+   "t": "p",
+   "h": "The reform increased customs brokers' liability. A broker must check documents and compliance thoroughly, without the exemptions from liability that existed before. In practice brokers ask for more documents and more questions. The first clearance takes longer, but the importer is better protected."
+  },
+  {
+   "t": "p",
+   "h": "Importers must keep an automated inventory control system and an electronic file for each operation, with invoices, contracts, valuation documents and proof of payment. Data in the customs declaration can only be corrected before the automated selection for inspection is triggered. On the other hand, a new article allows preferential tariff treatment to be claimed after clearance, within the time limits of the relevant trade agreement."
+  },
+  {
+   "t": "p",
+   "h": "A separate change is the decree of 29 December 2025, which raised duties on 1,477 tariff codes to between 5% and 50%. It applies to countries Mexico has no trade agreement with, above all China. EU goods with proof of origin keep their preferential rates, so the gap between a shipment with valid proof of origin and one without it is now much wider."
+  },
+  {
+   "t": "p",
+   "h": "The takeaway is simple: check the tariff code, the label and the proof of origin before shipping, because fixing them at the border now costs far more than it did a year ago."
+  }
+ ],
+ "akt.1.podstawa": [
+  {
+   "t": "ul",
+   "items": [
+    "Decreto por el que se reforman, adicionan y derogan diversas disposiciones de la Ley Aduanera (DOF 19.11.2025)",
+    "Ley Aduanera, arts. 59, 89, 89 Bis, 178, 184-B and 185, as in force from 1 January 2026",
+    "Decree of 29.12.2025 (DOF) amending the LIGIE tariff"
+   ]
+  }
+ ],
+ "zas.targi.tytul": "Trade shows in Mexico: calendar",
+ "zas.targi.zapowiedz": "The trade shows that matter most for European manufacturers in Monterrey, Mexico City and Guadalajara, with dates, venues and a short description.",
+ "zas.targi.aktualizacja": "4 October 2026",
+ "zas.targi.wstep": "Mexico's main trade shows take place in Monterrey, the capital and Guadalajara. We've picked the ones that make sense for European manufacturers. We give exact dates where the organiser has announced them. Each show's name links to its official website.",
+ "zas.targi.1.nazwa": "Obra Blanca 2026",
+ "zas.targi.1.termin": "13–15 Oct 2026",
+ "zas.targi.1.miejsce": "Mexico City · Expo Santa Fe",
+ "zas.targi.1.branza": "Construction, Furniture and design",
+ "zas.targi.1.opis": "Architects, interior designers, developers, manufacturers and distributors. For companies in construction, finishes, windows, sun protection and design.",
+ "zas.targi.1.link": "https://obrablancaexpo.com",
+ "zas.targi.1.polecamy": "yes",
+ "zas.targi.2.nazwa": "Expo CIHAC 2026",
+ "zas.targi.2.termin": "14–16 Oct 2026",
+ "zas.targi.2.miejsce": "Mexico City · Centro Citibanamex",
+ "zas.targi.2.branza": "Construction",
+ "zas.targi.2.opis": "According to the organiser, Mexico's largest construction, architecture and design show. For manufacturers of materials, facade systems and finishes.",
+ "zas.targi.2.link": "https://www.expocihac.com",
+ "zas.targi.2.polecamy": "no",
+ "zas.targi.3.nazwa": "Cancún Travel Mart 2026",
+ "zas.targi.3.termin": "21–23 Oct 2026",
+ "zas.targi.3.miejsce": "Cancún · Iberostar Selection Cancún",
+ "zas.targi.3.branza": "Retail and HoReCa",
+ "zas.targi.3.opis": "Meetings with hotels, tour operators and buyers from the hospitality and tourism sector.",
+ "zas.targi.3.link": "https://www.cancuntravelmart.com",
+ "zas.targi.3.polecamy": "no",
+ "zas.targi.4.nazwa": "Medical Expo CDMX 2026",
+ "zas.targi.4.termin": "27–29 Oct 2026",
+ "zas.targi.4.miejsce": "Mexico City · World Trade Center",
+ "zas.targi.4.branza": "Healthcare",
+ "zas.targi.4.opis": "For manufacturers of medical devices, equipment and technology that are subject to regulatory requirements in Mexico.",
+ "zas.targi.4.link": "https://medical-expo.com.mx",
+ "zas.targi.4.polecamy": "no",
+ "zas.targi.5.nazwa": "FUNDIEXPO 2026",
+ "zas.targi.5.termin": "28–30 Oct 2026",
+ "zas.targi.5.miejsce": "Monterrey · Cintermex",
+ "zas.targi.5.branza": "Metalworking and foundry, Automotive, Manufacturing",
+ "zas.targi.5.opis": "Foundry and metal processing show. For suppliers of machinery, components, materials and technology for foundries and industry.",
+ "zas.targi.5.link": "https://www.fundiexpo.mx",
+ "zas.targi.5.polecamy": "yes",
+ "zas.targi.6.nazwa": "Expo Eléctrica y Solar Norte 2026",
+ "zas.targi.6.termin": "11–12 Nov 2026",
+ "zas.targi.6.miejsce": "Monterrey · Cintermex",
+ "zas.targi.6.branza": "HVAC and energy",
+ "zas.targi.6.opis": "The electrical and solar sector in northern Mexico. For manufacturers of electrical equipment, HVAC and energy-efficiency solutions.",
+ "zas.targi.6.link": "https://expoelectrica.com.mx",
+ "zas.targi.6.polecamy": "no",
+ "zas.targi.7.nazwa": "North America Automotive B2B Meeting 2026",
+ "zas.targi.7.termin": "11–12 Nov 2026",
+ "zas.targi.7.miejsce": "Aguascalientes · FICOTRECE",
+ "zas.targi.7.branza": "Automotive, Manufacturing, Metalworking and foundry, Plastics",
+ "zas.targi.7.opis": "Pre-arranged B2B meetings between buyers and suppliers in the automotive supply chain. For European industrial companies looking for customers in the sector.",
+ "zas.targi.7.link": "https://auto.capim.com.mx",
+ "zas.targi.7.polecamy": "yes",
+ "zas.targi.8.nazwa": "Expo Proveedores del Transporte y Logística 2027",
+ "zas.targi.8.termin": "27–29 Jan 2027",
+ "zas.targi.8.miejsce": "Puebla · Centro Expositor Puebla",
+ "zas.targi.8.branza": "Logistics, Automotive",
+ "zas.targi.8.opis": "Transport, logistics and intralogistics. Good access to buyers and suppliers from central and south-eastern Mexico.",
+ "zas.targi.8.link": "https://etyl.mx",
+ "zas.targi.8.polecamy": "no",
+ "zas.targi.9.nazwa": "Expo Carnes y Lácteos 2027",
+ "zas.targi.9.termin": "9–11 Feb 2027",
+ "zas.targi.9.miejsce": "Monterrey · Cintermex",
+ "zas.targi.9.branza": "Food and beverages, Industrial technology",
+ "zas.targi.9.opis": "The meat and dairy industry. For manufacturers of machinery, refrigeration, packaging, ingredients and food processing technology.",
+ "zas.targi.9.link": "https://expocarnes.com",
+ "zas.targi.9.polecamy": "no",
+ "zas.targi.10.nazwa": "Expo Mueble Internacional, Winter 2027",
+ "zas.targi.10.termin": "17–20 Feb 2027 · to be confirmed",
+ "zas.targi.10.miejsce": "Guadalajara · Expo Guadalajara",
+ "zas.targi.10.branza": "Furniture and design",
+ "zas.targi.10.opis": "One of Latin America's most important furniture shows. For suppliers of furniture, components, materials and premium products.",
+ "zas.targi.10.link": "https://expomuebleinternacional.com.mx",
+ "zas.targi.10.polecamy": "yes",
+ "zas.targi.11.nazwa": "Expo Manufactura 2027",
+ "zas.targi.11.termin": "23–25 Feb 2027",
+ "zas.targi.11.miejsce": "Monterrey · Cintermex",
+ "zas.targi.11.branza": "Manufacturing, Automotive, Industrial technology",
+ "zas.targi.11.opis": "Manufacturing and automation. Access to production plants, industrial buyers and technology suppliers from northern Mexico.",
+ "zas.targi.11.link": "https://expomanufactura.com.mx",
+ "zas.targi.11.polecamy": "yes",
+ "zas.targi.12.nazwa": "Expo ANTAD & Alimentaria México",
+ "zas.targi.12.termin": "April/May 2027 · dates to be announced",
+ "zas.targi.12.miejsce": "Guadalajara · Expo Guadalajara",
+ "zas.targi.12.branza": "Food and beverages, Retail and HoReCa",
+ "zas.targi.12.opis": "Retail, HoReCa and food. Buyers from retail chains and distributors come from all over the country.",
+ "zas.targi.12.link": "https://expoantad.com.mx",
+ "zas.targi.12.polecamy": "no",
+ "zas.targi.13.nazwa": "FABTECH México 2027",
+ "zas.targi.13.termin": "4–6 May 2027",
+ "zas.targi.13.miejsce": "Monterrey · Cintermex",
+ "zas.targi.13.branza": "Metalworking and foundry, Manufacturing",
+ "zas.targi.13.opis": "Metal forming and fabrication: cutting, bending, stamping, welding and finishing.",
+ "zas.targi.13.link": "https://mexico.fabtechexpo.com",
+ "zas.targi.13.polecamy": "no",
+ "zas.targi.14.nazwa": "Expo Eléctrica Internacional",
+ "zas.targi.14.termin": "May 2027 · dates to be announced",
+ "zas.targi.14.miejsce": "Mexico City · Centro Citibanamex",
+ "zas.targi.14.branza": "HVAC and energy",
+ "zas.targi.14.opis": "Electrical installations, lighting, automation and solar energy.",
+ "zas.targi.14.link": "https://expoelectrica.com.mx",
+ "zas.targi.14.polecamy": "no",
+ "zas.targi.15.nazwa": "Expo Proveedores del Restaurante 2027",
+ "zas.targi.15.termin": "25–27 May 2027",
+ "zas.targi.15.miejsce": "Monterrey · Cintermex",
+ "zas.targi.15.branza": "Retail and HoReCa, Food and beverages",
+ "zas.targi.15.opis": "Suppliers for restaurants, hotels and food service in northern Mexico: food, equipment, technology and services.",
+ "zas.targi.15.link": "https://www.paraelrestaurante.com",
+ "zas.targi.15.polecamy": "no",
+ "zas.targi.16.nazwa": "EXPO PACK Guadalajara 2027",
+ "zas.targi.16.termin": "8–10 Jun 2027",
+ "zas.targi.16.miejsce": "Guadalajara · Expo Guadalajara",
+ "zas.targi.16.branza": "Industrial technology, Food and beverages",
+ "zas.targi.16.opis": "Packaging and packaging processes. For manufacturers of packaging, packaging machinery and production-line solutions. Held every two years.",
+ "zas.targi.16.link": "https://expopackguadalajara.com.mx",
+ "zas.targi.16.polecamy": "no",
+ "zas.targi.17.nazwa": "Expo Constructo",
+ "zas.targi.17.termin": "annual 2027 · dates to be announced",
+ "zas.targi.17.miejsce": "Monterrey · Cintermex",
+ "zas.targi.17.branza": "Construction",
+ "zas.targi.17.opis": "Construction in northern Mexico: materials, architecture, machinery, tools and finishes.",
+ "zas.targi.17.link": "https://constructo.com.mx",
+ "zas.targi.17.polecamy": "no",
+ "zas.targi.18.nazwa": "Confitexpo",
+ "zas.targi.18.termin": "August 2027 · dates to be announced",
+ "zas.targi.18.miejsce": "Guadalajara · Expo Guadalajara",
+ "zas.targi.18.branza": "Food and beverages",
+ "zas.targi.18.opis": "Confectionery, chocolate, snacks, bakery, raw materials and packaging for the sector.",
+ "zas.targi.18.link": "https://www.confitexpo.com",
+ "zas.targi.18.polecamy": "no",
+ "zas.targi.19.nazwa": "Abastur",
+ "zas.targi.19.termin": "August 2027 · dates to be announced",
+ "zas.targi.19.miejsce": "Mexico City · Centro Citibanamex",
+ "zas.targi.19.branza": "Retail and HoReCa, Food and beverages",
+ "zas.targi.19.opis": "Hotels, restaurants, cafés and catering. For suppliers of food, drinks and equipment who want to sell into HoReCa.",
+ "zas.targi.19.link": "https://www.abastur.com",
+ "zas.targi.19.polecamy": "no",
+ "zas.targi.20.nazwa": "Expo Nacional Ferretera",
+ "zas.targi.20.termin": "September 2027 · dates to be announced",
+ "zas.targi.20.miejsce": "Guadalajara · Expo Guadalajara",
+ "zas.targi.20.branza": "Construction, HVAC and energy",
+ "zas.targi.20.opis": "Hardware, tools, construction and electrical products. According to the organiser, more than a thousand exhibitors. For companies looking for distributors.",
+ "zas.targi.20.link": "https://www.expoferretera.com.mx",
+ "zas.targi.20.polecamy": "no",
+ "zas.targi.przygotowanie": "Not every show suits every product. Before booking a stand, it's worth deciding which buyers you're looking for and which events actually bring them together. You also need to check whether the goods you want to exhibit can legally enter Mexico.",
+ "zas.slownik.tytul": "Glossary: trade and import in Mexico",
+ "zas.slownik.zapowiedz": "The Mexican terms you'll meet most often in import, customs, certification and trade, explained in plain English.",
+ "zas.slownik.aktualizacja": "4 October 2026",
+ "zas.slownik.tresc": [
+  {
+   "t": "p",
+   "h": "Below are the acronyms and terms that come up in any conversation about importing into Mexico. Some have no exact equivalent in Europe, so we keep the original names and explain briefly what they mean."
+  },
+  {
+   "t": "ul",
+   "items": [
+    "<strong>Agente aduanal</strong> – licensed customs broker. Only a broker can clear goods through customs on the importer's behalf, under a licence (patente) issued by the Mexican authorities.",
+    "<strong>Anexo 2.4.1</strong> – annex to the Ministry of Economy's foreign trade rules listing the tariff codes for which compliance with a NOM is checked at clearance.",
+    "<strong>CFDI</strong> – Mexican electronic invoice. A company that can't issue one can't legally sell in Mexico.",
+    "<strong>COFEPRIS</strong> – Federal Commission for Protection against Health Risks, part of the Ministry of Health. It oversees food, medicines and cosmetics, among other things.",
+    "<strong>Comercializadora</strong> – a company that imports goods in its own name on behalf of another company and resells them.",
+    "<strong>Constancia de conformidad</strong> – a document from an inspection or verification unit confirming that a label meets the standard.",
+    "<strong>Contraseña oficial NOM</strong> – the official mark showing compliance with a standard, placed on certified products.",
+    "<strong>DOF</strong> (Diario Oficial de la Federación) – Mexico's official gazette, where laws, regulations and standards are published.",
+    "<strong>DTA</strong> – customs processing fee charged on the customs declaration.",
+    "<strong>EMA</strong> – Mexican Accreditation Entity. It accredits laboratories and certification, inspection and verification bodies.",
+    "<strong>EUR.1</strong> – movement certificate proving the EU origin of goods, issued by the customs authority of the exporting country.",
+    "<strong>Fracción arancelaria</strong> – the eight-digit code under which goods are classified in the Mexican tariff.",
+    "<strong>IEPS</strong> – special tax on production and services, applied to certain groups of products.",
+    "<strong>IGI</strong> – general import duty. The rate depends on the tariff code and the origin of the goods.",
+    "<strong>IVA</strong> – Mexican value added tax, the equivalent of VAT. The standard rate is 16%.",
+    "<strong>LIGIE</strong> – the law on general import and export duties, which contains the Mexican customs tariff.",
+    "<strong>NICO</strong> – two-digit extension to the tariff code. Together with the fracción it makes up the ten-digit code used in the customs declaration.",
+    "<strong>NMX</strong> – a voluntary Mexican standard, as opposed to a mandatory NOM.",
+    "<strong>NOM</strong> (Norma Oficial Mexicana) – a mandatory Mexican technical regulation on safety, specifications or labelling.",
+    "<strong>OCP</strong> (Organismo de Certificación de Producto) – an accredited product certification body that issues NOM certificates.",
+    "<strong>Padrón de Importadores</strong> – the SAT's register of importers. As a rule you can't import without being registered, although there are exceptions.",
+    "<strong>Padrón de Sectores Específicos</strong> – an additional importers' register required for certain groups of goods.",
+    "<strong>Pedimento</strong> – the Mexican customs declaration.",
+    "<strong>Precio estimado</strong> – a reference price set for certain goods. Declaring a lower value triggers a customs valuation review.",
+    "<strong>PROFECO</strong> – Federal Consumer Protection Agency. Among other things, it checks that products on the market comply with standards.",
+    "<strong>RFC</strong> – Mexican tax identification number.",
+    "<strong>SAT</strong> – Mexico's tax administration, which is also responsible for customs.",
+    "<strong>SENASICA</strong> – National Service for Agri-Food Health, Safety and Quality, part of the Ministry of Agriculture.",
+    "<strong>TLCUEM</strong> – the EU–Mexico free trade agreement, in force since 2000.",
+    "<strong>UMA</strong> – the unit used to calculate fines and fees in Mexico. In 2026 it is worth 117.31 pesos.",
+    "<strong>Unidad de inspección / Unidad de verificación</strong> – an accredited inspection or verification unit that checks compliance, for example of labels, and issues documents such as a constancia or a dictamen.",
+    "<strong>VUCEM</strong> – Mexico's single window for foreign trade, the electronic system used to file clearance documents."
+   ]
+  }
+ ],
+ "zas.slownik.podstawa": [
+  {
+   "t": "ul",
+   "items": [
+    "Ley Aduanera; LIGIE; Ley de Infraestructura de la Calidad; Ley del IEPS; Ley del IVA",
+    "Decision No 2/2000 of the EU–Mexico Joint Council, Annex III"
+   ]
+  }
+ ]
+}

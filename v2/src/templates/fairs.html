@@ -1,0 +1,30 @@
+{% extends "page.html" %}
+{% block body %}
+<div class="section tight" style="padding-top:8px"><div class="wrap">
+<div class="filters" data-fairs-filters hidden>
+<div class="frow"><span class="ftitle" id="f-ind">{{ ui.fairs_industry }}</span><div class="chips" role="group" aria-labelledby="f-ind">
+<button type="button" class="chip" data-f="cat" data-v="" aria-pressed="true">{{ ui.all }}</button>
+{% for c in fair_cats %}<button type="button" class="chip" data-f="cat" data-v="{{ c.key }}" aria-pressed="false">{{ c.label }}</button>{% endfor %}
+</div></div>
+<div class="frow"><span class="ftitle" id="f-city">{{ ui.fairs_city }}</span><div class="chips" role="group" aria-labelledby="f-city">
+<button type="button" class="chip" data-f="city" data-v="" aria-pressed="true">{{ ui.all }}</button>
+{% for c in fair_cities %}<button type="button" class="chip" data-f="city" data-v="{{ c }}" aria-pressed="false">{{ c }}</button>{% endfor %}
+</div></div>
+</div>
+<p class="count" aria-live="polite" data-count data-forms='{{ ui.count|tojson }}'></p>
+<table class="fairs">
+<thead><tr>{% for h in ui.fairs_cols %}<th scope="col">{{ h }}</th>{% endfor %}</tr></thead>
+<tbody>
+{% for f in fairs %}<tr data-cats="{{ f.cat_keys }}" data-city="{{ f.city }}">
+<td class="f-date"><div class="d1">{{ f.d1 }}</div><div class="d2">{{ f.d2 }}</div></td>
+<td class="f-name"><a class="ev" href="{{ f.url }}" target="_blank" rel="noopener">{{ f.name }}<svg viewBox="0 0 12 12" aria-hidden="true"><path d="M4 2h6v6M10 2 3 9" fill="none" stroke="currentColor" stroke-width="1.5"/></svg><span class="visually-hidden" style="position:absolute;left:-9999px">({{ ui.new_tab }})</span></a>
+<div class="where">{{ f.city }} · {{ f.venue }}</div><div class="host">{{ f.host }}</div>{% if f.rec %}<span class="rec">{{ ui.rec }}</span>{% endif %}</td>
+<td class="f-cat">{% for tg in f.tags %}<span class="tag">{{ tg }}</span>{% endfor %}</td>
+<td class="f-desc">{{ f.desc }}</td>
+</tr>
+{% endfor %}</tbody>
+</table>
+<p class="empty" data-empty hidden>{{ ui.fairs_empty }}</p>
+{% if outro %}<p class="lead" style="margin-top:40px;font-size:17px">{{ outro }}</p>{% endif %}
+</div></div>
+{% endblock %}
