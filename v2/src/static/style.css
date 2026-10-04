@@ -102,7 +102,7 @@ p{margin:0}
 /* hero */
 .hero{position:relative;background:var(--navy);color:#fff;overflow:hidden}
 .hero-stage{position:relative;aspect-ratio:1440/740;max-height:820px;min-height:640px;width:100%}
-.hero-stage .hero-map{position:absolute;inset:0}
+.hero-stage .hero-map-box{position:absolute;inset:0}
 .hero-copy{position:absolute;left:0;right:0;top:0;z-index:2;pointer-events:none}
 .hero-copy .wrap{padding-top:72px}
 .hero-copy .inner{max-width:720px;pointer-events:auto}
@@ -121,7 +121,8 @@ p{margin:0}
   .hero-stage{aspect-ratio:auto;min-height:0;max-height:none;display:flex;flex-direction:column}
   .hero-copy{position:relative}
   .hero-copy .wrap{padding-top:48px;padding-bottom:8px}
-  .hero-stage .hero-map{position:relative;inset:auto;height:auto;aspect-ratio:1440/740;order:2}
+  .hero-stage .hero-map-box{position:relative;inset:auto;aspect-ratio:1320/550;overflow:hidden;order:2}
+  .hero-stage .hero-map{position:absolute;width:109.0909%;height:auto;aspect-ratio:1440/740;left:-4.5455%;top:-23.6364%}
   .panel{position:relative;right:auto;bottom:auto;width:auto;margin:0 var(--gutter) 32px;order:3}
 }
 

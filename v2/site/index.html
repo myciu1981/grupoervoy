@@ -28,7 +28,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;500;600&family=Red+Hat+Text:wght@400;500&display=swap">
-<link rel="stylesheet" href="/assets/style.7473f3d9.css">
+<link rel="stylesheet" href="/assets/style.722b0ec1.css">
 <link rel="preload" as="image" href="/assets/map.f3738852.svg" type="image/svg+xml">
 <style>
 .hero-map{display:block;width:100%;height:100%}
@@ -63,6 +63,29 @@
  .m-ring{animation:m-ring 3.2s ease-out 4s infinite}
 }
 @media (prefers-reduced-motion:reduce){.m-movers{display:none}}
+.m-lbl-m{display:none}
+@media (max-width:1099px){
+ .m-lbl-d,.m-sea{display:none}
+ .m-lbl-m{display:inline}
+ .m-lbl-m .m-name{font-size:20px;stroke-width:5px}
+ .m-lbl-m .m-meta{font-size:15px;stroke-width:4px}
+ .m-port,.m-cap,.m-hq,.m-small,.mv-main,.mv-amb{transform-box:fill-box;transform-origin:center;transform:scale(1.4)}
+ .m-halo{stroke-width:5.5}.m-route{stroke-width:2.8}.m-lane{stroke-width:1.8}.m-mx{stroke-width:2.4}
+}
+@media (max-width:899px){
+ .m-lbl-m .m-name{font-size:26px;stroke-width:6px}
+ .m-lbl-m .m-meta{font-size:19px;stroke-width:5px}
+ .m-port,.m-cap,.m-hq,.m-small,.mv-main,.mv-amb{transform:scale(1.8)}
+ .m-halo{stroke-width:7}.m-route{stroke-width:3.6}.m-lane{stroke-width:2.4}.m-mx{stroke-width:3}
+}
+@media (max-width:599px){
+ .m-lbl-m .m-name{font-size:40px;stroke-width:9px}
+ .m-lbl-m .m-meta{font-size:27px;stroke-width:7px}
+ .m-port,.m-cap,.m-hq,.m-small,.mv-main,.mv-amb{transform:scale(2.3)}
+ .m-halo{stroke-width:9}.m-route{stroke-width:4.6}.m-lane{stroke-width:3}.m-mx{stroke-width:3.8}
+ .m-ring{animation-name:m-ring-m}
+}
+@keyframes m-ring-m{0%{transform:scale(2.3);opacity:.9}100%{transform:scale(5.5);opacity:0}}
 @keyframes pr0{0%,3%{color:#b8c0c7}4%,93%{color:#fff}99%,100%{color:#b8c0c7}}@keyframes ps0{0%,3%{background:transparent;border-color:#6b7681}4%,93%{background:#fff;border-color:#fff}99%,100%{background:transparent;border-color:#6b7681}}@media (prefers-reduced-motion:no-preference){.pr0{animation:pr0 15s linear 3.2s infinite}.pr0 .sq{animation:ps0 15s linear 3.2s infinite}}@keyframes pr1{0%,7%{color:#b8c0c7}8%,93%{color:#fff}99%,100%{color:#b8c0c7}}@keyframes ps1{0%,7%{background:transparent;border-color:#6b7681}8%,93%{background:#fff;border-color:#fff}99%,100%{background:transparent;border-color:#6b7681}}@media (prefers-reduced-motion:no-preference){.pr1{animation:pr1 15s linear 3.2s infinite}.pr1 .sq{animation:ps1 15s linear 3.2s infinite}}@keyframes pr2{0%,11%{color:#b8c0c7}12%,93%{color:#fff}99%,100%{color:#b8c0c7}}@keyframes ps2{0%,11%{background:transparent;border-color:#6b7681}12%,93%{background:#fff;border-color:#fff}99%,100%{background:transparent;border-color:#6b7681}}@media (prefers-reduced-motion:no-preference){.pr2{animation:pr2 15s linear 3.2s infinite}.pr2 .sq{animation:ps2 15s linear 3.2s infinite}}@keyframes pr3{0%,63%{color:#b8c0c7}64%,93%{color:#fff}99%,100%{color:#b8c0c7}}@keyframes ps3{0%,63%{background:transparent;border-color:#6b7681}64%,93%{background:#fff;border-color:#fff}99%,100%{background:transparent;border-color:#6b7681}}@media (prefers-reduced-motion:no-preference){.pr3{animation:pr3 15s linear 3.2s infinite}.pr3 .sq{animation:ps3 15s linear 3.2s infinite}}@keyframes pr4{0%,74%{color:#b8c0c7}75%,93%{color:#fff}99%,100%{color:#b8c0c7}}@keyframes ps4{0%,74%{background:transparent;border-color:#6b7681}75%,93%{background:#fff;border-color:#fff}99%,100%{background:transparent;border-color:#6b7681}}@media (prefers-reduced-motion:no-preference){.pr4{animation:pr4 15s linear 3.2s infinite}.pr4 .sq{animation:ps4 15s linear 3.2s infinite}}</style><script type="application/ld+json">{"@context": "https://schema.org", "@type": "Organization", "@id": "https://grupoervoy.com/#organization", "name": "GRUPO ERVOY", "legalName": "GRUPO ERVOY, S.A. de C.V.", "alternateName": ["Grupo Ervoy", "ERVOY"], "url": "https://grupoervoy.com/", "description": "Pomagamy europejskim producentom wejść na rynek meksykański: badanie rynku, normy meksykańskie NOM, etykiety, import i dystrybutorzy. Bezpłatna konsultacja.", "logo": "https://grupoervoy.com/apple-touch-icon.png", "image": "https://grupoervoy.com/assets/og-image.png", "email": "info@grupoervoy.com", "telephone": "+528125901796", "areaServed": [{"@type": "Country", "name": "Mexico"}, {"@type": "Place", "name": "European Union"}], "knowsLanguage": ["es", "pl", "en"], "brand": [{"@type": "Brand", "name": "Simple Made Blinds Mexico", "url": "https://simplemadeblinds.mx"}, {"@type": "Brand", "name": "Polaca Foods", "url": "https://polacafoods.lat"}], "address": {"@type": "PostalAddress", "streetAddress": "Cambridge 103", "postalCode": "64349", "addressLocality": "Monterrey", "addressRegion": "Nuevo León", "addressCountry": "MX"}, "contactPoint": [{"@type": "ContactPoint", "contactType": "sales", "name": "Bogusław Daniel", "telephone": "+48721134813", "email": "boguslaw.daniel@grupoervoy.com"}, {"@type": "ContactPoint", "contactType": "sales", "name": "Erick Escamilla", "telephone": "+528125901796", "email": "erick.escamilla@grupoervoy.com"}]}</script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebSite", "@id": "https://grupoervoy.com/#website", "url": "https://grupoervoy.com/", "name": "GRUPO ERVOY", "alternateName": ["Grupo Ervoy", "ERVOY"], "inLanguage": "pl", "publisher": {"@id": "https://grupoervoy.com/#organization"}}</script>
 </head>
@@ -98,7 +121,7 @@ znaleźć miejsce w Meksyku.</h1>
 <a class="btn btn-s" href="/uslugi/">Zobacz usługi</a>
 </div>
 </div></div></div>
-<svg class="hero-map" viewBox="0 0 1440 740" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Mapa tras morskich z Gdyni i Walencji do Veracruz oraz połączeń lądowych do miasta Meksyk i Monterrey">
+<div class="hero-map-box"><svg class="hero-map" viewBox="0 0 1440 740" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Mapa tras morskich z Gdyni i Walencji do Veracruz oraz połączeń lądowych do miasta Meksyk i Monterrey">
 <image href="/assets/map.f3738852.svg" width="1440" height="740"/>
 <path class="m-lane drw d1" style="--len:23" d="M1198.5 200.0 L1198.1 199.8 L1197.4 199.6 L1196.7 199.3 L1195.9 199.0 L1195.0 198.6 L1194.1 198.3 L1193.1 197.9 L1192.1 197.6 L1191.0 197.3 L1190.0 197.0 L1189.0 196.8 L1187.7 196.6 L1186.5 196.4 L1185.1 196.2 L1183.8 196.1 L1182.5 195.9 L1181.3 195.8 L1180.2 195.7 L1179.3 195.6 L1178.6 195.5"/><path class="m-lane drw d2" style="--len:21" d="M1156.8 216.1 L1156.4 216.2 L1155.9 216.4 L1155.4 216.5 L1154.8 216.6 L1154.1 216.8 L1153.4 217.0 L1152.6 217.2 L1151.8 217.5 L1151.0 217.8 L1150.1 218.2 L1149.2 218.6 L1148.1 219.2 L1147.0 219.9 L1145.7 220.6 L1144.5 221.3 L1143.3 222.0 L1142.2 222.7 L1141.2 223.3 L1140.4 223.8 L1139.7 224.2"/><path class="m-lane drw d4" style="--len:93" d="M370.2 515.9 L367.2 515.9 L363.1 516.0 L358.2 516.0 L352.8 516.0 L347.0 516.1 L341.0 516.2 L335.2 516.3 L329.6 516.5 L324.5 516.7 L320.2 516.9 L316.5 517.3 L313.0 517.8 L309.8 518.3 L306.8 518.9 L304.0 519.5 L301.4 520.1 L299.0 520.7 L296.7 521.3 L294.5 521.8 L292.5 522.2 L290.6 522.6 L288.8 522.9 L287.2 523.1 L285.8 523.4 L284.5 523.6 L283.3 523.8 L282.3 523.9 L281.4 524.1 L280.6 524.2 L279.9 524.3"/>
 <path class="m-lane m-mx drw inl" style="--len:107" d="M292.7 558.0 L292.1 558.2 L291.3 558.6 L290.4 559.0 L289.3 559.4 L288.2 559.8 L287.0 560.2 L285.7 560.5 L284.5 560.6 L283.3 560.7 L281.9 560.7 L280.5 560.7 L279.1 560.6 L277.6 560.4 L276.2 560.2 L274.9 560.0 L273.6 559.7 L272.5 559.3 L271.3 558.9 L270.3 558.5 L269.2 558.0 L268.2 557.4 L267.3 556.8 L266.3 556.2 L265.5 555.6 L264.6 554.9 L263.9 554.2 L263.1 553.5 L262.4 552.7 L261.8 551.9 L261.1 551.1 L260.5 550.4 L259.8 549.6 L259.2 548.9 L258.6 548.3 L257.9 547.7 L257.3 547.1 L256.7 546.5 L256.2 545.6 L255.6 544.6 L255.1 543.4 L254.5 541.9 L253.9 540.4 L253.3 538.8 L252.7 536.9 L252.1 534.9 L251.7 532.6 L251.4 529.9 L251.3 526.9 L251.4 523.3 L251.6 518.9 L251.9 514.0 L252.4 508.9 L252.9 503.9 L253.5 499.3 L254.1 495.4 L254.7 492.5 L255.4 490.7 L256.3 489.6 L257.2 489.1 L258.2 489.1 L259.2 489.3 L260.0 489.6 L260.8 489.9 L261.3 489.9"/><path class="m-lane m-mx drw inl" style="--len:30" d="M255.1 543.4 L254.2 543.0 L253.1 542.4 L251.7 541.7 L250.3 541.0 L248.6 540.3 L247.0 539.7 L245.2 539.3 L243.5 539.1 L241.7 539.1 L239.6 539.5 L237.4 539.9 L235.1 540.5 L232.9 541.1 L231.0 541.7 L229.3 542.2 L228.1 542.5"/><path class="m-lane m-mx drw inl" style="--len:41" d="M279.9 524.3 L279.1 523.3 L278.1 521.9 L276.8 520.3 L275.4 518.5 L273.9 516.6 L272.4 514.5 L271.0 512.4 L269.7 510.2 L268.5 507.8 L267.3 505.1 L266.1 502.2 L264.9 499.2 L263.8 496.3 L262.8 493.7 L261.9 491.5 L261.3 489.9"/>
@@ -111,7 +134,8 @@ znaleźć miejsce w Meksyku.</h1>
 <circle class="m-cap" cx="265.5" cy="555.6" r="5"/>
 <circle class="m-ring" cx="261.3" cy="489.9" r="6"/>
 <circle class="m-hq" cx="261.3" cy="489.9" r="6"/>
-<text class="m-name" x="1222.3" y="158.3">Gdynia</text><text class="m-meta" x="1222.3" y="175.3">54°31′N 18°32′E</text><text class="m-name" x="1188.5" y="186.0" text-anchor="end">Hamburg</text><text class="m-name" x="1144.8" y="226.1" text-anchor="end">Rotterdam</text><text class="m-name" x="1158.9" y="341.0">Walencja</text><text class="m-meta" x="1158.9" y="358.0">39°27′N 0°20′W</text><text class="m-name" x="247.3" y="485.9" text-anchor="end">Monterrey</text><text class="m-meta" x="247.3" y="502.9" text-anchor="end">Siedziba GRUPO ERVOY</text><text class="m-name" x="251.5" y="551.6" text-anchor="end">Meksyk</text><text class="m-meta" x="251.5" y="568.6" text-anchor="end">stolica kraju</text><text class="m-name" x="289.9" y="512.3">Altamira</text><text class="m-name" x="304.7" y="576.0">Veracruz</text><text class="m-meta" x="304.7" y="593.0">19°12′N 96°08′W</text>
+<g class="m-lbl-d"><text class="m-name" x="1222.3" y="158.3">Gdynia</text><text class="m-meta" x="1222.3" y="175.3">54°31′N 18°32′E</text><text class="m-name" x="1188.5" y="186.0" text-anchor="end">Hamburg</text><text class="m-name" x="1144.8" y="226.1" text-anchor="end">Rotterdam</text><text class="m-name" x="1158.9" y="341.0">Walencja</text><text class="m-meta" x="1158.9" y="358.0">39°27′N 0°20′W</text><text class="m-name" x="247.3" y="485.9" text-anchor="end">Monterrey</text><text class="m-meta" x="247.3" y="502.9" text-anchor="end">Siedziba GRUPO ERVOY</text><text class="m-name" x="251.5" y="551.6" text-anchor="end">Meksyk</text><text class="m-meta" x="251.5" y="568.6" text-anchor="end">stolica kraju</text><text class="m-name" x="289.9" y="512.3">Altamira</text><text class="m-name" x="304.7" y="576.0">Veracruz</text><text class="m-meta" x="304.7" y="593.0">19°12′N 96°08′W</text></g>
+<g class="m-lbl-m" aria-hidden="true"><text class="m-name" x="1268" y="244" text-anchor="middle">Gdynia</text><text class="m-name" x="1161" y="391">Walencja</text><text class="m-name" x="231" y="462" text-anchor="middle">Monterrey</text><text class="m-name" x="319" y="572">Veracruz</text><text class="m-name" x="221" y="644">Meksyk</text><text class="m-meta" x="221" y="675">stolica kraju</text></g>
 <g class="m-movers" aria-hidden="true">
 <rect class="mv-amb" x="-2.5" y="-2.5" width="5" height="5"><animateMotion dur="34s" begin="2s" repeatCount="indefinite"><mpath href="#p-ham"/></animateMotion></rect>
 <rect class="mv-amb" x="-2.5" y="-2.5" width="5" height="5"><animateMotion dur="31s" begin="9s" repeatCount="indefinite"><mpath href="#p-rot"/></animateMotion></rect>
@@ -119,7 +143,7 @@ znaleźć miejsce w Meksyku.</h1>
 <rect class="mv-main mv-v" x="-3.5" y="-3.5" width="7" height="7"><animateMotion dur="15s" begin="10.7s" repeatCount="indefinite" calcMode="spline" keyPoints="0;0;1;1" keyTimes="0;0.08;0.62;1" keySplines="0 0 1 1;.5 0 .5 1;0 0 1 1"><mpath href="#p-val"/></animateMotion></rect>
 <rect class="mv-main mv-in" x="-3.5" y="-3.5" width="7" height="7"><animateMotion dur="15s" begin="3.2s" repeatCount="indefinite" calcMode="spline" keyPoints="0;0;1;1" keyTimes="0;0.63;0.78;1" keySplines="0 0 1 1;.5 0 .5 1;0 0 1 1"><mpath href="#p-in"/></animateMotion></rect>
 </g>
-</svg>
+</svg></div>
 <aside class="panel" aria-label="Droga produktu">
 <p class="label">Droga produktu</p>
 <h2>Europa – Veracruz – Monterrey</h2>

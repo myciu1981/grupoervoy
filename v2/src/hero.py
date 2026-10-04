@@ -95,7 +95,7 @@ def dms(lon, lat):
 NAMES = {
     'pl': dict(gdy='Gdynia', ham='Hamburg', rot='Rotterdam', val='Walencja', mty='Monterrey', cdmx='Meksyk', cdmx_meta='stolica kraju',
                alt='Altamira', ver='Veracruz', hq='Siedziba GRUPO ERVOY', atl='Ocean Atlantycki', title='Mapa tras morskich z Gdyni i Walencji do Veracruz oraz połączeń lądowych do miasta Meksyk i Monterrey'),
-    'es': dict(gdy='Gdynia', ham='Hamburgo', rot='Róterdam', val='Valencia', mty='Monterrey', cdmx='Ciudad de México', cdmx_meta='',
+    'es': dict(cdmx_m='CDMX', gdy='Gdynia', ham='Hamburgo', rot='Róterdam', val='Valencia', mty='Monterrey', cdmx='Ciudad de México', cdmx_meta='',
                alt='Altamira', ver='Veracruz', hq='Sede de GRUPO ERVOY', atl='Océano Atlántico', title='Mapa de las rutas marítimas de Gdynia y Valencia a Veracruz y de las conexiones terrestres a Ciudad de México y Monterrey'),
     'en': dict(gdy='Gdynia', ham='Hamburg', rot='Rotterdam', val='Valencia', mty='Monterrey', cdmx='Mexico City', cdmx_meta='',
                alt='Altamira', ver='Veracruz', hq='GRUPO ERVOY headquarters', atl='Atlantic Ocean', title='Map of sea routes from Gdynia and Valencia to Veracruz and overland links to Mexico City and Monterrey'),
@@ -212,6 +212,19 @@ def render(lang, geo_path, map_href):
         label(alt[0] + 10, alt[1] - 12, N['alt']),
         label(ver[0] + 12, ver[1] + 18, N['ver'], dms(*VER)),
     ])
+    def mlabel(x, y, name, anchor='start', cls='m-name'):
+        a = f' text-anchor="{anchor}"' if anchor != 'start' else ''
+        return f'<text class="{cls}" x="{x:.0f}" y="{y:.0f}"{a}>{name}</text>'
+
+    # telefon: mapa przycięta do x 60-1380, y 130-680 (kadr w style.css), nazwy ok. 3 razy większe
+    labels_m = ''.join([
+        mlabel(gx + 6, gy + 54, N['gdy'], 'middle'),
+        mlabel(vx + 14, vy + 46, N['val']),
+        mlabel(mty[0] - 30, mty[1] - 28, N['mty'], 'middle'),
+        mlabel(ver[0] + 26, ver[1] + 14, N['ver']),
+        mlabel(cdmx[0] - 44, cdmx[1] + 88, N.get('cdmx_m', N['cdmx'])),
+        mlabel(cdmx[0] - 44, cdmx[1] + 119, cdmx_meta, 'start', 'm-meta') if cdmx_meta else '',
+    ])
     svg = f'''<svg class="hero-map" viewBox="0 0 {W} {H}" preserveAspectRatio="xMidYMid slice" role="img" aria-label="{N['title']}">
 <image href="{map_href}" width="{W}" height="{H}"/>
 {draw('m-lane', d_ham, L_ham, ' d1')}{draw('m-lane', d_rot, L_rot, ' d2')}{draw('m-lane', d_alt, L_alt, ' d4')}
@@ -225,7 +238,8 @@ def render(lang, geo_path, map_href):
 <circle class="m-cap" cx="{cdmx[0]:.1f}" cy="{cdmx[1]:.1f}" r="5"/>
 <circle class="m-ring" cx="{mty[0]:.1f}" cy="{mty[1]:.1f}" r="6"/>
 <circle class="m-hq" cx="{mty[0]:.1f}" cy="{mty[1]:.1f}" r="6"/>
-{labels}
+<g class="m-lbl-d">{labels}</g>
+<g class="m-lbl-m" aria-hidden="true">{labels_m}</g>
 <g class="m-movers" aria-hidden="true">
 <rect class="mv-amb" x="-2.5" y="-2.5" width="5" height="5"><animateMotion dur="34s" begin="2s" repeatCount="indefinite"><mpath href="#p-ham"/></animateMotion></rect>
 <rect class="mv-amb" x="-2.5" y="-2.5" width="5" height="5"><animateMotion dur="31s" begin="9s" repeatCount="indefinite"><mpath href="#p-rot"/></animateMotion></rect>
@@ -270,6 +284,29 @@ CSS = f'''
  .m-ring{{animation:m-ring 3.2s ease-out 4s infinite}}
 }}
 @media (prefers-reduced-motion:reduce){{.m-movers{{display:none}}}}
+.m-lbl-m{{display:none}}
+@media (max-width:1099px){{
+ .m-lbl-d,.m-sea{{display:none}}
+ .m-lbl-m{{display:inline}}
+ .m-lbl-m .m-name{{font-size:20px;stroke-width:5px}}
+ .m-lbl-m .m-meta{{font-size:15px;stroke-width:4px}}
+ .m-port,.m-cap,.m-hq,.m-small,.mv-main,.mv-amb{{transform-box:fill-box;transform-origin:center;transform:scale(1.4)}}
+ .m-halo{{stroke-width:5.5}}.m-route{{stroke-width:2.8}}.m-lane{{stroke-width:1.8}}.m-mx{{stroke-width:2.4}}
+}}
+@media (max-width:899px){{
+ .m-lbl-m .m-name{{font-size:26px;stroke-width:6px}}
+ .m-lbl-m .m-meta{{font-size:19px;stroke-width:5px}}
+ .m-port,.m-cap,.m-hq,.m-small,.mv-main,.mv-amb{{transform:scale(1.8)}}
+ .m-halo{{stroke-width:7}}.m-route{{stroke-width:3.6}}.m-lane{{stroke-width:2.4}}.m-mx{{stroke-width:3}}
+}}
+@media (max-width:599px){{
+ .m-lbl-m .m-name{{font-size:40px;stroke-width:9px}}
+ .m-lbl-m .m-meta{{font-size:27px;stroke-width:7px}}
+ .m-port,.m-cap,.m-hq,.m-small,.mv-main,.mv-amb{{transform:scale(2.3)}}
+ .m-halo{{stroke-width:9}}.m-route{{stroke-width:4.6}}.m-lane{{stroke-width:3}}.m-mx{{stroke-width:3.8}}
+ .m-ring{{animation-name:m-ring-m}}
+}}
+@keyframes m-ring-m{{0%{{transform:scale(2.3);opacity:.9}}100%{{transform:scale(5.5);opacity:0}}}}
 '''
 
 
