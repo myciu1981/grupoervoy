@@ -48,7 +48,7 @@ def parse(path):
         m = ID_RE.match(first.strip())
         if m:
             key = m.group(1)
-            current = key if key.endswith(MULTI) else None
+            current = key if key.endswith(MULTI) and not key.startswith('wiedza.') else None
             if current:
                 data[key] = []
                 if rest.strip():

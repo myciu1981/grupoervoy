@@ -190,12 +190,7 @@
  "wiedza.dzial.3.nazwa": "Zasoby",
  "wiedza.dzial.3.opis": "Kalendarz targów i słownik pojęć do szybkiego sprawdzenia.",
  "wiedza.et.aktualizacja": "Aktualizacja:",
- "wiedza.et.podstawa": [
-  {
-   "t": "p",
-   "h": "Podstawa prawna"
-  }
- ],
+ "wiedza.et.podstawa": "Podstawa prawna",
  "wiedza.et.zrodla": "Źródła",
  "wiedza.et.czytaj": "Czytaj dalej",
  "wiedza.et.powiazane": "Powiązane usługi",

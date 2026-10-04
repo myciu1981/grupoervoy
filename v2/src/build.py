@@ -19,7 +19,7 @@ from markupsafe import Markup
 
 sys.path.insert(0, str(Path(__file__).parent))
 import hero  # noqa: E402
-from site_config import (ARTICLES, DEFAULT, HTML_LANG, X_DEFAULT, LANGS, OG_LOCALE, PREFIX, RESOURCES, ROUTES,  # noqa: E402
+from site_config import (ARTICLES, DEFAULT, HREFLANG, HTML_LANG, X_DEFAULT, LANGS, OG_LOCALE, PREFIX, RESOURCES, ROUTES,  # noqa: E402
                          SERVICES, SITE, UI, UPDATES, WHATSAPP)
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -281,7 +281,7 @@ def build(langs):
             title, desc = seo or (L.t(f'{key}.seo.tytul'), L.t(f'{key}.seo.opis'))
             title = page_title(title)
             canonical = SITE + L.url(key)
-            alternates = [dict(hreflang=HTML_LANG[c] if c != 'es' else 'es', href=SITE + L.url(key, c)) for c in LANGS if c in built]
+            alternates = [dict(hreflang=HREFLANG[c], href=SITE + L.url(key, c)) for c in LANGS if c in built]
             if X_DEFAULT in built:
                 alternates.append(dict(hreflang='x-default', href=SITE + L.url(key, X_DEFAULT)))
             lang_links = [dict(code=c, name=ui['lang_names'][c], flag=FLAGS[c], href=L.url(key, c), current=c == code) for c in LANGS]
@@ -456,7 +456,7 @@ def build(langs):
         digest = hashlib.sha256(page.encode('utf-8')).hexdigest()[:16]
         if lastmod.get(loc, [None])[0] != digest:
             lastmod[loc] = [digest, today]
-        alts = ''.join(f'<xhtml:link rel="alternate" hreflang="{"es" if c == "es" else HTML_LANG[c]}" href="{SITE + L.url(key, c)}"/>' for c in LANGS if c in built)
+        alts = ''.join(f'<xhtml:link rel="alternate" hreflang="{HREFLANG[c]}" href="{SITE + L.url(key, c)}"/>' for c in LANGS if c in built)
         alts += f'<xhtml:link rel="alternate" hreflang="x-default" href="{SITE + L.url(key, X_DEFAULT)}"/>'
         urls.append(f'<url><loc>{loc}</loc><lastmod>{lastmod[loc][1]}</lastmod>{alts}</url>')
     lm_path.write_text(json.dumps(dict(sorted(lastmod.items())), indent=0, ensure_ascii=False) + '\n', encoding='utf-8')

@@ -6,6 +6,8 @@ DEFAULT = 'pl'            # polski pod adresem głównym, pozostałe języki w p
 X_DEFAULT = 'en'          # hreflang x-default: angielski dla użytkowników spoza PL/ES/EN (np. producenci z Niemiec czy Włoch)
 PREFIX = {'pl': '', 'es': 'es/', 'en': 'en/'}
 HTML_LANG = {'pl': 'pl', 'es': 'es-MX', 'en': 'en'}
+# hreflang z regionem: polski dla Polski, hiszpański dla Meksyku, angielski dla wszystkich (x-default też EN)
+HREFLANG = {'pl': 'pl-PL', 'es': 'es-MX', 'en': 'en'}
 OG_LOCALE = {'pl': 'pl_PL', 'es': 'es_MX', 'en': 'en_US'}
 
 # klucz strony -> ścieżka w każdym języku (bez prefiksu języka)

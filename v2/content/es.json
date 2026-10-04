@@ -190,12 +190,7 @@
  "wiedza.dzial.3.nazwa": "Recursos",
  "wiedza.dzial.3.opis": "Calendario de ferias y glosario para consulta rápida.",
  "wiedza.et.aktualizacja": "Actualizado:",
- "wiedza.et.podstawa": [
-  {
-   "t": "p",
-   "h": "Fundamento legal"
-  }
- ],
+ "wiedza.et.podstawa": "Fundamento legal",
  "wiedza.et.zrodla": "Fuentes",
  "wiedza.et.czytaj": "Leer más",
  "wiedza.et.powiazane": "Servicios relacionados",

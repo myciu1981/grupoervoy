@@ -190,12 +190,7 @@
  "wiedza.dzial.3.nazwa": "Resources",
  "wiedza.dzial.3.opis": "A trade show calendar and a glossary for quick reference.",
  "wiedza.et.aktualizacja": "Updated:",
- "wiedza.et.podstawa": [
-  {
-   "t": "p",
-   "h": "Legal basis"
-  }
- ],
+ "wiedza.et.podstawa": "Legal basis",
  "wiedza.et.zrodla": "Sources",
  "wiedza.et.czytaj": "Read more",
  "wiedza.et.powiazane": "Related services",

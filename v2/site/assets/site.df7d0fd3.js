@@ -12,6 +12,14 @@
     });
   }
 
+  // wybór języka flagą zapamiętujemy, żeby .htaccess nie przekierowywał już ze strony głównej
+  // według języka przeglądarki (Meksyk -> /es/, inne poza polskim -> /en/)
+  Array.prototype.forEach.call(document.querySelectorAll('.langs a[hreflang]'), function (a) {
+    a.addEventListener('click', function () {
+      document.cookie = 'ervoy_lang=' + a.getAttribute('hreflang') + '; path=/; max-age=31536000; SameSite=Lax; Secure';
+    });
+  });
+
   // kalendarz targów
   var filters = document.querySelector('[data-fairs-filters]');
   if (filters) {
