@@ -19,7 +19,7 @@
  "stopka.og.tytul": "GRUPO ERVOY: rynek meksykański dla firm z Europy",
  "stopka.og.opis": "Badanie rynku, normy meksykańskie NOM, etykiety, import i lokalna reprezentacja w Meksyku. Spółka z siedzibą w Monterrey, zespół w Meksyku i w Polsce.",
  "stopka.alt.logo": "GRUPO ERVOY",
- "home.seo.tytul": "Sprzedaż produktów w Meksyku dla firm z Europy | GRUPO ERVOY",
+ "home.seo.tytul": "Eksport do Meksyku dla firm z Europy | GRUPO ERVOY",
  "home.seo.opis": "Pomagamy europejskim producentom wejść na rynek meksykański: badanie rynku, normy meksykańskie NOM, etykiety, import i dystrybutorzy. Bezpłatna konsultacja.",
  "home.hero.label": "Europejskie firmy. Meksykańskie możliwości.",
  "home.hero.h1": "Pomagamy europejskim produktom\nznaleźć miejsce w Meksyku.",
@@ -190,6 +190,7 @@
  "wiedza.dzial.3.nazwa": "Zasoby",
  "wiedza.dzial.3.opis": "Kalendarz targów i słownik pojęć do szybkiego sprawdzenia.",
  "wiedza.et.aktualizacja": "Aktualizacja:",
+ "wiedza.et.skrot": "W skrócie",
  "wiedza.et.podstawa": "Podstawa prawna",
  "wiedza.et.zrodla": "Źródła",
  "wiedza.et.czytaj": "Czytaj dalej",
@@ -258,6 +259,8 @@
  "onas.h2.zasady": "Nasze podejście",
  "onas.zasady.p1": "Zanim zaproponujemy konkretne działania, chcemy zrozumieć produkt, model biznesowy i plany firmy. Dopiero wtedy możemy ocenić, czego rzeczywiście potrzebujesz i w jakim zakresie możemy Ci pomóc. Jeżeli uznamy, że Meksyk nie jest jeszcze właściwym kierunkiem dla Twojego produktu, powiemy o tym wprost.",
  "onas.zasady.p2": "Nie wierzymy w gotowe pakiety pasujące do każdej firmy. Dlatego zaczynamy od bezpłatnej rozmowy, a konkretną ofertę przygotowujemy dopiero po poznaniu produktu i zakresu potrzebnego wsparcia.",
+ "onas.h2.zespol": "Zespół",
+ "onas.zespol.link": "Napisz do nas",
  "kontakt.seo.tytul": "Kontakt | GRUPO ERVOY",
  "kontakt.seo.opis": "Umów bezpłatną konsultację. Rozmawiamy po polsku, hiszpańsku i angielsku. GRUPO ERVOY, Monterrey, Meksyk.",
  "kontakt.label": "Kontakt",
@@ -267,7 +270,7 @@
  "kontakt.przycisk.telefon": "Zadzwoń",
  "kontakt.przycisk.email": "Napisz e-mail",
  "kontakt.osoba1.imie": "Bogusław Daniel",
- "kontakt.osoba1.stanowisko": "Dyrektor Sprzedaży",
+ "kontakt.osoba1.stanowisko": "Dyrektor Sprzedaży i Partner",
  "kontakt.osoba1.jezyki": "Mówi po polsku i po angielsku",
  "kontakt.osoba1.telefon": "+48 721 134 813",
  "kontakt.osoba1.email": "boguslaw.daniel@grupoervoy.com",
@@ -288,6 +291,7 @@
  "404.przycisk2": "Zobacz usługi",
  "404.kontakt": "Jeśli szukasz czegoś konkretnego, napisz do nas na WhatsApp.",
  "art.1.aktualizacja": "4 października 2026",
+ "art.1.skrot": "Zanim zaczniesz szukać odbiorców, sprawdź cztery rzeczy w tej kolejności: kod taryfowy, normy meksykańskie NOM, pochodzenie i cło oraz to, kto będzie importerem. Od tych odpowiedzi zależy cena produktu w Meksyku, a od ceny – wybór kanałów sprzedaży. Najwięcej czasu traci się zwykle na robienie tych kroków w złej kolejności.",
  "art.1.tresc": [
   {
    "t": "p",
@@ -333,6 +337,7 @@
   }
  ],
  "art.2.aktualizacja": "4 października 2026",
+ "art.2.skrot": "Punktem wyjścia jest kod taryfowy. Jeśli figuruje w załączniku 2.4.1, urząd celny sprawdza zgodność z normą już przy odprawie. Brak kodu na tej liście nie oznacza jednak, że norma nie obowiązuje – część norm dotyczy produktów w sprzedaży i jest egzekwowana na rynku. Europejskie certyfikaty i znak CE pomagają w dokumentacji, ale nie zastępują meksykańskiej procedury.",
  "art.2.tresc": [
   {
    "t": "p",
@@ -366,6 +371,7 @@
   }
  ],
  "art.3.aktualizacja": "4 października 2026",
+ "art.3.skrot": "Kod taryfowy decyduje jednocześnie o stawce cła, normach sprawdzanych przy odprawie, rejestrach, których potrzebuje importer, i o regule pochodzenia. Europejski i meksykański urząd celny mogą zaklasyfikować ten sam towar inaczej, dlatego kod warto uzgodnić na piśmie przed wysyłką. Przy wątpliwościach można wystąpić o wiążącą interpretację na podstawie art. 47 Ley Aduanera.",
  "art.3.tresc": [
   {
    "t": "p",
@@ -399,6 +405,7 @@
   }
  ],
  "art.4.aktualizacja": "4 października 2026",
+ "art.4.skrot": "Firma z Europy bez meksykańskiej rejestracji podatkowej nie odprawi sama swojego towaru, więc potrzebuje importera: dystrybutora, comercializadory albo własnej spółki w Meksyku. Ten wybór decyduje o tym, kto odpowiada za towar na granicy i na kogo wystawione są certyfikaty i dokumenty zgodności. Rolę importera i przedstawiciela na miejscu często lepiej rozdzielić.",
  "art.4.tresc": [
   {
    "t": "p",
@@ -447,6 +454,7 @@
   }
  ],
  "art.5.aktualizacja": "4 października 2026",
+ "art.5.skrot": "Wiele towarów z Unii wjeżdża do Meksyku bez cła albo ze stawką obniżoną, ale tylko z ważnym dowodem pochodzenia: deklaracją na fakturze, świadectwem EUR.1 albo deklaracją upoważnionego eksportera. Bez niego obowiązuje stawka ogólna, która dla wielu towarów jest wysoka. Nowa przejściowa umowa handlowa UE–Meksyk została podpisana w 2026 roku, ale jeszcze nie obowiązuje.",
  "art.5.tresc": [
   {
    "t": "p",
@@ -500,6 +508,7 @@
   }
  ],
  "art.6.aktualizacja": "4 października 2026",
+ "art.6.skrot": "NOM-051 określa całą etykietę żywności i napojów sprzedawanych w Meksyku, w tym czarne ośmiokąty ostrzegawcze, liczone na 100 g lub 100 ml. Produkt z takim oznaczeniem nie może mieć na opakowaniu postaci skierowanych do dzieci ani części oświadczeń zdrowotnych i żywieniowych. Etykieta przetłumaczona dosłownie z wersji unijnej zwykle nie spełnia meksykańskich wymogów.",
  "art.6.tresc": [
   {
    "t": "p",
@@ -550,6 +559,7 @@
   }
  ],
  "art.7.aktualizacja": "4 października 2026",
+ "art.7.skrot": "Niektóre normy pozwalają, by posiadaczem certyfikatu NOM był producent spoza Meksyku, jeśli ma w Meksyku przedstawiciela prawnego. Od posiadacza zależy, kto może legalnie sprzedawać produkt, a certyfikatu nie da się przenieść na inny podmiot. Dlatego posiadacza warto wybrać przed złożeniem wniosku, razem z modelem importu.",
  "art.7.tresc": [
   {
    "t": "p",
@@ -578,6 +588,7 @@
   }
  ],
  "akt.1.aktualizacja": "4 października 2026",
+ "akt.1.skrot": "Od 1 stycznia 2026 roku obowiązuje duża nowelizacja Ley Aduanera. Grzywna za import bez wykazania zgodności z regulacjami pozataryfowymi, w tym z normami meksykańskimi NOM, wzrosła z 70–100% do 250–300% wartości handlowej towaru, a agenci celni odpowiadają za więcej i proszą o więcej dokumentów. Kod taryfowy, etykietę i dowód pochodzenia warto więc sprawdzić przed wysyłką.",
  "akt.1.tresc": [
   {
    "t": "p",

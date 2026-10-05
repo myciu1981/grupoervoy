@@ -16,5 +16,16 @@
 <a class="btn btn-p" href="{{ whatsapp }}" rel="noopener" style="margin-top:8px">{{ t('cta.glowne') }}</a>
 </aside>
 </div>
+<section class="team" aria-labelledby="team-h">
+<h2 id="team-h">{{ t('onas.h2.zespol') }}</h2>
+<div class="people">
+{% for p in people %}<div class="person">
+<h3>{{ p.name }}</h3>
+<p class="role">{{ p.role }}</p>
+<p class="langs-spoken">{{ p.langs }}</p>
+</div>{% endfor %}
+</div>
+<a class="link-more" href="{{ url('kontakt') }}">{{ t('onas.zespol.link') }} →</a>
+</section>
 </div></div>
 {% endblock %}

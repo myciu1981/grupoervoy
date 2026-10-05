@@ -19,7 +19,7 @@ from markupsafe import Markup
 
 sys.path.insert(0, str(Path(__file__).parent))
 import hero  # noqa: E402
-from site_config import (ARTICLES, BING_VERIFY, DEFAULT, INDEXNOW_KEY, HREFLANG, HTML_LANG, X_DEFAULT, LANGS, OG_LOCALE, PREFIX, RESOURCES, ROUTES,  # noqa: E402
+from site_config import (ARTICLES, BING_VERIFY, DEFAULT, INDEXNOW_KEY, LEGAL_LINKS, HREFLANG, HTML_LANG, X_DEFAULT, LANGS, OG_LOCALE, PREFIX, RESOURCES, ROUTES,  # noqa: E402
                          SERVICES, SITE, UI, UPDATES, WHATSAPP)
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -60,6 +60,24 @@ def blocks_html(blocks):
         elif b['t'] == 'ul':
             out.append('<ul>' + ''.join(f'<li>{i}</li>' for i in b['items']) + '</ul>')
     return '\n'.join(out)
+
+
+def link_legal(item):
+    """Nazwy aktów w pozycji podstawy prawnej -> linki do oficjalnych tekstów (LEGAL_LINKS)."""
+    spans = []
+    for pattern, url in LEGAL_LINKS:
+        for m in re.finditer(pattern, item):
+            if not any(a < m.end() and m.start() < b for a, b, _ in spans):
+                spans.append((m.start(), m.end(), url))
+    out, pos = [], 0
+    for a, b, url in sorted(spans):
+        out += [item[pos:a], f'<a href="{html.escape(url)}" target="_blank" rel="noopener">{item[a:b]}</a>']
+        pos = b
+    return ''.join(out) + item[pos:]
+
+
+def legal_html(blocks):
+    return blocks_html([dict(b, items=[link_legal(i) for i in b['items']]) if b['t'] == 'ul' else b for b in blocks or []])
 
 
 class Lang:
@@ -390,7 +408,7 @@ def build(langs):
                        label=L.t(f'wiedza.dzial.{dz}.nazwa'), h1=title, leads=[L.t(f'{k}.zapowiedz')],
                        crumbs=kb_crumb + ([dict(label=L.t('wiedza.dzial.2.nazwa'), href=L.url('wiedza.akt'))] if dz == 2 else []),
                        crumb_here=title, updated=L.d.get(f'{k}.aktualizacja'), tabs=None,
-                       body=Markup(blocks_html(L.d.get(f'{k}.tresc'))), legal=Markup(blocks_html(L.d.get(f'{k}.podstawa'))),
+                       body=Markup(blocks_html(L.d.get(f'{k}.tresc'))), legal=Markup(legal_html(L.d.get(f'{k}.podstawa'))), summary=L.d.get(f'{k}.skrot'),
                        legal_title=L.t('wiedza.et.podstawa'), disclaimer=L.t('wiedza.zastrzezenie'),
                        band_h2=L.t('wiedza.et.cta.h2'), band_text=L.t('wiedza.et.cta.tekst'), og_type='article', jsonld=[art_ld])
 
@@ -405,7 +423,7 @@ def build(langs):
                label=L.t('wiedza.dzial.3.nazwa'), h1=L.t('zas.slownik.tytul'), leads=[re.sub('<[^>]+>', '', b['h']) for b in intro],
                crumbs=zas_crumbs, crumb_here=L.t('zas.slownik.tytul'), updated=L.d.get('zas.slownik.aktualizacja'), tabs=None,
                groups=groups, letters={g for g, _ in groups}, alphabet=list('ABCDEFGHIJKLMNOPQRSTUVWXYZ'),
-               legal=Markup(blocks_html(L.d.get('zas.slownik.podstawa'))), legal_title=L.t('wiedza.et.podstawa'))
+               legal=Markup(legal_html(L.d.get('zas.slownik.podstawa'))), legal_title=L.t('wiedza.et.podstawa'))
 
         # marki, o nas, kontakt, polityka
         render('marki', 'brands.html', section='marki', label=L.t('marki.label'), h1=L.t('marki.h1'), leads=[L.t('marki.lead')],
@@ -415,17 +433,18 @@ def build(langs):
         about = ''.join([f"<p>{html.escape(L.t('onas.p2'))}</p>", f"<h2>{html.escape(L.t('onas.h2.monterrey'))}</h2>",
                          f"<p>{html.escape(L.t('onas.monterrey.p1'))}</p>", f"<h2>{html.escape(L.t('onas.h2.zasady'))}</h2>",
                          f"<p>{html.escape(L.t('onas.zasady.p1'))}</p>", f"<p>{html.escape(L.t('onas.zasady.p2'))}</p>"])
-        render('onas', 'about.html', section='onas', label=L.t('onas.label'), h1=L.t('onas.h1'), leads=[L.t('onas.p1')],
-               crumbs=[], crumb_here='', updated=None, tabs=None)
         people = []
         for p in ('kontakt.osoba1', 'kontakt.osoba2'):
             tel = L.t(p + '.telefon')
             people.append(dict(name=L.t(p + '.imie'), role=L.t(p + '.stanowisko'), langs=L.t(p + '.jezyki'), tel=tel, tel_raw='+' + digits(tel), email=L.t(p + '.email'),
                                wa=f"https://wa.me/{digits(tel)}?text={quote(L.t('cta.whatsapp.wiadomosc'))}"))
+        people_ld = [{'@type': 'Person', 'name': x['name'], 'jobTitle': x['role'], 'email': x['email'], 'telephone': x['tel_raw']} for x in people]
+        render('onas', 'about.html', section='onas', label=L.t('onas.label'), h1=L.t('onas.h1'), leads=[L.t('onas.p1')],
+               crumbs=[], crumb_here='', updated=None, tabs=None, people=people,
+               jsonld=[json.dumps(dict(org, employee=people_ld), ensure_ascii=False)])
         render('kontakt', 'contact.html', section='kontakt', label=L.t('kontakt.label'), h1=L.t('kontakt.h1'), leads=[L.t('kontakt.lead')],
                crumbs=[], crumb_here='', updated=None, tabs=None, people=people,
-               jsonld=[json.dumps(dict(org, employee=[{'@type': 'Person', 'name': x['name'], 'jobTitle': x['role'], 'email': x['email'],
-                                                       'telephone': x['tel_raw']} for x in people]), ensure_ascii=False)])
+               jsonld=[json.dumps(dict(org, employee=people_ld), ensure_ascii=False)])
         render('polityka', 'blocks.html', seo=(f"{ui['privacy_h1']} | GRUPO ERVOY", ui['privacy_h1']), label=None, h1=ui['privacy_h1'], leads=[],
                crumbs=[], crumb_here='', updated=None, tabs=None, body=Markup(f"<p>{html.escape(ui['privacy_pending'])}</p>"),
                legal=None, legal_title='', disclaimer=None, noindex=True)

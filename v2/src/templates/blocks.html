@@ -1,7 +1,9 @@
 {% extends "page.html" %}
 {% block body %}
 <div class="section tight"><div class="wrap">
+{% if summary is defined and summary %}<aside class="summary" aria-label="{{ t('wiedza.et.skrot') }}"><p class="label">{{ t('wiedza.et.skrot') }}</p><p>{{ summary }}</p></aside>{% endif %}
 <div class="prose">{{ body|safe }}</div>
+
 {% if legal %}<div class="legal-base prose"><h2>{{ legal_title }}</h2>{{ legal|safe }}</div>{% endif %}
 {% if disclaimer %}<p class="disclaimer">{{ disclaimer }}</p>{% endif %}
 </div></div>

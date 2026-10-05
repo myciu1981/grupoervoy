@@ -101,3 +101,27 @@ UI = {
 # weryfikacja Bing Webmaster Tools (metatag + BingSiteAuth.xml) i klucz IndexNow (plik /<klucz>.txt)
 BING_VERIFY = '45E37E2A0C91967ED7B6F8D8DC9996F7'
 INDEXNOW_KEY = '77caba8e6fd178824cccadaba9186c12'
+
+
+# Podstawa prawna w artykułach: nazwa aktu -> oficjalny tekst. Ustawy z serwisu Izby Deputowanych (tekst
+# ujednolicony), akty z datą - wydanie DOF z tego dnia. Adresy sprawdzone 04.10.2026. Bez linku zostają
+# pozycje, których adresu nie dało się potwierdzić (decyzja 2/2000, dekret z 29.12.2025, Anexo 2.4.1, RGCE).
+_DIP = 'https://www.diputados.gob.mx/LeyesBiblio/pdf/'
+_DOF = 'https://dof.gob.mx/index.php?year={}&month={}&day={}'
+_START = r'(?:^|(?<=; ))'
+LEGAL_LINKS = [
+    (r'^Decreto por el que se reforman, adicionan y derogan diversas disposiciones de la Ley Aduanera', _DOF.format(2025, 11, 19)),
+    (_START + r'Ley Aduanera', _DIP + 'LAdua.pdf'),
+    (_START + r'Ley de Infraestructura de la Calidad', _DIP + 'LICal_010720.pdf'),
+    (_START + r'Ley de los Impuestos Generales de Importación y de Exportación', _DIP + 'LIGIE_2022.pdf'),
+    (r'(?<=; )LIGIE', _DIP + 'LIGIE_2022.pdf'),
+    (_START + r'Ley del IEPS', _DIP + 'LIEPS.pdf'),
+    (_START + r'Ley del IVA', _DIP + 'LIVA.pdf'),
+    (_START + r'Código Fiscal de la Federación', _DIP + 'CFF.pdf'),
+    (r'^NOM-051-SCFI/SSA1-2010', _DOF.format(2020, 3, 27)),
+    (r'^Acuerdo (?:z|del|of) 10[./]07[./]2020 \(DOF\)', _DOF.format(2020, 7, 10)),
+    (r'^Acuerdo (?:z|del|of) 31[./]08[./]2022 \(DOF\)', _DOF.format(2022, 8, 31)),
+    (r'^(?:Wytyczne dotyczące żywności w szkołach|Lineamientos para la alimentación en escuelas|Guidelines on food in schools)'
+     r' \(DOF 30[./]09[./]2024\)', _DOF.format(2024, 9, 30)),
+]
+

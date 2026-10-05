@@ -190,6 +190,7 @@
  "wiedza.dzial.3.nazwa": "Recursos",
  "wiedza.dzial.3.opis": "Calendario de ferias y glosario para consulta rápida.",
  "wiedza.et.aktualizacja": "Actualizado:",
+ "wiedza.et.skrot": "En resumen",
  "wiedza.et.podstawa": "Fundamento legal",
  "wiedza.et.zrodla": "Fuentes",
  "wiedza.et.czytaj": "Leer más",
@@ -238,6 +239,8 @@
  "onas.h2.zasady": "Nuestro enfoque",
  "onas.zasady.p1": "Antes de proponer acciones concretas queremos entender el producto, el modelo de negocio y los planes de la empresa. Solo así podemos valorar qué necesita realmente y en qué podemos ayudarle. Si pensamos que México todavía no es el destino adecuado para su producto, se lo diremos directamente.",
  "onas.zasady.p2": "No creemos en paquetes iguales para todas las empresas. Por eso empezamos con una conversación gratuita y preparamos una propuesta concreta después de conocer el producto y el apoyo que necesita.",
+ "onas.h2.zespol": "Equipo",
+ "onas.zespol.link": "Escríbanos",
  "kontakt.seo.tytul": "Contacto | GRUPO ERVOY",
  "kontakt.seo.opis": "Agende una asesoría gratuita. Hablamos español, inglés y polaco. GRUPO ERVOY, Monterrey, México.",
  "kontakt.label": "Contacto",
@@ -247,7 +250,7 @@
  "kontakt.przycisk.telefon": "Llamar",
  "kontakt.przycisk.email": "Enviar correo",
  "kontakt.osoba1.imie": "Bogusław Daniel",
- "kontakt.osoba1.stanowisko": "Director de Ventas",
+ "kontakt.osoba1.stanowisko": "Director de Ventas y Socio",
  "kontakt.osoba1.jezyki": "Habla polaco e inglés",
  "kontakt.osoba1.telefon": "+48 721 134 813",
  "kontakt.osoba1.email": "boguslaw.daniel@grupoervoy.com",
@@ -270,6 +273,7 @@
  "art.1.tytul": "Cómo empezar a vender su producto en México: primeros pasos",
  "art.1.zapowiedz": "¿Por dónde empezar si planea vender en México? El orden de los pasos, las decisiones clave y los puntos donde los fabricantes suelen perder más tiempo.",
  "art.1.aktualizacja": "4 de octubre de 2026",
+ "art.1.skrot": "Antes de buscar clientes, conviene revisar cuatro cosas en este orden: la fracción arancelaria, las NOM, el origen y los aranceles, y quién será el importador. De esas respuestas depende el precio del producto en México y, del precio, los canales de venta. Lo que más tiempo hace perder suele ser seguir estos pasos en el orden equivocado.",
  "art.1.tresc": [
   {
    "t": "p",
@@ -317,6 +321,7 @@
  "art.2.tytul": "Normas NOM: cómo saber si aplican a su producto",
  "art.2.zapowiedz": "Qué son las Normas Oficiales Mexicanas, cuándo aplican y cómo saber qué requisitos corresponden a un producto concreto.",
  "art.2.aktualizacja": "4 de octubre de 2026",
+ "art.2.skrot": "El punto de partida es la fracción arancelaria. Si aparece en el Anexo 2.4.1, la aduana revisa el cumplimiento de la norma en el despacho. Que no aparezca no significa que la norma no aplique: muchas normas rigen para productos a la venta y se vigilan en el mercado. Los certificados europeos y el marcado CE ayudan con la documentación, pero no sustituyen el procedimiento mexicano.",
  "art.2.tresc": [
   {
    "t": "p",
@@ -352,6 +357,7 @@
  "art.3.tytul": "La fracción arancelaria: por qué importa tanto",
  "art.3.zapowiedz": "La fracción arancelaria influye en el arancel, los requisitos regulatorios y los documentos de importación. Cómo se define y cuándo conviene pedir un criterio oficial.",
  "art.3.aktualizacja": "4 de octubre de 2026",
+ "art.3.skrot": "La fracción arancelaria define al mismo tiempo el arancel, las normas que se revisan en el despacho, los padrones que necesita el importador y la regla de origen. La aduana europea y la mexicana pueden clasificar la misma mercancía de forma distinta, por eso conviene acordar la fracción por escrito antes del embarque. Si hay dudas, se puede solicitar una resolución con base en el artículo 47 de la Ley Aduanera.",
  "art.3.tresc": [
   {
    "t": "p",
@@ -387,6 +393,7 @@
  "art.4.tytul": "El importador en México: quién puede serlo",
  "art.4.zapowiedz": "Quién puede ser importador, qué papel tiene en el proceso y qué opciones existen si su empresa todavía no tiene estructura propia en México.",
  "art.4.aktualizacja": "4 de octubre de 2026",
+ "art.4.skrot": "Una empresa europea sin registro fiscal en México no puede despachar su propia mercancía, así que necesita un importador: un distribuidor, una comercializadora o su propia empresa en México. Esa decisión define quién responde por la mercancía en la aduana y a nombre de quién se emiten los certificados y documentos de cumplimiento. Muchas veces conviene separar el papel del importador del de su representante local.",
  "art.4.tresc": [
   {
    "t": "p",
@@ -437,6 +444,7 @@
  "art.5.tytul": "Origen de la mercancía y aranceles en el comercio UE-México",
  "art.5.zapowiedz": "Cómo acreditar el origen preferente del producto, qué documentos pueden necesitarse y por qué conviene tenerlos antes del envío.",
  "art.5.aktualizacja": "4 de octubre de 2026",
+ "art.5.skrot": "Muchas mercancías de la UE entran a México sin arancel o con una tasa reducida, pero solo con una prueba de origen válida: declaración en factura, certificado EUR.1 o declaración de exportador autorizado. Sin ella se aplica la tasa general, que para muchas mercancías es alta. El nuevo Acuerdo Comercial Interino UE–México se firmó en 2026, pero todavía no está en vigor.",
  "art.5.tresc": [
   {
    "t": "p",
@@ -492,6 +500,7 @@
  "art.6.tytul": "Etiquetado de alimentos en México y los sellos de la NOM-051",
  "art.6.zapowiedz": "Cómo funcionan los sellos negros de advertencia, qué significan para el diseño de la etiqueta y cuándo conviene una constancia de conformidad.",
  "art.6.aktualizacja": "4 de octubre de 2026",
+ "art.6.skrot": "La NOM-051 regula toda la etiqueta de los alimentos y bebidas que se venden en México, incluidos los sellos octagonales de advertencia, que se calculan por 100 g o 100 ml. Un producto con sellos no puede usar personajes dirigidos a niños ni algunas declaraciones nutrimentales y saludables. Una etiqueta traducida literalmente de la versión europea normalmente no cumple.",
  "art.6.tresc": [
   {
    "t": "p",
@@ -544,6 +553,7 @@
  "art.7.tytul": "Quién puede ser titular de un certificado NOM",
  "art.7.zapowiedz": "Qué opciones tiene un fabricante extranjero y por qué la elección del titular del certificado influye en la importación y la venta.",
  "art.7.aktualizacja": "4 de octubre de 2026",
+ "art.7.skrot": "Algunas normas permiten que el titular del certificado NOM sea un fabricante extranjero, siempre que tenga representación legal en México. Del titular depende quién puede vender legalmente el producto, y el certificado no se puede ceder a otra empresa. Por eso conviene definir al titular antes de presentar la solicitud, junto con el modelo de importación.",
  "art.7.tresc": [
   {
    "t": "p",
@@ -574,6 +584,7 @@
  "akt.1.tytul": "Reforma aduanera 2026 en México: lo que cambió",
  "akt.1.zapowiedz": "Los principales cambios de la legislación aduanera mexicana en 2026 y lo que significan para las empresas que importan a México.",
  "akt.1.aktualizacja": "4 de octubre de 2026",
+ "akt.1.skrot": "Desde el 1 de enero de 2026 está en vigor una amplia reforma de la Ley Aduanera. La multa por importar sin acreditar el cumplimiento de regulaciones no arancelarias, incluidas las NOM, pasó del 70–100% al 250–300% del valor comercial de la mercancía, y los agentes aduanales tienen más responsabilidad y piden más documentos. Por eso conviene revisar la fracción, la etiqueta y la prueba de origen antes del embarque.",
  "akt.1.tresc": [
   {
    "t": "p",

@@ -168,6 +168,12 @@ a.card:hover{border-color:var(--slate);color:var(--ink)}
 .prose li::marker{color:var(--meta)}
 .prose>:first-child{margin-top:0}
 .meta-line{font-size:14px;color:var(--meta);margin-top:18px}
+.summary{position:relative;max-width:760px;margin:0 0 40px;padding:24px 28px 22px;background:var(--mist)}
+.summary::before{content:"";position:absolute;left:0;top:0;width:100%;height:3px;background:var(--gradient-crimson)}
+.summary .label{margin:0 0 10px}
+.summary p:last-child{margin:0;font-size:18px;line-height:1.55;color:var(--ink)}
+.legal-base a{color:var(--ink-2);text-underline-offset:2px}
+.legal-base a:hover{color:var(--crimson-flat)}
 .legal-base{margin-top:48px;padding-top:24px;border-top:1px solid var(--rule);font-size:15px;color:var(--ink-2)}
 .legal-base h2{font-size:15px;font-family:var(--display);font-weight:600;letter-spacing:1.4px;text-transform:uppercase;color:var(--meta);margin:0 0 12px}
 .legal-base ul{margin:0;padding-left:20px}
@@ -304,6 +310,11 @@ a.card:hover{border-color:var(--slate);color:var(--ink)}
 .approach p{color:var(--grey-30);margin:0 0 14px}
 .approach .accent{margin:0 0 20px}
 @media (max-width:900px){.about-grid{grid-template-columns:1fr;gap:32px}}
+.team{margin-top:72px;padding-top:40px;border-top:1px solid var(--rule)}
+.team h2{margin:0 0 28px}
+.team .person{padding-bottom:24px}
+.team .langs-spoken{margin-bottom:0}
+.team .link-more{margin-top:24px}
 .person{position:relative;border-top:0;padding-top:31px}
 .person::before{content:"";position:absolute;left:-1px;right:-1px;top:0;height:3px;background:var(--gradient-crimson);border-radius:4px 4px 0 0}
 .person svg{color:var(--crimson-flat)}
