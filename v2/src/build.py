@@ -230,7 +230,7 @@ def llms_txt(built):
     E = built.get('en') or next(iter(built.values()))
     u = lambda L, k: SITE + L.url(k)  # noqa: E731
     out = ['# GRUPO ERVOY', '',
-           '> GRUPO ERVOY, S.A. de C.V. is a Mexican company based in Monterrey, Nuevo León, that helps European '
+           '> GRUPO ERVOY is a Mexican company based in Monterrey, Nuevo León, that helps European '
            'manufacturers prepare their products for sale in Mexico and enter the Mexican market: market research, '
            'Mexican NOM standards and labelling, local representation, import and logistics, distributors and trade shows. '
            'The team works in Spanish, English and Polish. The first consultation is free.', '',
@@ -326,7 +326,7 @@ def build(langs):
                             for i, (k, n) in enumerate([('wiedza', len(ARTICLES)), ('wiedza.akt', len(UPDATES)), ('wiedza.zas', len(RESOURCES))], 1)]
 
         org = {'@context': 'https://schema.org', '@type': 'Organization', '@id': ORG_ID, 'name': 'GRUPO ERVOY',
-               'legalName': 'GRUPO ERVOY, S.A. de C.V.', 'alternateName': ['Grupo Ervoy', 'ERVOY'], 'url': SITE + L.url('home'),
+               'legalName': 'GRUPO ERVOY', 'alternateName': ['Grupo Ervoy', 'ERVOY'], 'url': SITE + L.url('home'),
                'description': L.t('home.seo.opis'), 'logo': SITE + '/apple-touch-icon.png', 'image': SITE + '/assets/og-image.png',
                'email': L.t('kontakt.firma.email'), 'telephone': '+' + digits(L.t('kontakt.osoba2.telefon')),
                'areaServed': [{'@type': 'Country', 'name': 'Mexico'}, {'@type': 'Place', 'name': 'European Union'}],
