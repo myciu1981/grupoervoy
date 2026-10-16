@@ -157,10 +157,10 @@ def map_svg(geo_path):
     przez przeglądarkę. Kolory jako atrybuty, bez <style>, żeby nie zależeć od CSP."""
     land, eu, hi, grat = _geometry(geo_path)
     return (f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}">'
-            f'<path fill="none" stroke="#b8c0c7" stroke-opacity=".075" d="{_rel(grat)}"/>'
-            f'<g stroke="#0a263c" stroke-width=".8" stroke-linejoin="round">'
-            f'<path fill="#11324d" d="{_rel(land)}"/><path fill="#173d5b" d="{_rel(eu)}"/></g>'
-            f'<path fill="#1b4868" stroke="#e9edf0" stroke-opacity=".28" stroke-linejoin="round" d="{_rel(hi)}"/></svg>')
+            f'<path fill="none" stroke="#0a263c" stroke-opacity=".06" d="{_rel(grat)}"/>'
+            f'<g stroke="#ffffff" stroke-width=".8" stroke-linejoin="round">'
+            f'<path fill="#e9edf0" d="{_rel(land)}"/><path fill="#e1e6ea" d="{_rel(eu)}"/></g>'
+            f'<path fill="#c9d2da" stroke="#0a263c" stroke-opacity=".25" stroke-linejoin="round" d="{_rel(hi)}"/></svg>')
 
 
 CYCLE, START = 15, 3.2
@@ -253,23 +253,23 @@ def render(lang, geo_path, map_href):
 
 CSS = f'''
 .hero-map{{display:block;width:100%;height:100%}}
-.m-grat{{fill:none;stroke:rgba(184,192,199,.075);stroke-width:1}}
-.m-land{{fill:#11324d;stroke:#0a263c;stroke-width:.8;stroke-linejoin:round}}
-.m-eu{{fill:#173d5b}}
-.m-hi{{fill:#1b4868;stroke:rgba(233,237,240,.28);stroke-width:1}}
-.m-lane{{fill:none;stroke:rgba(255,255,255,.30);stroke-width:1.2;stroke-linecap:round;stroke-linejoin:round}}
-.m-mx{{stroke:rgba(255,255,255,.45);stroke-width:1.6}}
+.m-grat{{fill:none;stroke:rgba(10,38,60,.06);stroke-width:1}}
+.m-land{{fill:#e9edf0;stroke:#fff;stroke-width:.8;stroke-linejoin:round}}
+.m-eu{{fill:#e1e6ea}}
+.m-hi{{fill:#c9d2da;stroke:rgba(10,38,60,.25);stroke-width:1}}
+.m-lane{{fill:none;stroke:rgba(10,38,60,.28);stroke-width:1.2;stroke-linecap:round;stroke-linejoin:round}}
+.m-mx{{stroke:rgba(10,38,60,.40);stroke-width:1.6}}
 .m-halo{{fill:none;stroke:#fff;stroke-opacity:.92;stroke-width:3.8;stroke-linecap:round;stroke-linejoin:round}}
 .m-route{{fill:none;stroke:#9f384b;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}}
-.m-port{{fill:#fff;stroke:#0a263c;stroke-width:2;paint-order:stroke}}
-.m-small{{fill:#b8c0c7}}
+.m-port{{fill:#0a263c;stroke:#fff;stroke-width:2;paint-order:stroke}}
+.m-small{{fill:#6b7681}}
 .m-cap{{fill:#9f384b;stroke:#fff;stroke-width:2}}
 .m-hq{{fill:#9f384b;stroke:#fff;stroke-width:2}}
-.m-ring{{fill:none;stroke:#fff;stroke-width:1.5;opacity:0;transform-box:fill-box;transform-origin:center}}
-.m-name{{font-family:'Red Hat Display',Arial,sans-serif;font-weight:500;font-size:14px;fill:#fff;paint-order:stroke;stroke:#0a263c;stroke-width:3px;stroke-linejoin:round}}
-.m-meta{{font-family:'Red Hat Text',Arial,sans-serif;font-size:12px;fill:#b8c0c7;font-variant-numeric:tabular-nums;paint-order:stroke;stroke:#0a263c;stroke-width:3px;stroke-linejoin:round}}
-.m-sea{{font-family:'Red Hat Text',Arial,sans-serif;font-size:13px;letter-spacing:2px;fill:rgba(184,192,199,.55)}}
-.mv-amb{{fill:#fff;opacity:.75}}
+.m-ring{{fill:none;stroke:#9f384b;stroke-width:1.5;opacity:0;transform-box:fill-box;transform-origin:center}}
+.m-name{{font-family:'Red Hat Display',Arial,sans-serif;font-weight:500;font-size:14px;fill:#0a263c;paint-order:stroke;stroke:#fff;stroke-width:3px;stroke-linejoin:round}}
+.m-meta{{font-family:'Red Hat Text',Arial,sans-serif;font-size:12px;fill:#3c4f60;font-variant-numeric:tabular-nums;paint-order:stroke;stroke:#fff;stroke-width:3px;stroke-linejoin:round}}
+.m-sea{{font-family:'Red Hat Text',Arial,sans-serif;font-size:13px;letter-spacing:2px;fill:#6b7681}}
+.mv-amb{{fill:#0a263c;opacity:.75}}
 .mv-main{{fill:#fff;stroke:#9f384b;stroke-width:2;paint-order:stroke}}
 @keyframes m-draw{{from{{stroke-dashoffset:var(--len)}}to{{stroke-dashoffset:0}}}}
 @keyframes m-fade{{from{{opacity:0}}to{{opacity:1}}}}

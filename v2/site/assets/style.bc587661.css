@@ -100,16 +100,16 @@ p{margin:0}
 .crumbs span{margin:0 8px}
 
 /* hero */
-.hero{position:relative;background:var(--navy);color:#fff;overflow:hidden}
+.hero{position:relative;background:var(--white);color:var(--ink);overflow:hidden;border-bottom:1px solid var(--rule)}
 .hero-stage{position:relative;aspect-ratio:1440/740;max-height:820px;min-height:640px;width:100%}
 .hero-stage .hero-map-box{position:absolute;inset:0}
 .hero-copy{position:absolute;left:0;right:0;top:0;z-index:2;pointer-events:none}
 .hero-copy .wrap{padding-top:72px}
 .hero-copy .inner{max-width:720px;pointer-events:auto}
-.hero h1{color:#fff;white-space:pre-line;font-size:clamp(32px,2.9vw,42px)}
-.hero .sub{font-size:17px;line-height:1.55;color:var(--grey-30);margin-top:20px;max-width:540px}
+.hero h1{color:var(--heading);white-space:pre-line;font-size:clamp(32px,2.9vw,42px)}
+.hero .sub{font-size:17px;line-height:1.55;color:var(--ink-2);margin-top:20px;max-width:540px}
 .hero .acts{display:flex;flex-wrap:wrap;gap:14px;margin-top:34px}
-.panel{position:absolute;right:max(var(--gutter),calc((100% - var(--wrap))/2));bottom:6%;width:252px;z-index:2;padding:16px 18px 12px;background:rgba(6,26,42,.88);border:1px solid #2a4458;color:#fff}
+.panel{position:absolute;right:max(var(--gutter),calc((100% - var(--wrap))/2));bottom:6%;width:252px;z-index:2;padding:16px 18px 12px;background:var(--navy);border:1px solid var(--navy);color:#fff}
 .panel .label{font-size:11px;letter-spacing:1.6px;margin:0 0 6px}
 .panel h2{font-size:14px;line-height:20px;color:#fff;margin:0 0 10px}
 .panel ol{list-style:none;margin:0;padding:0}
