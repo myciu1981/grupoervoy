@@ -62,7 +62,7 @@ UI = {
         'privacy_h1': 'Polityka prywatności',
         'call': 'Zadzwoń', 'write': 'Napisz e-mail', 'whatsapp': 'Napisz na WhatsApp', 'address': 'Adres',
         'updated': 'Aktualizacja:',
-        'facts': [('Monterrey', 'Siedziba spółki w stanie Nuevo León'), ('Meksyk i Polska', 'Zespół po obu stronach Atlantyku'), ('3 języki', 'Hiszpański, angielski i polski'), ('2 własne marki', 'Simple Made Blinds Mexico i Polaca Foods')],
+        'facts': [('Monterrey', 'Siedziba spółki w stanie Nuevo León'), ('Meksyk i Polska', 'Zespół po obu stronach Atlantyku'), ('3 języki', 'Hiszpański, angielski i polski'), ('2 marki siostrzane', 'Simple Made Blinds Mexico i Polaca Foods w GRUPO VOES')],
     },
     'es': {
         'skip': 'Ir al contenido', 'menu': 'Menú', 'nav': 'Navegación principal', 'langs': 'Idioma',
@@ -78,7 +78,7 @@ UI = {
         'privacy_h1': 'Aviso de privacidad',
         'call': 'Llamar', 'write': 'Enviar correo', 'whatsapp': 'Escribir por WhatsApp', 'address': 'Dirección',
         'updated': 'Actualizado:',
-        'facts': [('Monterrey', 'Sede de la empresa en Nuevo León'), ('México y Polonia', 'Equipo a ambos lados del Atlántico'), ('3 idiomas', 'Español, inglés y polaco'), ('2 marcas propias', 'Simple Made Blinds Mexico y Polaca Foods')],
+        'facts': [('Monterrey', 'Sede de la empresa en Nuevo León'), ('México y Polonia', 'Equipo a ambos lados del Atlántico'), ('3 idiomas', 'Español, inglés y polaco'), ('2 marcas hermanas', 'Simple Made Blinds Mexico y Polaca Foods, de GRUPO VOES')],
     },
     'en': {
         'skip': 'Skip to content', 'menu': 'Menu', 'nav': 'Main navigation', 'langs': 'Language',
@@ -94,7 +94,7 @@ UI = {
         'privacy_h1': 'Privacy notice',
         'call': 'Call', 'write': 'Send an email', 'whatsapp': 'Message on WhatsApp', 'address': 'Address',
         'updated': 'Updated:',
-        'facts': [('Monterrey', 'Head office in Nuevo León'), ('Mexico and Poland', 'A team on both sides of the Atlantic'), ('3 languages', 'Spanish, English and Polish'), ('2 own brands', 'Simple Made Blinds Mexico and Polaca Foods')],
+        'facts': [('Monterrey', 'Head office in Nuevo León'), ('Mexico and Poland', 'A team on both sides of the Atlantic'), ('3 languages', 'Spanish, English and Polish'), ('2 sister brands', 'Simple Made Blinds Mexico and Polaca Foods, part of GRUPO VOES')],
     },
 }
 

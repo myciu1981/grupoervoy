@@ -1,18 +1,19 @@
-# GRUPO ERVOY
+# ERVOY
 
-> GRUPO ERVOY is a Mexican company based in Monterrey, Nuevo León, that helps European manufacturers prepare their products for sale in Mexico and enter the Mexican market: market research, Mexican NOM standards and labelling, local representation, import and logistics, distributors and trade shows. The team works in Spanish, English and Polish. The first consultation is free.
+> ERVOY, a brand of the Mexican company GRUPO VOES based in Monterrey, Nuevo León, helps European manufacturers prepare their products for sale in Mexico and enter the Mexican market: market research, Mexican NOM standards and labelling, local representation, import and logistics, distributors and trade shows. The team works in Spanish, English and Polish. The first consultation is free.
 
 - Address: Cambridge 103, 64349 Monterrey, N.L., Mexico
 - Email: info@grupoervoy.com
 - Contact: https://grupoervoy.com/en/contact/
-- Own brands in Mexico: Simple Made Blinds Mexico (https://simplemadeblinds.mx), Polaca Foods (https://polacafoods.lat)
+- Company: ERVOY is a brand of GRUPO VOES, S.A. de C.V. (Monterrey, Mexico)
+- Sister brands in GRUPO VOES: Simple Made Blinds Mexico (https://simplemadeblinds.mx), Polaca Foods (https://polacafoods.lat)
 - Languages of this site: Polish (default, https://grupoervoy.com/), Spanish (https://grupoervoy.com/es/), English (https://grupoervoy.com/en/)
 
 ## Services
 
 - [Market research and strategy](https://grupoervoy.com/en/services/market-research/): We analyse competitors, prices, sales channels and regulatory requirements for your product in Mexico and finish with a clear recommendation.
 - [Getting your product ready for Mexico](https://grupoervoy.com/en/services/product-compliance/): We check your product's requirements: tariff classification, NOM standards and certification. We prepare labelling that complies with Mexican rules.
-- [Your local partner in Mexico](https://grupoervoy.com/en/services/representation/): Local representation for European companies in Mexico. Operate in the market without setting up your own company straight away, under a contract with GRUPO ERVOY.
+- [Your local partner in Mexico](https://grupoervoy.com/en/services/representation/): Local representation for European companies in Mexico. Operate in the market without setting up your own company straight away, under a contract with ERVOY.
 - [Import and logistics](https://grupoervoy.com/en/services/import-and-logistics/): We help you set up importing into Mexico, choose the right partners and coordinate the first shipments from Europe.
 - [Distributors and sales growth](https://grupoervoy.com/en/services/distributors/): We find and vet distributors and trading partners in Mexico, arrange the first contacts and support your sales growth.
 - [Trade shows and promotion](https://grupoervoy.com/en/services/trade-shows/): We help European companies take part in trade shows in Mexico: choosing the event, the stand, Spanish-language materials and follow-up after the show.
@@ -38,7 +39,7 @@
 
 ## Español
 
-- [Vender en México con productos europeos | GRUPO ERVOY](https://grupoervoy.com/es/): Ayudamos a fabricantes europeos a preparar sus productos para el mercado mexicano: estudio de mercado, NOM, etiquetado, importación y distribuidores.
+- [Vender en México con productos europeos | ERVOY](https://grupoervoy.com/es/): Ayudamos a fabricantes europeos a preparar sus productos para el mercado mexicano: estudio de mercado, NOM, etiquetado, importación y distribuidores.
 - [Estudio de mercado y estrategia](https://grupoervoy.com/es/servicios/estudio-de-mercado/)
 - [Preparación del producto para México](https://grupoervoy.com/es/servicios/preparacion-de-producto/)
 - [Su socio local en México](https://grupoervoy.com/es/servicios/representacion/)
@@ -50,7 +51,7 @@
 
 ## Polski
 
-- [Eksport do Meksyku dla firm z Europy | GRUPO ERVOY](https://grupoervoy.com/): Pomagamy europejskim producentom wejść na rynek meksykański: badanie rynku, normy meksykańskie NOM, etykiety, import i dystrybutorzy. Bezpłatna konsultacja.
+- [Eksport do Meksyku dla firm z Europy | ERVOY](https://grupoervoy.com/): Pomagamy europejskim producentom wejść na rynek meksykański: badanie rynku, normy meksykańskie NOM, etykiety, import i dystrybutorzy. Bezpłatna konsultacja.
 - [Badanie rynku i strategia](https://grupoervoy.com/uslugi/badanie-rynku/)
 - [Przygotowanie produktu do sprzedaży w Meksyku](https://grupoervoy.com/uslugi/przygotowanie-produktu/)
 - [Twój lokalny partner w Meksyku](https://grupoervoy.com/uslugi/reprezentacja/)

@@ -3,3 +3,6 @@ screenshots/
 og-card.html
 image-slot.js
 .DS_Store
+
+# Local Claude context (public repo)
+CLAUDE.local.md

@@ -1,4 +1,4 @@
-/* GRUPO ERVOY – strona v2. Wartości z design systemu ERVOY (tokens.json, Brand Guidelines v1.1). */
+/* ERVOY – strona v2. Wartości z design systemu ERVOY (tokens.json, Brand Guidelines v2.0). */
 :root{
   color-scheme:only light;
   --navy:#0a263c;--navy-deep:#061a2a;--crimson-deep:#651728;--crimson-light:#9f384b;--crimson-flat:#82283a;
@@ -281,7 +281,9 @@ a.card:hover{border-color:var(--slate);color:var(--ink)}
 .foot-grid h2{font-family:var(--display);font-weight:600;font-size:12px;letter-spacing:1.6px;text-transform:uppercase;color:var(--grey-30);margin:0 0 14px}
 .foot-grid ul{list-style:none;margin:0;padding:0}
 .foot-grid li{margin:0 0 8px}
-.foot-legal{margin-top:40px;padding-top:20px;border-top:1px solid #2a4458;display:flex;flex-wrap:wrap;gap:8px 24px;justify-content:space-between;font-size:13px}
+.foot-legal{margin-top:40px;padding-top:20px;border-top:1px solid #2a4458;display:flex;flex-wrap:wrap;align-items:center;gap:12px 24px;font-size:13px}
+.foot-legal .endorse{height:26px;width:auto;display:block}
+.foot-legal a{margin-left:auto}
 @media (max-width:760px){.foot-grid{grid-template-columns:1fr}}
 
 /* strona błędu */

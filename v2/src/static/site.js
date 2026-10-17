@@ -1,4 +1,4 @@
-/* GRUPO ERVOY: menu na telefonie, filtry kalendarza targów, wyszukiwarka słownika. Bez bibliotek. */
+/* ERVOY: menu na telefonie, filtry kalendarza targów, wyszukiwarka słownika. Bez bibliotek. */
 (function () {
   'use strict';
 

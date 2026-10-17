@@ -11,7 +11,7 @@
 {% for alt in alternates %}<link rel="alternate" hreflang="{{ alt.hreflang }}" href="{{ alt.href }}">
 {% endfor %}{% endif %}
 <meta property="og:type" content="{{ og_type }}">
-<meta property="og:site_name" content="GRUPO ERVOY">
+<meta property="og:site_name" content="ERVOY">
 <meta property="og:title" content="{{ og_title }}">
 <meta property="og:description" content="{{ og_desc }}">
 <meta property="og:url" content="{{ canonical }}">
@@ -34,7 +34,7 @@
 <a class="skip" href="#tresc">{{ ui.skip }}</a>
 <header class="site-head{% if dark_header %} dark on-dark{% endif %}" id="top">
 <div class="wrap">
-<a class="logo" href="{{ url('home') }}" aria-label="GRUPO ERVOY, {{ ui.home }}"><img src="/assets/{% if dark_header %}GRUPO-ERVOY_Wordmark_OnDark.svg{% else %}GRUPO-ERVOY_Wordmark_Primary.svg{% endif %}" alt="{{ t('stopka.alt.logo') }}" width="180" height="55"></a>
+<a class="logo" href="{{ url('home') }}" aria-label="ERVOY, {{ ui.home }}"><img src="/assets/{% if dark_header %}ERVOY_Wordmark_OnDark.svg{% else %}ERVOY_Wordmark_Primary.svg{% endif %}" alt="{{ t('stopka.alt.logo') }}" width="180" height="34"></a>
 <nav class="nav" aria-label="{{ ui.nav }}" id="nav"><ul>
 {% for key, label in nav %}<li><a href="{{ url(key) }}"{% if section == key %} aria-current="page"{% endif %}>{{ label }}</a></li>
 {% endfor %}</ul></nav>
@@ -61,7 +61,7 @@
 <div class="wrap">
 <div class="foot-grid">
 <div>
-<img src="/assets/GRUPO-ERVOY_Wordmark_OnDark.svg" alt="{{ t('stopka.alt.logo') }}" width="170" height="52" loading="lazy">
+<img src="/assets/ERVOY_Wordmark_OnDark.svg" alt="{{ t('stopka.alt.logo') }}" width="170" height="32" loading="lazy">
 <p>{{ t('stopka.opis')|nl }}</p>
 </div>
 <div>
@@ -81,6 +81,7 @@
 </div>
 </div>
 <div class="foot-legal">
+<img class="endorse" src="/assets/GRUPO-VOES_Endorsement_{{ lang|upper }}_OnDark.svg" alt="{{ t('stopka.marka') }}" width="208" height="26" loading="lazy">
 <span>{{ t('stopka.prawne') }}</span>
 <a href="{{ url('polityka') }}">{{ t('stopka.polityka') }}</a>
 </div>

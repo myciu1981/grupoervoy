@@ -94,11 +94,11 @@ def dms(lon, lat):
 
 NAMES = {
     'pl': dict(gdy='Gdynia', ham='Hamburg', rot='Rotterdam', val='Walencja', mty='Monterrey', cdmx='Meksyk', cdmx_meta='stolica kraju',
-               alt='Altamira', ver='Veracruz', hq='Siedziba GRUPO ERVOY', atl='Ocean Atlantycki', title='Mapa tras morskich z Gdyni i Walencji do Veracruz oraz połączeń lądowych do miasta Meksyk i Monterrey'),
+               alt='Altamira', ver='Veracruz', hq='Siedziba ERVOY', atl='Ocean Atlantycki', title='Mapa tras morskich z Gdyni i Walencji do Veracruz oraz połączeń lądowych do miasta Meksyk i Monterrey'),
     'es': dict(cdmx_m='CDMX', gdy='Gdynia', ham='Hamburgo', rot='Róterdam', val='Valencia', mty='Monterrey', cdmx='Ciudad de México', cdmx_meta='',
-               alt='Altamira', ver='Veracruz', hq='Sede de GRUPO ERVOY', atl='Océano Atlántico', title='Mapa de las rutas marítimas de Gdynia y Valencia a Veracruz y de las conexiones terrestres a Ciudad de México y Monterrey'),
+               alt='Altamira', ver='Veracruz', hq='Sede de ERVOY', atl='Océano Atlántico', title='Mapa de las rutas marítimas de Gdynia y Valencia a Veracruz y de las conexiones terrestres a Ciudad de México y Monterrey'),
     'en': dict(gdy='Gdynia', ham='Hamburg', rot='Rotterdam', val='Valencia', mty='Monterrey', cdmx='Mexico City', cdmx_meta='',
-               alt='Altamira', ver='Veracruz', hq='GRUPO ERVOY headquarters', atl='Atlantic Ocean', title='Map of sea routes from Gdynia and Valencia to Veracruz and overland links to Mexico City and Monterrey'),
+               alt='Altamira', ver='Veracruz', hq='ERVOY headquarters', atl='Atlantic Ocean', title='Map of sea routes from Gdynia and Valencia to Veracruz and overland links to Mexico City and Monterrey'),
 }
 
 GDY, VAL, VER, ALT = (18.53, 54.52), (-0.33, 39.45), (-96.13, 19.2), (-97.86, 22.4)

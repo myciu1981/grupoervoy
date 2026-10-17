@@ -172,7 +172,7 @@ def iso_updated(key):
 
 def page_title(title):
     """Google ucina tytuły po ok. 60 znakach - przy długich tytułach pomijamy dopisek z nazwą firmy."""
-    suffix = ' | GRUPO ERVOY'
+    suffix = ' | ERVOY'
     return title[:-len(suffix)] if len(title) > 65 and title.endswith(suffix) else title
 
 
@@ -229,15 +229,16 @@ def llms_txt(built):
     """Plik /llms.txt (llmstxt.org): zwięzły opis firmy i spis stron dla modeli językowych, w Markdownie."""
     E = built.get('en') or next(iter(built.values()))
     u = lambda L, k: SITE + L.url(k)  # noqa: E731
-    out = ['# GRUPO ERVOY', '',
-           '> GRUPO ERVOY is a Mexican company based in Monterrey, Nuevo León, that helps European '
+    out = ['# ERVOY', '',
+           '> ERVOY, a brand of the Mexican company GRUPO VOES based in Monterrey, Nuevo León, helps European '
            'manufacturers prepare their products for sale in Mexico and enter the Mexican market: market research, '
            'Mexican NOM standards and labelling, local representation, import and logistics, distributors and trade shows. '
            'The team works in Spanish, English and Polish. The first consultation is free.', '',
            f'- Address: Cambridge 103, 64349 Monterrey, N.L., Mexico',
            f"- Email: {E.t('kontakt.firma.email')}",
            f"- Contact: {u(E, 'kontakt')}",
-           f"- Own brands in Mexico: {E.t('marki.smb.nazwa')} (https://{E.t('marki.smb.link')}), "
+           '- Company: ERVOY is a brand of GRUPO VOES, S.A. de C.V. (Monterrey, Mexico)',
+           f"- Sister brands in GRUPO VOES: {E.t('marki.smb.nazwa')} (https://{E.t('marki.smb.link')}), "
            f"{E.t('marki.polaca.nazwa')} (https://{E.t('marki.polaca.link')})",
            '- Languages of this site: Polish (default, https://grupoervoy.com/), Spanish (https://grupoervoy.com/es/), '
            'English (https://grupoervoy.com/en/)', '', '## Services', '']
@@ -263,8 +264,9 @@ def build(langs):
     env.filters['nl'] = lambda s: Markup('<br>'.join(html.escape(x) for x in s.split('\n')))
     env.filters['digits'] = digits
 
-    if OUT.exists():
-        shutil.rmtree(OUT)
+    if OUT.exists():  # czyścimy zawartość, nie sam katalog - lokalny serwer podglądu może go trzymać otwartego
+        for f in OUT.iterdir():
+            shutil.rmtree(f) if f.is_dir() else f.unlink()
     (OUT / 'assets').mkdir(parents=True)
     css = SRC / 'static' / 'style.css'
     js = SRC / 'static' / 'site.js'
@@ -313,7 +315,7 @@ def build(langs):
                         seo_title=title, seo_desc=desc, og_title=title, og_desc=desc, canonical=canonical, alternates=alternates,
                         og_type='website', noindex=False, nav=nav, section=section, lang_links=lang_links, whatsapp=whatsapp,
                         css_hash=css_hash, js_hash=js_hash, services=SERVICES, icon_wa=Markup(ICON_WA), jsonld=[Markup(j) for j in jsonld],
-                        dark_header=False, no_band=False, band_h2=None, band_text=None)
+                        dark_header=False, no_band=False, band_h2=None, band_text=None, lang=code)
             base.update(ctx)
             out_path = OUT / PREFIX[code] / path / 'index.html'
             out_path.parent.mkdir(parents=True, exist_ok=True)
@@ -325,14 +327,16 @@ def build(langs):
         tabs = lambda cur: [dict(label=L.t(f'wiedza.dzial.{i}.nazwa'), href=L.url(k), count=n, current=k == cur)  # noqa: E731
                             for i, (k, n) in enumerate([('wiedza', len(ARTICLES)), ('wiedza.akt', len(UPDATES)), ('wiedza.zas', len(RESOURCES))], 1)]
 
-        org = {'@context': 'https://schema.org', '@type': 'Organization', '@id': ORG_ID, 'name': 'GRUPO ERVOY',
-               'legalName': 'GRUPO ERVOY', 'alternateName': ['Grupo Ervoy', 'ERVOY'], 'url': SITE + L.url('home'),
+        org = {'@context': 'https://schema.org', '@type': 'Organization', '@id': ORG_ID, 'name': 'ERVOY',
+               'legalName': 'GRUPO VOES, S.A. de C.V.', 'url': SITE + L.url('home'),
                'description': L.t('home.seo.opis'), 'logo': SITE + '/apple-touch-icon.png', 'image': SITE + '/assets/og-image.png',
                'email': L.t('kontakt.firma.email'), 'telephone': '+' + digits(L.t('kontakt.osoba2.telefon')),
                'areaServed': [{'@type': 'Country', 'name': 'Mexico'}, {'@type': 'Place', 'name': 'European Union'}],
                'knowsLanguage': ['es', 'pl', 'en'],
-               'brand': [{'@type': 'Brand', 'name': L.t('marki.smb.nazwa'), 'url': 'https://' + L.t('marki.smb.link')},
-                         {'@type': 'Brand', 'name': L.t('marki.polaca.nazwa'), 'url': 'https://' + L.t('marki.polaca.link')}],
+               'parentOrganization': {'@type': 'Organization', 'name': 'GRUPO VOES', 'legalName': 'GRUPO VOES, S.A. de C.V.', 'brand': [
+                   {'@type': 'Brand', 'name': 'ERVOY', 'url': SITE + L.url('home')},
+                   {'@type': 'Brand', 'name': L.t('marki.smb.nazwa'), 'url': 'https://' + L.t('marki.smb.link')},
+                   {'@type': 'Brand', 'name': L.t('marki.polaca.nazwa'), 'url': 'https://' + L.t('marki.polaca.link')}]},
                'address': {'@type': 'PostalAddress', 'streetAddress': 'Cambridge 103', 'postalCode': '64349', 'addressLocality': 'Monterrey',
                            'addressRegion': 'Nuevo León', 'addressCountry': 'MX'},
                'contactPoint': [{'@type': 'ContactPoint', 'contactType': 'sales', 'name': L.t(p + '.imie'), 'telephone': '+' + digits(L.t(p + '.telefon')),
@@ -345,7 +349,7 @@ def build(langs):
                hero_svg=Markup(hero_svg), map_href=map_href, hero_css=Markup(hero.CSS), panel_css=Markup(hero.panel_css(hero.PANEL_TIMES)),
                teaser=ARTICLES[:3], jsonld=[json.dumps(org, ensure_ascii=False), json.dumps(
                    {'@context': 'https://schema.org', '@type': 'WebSite', '@id': SITE + L.url('home') + '#website', 'url': SITE + L.url('home'),
-                    'name': 'GRUPO ERVOY', 'alternateName': ['Grupo Ervoy', 'ERVOY'], 'inLanguage': HTML_LANG[code],
+                    'name': 'ERVOY', 'inLanguage': HTML_LANG[code],
                     'publisher': {'@id': ORG_ID}}, ensure_ascii=False)])
 
         # usługi
@@ -387,24 +391,24 @@ def build(langs):
                faq=faq, faq_title=L.t('faq.h2'), disclaimer=L.t('wiedza.zastrzezenie'), jsonld=[faq_ld], **common_kb)
         render('wiedza.akt', 'cards.html', section='wiedza', crumbs=[], tabs=tabs('wiedza.akt'), kb_items=kb_items(UPDATES),
                faq=None, faq_title='', disclaimer=None,
-               seo=(f"{L.t('wiedza.dzial.2.nazwa')} | GRUPO ERVOY", L.t('wiedza.dzial.2.opis')), **common_kb)
+               seo=(f"{L.t('wiedza.dzial.2.nazwa')} | ERVOY", L.t('wiedza.dzial.2.opis')), **common_kb)
         render('wiedza.zas', 'cards.html', section='wiedza', crumbs=[], tabs=tabs('wiedza.zas'), kb_items=kb_items(RESOURCES),
                faq=None, faq_title='', disclaimer=None,
-               seo=(f"{L.t('wiedza.dzial.3.nazwa')} | GRUPO ERVOY", L.t('wiedza.dzial.3.opis')), **common_kb)
+               seo=(f"{L.t('wiedza.dzial.3.nazwa')} | ERVOY", L.t('wiedza.dzial.3.opis')), **common_kb)
 
         for group, dz in ((ARTICLES, 1), (UPDATES, 2)):
             for k in group:
                 title = L.t(f'{k}.tytul')
                 art = {'@context': 'https://schema.org', '@type': 'Article', 'headline': title, 'description': L.t(f'{k}.zapowiedz'),
                        'inLanguage': HTML_LANG[code], 'image': SITE + '/assets/og-image.png',
-                       'author': {'@type': 'Organization', '@id': ORG_ID, 'name': 'GRUPO ERVOY', 'url': SITE + L.url('onas')},
-                       'publisher': {'@type': 'Organization', '@id': ORG_ID, 'name': 'GRUPO ERVOY',
+                       'author': {'@type': 'Organization', '@id': ORG_ID, 'name': 'ERVOY', 'url': SITE + L.url('onas')},
+                       'publisher': {'@type': 'Organization', '@id': ORG_ID, 'name': 'ERVOY',
                                      'logo': {'@type': 'ImageObject', 'url': SITE + '/apple-touch-icon.png'}},
                        'mainEntityOfPage': SITE + L.url(k)}
                 if iso_updated(k):
                     art['datePublished'] = art['dateModified'] = iso_updated(k)
                 art_ld = json.dumps(art, ensure_ascii=False)
-                render(k, 'blocks.html', section='wiedza', seo=(f'{title} | GRUPO ERVOY', L.t(f'{k}.zapowiedz')),
+                render(k, 'blocks.html', section='wiedza', seo=(f'{title} | ERVOY', L.t(f'{k}.zapowiedz')),
                        label=L.t(f'wiedza.dzial.{dz}.nazwa'), h1=title, leads=[L.t(f'{k}.zapowiedz')],
                        crumbs=kb_crumb + ([dict(label=L.t('wiedza.dzial.2.nazwa'), href=L.url('wiedza.akt'))] if dz == 2 else []),
                        crumb_here=title, updated=L.d.get(f'{k}.aktualizacja'), tabs=None,
@@ -414,12 +418,12 @@ def build(langs):
 
         zas_crumbs = kb_crumb + [dict(label=L.t('wiedza.dzial.3.nazwa'), href=L.url('wiedza.zas'))]
         rows, cats, cities = fairs(L)
-        render('zas.targi', 'fairs.html', section='wiedza', seo=(f"{L.t('zas.targi.tytul')} | GRUPO ERVOY", L.t('zas.targi.zapowiedz')),
+        render('zas.targi', 'fairs.html', section='wiedza', seo=(f"{L.t('zas.targi.tytul')} | ERVOY", L.t('zas.targi.zapowiedz')),
                label=L.t('wiedza.dzial.3.nazwa'), h1=L.t('zas.targi.tytul'), leads=[L.t('zas.targi.wstep')],
                crumbs=zas_crumbs, crumb_here=L.t('zas.targi.tytul'), updated=L.d.get('zas.targi.aktualizacja'), tabs=None,
                fairs=rows, fair_cats=cats, fair_cities=cities, outro=L.d.get('zas.targi.przygotowanie'))
         groups, intro = glossary(L)
-        render('zas.slownik', 'glossary.html', section='wiedza', seo=(f"{L.t('zas.slownik.tytul')} | GRUPO ERVOY", L.t('zas.slownik.zapowiedz')),
+        render('zas.slownik', 'glossary.html', section='wiedza', seo=(f"{L.t('zas.slownik.tytul')} | ERVOY", L.t('zas.slownik.zapowiedz')),
                label=L.t('wiedza.dzial.3.nazwa'), h1=L.t('zas.slownik.tytul'), leads=[re.sub('<[^>]+>', '', b['h']) for b in intro],
                crumbs=zas_crumbs, crumb_here=L.t('zas.slownik.tytul'), updated=L.d.get('zas.slownik.aktualizacja'), tabs=None,
                groups=groups, letters={g for g, _ in groups}, alphabet=list('ABCDEFGHIJKLMNOPQRSTUVWXYZ'),
@@ -445,7 +449,7 @@ def build(langs):
         render('kontakt', 'contact.html', section='kontakt', label=L.t('kontakt.label'), h1=L.t('kontakt.h1'), leads=[L.t('kontakt.lead')],
                crumbs=[], crumb_here='', updated=None, tabs=None, people=people,
                jsonld=[json.dumps(dict(org, employee=people_ld), ensure_ascii=False)])
-        render('polityka', 'blocks.html', seo=(f"{ui['privacy_h1']} | GRUPO ERVOY", ui['privacy_h1']), label=None, h1=ui['privacy_h1'], leads=[],
+        render('polityka', 'blocks.html', seo=(f"{ui['privacy_h1']} | ERVOY", ui['privacy_h1']), label=None, h1=ui['privacy_h1'], leads=[],
                crumbs=[], crumb_here='', updated=None, tabs=None, body=Markup(f"<p>{html.escape(ui['privacy_pending'])}</p>"),
                legal=None, legal_title='', disclaimer=None, noindex=True)
 
@@ -456,7 +460,7 @@ def build(langs):
                 og_type='website', noindex=True, nav=nav, section=None,
                 lang_links=[dict(code=c, name=ui['lang_names'][c], flag=FLAGS[c], href=L.url('home', c), current=c == code) for c in LANGS],
                 whatsapp=whatsapp, css_hash=css_hash, js_hash=js_hash, services=SERVICES, icon_wa=Markup(ICON_WA), jsonld=[],
-                dark_header=False, no_band=True, band_h2=None, band_text=None), encoding='utf-8')
+                dark_header=False, no_band=True, band_h2=None, band_text=None, lang=code), encoding='utf-8')
 
         if L.missing:
             print(f'[{code}] BRAK PÓL:', ', '.join(sorted(L.missing)))
