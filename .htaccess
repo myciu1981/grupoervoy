@@ -1,7 +1,7 @@
-# grupoervoy.com
+# ervoy.mx
 # Kanonizacja adresu, pamiec podreczna, naglowki bezpieczenstwa, strona bledu.
 # Toggle "Force HTTPS Redirect" w cPanelu jest dostepny tylko dla domeny glownej
-# konta, a grupoervoy.com jest domena dodatkowa - stad kanonizacja tutaj.
+# konta, a ervoy.mx jest domena dodatkowa - stad kanonizacja tutaj.
 
 # ---------------------------------------------------------------- kanonizacja
 <IfModule mod_rewrite.c>
@@ -9,16 +9,16 @@
 
   # http -> https
   RewriteCond %{HTTPS} !=on
-  RewriteRule ^(.*)$ https://grupoervoy.com/$1 [R=301,L]
+  RewriteRule ^(.*)$ https://ervoy.mx/$1 [R=301,L]
 
   # www -> bez www
-  RewriteCond %{HTTP_HOST} ^www\.grupoervoy\.com$ [NC]
-  RewriteRule ^(.*)$ https://grupoervoy.com/$1 [R=301,L]
+  RewriteCond %{HTTP_HOST} ^www\.ervoy\.mx$ [NC]
+  RewriteRule ^(.*)$ https://ervoy.mx/$1 [R=301,L]
 
   # stara wersja polska siedziala pod /pl/ - od v2 polski jest domyslny pod /
-  RewriteRule ^pl(/.*)?$ https://grupoervoy.com/ [R=301,L]
+  RewriteRule ^pl(/.*)?$ https://ervoy.mx/ [R=301,L]
 
-  # Strona glowna: kto wchodzi wprost na grupoervoy.com, trafia na wersje wg jezyka przegladarki.
+  # Strona glowna: kto wchodzi wprost na ervoy.mx, trafia na wersje wg jezyka przegladarki.
   # Polski zostaje pod /, hiszpanski z Meksyku (es-MX, es-419 albo samo es) -> /es/, kazdy inny -> /en/.
   # Pomijamy roboty (Google i Bing musza widziec wszystkie wersje, zwykle nie wysylaja Accept-Language),
   # przejscia z wnetrza strony i tych, ktorzy wybrali jezyk flaga (ciasteczko ervoy_lang z site.js).
@@ -26,16 +26,16 @@
   RewriteCond %{HTTP:Accept-Language} !^$
   RewriteCond %{HTTP:Accept-Language} !^pl [NC]
   RewriteCond %{HTTP_COOKIE} !ervoy_lang=
-  RewriteCond %{HTTP_REFERER} !^https?://(www\.)?grupoervoy\.com/ [NC]
+  RewriteCond %{HTTP_REFERER} !^https?://(www\.)?ervoy\.mx/ [NC]
   RewriteCond %{HTTP_USER_AGENT} !(bot|crawl|spider|slurp|google|bing|chatgpt|openai|claude|anthropic|perplexity|facebookexternalhit|whatsapp|linkedin|preview|lighthouse|headless) [NC]
   RewriteCond %{HTTP:Accept-Language} ^es(-mx|-419)?(,|;|$) [NC]
-  RewriteRule ^$ https://grupoervoy.com/es/ [R=302,L]
+  RewriteRule ^$ https://ervoy.mx/es/ [R=302,L]
   RewriteCond %{HTTP:Accept-Language} !^$
   RewriteCond %{HTTP:Accept-Language} !^pl [NC]
   RewriteCond %{HTTP_COOKIE} !ervoy_lang=
-  RewriteCond %{HTTP_REFERER} !^https?://(www\.)?grupoervoy\.com/ [NC]
+  RewriteCond %{HTTP_REFERER} !^https?://(www\.)?ervoy\.mx/ [NC]
   RewriteCond %{HTTP_USER_AGENT} !(bot|crawl|spider|slurp|google|bing|chatgpt|openai|claude|anthropic|perplexity|facebookexternalhit|whatsapp|linkedin|preview|lighthouse|headless) [NC]
-  RewriteRule ^$ https://grupoervoy.com/en/ [R=302,L]
+  RewriteRule ^$ https://ervoy.mx/en/ [R=302,L]
 </IfModule>
 
 # --------------------------------------------------------------- strona bledu

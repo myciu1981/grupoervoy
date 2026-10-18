@@ -14,7 +14,8 @@ Strona ERVOY (marka GRUPO VOES, S.A. de C.V.) w trzech wersjach jezykowych: pols
 | `v2/site/` | gotowa strona - to trafia na serwer |
 | `assets/` | logotypy marek siostrzanych i obrazek podgladu linku (OG) |
 | `favicon*`, `apple-touch-icon.png` | ikony strony (ikona EV) |
-| `.htaccess` | przekierowania i kanonizacja domeny |
+| `.htaccess` | przekierowania i kanonizacja domeny ervoy.mx |
+| `redirect-grupoervoy.htaccess` | przekierowanie 301 ze starej domeny grupoervoy.com na ervoy.mx |
 
 ## Budowanie
 
@@ -26,7 +27,7 @@ Wynik trafia do `v2/site/`. Po zmianie tekstow albo szablonow trzeba przebudowac
 
 ## Wdrozenie na cPanel
 
-`.cpanel.yml` kopiuje `v2/site/` i `.htaccess` do `$HOME/public_html/grupoervoy.com/` i usuwa z serwera pozostalosci starej strony.
+`.cpanel.yml` kopiuje `v2/site/` i `.htaccess` do `$HOME/public_html/ervoy.mx/`, a `redirect-grupoervoy.htaccess` jako `.htaccess` do `$HOME/public_html/grupoervoy.com/`.
 
 1. cPanel -> **Git Version Control** -> repozytorium.
 2. Zakladka **Pull or Deploy** -> **Update from Remote** -> **Deploy HEAD Commit**.

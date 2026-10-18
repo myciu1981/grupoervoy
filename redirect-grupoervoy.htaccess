@@ -1,0 +1,14 @@
+# grupoervoy.com -> ervoy.mx
+# Strona przeniesiona na ervoy.mx. .cpanel.yml kopiuje ten plik jako .htaccess
+# do public_html/grupoervoy.com/. Kazdy adres (z www i bez, http i https)
+# trafia 301 na ten sam adres w ervoy.mx, np. /es/kontakt/ -> https://ervoy.mx/es/kontakt/.
+# Pliki weryfikacji Google, Bing i klucz IndexNow zostaja na starej domenie -
+# Search Console potrzebuje ich przy zmianie adresu.
+
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+
+  RewriteRule ^(google[0-9a-f]+\.html|BingSiteAuth\.xml|[0-9a-f]{32}\.txt)$ - [L]
+
+  RewriteRule ^(.*)$ https://ervoy.mx/$1 [R=301,L]
+</IfModule>

@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://grupoervoy.com/sitemap.xml
+Sitemap: https://ervoy.mx/sitemap.xml

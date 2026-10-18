@@ -1,4 +1,4 @@
-"""Generator strony grupoervoy.com (v2).
+"""Generator strony ervoy.mx (v2).
 
 Użycie:  python src/build.py            -> buduje wszystkie języki, dla których jest content/<lang>.json
 Wynik trafia do katalogu site/. Teksty pochodzą z plików Word (zob. extract.py).
@@ -240,8 +240,8 @@ def llms_txt(built):
            '- Company: ERVOY is a brand of GRUPO VOES, S.A. de C.V. (Monterrey, Mexico)',
            f"- Sister brands in GRUPO VOES: {E.t('marki.smb.nazwa')} (https://{E.t('marki.smb.link')}), "
            f"{E.t('marki.polaca.nazwa')} (https://{E.t('marki.polaca.link')})",
-           '- Languages of this site: Polish (default, https://grupoervoy.com/), Spanish (https://grupoervoy.com/es/), '
-           'English (https://grupoervoy.com/en/)', '', '## Services', '']
+           '- Languages of this site: Polish (default, https://ervoy.mx/), Spanish (https://ervoy.mx/es/), '
+           'English (https://ervoy.mx/en/)', '', '## Services', '']
     out += [f"- [{E.t(f'home.uslugi.{i}.tytul')}]({u(E, k)}): {E.t(f'{k}.seo.opis')}" for i, k in enumerate(SERVICES, 1)]
     out += ['', '## Knowledge base', '']
     out += [f"- [{E.t(f'{k}.tytul')}]({u(E, k)}): {E.t(f'{k}.zapowiedz')}" for k in ARTICLES + UPDATES]

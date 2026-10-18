@@ -1,6 +1,6 @@
 """Adresy, kolejność materiałów i drobne teksty interfejsu, których nie ma w plikach Word."""
 
-SITE = 'https://grupoervoy.com'
+SITE = 'https://ervoy.mx'
 LANGS = ['pl', 'es', 'en']
 DEFAULT = 'pl'            # polski pod adresem głównym, pozostałe języki w podkatalogach
 X_DEFAULT = 'en'          # hreflang x-default: angielski dla użytkowników spoza PL/ES/EN (np. producenci z Niemiec czy Włoch)
@@ -58,7 +58,7 @@ UI = {
         'fairs_empty': 'Brak targów dla wybranych filtrów. Wybierz inną branżę albo miasto.',
         'gl_search': 'Szukaj w słowniku', 'gl_placeholder': 'np. pedimento, NOM, importer', 'gl_empty': 'Nie znaleźliśmy takiego hasła.',
         'foot_services': 'Usługi', 'foot_company': 'Firma', 'foot_contact': 'Kontakt',
-        'privacy_pending': 'Polityka prywatności jest w przygotowaniu i pojawi się tu wkrótce. Jeśli masz pytania o to, jak przetwarzamy dane, napisz na info@grupoervoy.com.',
+        'privacy_pending': 'Polityka prywatności jest w przygotowaniu i pojawi się tu wkrótce. Jeśli masz pytania o to, jak przetwarzamy dane, napisz na info@ervoy.mx.',
         'privacy_h1': 'Polityka prywatności',
         'call': 'Zadzwoń', 'write': 'Napisz e-mail', 'whatsapp': 'Napisz na WhatsApp', 'address': 'Adres',
         'updated': 'Aktualizacja:',
@@ -74,7 +74,7 @@ UI = {
         'fairs_empty': 'No hay ferias con estos filtros. Pruebe con otra industria o ciudad.',
         'gl_search': 'Buscar en el glosario', 'gl_placeholder': 'p. ej. pedimento, NOM, importador', 'gl_empty': 'No encontramos ese término.',
         'foot_services': 'Servicios', 'foot_company': 'Empresa', 'foot_contact': 'Contacto',
-        'privacy_pending': 'Estamos preparando nuestro aviso de privacidad y lo publicaremos aquí en breve. Si tiene dudas sobre el tratamiento de sus datos, escríbanos a info@grupoervoy.com.',
+        'privacy_pending': 'Estamos preparando nuestro aviso de privacidad y lo publicaremos aquí en breve. Si tiene dudas sobre el tratamiento de sus datos, escríbanos a info@ervoy.mx.',
         'privacy_h1': 'Aviso de privacidad',
         'call': 'Llamar', 'write': 'Enviar correo', 'whatsapp': 'Escribir por WhatsApp', 'address': 'Dirección',
         'updated': 'Actualizado:',
@@ -90,7 +90,7 @@ UI = {
         'fairs_empty': 'No trade shows match these filters. Try another industry or city.',
         'gl_search': 'Search the glossary', 'gl_placeholder': 'e.g. pedimento, NOM, importer', 'gl_empty': 'We could not find that term.',
         'foot_services': 'Services', 'foot_company': 'Company', 'foot_contact': 'Contact',
-        'privacy_pending': 'Our privacy notice is being prepared and will be published here shortly. If you have questions about how we handle personal data, write to info@grupoervoy.com.',
+        'privacy_pending': 'Our privacy notice is being prepared and will be published here shortly. If you have questions about how we handle personal data, write to info@ervoy.mx.',
         'privacy_h1': 'Privacy notice',
         'call': 'Call', 'write': 'Send an email', 'whatsapp': 'Message on WhatsApp', 'address': 'Address',
         'updated': 'Updated:',

@@ -1,12 +1,11 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=$HOME/public_html/grupoervoy.com/
+    - export DEPLOYPATH=$HOME/public_html/ervoy.mx/
     # strona v2 - statyczny HTML z generatora (v2/src/build.py), zbudowany lokalnie i wypchniety w v2/site
     - /bin/cp -r v2/site/. $DEPLOYPATH
     - /bin/cp .htaccess $DEPLOYPATH
-    # cPanel przy deployu tylko kopiuje, nigdy nie usuwa - sprzatamy reszte starej strony (eksport Claude Design)
-    - /bin/rm -rf $DEPLOYPATH/_ds $DEPLOYPATH/pl
-    - /bin/rm -f $DEPLOYPATH/support.js $DEPLOYPATH/ervoy-boot.js $DEPLOYPATH/assets/world-map.png $DEPLOYPATH/assets/world-map-base.9536a09c.png
     # arkusz, skrypt i mapa maja odcisk tresci w nazwie - kasujemy wersje, ktorych nie ma w biezacym wydaniu
     - /bin/sh -c 'for f in $DEPLOYPATH/assets/style.*.css $DEPLOYPATH/assets/site.*.js $DEPLOYPATH/assets/map.*.svg; do [ -e "$f" ] || continue; [ -e "v2/site/assets/$(basename "$f")" ] || rm -f "$f"; done'
+    # grupoervoy.com przekierowuje 301 na ervoy.mx
+    - /bin/cp redirect-grupoervoy.htaccess $HOME/public_html/grupoervoy.com/.htaccess
